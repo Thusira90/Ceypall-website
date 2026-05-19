@@ -1,0 +1,1 @@
+- [CeyPall website project](project_ceypall.md) — Next.js 14 site for ISPM 15 pallet manufacturer, full stack details
