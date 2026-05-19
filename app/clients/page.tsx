@@ -32,6 +32,14 @@ const sectors = [
   'Security printing',
   'Electronics',
   'Chemicals',
+  'Pharmaceuticals',
+  'Rubber & latex',
+  'Ceramics & tiles',
+  'Furniture & timber',
+  'Agriculture & spices',
+  'Shipping & freight forwarding',
+  'Paper & packaging',
+  'Hardware & industrial',
 ]
 
 export default function ClientsPage() {
