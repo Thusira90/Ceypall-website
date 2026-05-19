@@ -174,9 +174,7 @@ export default function AboutPage() {
               <p className="font-body text-xs font-semibold tracking-[0.15em] uppercase text-accent mb-4">
                 Work with us
               </p>
-              <h2 className="font-display text-display-md text-cream mb-5">
-                Let&apos;s work together.
-              </h2>
+
               <p className="font-body text-sm text-cream/75 leading-relaxed mb-8">
                 Whether you&apos;re an exporter needing certified pallets for your next shipment, a
                 manufacturer looking for a reliable supply, or a logistics company seeking a long-term
