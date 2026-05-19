@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: [],
       },
     ],
-    sitemap: 'https://ceypall.com/sitemap.xml',
-    host: 'https://ceypall.com',
+    sitemap: 'https://www.ceypall.com/sitemap.xml',
+    host: 'https://www.ceypall.com',
   }
 }
