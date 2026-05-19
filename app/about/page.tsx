@@ -29,7 +29,7 @@ export default function AboutPage() {
           <FadeUp>
             <SectionHeader
               eyebrow="About us"
-              title="About CeyPall Pvt Ltd."
+              title="CeyPall Pvt Ltd."
               subtitle="Sri Lanka's dedicated ISPM 15-certified wooden pallet manufacturer."
               light
             />
