@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
@@ -149,6 +150,21 @@ export default function HowItWorksPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Process image */}
+      <section className="bg-primary">
+        <FadeUp>
+          <div className="relative w-full aspect-[16/9] overflow-hidden">
+            <Image
+              src="/how-it-works.png"
+              alt="CeyPall pallet manufacturing process"
+              fill
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-primary/20" />
+          </div>
+        </FadeUp>
       </section>
 
       {/* Quality assurance note */}
