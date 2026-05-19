@@ -59,9 +59,9 @@ export function Nav() {
             <Image
               src="/logo.png"
               alt="CeyPall (Pvt) Ltd"
-              width={130}
-              height={56}
-              className="h-10 w-auto object-contain mix-blend-multiply"
+              width={160}
+              height={68}
+              className="h-14 w-auto object-contain mix-blend-multiply"
               priority
             />
           </Link>
