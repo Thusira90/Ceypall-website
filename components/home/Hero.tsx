@@ -77,12 +77,12 @@ export function Hero() {
             </motion.div>
           </div>
 
-          {/* Right: visual placeholder */}
+          {/* Right: image — shown on all screen sizes */}
           <motion.div
             initial={{ opacity: 0, scale: 0.96 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
-            className="hidden lg:block"
+            className="block"
           >
             <div className="relative aspect-[4/3] overflow-hidden">
               <Image
