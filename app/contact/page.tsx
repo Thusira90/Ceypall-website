@@ -68,7 +68,7 @@ export default function ContactPage() {
           <FadeUp>
             <SectionHeader
               eyebrow="Get in touch"
-              title="Get in touch."
+              title=""
               subtitle="Request a quote, ask a question, or discuss a custom order. We respond promptly."
               light
             />
