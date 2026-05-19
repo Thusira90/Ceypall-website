@@ -91,58 +91,112 @@ export default function RootLayout({
 }>) {
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    '@id': 'https://ceypall.com/#business',
-    name: 'CeyPall (Pvt) Ltd',
-    description:
-      'Sri Lanka\'s dedicated ISPM 15-certified wooden pallet manufacturer. Heat-treated, IPPC-stamped export pallets and vacuum pressure impregnated storage pallets. Custom sizes and island-wide delivery.',
-    url: 'https://ceypall.com',
-    logo: 'https://ceypall.com/logo.png',
-    image: 'https://ceypall.com/hero.jpg',
-    telephone: ['+94312277752', '+94714711417', '+94769494944'],
-    email: 'office@ceypall.com',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: '1088, Colombo Road, Daluwakotuwa',
-      addressLocality: 'Kochchikade',
-      postalCode: '11540',
-      addressCountry: 'LK',
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: 7.4167,
-      longitude: 79.8667,
-    },
-    areaServed: {
-      '@type': 'Country',
-      name: 'Sri Lanka',
-    },
-    foundingDate: '2005',
-    sameAs: [],
-    hasOfferCatalog: {
-      '@type': 'OfferCatalog',
-      name: 'Wooden Pallets',
-      itemListElement: [
-        {
-          '@type': 'Offer',
-          itemOffered: {
-            '@type': 'Product',
-            name: 'Heat-Treated Wooden Pallets (ISPM 15)',
-            description:
-              'ISPM 15-compliant heat-treated wooden pallets for international export. Core heated to 56°C for 30+ minutes. IPPC stamped with treatment certificate.',
-          },
+    '@graph': [
+      {
+        '@type': 'LocalBusiness',
+        '@id': 'https://www.ceypall.com/#business',
+        name: 'CeyPall (Pvt) Ltd',
+        description:
+          "Sri Lanka's dedicated ISPM 15-certified wooden pallet manufacturer. Heat-treated, IPPC-stamped export pallets with island-wide delivery.",
+        url: 'https://www.ceypall.com',
+        logo: 'https://www.ceypall.com/logo.png',
+        image: 'https://www.ceypall.com/hero.jpg',
+        telephone: ['+94312277752', '+94714711417', '+94769494944'],
+        email: 'office@ceypall.com',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: '1088, Colombo Road, Daluwakotuwa',
+          addressLocality: 'Kochchikade',
+          postalCode: '11540',
+          addressCountry: 'LK',
         },
-        {
-          '@type': 'Offer',
-          itemOffered: {
-            '@type': 'Product',
-            name: 'Vacuum Pressure Impregnated Storage Pallets',
-            description:
-              'Boron Borax vacuum pressure impregnated pallets for long-term warehouse and racking applications. Up to 6-year pest protection warranty.',
-          },
+        geo: {
+          '@type': 'GeoCoordinates',
+          latitude: 7.4167,
+          longitude: 79.8667,
         },
-      ],
-    },
+        areaServed: { '@type': 'Country', name: 'Sri Lanka' },
+        foundingDate: '2005',
+        hasOfferCatalog: {
+          '@type': 'OfferCatalog',
+          name: 'Wooden Pallets',
+          itemListElement: [
+            {
+              '@type': 'Offer',
+              itemOffered: {
+                '@type': 'Product',
+                name: 'Heat-Treated ISPM 15 Pallets',
+                description:
+                  'ISPM 15-compliant heat-treated wooden pallets with IPPC stamp and treatment certificate. Core heated to 56°C for 30 minutes minimum.',
+              },
+            },
+            {
+              '@type': 'Offer',
+              itemOffered: {
+                '@type': 'Product',
+                name: 'Vacuum Pressure Impregnated Pallets',
+                description:
+                  'Long-term warehouse pallets treated with Boron Borax under vacuum pressure. Up to 10 bar. 6-year warranty against pest contamination.',
+              },
+            },
+            {
+              '@type': 'Offer',
+              itemOffered: {
+                '@type': 'Product',
+                name: 'Custom Size Pallets',
+                description:
+                  'Custom wooden pallets manufactured to exact specifications with ISPM 15 heat treatment.',
+              },
+            },
+          ],
+        },
+      },
+      {
+        '@type': 'FAQPage',
+        mainEntity: [
+          {
+            '@type': 'Question',
+            name: 'What is ISPM 15?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'ISPM 15 is a global standard that requires wooden pallets used in international trade to be heat-treated and stamped with the IPPC mark. Over 180 countries require it including the EU, USA, UK, and Australia.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'Are CeyPall pallets accepted in the EU, USA, and Australia?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Yes. CeyPall pallets are ISPM 15 compliant and IPPC-stamped, accepted in all major international markets including the EU, USA, UK, Australia, China, Japan, and the Middle East.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'Do you provide a treatment certificate?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Yes. Every CeyPall order includes an official heat treatment certificate confirming ISPM 15 compliance.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'Can you manufacture custom pallet sizes?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Yes. CeyPall manufactures all standard international dimensions and custom sizes to your exact specifications with full ISPM 15 heat treatment.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'Where is CeyPall located?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'CeyPall (Pvt) Ltd is located at 1088, Colombo Road, Daluwakotuwa, Kochchikade, Sri Lanka 11540.',
+            },
+          },
+        ],
+      },
+    ],
   }
 
   return (
