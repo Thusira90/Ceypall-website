@@ -27,6 +27,11 @@ const nunito = Nunito({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ceypall.com'),
+  icons: {
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
+  },
   title: {
     default: 'CeyPall (Pvt) Ltd — ISPM 15 Certified Wooden Pallets, Sri Lanka',
     template: '%s | CeyPall (Pvt) Ltd',
