@@ -55,11 +55,6 @@ export function Footer() {
               <p>1088, Colombo Road, Daluwakotuwa,<br />Kochchikade, Sri Lanka 11540</p>
               <div className="pt-1 space-y-1">
                 <p>
-                  <a href="tel:+94312277752" className="hover:text-cream transition-colors duration-150">
-                    +94 312 277 752
-                  </a>
-                </p>
-                <p>
                   <a href="tel:+94714711417" className="hover:text-cream transition-colors duration-150">
                     +94 714 711 417
                   </a>
@@ -67,6 +62,11 @@ export function Footer() {
                 <p>
                   <a href="tel:+94769494944" className="hover:text-cream transition-colors duration-150">
                     +94 769 494 944
+                  </a>
+                </p>
+                <p>
+                  <a href="tel:+94312277752" className="hover:text-cream transition-colors duration-150">
+                    +94 312 277 752
                   </a>
                 </p>
               </div>
