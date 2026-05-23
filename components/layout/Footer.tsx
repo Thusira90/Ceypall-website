@@ -60,6 +60,11 @@ export function Footer() {
                   </a>
                 </p>
                 <p>
+                  <a href="tel:+94714711417" className="hover:text-cream transition-colors duration-150">
+                    +94 714 711 417
+                  </a>
+                </p>
+                <p>
                   <a href="tel:+94769494944" className="hover:text-cream transition-colors duration-150">
                     +94 769 494 944
                   </a>
