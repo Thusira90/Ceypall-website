@@ -107,7 +107,7 @@ export default function RootLayout({
         url: 'https://www.ceypall.com',
         logo: 'https://www.ceypall.com/logo.png',
         image: 'https://www.ceypall.com/hero.jpg',
-        telephone: ['+94312277752', '+94714711417', '+94769494944'],
+        telephone: ['+94312277752', '+94769494944'],
         email: 'office@ceypall.com',
         address: {
           '@type': 'PostalAddress',

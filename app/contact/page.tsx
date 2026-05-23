@@ -24,7 +24,6 @@ const contactDetails = [
     ),
     lines: [
       <a key="p1" href="tel:+94312277752" className="hover:text-primary transition-colors">+94 312 277 752</a>,
-      <a key="p2" href="tel:+94714711417" className="hover:text-primary transition-colors">+94 714 711 417</a>,
       <a key="p3" href="tel:+94769494944" className="hover:text-primary transition-colors">+94 769 494 944</a>,
     ],
   },
