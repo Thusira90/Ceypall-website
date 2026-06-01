@@ -15,7 +15,7 @@ const schema = z.object({
   palletUse: z.enum(['export', 'storage', 'unsure'], {
     required_error: 'Please select a pallet use',
   }),
-  quantity: z.string().optional(),
+  quantity: z.string().regex(/^\d*$/, 'Please enter numbers only').optional(),
   message: z.string().optional(),
 })
 
@@ -213,11 +213,15 @@ export function ContactForm() {
           </label>
           <input
             id="quantity"
-            type="text"
-            placeholder="e.g. 500 pallets per month"
-            className="form-input"
+            type="number"
+            min="1"
+            placeholder="e.g. 500"
+            className={cn('form-input', errors.quantity && 'border-red-400')}
             {...register('quantity')}
           />
+          {errors.quantity && (
+            <p className="mt-1 font-body text-xs text-red-500">{errors.quantity.message}</p>
+          )}
         </div>
       </div>
 
