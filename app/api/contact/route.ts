@@ -40,10 +40,12 @@ export async function POST(req: NextRequest) {
     `,
   }
 
-  // Fire-and-forget: respond immediately, send email in background
-  transporter.sendMail(mailOptions).catch((err) => {
+  try {
+    await transporter.sendMail(mailOptions)
+  } catch (err) {
     console.error('[contact/route] email error:', err)
-  })
+    return NextResponse.json({ error: 'Failed to send email. Please try again.' }, { status: 500 })
+  }
 
   return NextResponse.json({ success: true })
 }
