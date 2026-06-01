@@ -11,7 +11,7 @@ const schema = z.object({
   name: z.string().min(2, 'Please enter your name'),
   company: z.string().optional(),
   email: z.string().email('Please enter a valid email address'),
-  phone: z.string().optional(),
+  phone: z.string().regex(/^[\d+\s\-()]*$/, 'Please enter a valid phone number').optional(),
   palletUse: z.enum(['export', 'storage', 'unsure'], {
     required_error: 'Please select a pallet use',
   }),
@@ -158,9 +158,12 @@ export function ContactForm() {
             type="tel"
             autoComplete="tel"
             placeholder="+94 7XX XXX XXX"
-            className="form-input"
+            className={cn('form-input', errors.phone && 'border-red-400')}
             {...register('phone')}
           />
+          {errors.phone && (
+            <p className="mt-1 font-body text-xs text-red-500">{errors.phone.message}</p>
+          )}
         </div>
       </div>
 
