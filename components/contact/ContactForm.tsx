@@ -23,6 +23,7 @@ type FormValues = z.infer<typeof schema>
 
 export function ContactForm() {
   const [submitted, setSubmitted] = useState(false)
+  const [submitError, setSubmitError] = useState<string | null>(null)
 
   const {
     register,
@@ -32,31 +33,22 @@ export function ContactForm() {
     resolver: zodResolver(schema),
   })
 
-  const onSubmit = (data: FormValues) => {
-    const palletUseLabel =
-      data.palletUse === 'export'
-        ? 'Export'
-        : data.palletUse === 'storage'
-        ? 'Warehouse storage'
-        : 'Not sure'
-
-    const subject = encodeURIComponent(`Pallet Enquiry — ${data.company}`)
-    const body = encodeURIComponent(
-      [
-        `Name: ${data.name}`,
-        `Company: ${data.company}`,
-        `Email: ${data.email}`,
-        `Phone: ${data.phone || 'Not provided'}`,
-        `Pallet use: ${palletUseLabel}`,
-        `Quantity: ${data.quantity}`,
-        ``,
-        `Message:`,
-        data.message || 'No additional message.',
-      ].join('\n'),
-    )
-
-    window.location.href = `mailto:office@ceypall.com?subject=${subject}&body=${body}`
-    setSubmitted(true)
+  const onSubmit = async (data: FormValues) => {
+    setSubmitError(null)
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      })
+      if (!res.ok) {
+        const json = await res.json().catch(() => ({}))
+        throw new Error(json.error || 'Failed to send enquiry.')
+      }
+      setSubmitted(true)
+    } catch (err) {
+      setSubmitError(err instanceof Error ? err.message : 'Failed to send enquiry. Please try again.')
+    }
   }
 
   if (submitted) {
@@ -78,8 +70,8 @@ export function ContactForm() {
             Enquiry sent — thank you.
           </h3>
           <p className="font-body text-sm text-charcoal/70 leading-relaxed">
-            Your mail client should have opened with a pre-filled message. We typically respond
-            within one business day. You can also reach us directly at{' '}
+            We&apos;ve received your message and will respond within one business day. You can also
+            reach us directly at{' '}
             <a
               href="mailto:office@ceypall.com"
               className="text-accent underline underline-offset-2"
@@ -250,6 +242,10 @@ export function ContactForm() {
       <Button type="submit" variant="primary" size="lg" disabled={isSubmitting} className="w-full sm:w-auto justify-center">
         {isSubmitting ? 'Sending…' : 'Send enquiry →'}
       </Button>
+
+      {submitError && (
+        <p className="font-body text-sm text-red-500">{submitError}</p>
+      )}
 
       <p className="font-body text-xs text-charcoal/40">
         We respond within one business day. Your details are only used to respond to your enquiry.
