@@ -28,6 +28,7 @@ export function ContactForm() {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors, isSubmitting },
   } = useForm<FormValues>({
     resolver: zodResolver(schema),
@@ -82,7 +83,7 @@ export function ContactForm() {
           </p>
         </div>
         <button
-          onClick={() => setSubmitted(false)}
+          onClick={() => { setSubmitted(false); reset() }}
           className="font-body text-sm text-charcoal/50 hover:text-primary transition-colors underline underline-offset-2"
         >
           Send another enquiry
