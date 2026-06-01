@@ -9,13 +9,13 @@ import { cn } from '@/lib/utils'
 
 const schema = z.object({
   name: z.string().min(2, 'Please enter your name'),
-  company: z.string().min(1, 'Please enter your company name'),
+  company: z.string().optional(),
   email: z.string().email('Please enter a valid email address'),
   phone: z.string().optional(),
   palletUse: z.enum(['export', 'storage', 'unsure'], {
     required_error: 'Please select a pallet use',
   }),
-  quantity: z.string().min(1, 'Please provide an estimated quantity'),
+  quantity: z.string().optional(),
   message: z.string().optional(),
 })
 
@@ -114,19 +114,17 @@ export function ContactForm() {
 
         <div>
           <label htmlFor="company" className="form-label">
-            Company name <span className="text-accent">*</span>
+            Company name{' '}
+            <span className="text-charcoal/40 font-normal">(optional)</span>
           </label>
           <input
             id="company"
             type="text"
             autoComplete="organization"
             placeholder="Your company"
-            className={cn('form-input', errors.company && 'border-red-400')}
+            className="form-input"
             {...register('company')}
           />
-          {errors.company && (
-            <p className="mt-1 font-body text-xs text-red-500">{errors.company.message}</p>
-          )}
         </div>
       </div>
 
@@ -209,18 +207,16 @@ export function ContactForm() {
 
         <div>
           <label htmlFor="quantity" className="form-label">
-            Quantity <span className="text-accent">*</span>
+            Quantity{' '}
+            <span className="text-charcoal/40 font-normal">(optional)</span>
           </label>
           <input
             id="quantity"
             type="text"
             placeholder="e.g. 500 pallets per month"
-            className={cn('form-input', errors.quantity && 'border-red-400')}
+            className="form-input"
             {...register('quantity')}
           />
-          {errors.quantity && (
-            <p className="mt-1 font-body text-xs text-red-500">{errors.quantity.message}</p>
-          )}
         </div>
       </div>
 
