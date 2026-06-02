@@ -13,7 +13,7 @@ export function Footer() {
   return (
     <footer className="wood-texture text-cream">
       <div className="container-content py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 pb-12 border-b border-cream/10">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8 pb-12 border-b border-cream/10">
           {/* Brand */}
           <div>
             <div className="mb-4">
@@ -43,6 +43,39 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+            </ul>
+          </div>
+
+          {/* Regions */}
+          <div>
+            <p className="font-body text-xs font-semibold tracking-[0.12em] uppercase text-accent mb-5">
+              Regions served
+            </p>
+            <ul className="space-y-3">
+              <li>
+                <Link
+                  href="/wooden-pallets-colombo"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Colombo & Port
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/wooden-pallets-katunayake"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Katunayake FTZ
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/wooden-pallets-negombo"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Negombo & Wattala
+                </Link>
+              </li>
             </ul>
           </div>
 
