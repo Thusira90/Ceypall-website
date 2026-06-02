@@ -4,7 +4,7 @@ import Script from 'next/script'
 import './globals.css'
 import { Nav } from '@/components/layout/Nav'
 import { Footer } from '@/components/layout/Footer'
-
+import { productSchema } from '@/app/schema'
 const playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-display',
