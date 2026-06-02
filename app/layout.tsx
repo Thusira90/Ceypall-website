@@ -133,14 +133,14 @@ export default function RootLayout({
                 '@type': 'Product',
                 name: 'Heat-Treated ISPM 15 Pallets',
                 description:
-                  'ISPM 15-compliant heat-treated wooden pallets with IPPC stamp and treatment certificate. Core heated to 56°C for 30 minutes minimum.',
+                  'ISPM 15-compliant heat-treated wooden pallets with IPPC stamp and treatment certificate. Core heated to 56 degrees Celsius for 30 minutes minimum.',
                 offers: {
                   '@type': 'Offer',
                   priceCurrency: 'LKR',
                   price: '0',
                   priceSpecification: {
                     '@type': 'PriceSpecification',
-                    description: 'Price on request — contact CeyPall for a custom quote.',
+                    description: 'Price on request. Contact CeyPall for a custom quote.',
                   },
                   seller: {
                     '@type': 'Organization',
@@ -164,7 +164,7 @@ export default function RootLayout({
                   price: '0',
                   priceSpecification: {
                     '@type': 'PriceSpecification',
-                    description: 'Price on request — contact CeyPall for a custom quote.',
+                    description: 'Price on request. Contact CeyPall for a custom quote.',
                   },
                   seller: {
                     '@type': 'Organization',
@@ -188,7 +188,7 @@ export default function RootLayout({
                   price: '0',
                   priceSpecification: {
                     '@type': 'PriceSpecification',
-                    description: 'Price on request — contact CeyPall for a custom quote.',
+                    description: 'Price on request. Contact CeyPall for a custom quote.',
                   },
                   seller: {
                     '@type': 'Organization',
@@ -262,7 +262,6 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen flex flex-col">
-        {/* Google tag (gtag.js) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-18176480799"
           strategy="afterInteractive"
@@ -278,8 +277,6 @@ export default function RootLayout({
         <Nav />
         <main className="flex-1 pt-[72px]">{children}</main>
         <Footer />
-
-        {/* WhatsApp floating button */}
         
           href="https://wa.me/94714711417?text=Hi%20CeyPall%2C%20I%20need%20a%20pallet%20quote.%20What%20information%20do%20you%20need%20from%20me%3F"
           target="_blank"
@@ -294,7 +291,6 @@ export default function RootLayout({
           </svg>
           Chat with us
         </a>
-
       </body>
     </html>
   )
