@@ -4,7 +4,7 @@ import Script from 'next/script'
 import './globals.css'
 import { Nav } from '@/components/layout/Nav'
 import { Footer } from '@/components/layout/Footer'
-import { productSchema } from '@/app/schema'
+
 const playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-display',
@@ -132,8 +132,8 @@ export default function RootLayout({
               itemOffered: {
                 '@type': 'Product',
                 name: 'Heat-Treated ISPM 15 Pallets',
-                description:
-                  'ISPM 15-compliant heat-treated wooden pallets with IPPC stamp and treatment certificate. Core heated to 56°C for 30 minutes minimum.',
+                description: 'ISPM 15-compliant heat-treated wooden pallets with IPPC stamp and treatment certificate.',
+                offers: { '@type': 'Offer', priceCurrency: 'LKR', price: '0', availability: 'https://schema.org/InStock', url: 'https://www.ceypall.com/products', seller: { '@type': 'Organization', name: 'CeyPall (Pvt) Ltd' } },
               },
             },
             {
@@ -141,8 +141,8 @@ export default function RootLayout({
               itemOffered: {
                 '@type': 'Product',
                 name: 'Vacuum Pressure Impregnated Pallets',
-                description:
-                  'Long-term warehouse pallets treated with Boron Borax under vacuum pressure. Up to 10 bar. 6-year warranty against pest contamination.',
+                description: 'Long-term warehouse pallets treated with Boron Borax under vacuum pressure. Up to 10 bar. 6-year warranty against pest contamination.',
+                offers: { '@type': 'Offer', priceCurrency: 'LKR', price: '0', availability: 'https://schema.org/InStock', url: 'https://www.ceypall.com/products', seller: { '@type': 'Organization', name: 'CeyPall (Pvt) Ltd' } },
               },
             },
             {
@@ -150,8 +150,8 @@ export default function RootLayout({
               itemOffered: {
                 '@type': 'Product',
                 name: 'Custom Size Pallets',
-                description:
-                  'Custom wooden pallets manufactured to exact specifications with ISPM 15 heat treatment.',
+                description: 'Custom wooden pallets manufactured to exact specifications with ISPM 15 heat treatment.',
+                offers: { '@type': 'Offer', priceCurrency: 'LKR', price: '0', availability: 'https://schema.org/InStock', url: 'https://www.ceypall.com/products', seller: { '@type': 'Organization', name: 'CeyPall (Pvt) Ltd' } },
               },
             },
           ],
@@ -217,7 +217,6 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen flex flex-col">
-        {/* Google tag (gtag.js) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-18176480799"
           strategy="afterInteractive"
@@ -233,9 +232,7 @@ export default function RootLayout({
         <Nav />
         <main className="flex-1 pt-[72px]">{children}</main>
         <Footer />
-
-        {/* WhatsApp floating button */}
-        <a
+        
           href="https://wa.me/94714711417?text=Hi%20CeyPall%2C%20I%20need%20a%20pallet%20quote.%20What%20information%20do%20you%20need%20from%20me%3F"
           target="_blank"
           rel="noopener noreferrer"
@@ -249,7 +246,6 @@ export default function RootLayout({
           </svg>
           Chat with us
         </a>
-
       </body>
     </html>
   )
