@@ -9,6 +9,8 @@ export const productSchema = {
         '@type': 'Product',
         name: 'Heat-Treated ISPM 15 Pallets',
         description: 'ISPM 15-compliant heat-treated wooden pallets with IPPC stamp and treatment certificate. Core heated to 56 degrees Celsius for 30 minutes minimum.',
+        image: 'https://www.ceypall.com/hero.jpg',
+        brand: { '@type': 'Brand', name: 'CeyPall' },
         offers: {
           '@type': 'Offer',
           priceCurrency: 'LKR',
@@ -26,6 +28,8 @@ export const productSchema = {
         '@type': 'Product',
         name: 'Vacuum Pressure Impregnated Pallets',
         description: 'Long-term warehouse pallets treated with Boron Borax under vacuum pressure. Up to 10 bar. 6-year warranty against pest contamination.',
+        image: 'https://www.ceypall.com/hero.jpg',
+        brand: { '@type': 'Brand', name: 'CeyPall' },
         offers: {
           '@type': 'Offer',
           priceCurrency: 'LKR',
@@ -43,6 +47,8 @@ export const productSchema = {
         '@type': 'Product',
         name: 'Custom Size Pallets',
         description: 'Custom wooden pallets manufactured to exact specifications with ISPM 15 heat treatment.',
+        image: 'https://www.ceypall.com/hero.jpg',
+        brand: { '@type': 'Brand', name: 'CeyPall' },
         offers: {
           '@type': 'Offer',
           priceCurrency: 'LKR',
