@@ -29,8 +29,11 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   metadataBase: new URL('https://ceypall.com'),
   icons: {
-    icon: '/favicon.png',
-    shortcut: '/favicon.png',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.png', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico',
     apple: '/favicon.png',
   },
   title: {
@@ -214,8 +217,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${playfair.variable} ${dmSans.variable} ${nunito.variable}`}>
       <head>
-        <link rel="icon" href="/favicon.png" type="image/png" sizes="any" />
-        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/favicon.png" />
         <script
           type="application/ld+json"
