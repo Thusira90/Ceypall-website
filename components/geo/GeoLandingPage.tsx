@@ -232,7 +232,7 @@ export function GeoLandingPage({
               Need pallets delivered to {city}?
             </h2>
             <p className="font-body text-sm text-white/80 mt-1">
-              Send us your size, quantity, and required date — we'll confirm quickly.
+              Send us your size, quantity, and required date — we&apos;ll confirm quickly.
             </p>
           </div>
           <Button href="/contact" variant="outline-light" size="lg">
