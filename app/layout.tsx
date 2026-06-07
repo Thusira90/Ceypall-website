@@ -138,7 +138,7 @@ export default function RootLayout({
                 description: 'ISPM 15-compliant heat-treated wooden pallets with IPPC stamp and treatment certificate. Core heated to 56°C for 30 minutes minimum.',
                 image: 'https://www.ceypall.com/hero.jpg',
                 brand: { '@type': 'Brand', name: 'CeyPall' },
-                offers: { '@type': 'Offer', priceCurrency: 'LKR', price: '0', availability: 'https://schema.org/InStock', url: 'https://www.ceypall.com/products', seller: { '@type': 'Organization', name: 'CeyPall (Pvt) Ltd' } },
+                offers: { '@type': 'Offer', availability: 'https://schema.org/InStock', url: 'https://www.ceypall.com/products', seller: { '@type': 'Organization', name: 'CeyPall (Pvt) Ltd' } },
               },
             },
             {
@@ -149,7 +149,7 @@ export default function RootLayout({
                 description: 'Long-term warehouse pallets treated with Boron Borax under vacuum pressure. Up to 10 bar. 6-year warranty against pest contamination.',
                 image: 'https://www.ceypall.com/hero.jpg',
                 brand: { '@type': 'Brand', name: 'CeyPall' },
-                offers: { '@type': 'Offer', priceCurrency: 'LKR', price: '0', availability: 'https://schema.org/InStock', url: 'https://www.ceypall.com/products', seller: { '@type': 'Organization', name: 'CeyPall (Pvt) Ltd' } },
+                offers: { '@type': 'Offer', availability: 'https://schema.org/InStock', url: 'https://www.ceypall.com/products', seller: { '@type': 'Organization', name: 'CeyPall (Pvt) Ltd' } },
               },
             },
             {
@@ -160,7 +160,7 @@ export default function RootLayout({
                 description: 'Custom wooden pallets manufactured to exact specifications with ISPM 15 heat treatment.',
                 image: 'https://www.ceypall.com/hero.jpg',
                 brand: { '@type': 'Brand', name: 'CeyPall' },
-                offers: { '@type': 'Offer', priceCurrency: 'LKR', price: '0', availability: 'https://schema.org/InStock', url: 'https://www.ceypall.com/products', seller: { '@type': 'Organization', name: 'CeyPall (Pvt) Ltd' } },
+                offers: { '@type': 'Offer', availability: 'https://schema.org/InStock', url: 'https://www.ceypall.com/products', seller: { '@type': 'Organization', name: 'CeyPall (Pvt) Ltd' } },
               },
             },
           ],
