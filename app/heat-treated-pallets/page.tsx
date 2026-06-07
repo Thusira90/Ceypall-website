@@ -490,16 +490,38 @@ export default function HeatTreatedPalletsPage() {
               </div>
             </FadeUp>
 
-            {/* Kiln / chamber image */}
+            {/* Process images — mosaic */}
             <FadeUp delay={0.12}>
-              <div className="aspect-[4/3] relative overflow-hidden border border-warm-gray">
-                <Image
-                  src="/HT Pallet 07.png"
-                  alt="Heat treatment kiln at CeyPall manufacturing facility in Kochchikade, Sri Lanka"
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-cover"
-                />
+              <div className="flex flex-col gap-3">
+                <div className="aspect-[4/3] relative overflow-hidden border border-warm-gray">
+                  <Image
+                    src="/HT Pallet 07.png"
+                    alt="Stacked heat treated wooden pallets inside CeyPall warehouse, Kochchikade Sri Lanka"
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    className="object-cover"
+                  />
+                </div>
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="aspect-[3/4] relative overflow-hidden border border-warm-gray">
+                    <Image
+                      src="/HT Pallet 04.jpg"
+                      alt="CeyPall ISPM 15 heat treated pallet — close up detail"
+                      fill
+                      sizes="(max-width: 1024px) 50vw, 25vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="aspect-[3/4] relative overflow-hidden border border-warm-gray">
+                    <Image
+                      src="/HT Pallet 02.jpg"
+                      alt="Heat treated wooden pallets ready for export — CeyPall Sri Lanka"
+                      fill
+                      sizes="(max-width: 1024px) 50vw, 25vw"
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
               </div>
             </FadeUp>
           </div>
