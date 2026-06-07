@@ -43,6 +43,14 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link
+                  href="/heat-treated-pallets"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Heat Treated Pallets
+                </Link>
+              </li>
             </ul>
           </div>
 
