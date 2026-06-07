@@ -495,8 +495,8 @@ export default function HeatTreatedPalletsPage() {
               <div className="flex flex-col gap-3">
                 <div className="aspect-[4/3] relative overflow-hidden border border-warm-gray">
                   <Image
-                    src="/HT Pallet 07.png"
-                    alt="Stacked heat treated wooden pallets inside CeyPall warehouse, Kochchikade Sri Lanka"
+                    src="/HT PALLET CHAMBER.JPG"
+                    alt="Heat treatment kiln chamber at CeyPall manufacturing facility, Kochchikade Sri Lanka"
                     fill
                     sizes="(max-width: 1024px) 100vw, 50vw"
                     className="object-cover"
