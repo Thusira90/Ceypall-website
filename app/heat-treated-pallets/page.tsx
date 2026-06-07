@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
@@ -359,22 +360,15 @@ export default function HeatTreatedPalletsPage() {
             </FadeUp>
 
             <FadeUp delay={0.12}>
-              {/* Hero image placeholder */}
-              <div
-                className="aspect-[4/3] border border-cream/20 bg-cream/5 flex flex-col items-center justify-center gap-3"
-                role="img"
-                aria-label="ISPM 15 certified heat treated wooden pallets manufactured by CeyPall in Sri Lanka"
-              >
-                <svg className="w-16 h-16 text-cream/20" viewBox="0 0 64 64" fill="none">
-                  <rect x="4" y="20" width="56" height="8" rx="1" stroke="currentColor" strokeWidth="2" />
-                  <rect x="4" y="36" width="56" height="8" rx="1" stroke="currentColor" strokeWidth="2" />
-                  <rect x="8" y="28" width="10" height="8" stroke="currentColor" strokeWidth="2" />
-                  <rect x="27" y="28" width="10" height="8" stroke="currentColor" strokeWidth="2" />
-                  <rect x="46" y="28" width="10" height="8" stroke="currentColor" strokeWidth="2" />
-                </svg>
-                <p className="font-body text-xs text-cream/30 text-center px-6">
-                  heat-treated-pallets-ceypall-hero.webp
-                </p>
+              {/* Hero image */}
+              <div className="aspect-[4/3] relative overflow-hidden">
+                <Image
+                  src="/HT PALLET 12.PNG"
+                  alt="ISPM 15 certified heat treated wooden pallets manufactured by CeyPall in Sri Lanka"
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
             </FadeUp>
           </div>
@@ -567,28 +561,15 @@ export default function HeatTreatedPalletsPage() {
               </div>
             </FadeUp>
 
-            {/* IPPC stamp image placeholder */}
+            {/* IPPC / HT stamp image */}
             <FadeUp delay={0.12}>
-              <div
-                className="aspect-square border border-warm-gray bg-cream flex flex-col items-center justify-center gap-4"
-                role="img"
-                aria-label="IPPC stamp on CeyPall heat treated export pallet showing LK country code and HT treatment mark"
-              >
-                {/* Simplified IPPC stamp visual */}
-                <div className="flex flex-col items-center gap-2 opacity-20">
-                  <div className="w-16 h-16 border-4 border-charcoal rounded-full flex items-center justify-center">
-                    <svg viewBox="0 0 40 40" className="w-10 h-10" fill="currentColor">
-                      <path d="M20 4 C20 4 16 10 12 14 C8 18 4 18 4 24 C4 30 10 34 20 36 C30 34 36 30 36 24 C36 18 32 18 28 14 C24 10 20 4 20 4Z" />
-                    </svg>
-                  </div>
-                  <div className="text-center">
-                    <p className="font-body font-bold text-lg tracking-widest">LK — 001</p>
-                    <p className="font-body font-bold text-base tracking-widest">HT</p>
-                  </div>
-                </div>
-                <p className="font-body text-xs text-charcoal/30 text-center px-8">
-                  ippc-stamp-ceypall-pallet.webp
-                </p>
+              <div className="aspect-square border border-warm-gray bg-cream relative overflow-hidden">
+                <Image
+                  src="/HT logo.png"
+                  alt="IPPC stamp on CeyPall heat treated export pallet showing LK country code and HT treatment mark"
+                  fill
+                  className="object-contain p-8 mix-blend-multiply"
+                />
               </div>
             </FadeUp>
           </div>
