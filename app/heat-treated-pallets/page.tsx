@@ -494,9 +494,10 @@ export default function HeatTreatedPalletsPage() {
             <FadeUp delay={0.12}>
               <div className="aspect-[4/3] relative overflow-hidden border border-warm-gray">
                 <Image
-                  src="/HT PALLET CHAMBER.JPG"
+                  src="/HT Pallet 07.png"
                   alt="Heat treatment kiln at CeyPall manufacturing facility in Kochchikade, Sri Lanka"
                   fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
                 />
               </div>
