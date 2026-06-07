@@ -45,6 +45,16 @@ const productJsonLd = {
   },
   category: 'Export Pallets',
   material: 'Wood',
+  offers: {
+    '@type': 'Offer',
+    priceCurrency: 'LKR',
+    availability: 'https://schema.org/InStock',
+    url: 'https://ceypall.com/heat-treated-pallets',
+    seller: {
+      '@type': 'Organization',
+      name: 'CeyPall (Pvt) Ltd',
+    },
+  },
   additionalProperty: [
     { '@type': 'PropertyValue', name: 'Certification', value: 'ISPM 15' },
     { '@type': 'PropertyValue', name: 'Treatment Method', value: 'Heat Treatment (HT)' },
