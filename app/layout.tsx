@@ -166,51 +166,6 @@ export default function RootLayout({
           ],
         },
       },
-      {
-        '@type': 'FAQPage',
-        mainEntity: [
-          {
-            '@type': 'Question',
-            name: 'What is ISPM 15?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'ISPM 15 is a global standard that requires wooden pallets used in international trade to be heat-treated and stamped with the IPPC mark. Over 180 countries require it including the EU, USA, UK, and Australia.',
-            },
-          },
-          {
-            '@type': 'Question',
-            name: 'Are CeyPall pallets accepted in the EU, USA, and Australia?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'Yes. CeyPall pallets are ISPM 15 compliant and IPPC-stamped, accepted in all major international markets including the EU, USA, UK, Australia, China, Japan, and the Middle East.',
-            },
-          },
-          {
-            '@type': 'Question',
-            name: 'Do you provide a treatment certificate?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'Yes. Every CeyPall order includes an official heat treatment certificate confirming ISPM 15 compliance.',
-            },
-          },
-          {
-            '@type': 'Question',
-            name: 'Can you manufacture custom pallet sizes?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'Yes. CeyPall manufactures all standard international dimensions and custom sizes to your exact specifications with full ISPM 15 heat treatment.',
-            },
-          },
-          {
-            '@type': 'Question',
-            name: 'Where is CeyPall located?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'CeyPall (Pvt) Ltd is located at 1088, Colombo Road, Daluwakotuwa, Kochchikade, Sri Lanka 11540.',
-            },
-          },
-        ],
-      },
     ],
   }
 
