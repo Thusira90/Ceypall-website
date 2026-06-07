@@ -26,6 +26,7 @@ const productJsonLd = {
   name: 'Heat Treated Pallets',
   description:
     'ISPM 15 certified heat treated wooden pallets manufactured by CeyPall (Pvt) Ltd in Sri Lanka. IPPC-stamped, export-ready with island-wide delivery.',
+  image: 'https://ceypall.com/HT%20PALLET%2012.PNG',
   brand: {
     '@type': 'Brand',
     name: 'CeyPall',
