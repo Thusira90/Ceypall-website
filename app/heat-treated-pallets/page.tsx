@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     'ISPM 15 certified heat treated wooden pallets from CeyPall, Sri Lanka. IPPC-stamped, export-ready pallets with island-wide delivery. Custom sizes for tea, apparel, rubber and coconut exporters.',
   alternates: {
-    canonical: 'https://ceypall.com/heat-treated-pallets',
+    canonical: 'https://www.ceypall.com/heat-treated-pallets',
   },
   openGraph: {
     title: 'Heat Treated Pallets — ISPM 15 Certified | CeyPall (Pvt) Ltd',
@@ -26,7 +26,7 @@ const productJsonLd = {
   name: 'Heat Treated Pallets',
   description:
     'ISPM 15 certified heat treated wooden pallets manufactured by CeyPall (Pvt) Ltd in Sri Lanka. IPPC-stamped, export-ready with island-wide delivery.',
-  image: 'https://ceypall.com/HT%20PALLET%2012.PNG',
+  image: 'https://www.ceypall.com/HT%20PALLET%2012.PNG',
   brand: {
     '@type': 'Brand',
     name: 'CeyPall',
@@ -34,7 +34,7 @@ const productJsonLd = {
   manufacturer: {
     '@type': 'Organization',
     name: 'CeyPall (Pvt) Ltd',
-    url: 'https://ceypall.com',
+    url: 'https://www.ceypall.com',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '1088 Colombo Road',
@@ -50,7 +50,7 @@ const productJsonLd = {
     '@type': 'Offer',
     priceCurrency: 'LKR',
     availability: 'https://schema.org/InStock',
-    url: 'https://ceypall.com/heat-treated-pallets',
+    url: 'https://www.ceypall.com/heat-treated-pallets',
     seller: {
       '@type': 'Organization',
       name: 'CeyPall (Pvt) Ltd',
@@ -138,13 +138,13 @@ const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://ceypall.com' },
-    { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://ceypall.com/products' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ceypall.com' },
+    { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://www.ceypall.com/products' },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'Heat Treated Pallets',
-      item: 'https://ceypall.com/heat-treated-pallets',
+      item: 'https://www.ceypall.com/heat-treated-pallets',
     },
   ],
 }
