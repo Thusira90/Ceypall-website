@@ -617,24 +617,16 @@ export default function HeatTreatedPalletsPage() {
       <section className="section-padding bg-warm-gray/40">
         <div className="container-content">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            {/* Stacked pallets image placeholder */}
+            {/* Stacked pallets / transport image */}
             <FadeUp className="order-2 lg:order-1">
-              <div
-                className="aspect-[4/3] border border-warm-gray bg-warm-gray/20 flex flex-col items-center justify-center gap-3"
-                role="img"
-                aria-label="Stack of ISPM 15 certified heat treated wooden pallets ready for delivery"
-              >
-                <svg className="w-14 h-14 text-charcoal/20" viewBox="0 0 56 56" fill="none">
-                  <rect x="6" y="36" width="44" height="6" rx="1" stroke="currentColor" strokeWidth="2" />
-                  <rect x="6" y="26" width="44" height="6" rx="1" stroke="currentColor" strokeWidth="2" />
-                  <rect x="6" y="16" width="44" height="6" rx="1" stroke="currentColor" strokeWidth="2" />
-                  <rect x="10" y="32" width="8" height="4" stroke="currentColor" strokeWidth="1.5" />
-                  <rect x="24" y="32" width="8" height="4" stroke="currentColor" strokeWidth="1.5" />
-                  <rect x="38" y="32" width="8" height="4" stroke="currentColor" strokeWidth="1.5" />
-                </svg>
-                <p className="font-body text-xs text-charcoal/30 text-center px-6">
-                  heat-treated-pallets-stacked.webp
-                </p>
+              <div className="aspect-[4/3] relative overflow-hidden border border-warm-gray">
+                <Image
+                  src="/HT PALLET TRANSPORT.jpg"
+                  alt="Stack of ISPM 15 certified heat treated wooden pallets ready for delivery — CeyPall Sri Lanka"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover"
+                />
               </div>
             </FadeUp>
 
