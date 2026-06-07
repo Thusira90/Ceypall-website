@@ -490,21 +490,15 @@ export default function HeatTreatedPalletsPage() {
               </div>
             </FadeUp>
 
-            {/* Kiln image placeholder */}
+            {/* Kiln / chamber image */}
             <FadeUp delay={0.12}>
-              <div
-                className="aspect-[4/3] border border-warm-gray bg-warm-gray/20 flex flex-col items-center justify-center gap-3"
-                role="img"
-                aria-label="Heat treatment kiln at CeyPall manufacturing facility in Kochchikade, Sri Lanka"
-              >
-                <svg className="w-14 h-14 text-charcoal/20" viewBox="0 0 56 56" fill="none">
-                  <rect x="8" y="16" width="40" height="28" rx="2" stroke="currentColor" strokeWidth="2" />
-                  <path d="M16 16V12M28 16V10M40 16V13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-                  <path d="M18 30c0-4 4-6 4-10M28 30c0-4 4-6 4-10M22 36h12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                </svg>
-                <p className="font-body text-xs text-charcoal/30 text-center px-6">
-                  heat-treatment-kiln-ceypall.webp
-                </p>
+              <div className="aspect-[4/3] relative overflow-hidden border border-warm-gray">
+                <Image
+                  src="/HT PALLET CHAMBER.JPG"
+                  alt="Heat treatment kiln at CeyPall manufacturing facility in Kochchikade, Sri Lanka"
+                  fill
+                  className="object-cover"
+                />
               </div>
             </FadeUp>
           </div>
