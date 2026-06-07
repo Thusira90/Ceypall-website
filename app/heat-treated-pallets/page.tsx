@@ -558,12 +558,13 @@ export default function HeatTreatedPalletsPage() {
 
             {/* IPPC / HT stamp image */}
             <FadeUp delay={0.12}>
-              <div className="aspect-square border border-warm-gray bg-cream relative overflow-hidden">
+              <div className="aspect-[3/2] border border-warm-gray bg-cream relative overflow-hidden">
                 <Image
                   src="/HT logo.png"
                   alt="IPPC stamp on CeyPall heat treated export pallet showing LK country code and HT treatment mark"
                   fill
-                  className="object-contain p-8 mix-blend-multiply"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover"
                 />
               </div>
             </FadeUp>
