@@ -499,7 +499,7 @@ export default function ExportPalletManufacturerPage() {
                 Without a valid IPPC stamp, wooden pallets will be rejected at the destination port. Customs authorities in the EU, United States, Japan, Australia, India, China and all major trading nations actively inspect wood packaging on arrival.
               </p>
               <p>
-                CeyPall is registered with Sri Lanka's National Plant Quarantine Service (NPQS) as an approved ISPM 15 treatment provider. Every pallet we manufacture meets all three requirements — debarked,{' '}
+                CeyPall is registered with Sri Lanka&apos;s National Plant Quarantine Service (NPQS) as an approved ISPM 15 treatment provider. Every pallet we manufacture meets all three requirements — debarked,{' '}
                 <Link href="/heat-treated-pallets" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
                   heat treated
                 </Link>{' '}
