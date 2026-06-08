@@ -243,7 +243,7 @@ const whyFeatures = [
   },
   {
     title: 'ISPM 15 Certified',
-    body: 'We are a registered heat treatment provider with the National Plant Quarantine Service (NPQS) of Sri Lanka. Our IPPC mark is officially recognised across all 195 IPPC member countries.',
+    body: 'We are a registered heat treatment provider with the National Plant Quarantine Service (NPQS) of Sri Lanka. Our IPPC mark is officially recognised in all major trading nations.',
   },
   {
     title: 'On-Site Heat Treatment',
@@ -436,7 +436,7 @@ export default function ExportPalletManufacturerPage() {
                     { label: 'Treatment standard', value: 'ISPM 15 (IPPC)' },
                     { label: 'Treatment method', value: 'Heat Treatment (HT) — 56°C core, 30 min' },
                     { label: 'Registration', value: 'NPQS-registered provider' },
-                    { label: 'Countries compliant', value: '195 IPPC member nations' },
+                    { label: 'Countries compliant', value: 'All major trading nations' },
                     { label: 'Delivery', value: 'Island-wide across Sri Lanka' },
                     { label: 'Founded', value: '2005' },
                   ].map(({ label, value }) => (
@@ -469,7 +469,7 @@ export default function ExportPalletManufacturerPage() {
                 <Link href="/ispm15-pallets-sri-lanka" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
                   ISPM 15
                 </Link>{' '}
-                — the International Standards for Phytosanitary Measures No. 15. This regulation is enforced by customs authorities in over 195 countries worldwide. Sri Lanka, as both an exporter and importer, is a signatory to the International Plant Protection Convention (IPPC) that administers this standard.
+                — the International Standards for Phytosanitary Measures No. 15. This regulation is enforced by customs authorities worldwide. Sri Lanka, as both an exporter and importer, is a signatory to the International Plant Protection Convention (IPPC) that administers this standard.
               </p>
               <p>
                 ISPM 15 requires that all wooden packaging materials used in international trade — including pallets, crates, dunnage and timber with a cross-section greater than 6mm — must be:
@@ -499,7 +499,7 @@ export default function ExportPalletManufacturerPage() {
                 Without a valid IPPC stamp, wooden pallets will be rejected at the destination port. Customs authorities in the EU, United States, Japan, Australia, India, China and all major trading nations actively inspect wood packaging on arrival.
               </p>
               <p>
-                CeyPall is a registered ISPM 15 treatment provider with the National Plant Quarantine Service (NPQS) of Sri Lanka. Every pallet we manufacture meets all three requirements — debarked,{' '}
+                CeyPall is registered with Sri Lanka's National Plant Quarantine Service (NPQS) as an approved ISPM 15 treatment provider. Every pallet we manufacture meets all three requirements — debarked,{' '}
                 <Link href="/heat-treated-pallets" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
                   heat treated
                 </Link>{' '}
