@@ -121,9 +121,12 @@ export function ProductsOverview() {
           ))}
         </motion.div>
 
-        <div className="mt-10 flex justify-center">
+        <div className="mt-10 flex flex-wrap justify-center gap-4">
+          <Button href="/export-pallet-manufacturer-sri-lanka" variant="primary" size="lg">
+            Export Pallet Manufacturer →
+          </Button>
           <Button href="/products" variant="outline-light" size="lg">
-            View all products →
+            View all products
           </Button>
         </div>
       </div>

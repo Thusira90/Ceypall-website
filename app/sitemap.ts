@@ -49,6 +49,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${base}/export-pallet-manufacturer-sri-lanka`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 1.0,
+    },
+    {
       url: `${base}/wooden-pallets-colombo`,
       lastModified: new Date(),
       changeFrequency: 'monthly',

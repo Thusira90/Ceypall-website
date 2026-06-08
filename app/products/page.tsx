@@ -79,9 +79,12 @@ export default function ProductsPage() {
                   stamped with our IPPC logo (including our registration number) and comes with a
                   treatment certificate.
                 </p>
-                <div className="mt-6">
+                <div className="mt-6 flex flex-wrap gap-3">
                   <Button href="/heat-treated-pallets" variant="primary" size="md">
                     Learn more about heat treated pallets →
+                  </Button>
+                  <Button href="/export-pallet-manufacturer-sri-lanka" variant="outline" size="md">
+                    Export pallet manufacturing →
                   </Button>
                 </div>
               </div>

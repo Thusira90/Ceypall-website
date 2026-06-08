@@ -51,6 +51,14 @@ export function Footer() {
                   Heat Treated Pallets
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/export-pallet-manufacturer-sri-lanka"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Export Pallet Manufacturer
+                </Link>
+              </li>
             </ul>
           </div>
 

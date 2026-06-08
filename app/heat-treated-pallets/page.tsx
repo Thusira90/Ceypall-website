@@ -726,6 +726,15 @@ export default function HeatTreatedPalletsPage() {
               </Button>
             </div>
           </FadeUp>
+
+          <FadeUp delay={0.14}>
+            <p className="mt-8 font-body text-sm text-charcoal/60 border-l-2 border-accent pl-4">
+              Looking for more information about our manufacturing facility and export pallet supply?{' '}
+              <Link href="/export-pallet-manufacturer-sri-lanka" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors font-semibold">
+                Learn more about export pallet manufacturing at CeyPall →
+              </Link>
+            </p>
+          </FadeUp>
         </div>
       </section>
 
