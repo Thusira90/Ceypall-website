@@ -59,9 +59,49 @@ const contactDetails = [
   },
 ]
 
+const localBusinessJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  name: 'CeyPall (Pvt) Ltd',
+  description:
+    "Sri Lanka's dedicated export pallet manufacturer. ISPM 15 certified, IPPC-stamped heat treated wooden pallets for exporters island-wide.",
+  url: 'https://www.ceypall.com',
+  telephone: '+94714711417',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: '1088 Colombo Road',
+    addressLocality: 'Kochchikade',
+    addressRegion: 'Western Province',
+    postalCode: '11540',
+    addressCountry: 'LK',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: 7.1731,
+    longitude: 79.8428,
+  },
+  openingHoursSpecification: {
+    '@type': 'OpeningHoursSpecification',
+    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+    opens: '08:30',
+    closes: '17:30',
+  },
+  areaServed: {
+    '@type': 'Country',
+    name: 'Sri Lanka',
+  },
+  hasMap: 'https://maps.google.com/?q=1088+Colombo+Road+Kochchikade+Sri+Lanka',
+}
+
 export default function ContactPage() {
   return (
     <>
+      {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+      />
+
       {/* Header */}
       <section className="wood-texture section-padding">
         <div className="container-content">
@@ -147,11 +187,11 @@ export default function ContactPage() {
       </section>
 
       {/* Map */}
-      <section className="h-80 sm:h-96 bg-warm-gray relative overflow-hidden">
+      <section className="h-[400px] bg-warm-gray relative overflow-hidden">
         <iframe
-          title="CeyPall location — 1088 Colombo Road, Kochchikade"
-          src="https://maps.google.com/maps?q=1088+Colombo+Road,+Daluwakotuwa,+Kochchikade,+Sri+Lanka+11540&t=m&z=15&output=embed&iwloc=near"
-          className="w-full h-full border-0 grayscale contrast-[1.1] opacity-90"
+          title="CeyPall (Pvt) Ltd — 1088 Colombo Road, Kochchikade, Sri Lanka"
+          src="https://maps.google.com/maps?q=7.1731,79.8428&t=m&z=16&output=embed"
+          className="w-full h-full border-0"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           allowFullScreen
