@@ -190,7 +190,7 @@ export default function ContactPage() {
       <section className="h-[400px] bg-warm-gray relative overflow-hidden">
         <iframe
           title="CeyPall (Pvt) Ltd — 1088 Colombo Road, Kochchikade, Sri Lanka"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.8904994383297!2d79.85182467448487!3d7.253301814253568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2e99a0e8b9d67%3A0x1c722fe3db65d2df!2sCeyPall%20(Pvt)%20Ltd!5e0!3m2!1sen!2slk!4v1780915311106!5m2!1sen!2slk"
+          src="https://maps.google.com/maps?q=CeyPall+Pvt+Ltd+Kochchikade+Sri+Lanka&output=embed&z=16"
           className="w-full h-full border-0"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
