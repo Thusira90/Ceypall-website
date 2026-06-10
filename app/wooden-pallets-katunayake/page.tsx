@@ -39,31 +39,6 @@ const jsonLd = {
     { '@type': 'Place', name: 'Katunayake Free Trade Zone' },
     { '@type': 'City', name: 'Seeduwa' },
   ],
-  hasOfferCatalog: {
-    '@type': 'OfferCatalog',
-    name: 'Export & Storage Pallets — Katunayake',
-    itemListElement: [
-      {
-        '@type': 'Offer',
-        itemOffered: {
-          '@type': 'Product',
-          name: 'Heat-Treated ISPM 15 Pallets — Katunayake',
-          description:
-            'ISPM 15-compliant heat-treated wooden pallets for BOI and FTZ export shipments. IPPC stamped with treatment certificate.',
-          image: 'https://www.ceypall.com/hero.jpg',
-          brand: { '@type': 'Brand', name: 'CeyPall' },
-          offers: {
-            '@type': 'Offer',
-            priceCurrency: 'LKR',
-            price: '0',
-            availability: 'https://schema.org/InStock',
-            url: 'https://www.ceypall.com/wooden-pallets-katunayake',
-            seller: { '@type': 'Organization', name: 'CeyPall (Pvt) Ltd' },
-          },
-        },
-      },
-    ],
-  },
 }
 
 const breadcrumbJsonLd = {

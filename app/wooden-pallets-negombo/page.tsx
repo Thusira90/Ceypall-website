@@ -39,31 +39,6 @@ const jsonLd = {
     { '@type': 'City', name: 'Wattala' },
     { '@type': 'Place', name: 'Gampaha District' },
   ],
-  hasOfferCatalog: {
-    '@type': 'OfferCatalog',
-    name: 'Export & Storage Pallets — Negombo',
-    itemListElement: [
-      {
-        '@type': 'Offer',
-        itemOffered: {
-          '@type': 'Product',
-          name: 'Heat-Treated ISPM 15 Pallets — Negombo',
-          description:
-            'ISPM 15-compliant heat-treated wooden pallets for Negombo exporters. IPPC stamped with treatment certificate.',
-          image: 'https://www.ceypall.com/hero.jpg',
-          brand: { '@type': 'Brand', name: 'CeyPall' },
-          offers: {
-            '@type': 'Offer',
-            priceCurrency: 'LKR',
-            price: '0',
-            availability: 'https://schema.org/InStock',
-            url: 'https://www.ceypall.com/wooden-pallets-negombo',
-            seller: { '@type': 'Organization', name: 'CeyPall (Pvt) Ltd' },
-          },
-        },
-      },
-    ],
-  },
 }
 
 const breadcrumbJsonLd = {

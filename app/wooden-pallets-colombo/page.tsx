@@ -39,31 +39,6 @@ const jsonLd = {
     { '@type': 'Place', name: 'Port of Colombo' },
     { '@type': 'AdministrativeArea', name: 'Western Province' },
   ],
-  hasOfferCatalog: {
-    '@type': 'OfferCatalog',
-    name: 'Export & Storage Pallets — Colombo',
-    itemListElement: [
-      {
-        '@type': 'Offer',
-        itemOffered: {
-          '@type': 'Product',
-          name: 'Heat-Treated ISPM 15 Pallets — Colombo',
-          description:
-            'ISPM 15-compliant heat-treated wooden pallets for Port of Colombo export shipments. IPPC stamped with treatment certificate.',
-          image: 'https://www.ceypall.com/hero.jpg',
-          brand: { '@type': 'Brand', name: 'CeyPall' },
-          offers: {
-            '@type': 'Offer',
-            priceCurrency: 'LKR',
-            price: '0',
-            availability: 'https://schema.org/InStock',
-            url: 'https://www.ceypall.com/wooden-pallets-colombo',
-            seller: { '@type': 'Organization', name: 'CeyPall (Pvt) Ltd' },
-          },
-        },
-      },
-    ],
-  },
 }
 
 const breadcrumbJsonLd = {
