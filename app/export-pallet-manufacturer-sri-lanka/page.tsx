@@ -749,10 +749,6 @@ export default function ExportPalletManufacturerPage() {
                       value: '1088 Colombo Road, Daluwakotuwa, Kochchikade — 11540',
                     },
                     {
-                      label: 'Standard lead time',
-                      value: '3–5 working days for standard sizes',
-                    },
-                    {
                       label: 'Large order scheduling',
                       value: 'Production aligned to your shipping cycle',
                     },
