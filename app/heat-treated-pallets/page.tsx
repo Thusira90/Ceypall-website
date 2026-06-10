@@ -396,7 +396,7 @@ export default function HeatTreatedPalletsPage() {
                 </h1>
                 <span className="block w-10 h-0.5 bg-accent mt-4 mb-5" />
                 <p className="font-body text-base text-cream/80 leading-relaxed mb-8">
-                  ISPM 15 certified, IPPC-stamped export pallets from CeyPall — manufactured and heat treated at our facility in Kochchikade with island-wide delivery.
+                  <a href="https://www.ippc.int/en/publications/2348/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-80 transition-opacity">ISPM 15</a> certified, IPPC-stamped export pallets from CeyPall — manufactured and heat treated at our facility in Kochchikade with island-wide delivery.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button href="/contact" variant="primary" size="lg">
@@ -447,7 +447,9 @@ export default function HeatTreatedPalletsPage() {
                     (International Standards for Phytosanitary Measures No. 15), a regulation developed by the International Plant Protection Convention (IPPC) under the United Nations Food and Agriculture Organization.
                   </p>
                   <p>
-                    Every heat treated pallet that meets ISPM 15 requirements carries an official IPPC stamp. This stamp includes the country code (LK for Sri Lanka), the treatment provider&apos;s unique registration number assigned by the National Plant Quarantine Service (NPQS), and the treatment code HT — confirming the pallet has been heat treated to the required standard.
+                    Every heat treated pallet that meets ISPM 15 requirements carries an official IPPC stamp. This stamp includes the country code (LK for Sri Lanka), the treatment provider&apos;s unique registration number assigned by the{' '}
+                    <a href="https://www.npqs.gov.lk" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">National Plant Quarantine Service (NPQS)</a>
+                    , and the treatment code HT — confirming the pallet has been heat treated to the required standard.
                   </p>
                   <p>
                     CeyPall (Pvt) Ltd is a registered ISPM 15 heat treatment provider in Sri Lanka, operating from our facility in Kochchikade. Every pallet we produce is heat treated in our on-site kiln and stamped with our IPPC mark before leaving the factory.

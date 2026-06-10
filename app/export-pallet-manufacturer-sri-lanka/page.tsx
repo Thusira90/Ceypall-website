@@ -404,9 +404,9 @@ export default function ExportPalletManufacturerPage() {
                 <span className="block w-10 h-0.5 bg-accent mt-4 mb-5" />
                 <p className="font-body text-base text-cream/80 leading-relaxed mb-8">
                   CeyPall (Pvt) Ltd manufactures{' '}
-                  <Link href="/ispm15-pallets-sri-lanka" className="text-accent/90 hover:text-accent underline underline-offset-2 transition-colors">
+                  <a href="https://www.ippc.int/en/publications/2348/" target="_blank" rel="noopener noreferrer" className="text-accent/90 hover:text-accent underline underline-offset-2 transition-colors">
                     ISPM 15
-                  </Link>{' '}
+                  </a>{' '}
                   certified, IPPC-stamped wooden pallets for Sri Lankan exporters.{' '}
                   <Link href="/heat-treated-pallets" className="text-accent/90 hover:text-accent underline underline-offset-2 transition-colors">
                     Heat treated
@@ -550,7 +550,9 @@ export default function ExportPalletManufacturerPage() {
                 Without a valid IPPC stamp, wooden pallets will be rejected at the destination port. Customs authorities in the EU, United States, Japan, Australia, India, China and all major trading nations actively inspect wood packaging on arrival.
               </p>
               <p>
-                CeyPall is registered with Sri Lanka&apos;s National Plant Quarantine Service (NPQS) as an approved ISPM 15 treatment provider. Every pallet we manufacture meets all three requirements — debarked,{' '}
+                CeyPall is registered with Sri Lanka&apos;s{' '}
+                <a href="https://www.npqs.gov.lk" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">National Plant Quarantine Service (NPQS)</a>{' '}
+                as an approved ISPM 15 treatment provider. Every pallet we manufacture meets all three requirements — debarked,{' '}
                 <Link href="/heat-treated-pallets" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
                   heat treated
                 </Link>{' '}

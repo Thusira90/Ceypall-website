@@ -118,6 +118,11 @@ export default function BlogPostPage({ params }: Props) {
           <FadeUp>
             <div className="max-w-2xl">
               {paragraphs.map((line, i) => {
+                if (line.startsWith('<')) {
+                  return (
+                    <div key={i} dangerouslySetInnerHTML={{ __html: line }} />
+                  )
+                }
                 if (line.startsWith('### ')) {
                   return (
                     <h3 key={i} className="font-display text-lg font-semibold text-primary mt-10 mb-3">
