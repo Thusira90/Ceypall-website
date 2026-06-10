@@ -139,6 +139,64 @@ const breadcrumbJsonLd = {
   ],
 }
 
+const howToJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How CeyPall Manufactures Export-Ready Wooden Pallets',
+  description:
+    'The complete manufacturing and heat treatment process at CeyPall (Pvt) Ltd in Kochchikade, Sri Lanka — from raw timber sourcing to IPPC-stamped, ISPM 15-certified export pallet delivery.',
+  totalTime: 'P1D',
+  supply: [
+    { '@type': 'HowToSupply', name: 'Locally sourced rubber wood (Hevea brasiliensis)' },
+    { '@type': 'HowToSupply', name: 'Lunumidella or other approved timber species' },
+  ],
+  tool: [
+    { '@type': 'HowToTool', name: 'Production debarking and cutting machinery' },
+    { '@type': 'HowToTool', name: 'Pneumatic nailing equipment' },
+    { '@type': 'HowToTool', name: 'On-site heat treatment kiln' },
+    { '@type': 'HowToTool', name: 'Core temperature monitoring probes' },
+    { '@type': 'HowToTool', name: 'NPQS-registered IPPC stamp' },
+  ],
+  step: [
+    {
+      '@type': 'HowToStep',
+      position: 1,
+      name: 'Timber sourcing',
+      text: 'Rubber wood and other approved timber species are sourced from local suppliers and inspected for quality, moisture content and structural integrity before use.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 2,
+      name: 'Debarking and cutting',
+      text: 'Timber is debarked and precision-cut to required dimensions. Debarking is a mandatory ISPM 15 pre-treatment requirement.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 3,
+      name: 'Pallet assembly',
+      text: 'Pallets are assembled to specification — standard sizes or custom dimensions. Deck boards, stringers and blocks are secured using pneumatic nailing equipment to ensure structural consistency.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 4,
+      name: 'Heat treatment',
+      text: 'Assembled pallets are loaded into the on-site heat treatment kiln. Core temperature probes monitor the wood temperature to ensure it reaches a minimum of 56°C and is maintained for at least 30 continuous minutes. Treatment data is logged for every batch.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 5,
+      name: 'IPPC stamping',
+      text: "Every treated pallet is stamped with CeyPall's official IPPC mark — the IPPC logo, country code LK, the NPQS registration number, and the HT treatment code. This stamp is the internationally recognised proof of ISPM 15 compliance.",
+    },
+    {
+      '@type': 'HowToStep',
+      position: 6,
+      name: 'Quality check and dispatch',
+      text: 'Finished pallets are inspected for structural integrity, stamp clarity and dimensional accuracy. Treatment certificates and compliance documentation are prepared and dispatched with every consignment.',
+    },
+  ],
+}
+
 // ── Page data ──────────────────────────────────────────────────────────────
 
 const complianceRequirements = [
@@ -308,6 +366,7 @@ export default function ExportPalletManufacturerPage() {
       <SchemaScript schema={productJsonLd} />
       <SchemaScript schema={faqJsonLd} />
       <SchemaScript schema={breadcrumbJsonLd} />
+      <SchemaScript schema={howToJsonLd} />
 
       {/* ── Breadcrumb ──────────────────────────────────────────────────── */}
       <nav aria-label="Breadcrumb" className="bg-cream border-b border-warm-gray">
