@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
+import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
   title: 'Export Pallet Manufacturer Sri Lanka | ISPM 15 Certified',
@@ -61,7 +62,7 @@ const faqJsonLd = {
       name: 'Do I need ISPM 15 pallets to export from Sri Lanka?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Any wooden packaging material used in international trade must comply with ISPM 15. This applies to all of Sri Lanka\'s export destinations including the EU, United States, United Kingdom, Japan, Australia, India, China, Middle East and all other IPPC member countries. Non-compliant pallets will be rejected at customs.',
+        text: "Yes. Any wooden packaging material used in international trade must comply with ISPM 15. This applies to all of Sri Lanka's export destinations including the EU, United States, United Kingdom, Japan, Australia, India, China, Middle East and all other IPPC member countries. Non-compliant pallets will be rejected at customs.",
       },
     },
     {
@@ -69,7 +70,7 @@ const faqJsonLd = {
       name: 'What is the IPPC stamp on an export pallet?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'The IPPC stamp is the official mark that confirms a pallet has been treated in compliance with ISPM 15. It includes the IPPC logo, the country code (LK for Sri Lanka), the registered treatment provider\'s number, and the treatment code (HT for heat treatment). Customs authorities worldwide are trained to inspect this mark.',
+        text: 'The IPPC stamp is the official mark confirming a pallet has been treated in compliance with ISPM 15. It includes the IPPC logo, the country code (LK for Sri Lanka), the registered treatment provider\'s number, and the treatment code (HT for heat treatment). Customs authorities worldwide are trained to inspect this mark.',
       },
     },
     {
@@ -77,47 +78,47 @@ const faqJsonLd = {
       name: 'Can CeyPall supply pallets for specific container sizes?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. CeyPall manufactures pallets in all standard international sizes and custom dimensions. Provide your container type (20ft, 40ft, 40ft HC) and cargo dimensions, and CeyPall will recommend the optimal pallet configuration for maximum container utilisation.',
+        text: 'Yes. CeyPall manufactures pallets in all standard international sizes and custom dimensions. Provide your container type (20ft, 40ft, 40ft HC) and cargo dimensions and CeyPall will recommend the optimal pallet configuration for maximum container utilisation.',
       },
     },
     {
       '@type': 'Question',
-      name: 'What wood species does CeyPall use?',
+      name: 'What wood species does CeyPall use for export pallets?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'CeyPall primarily uses rubber wood (Hevea brasiliensis), which is widely available in Sri Lanka and approved for ISPM 15 treatment. Other timber species are available on request depending on load requirements and customer specifications.',
+        text: 'CeyPall primarily uses rubber wood (Hevea brasiliensis), which is locally available in Sri Lanka and approved for ISPM 15 treatment. Other timber species including Lunumidella are available on request depending on load requirements and customer specifications.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Does CeyPall deliver to my factory?',
+      name: 'Does CeyPall deliver export pallets island-wide in Sri Lanka?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'CeyPall delivers island-wide to factories, EPZs, warehouses, freight forwarding companies and ports across Sri Lanka. Delivery coverage includes Colombo, Katunayake, Biyagama, Horana, Seethawaka, Koggala, Kandy and all major industrial areas.',
+        text: 'Yes. CeyPall delivers island-wide to factories, EPZs, warehouses, freight forwarding companies and ports across Sri Lanka. Delivery coverage includes Colombo Port, Katunayake FTZ, Biyagama EPZ, Horana, Seethawaka, Koggala EPZ, Kandy and all major industrial areas. Standard lead time is 3–5 working days.',
       },
     },
     {
       '@type': 'Question',
-      name: 'What documentation does CeyPall provide?',
+      name: 'What documentation does CeyPall provide with export pallets?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Every consignment includes heat treatment certificates, IPPC compliance letters, batch treatment records and any additional documentation your freight forwarder or buyer requires for customs clearance.',
+        text: 'Every consignment includes heat treatment certificates, IPPC compliance letters, batch treatment records and any additional documentation your freight forwarder or buyer requires for customs clearance at the destination port.',
       },
     },
     {
       '@type': 'Question',
-      name: 'How do I request a quotation?',
+      name: 'How do I get a quotation for export pallets from CeyPall?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Contact CeyPall by phone at 071 471 1417 or through the website contact form. Provide the pallet size, quantity, delivery location and any special requirements. CeyPall will respond with a quotation within one working day.',
+        text: 'Contact CeyPall by phone at +94 714 711 417 or through the website contact form at ceypall.com/contact. Provide the pallet size, quantity, delivery location and any special requirements. CeyPall will respond with a quotation within one working day.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Can CeyPall supply pallets on a recurring basis?',
+      name: 'Can CeyPall supply pallets on a recurring basis for ongoing export operations?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. CeyPall supplies many exporters on ongoing contracts with scheduled delivery. Production can be aligned with your factory shipping schedule to ensure stock availability when needed.',
+        text: 'Yes. CeyPall supplies many exporters on ongoing contracts with scheduled delivery aligned to factory shipping cycles. Production schedules can be set to ensure stock availability when needed.',
       },
     },
   ],
@@ -304,18 +305,9 @@ export default function ExportPalletManufacturerPage() {
   return (
     <>
       {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-      />
+      <SchemaScript schema={productJsonLd} />
+      <SchemaScript schema={faqJsonLd} />
+      <SchemaScript schema={breadcrumbJsonLd} />
 
       {/* ── Breadcrumb ──────────────────────────────────────────────────── */}
       <nav aria-label="Breadcrumb" className="bg-cream border-b border-warm-gray">

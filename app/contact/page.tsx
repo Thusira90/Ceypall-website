@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { FadeUp } from '@/components/ui/FadeUp'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { ContactForm } from '@/components/contact/ContactForm'
+import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
   title: 'Contact — Get a Quote',
@@ -97,10 +98,7 @@ export default function ContactPage() {
   return (
     <>
       {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
-      />
+      <SchemaScript schema={localBusinessJsonLd} />
 
       {/* Header */}
       <section className="wood-texture section-padding">

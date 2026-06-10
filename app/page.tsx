@@ -5,6 +5,7 @@ import { WhyCeyPall } from '@/components/home/WhyCeyPall'
 import { ProductsOverview } from '@/components/home/ProductsOverview'
 import { ClientsStrip } from '@/components/home/ClientsStrip'
 import { QuoteCTA } from '@/components/home/QuoteCTA'
+import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
   title: {
@@ -105,18 +106,9 @@ export default function HomePage() {
   return (
     <>
       {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteJsonLd) }}
-      />
+      <SchemaScript schema={organizationJsonLd} />
+      <SchemaScript schema={localBusinessJsonLd} />
+      <SchemaScript schema={webSiteJsonLd} />
 
       <Hero />
       <TrustBar />

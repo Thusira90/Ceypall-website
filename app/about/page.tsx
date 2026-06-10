@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { FadeUp } from '@/components/ui/FadeUp'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
+import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
   title: 'About — Our Story & Certifications',
@@ -61,10 +62,7 @@ export default function AboutPage() {
   return (
     <>
       {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutPageJsonLd) }}
-      />
+      <SchemaScript schema={aboutPageJsonLd} />
 
       {/* Header */}
       <section className="wood-texture section-padding">

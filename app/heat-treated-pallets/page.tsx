@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
+import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
   title: 'Heat Treated Pallets Sri Lanka | ISPM 15 Certified',
@@ -80,7 +81,7 @@ const faqJsonLd = {
       name: 'Do heat treated pallets need to be re-treated over time?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'No. The heat treatment lasts for the lifetime of the pallet. However, if any part of the pallet is repaired or a component is replaced, the entire pallet must be re-treated and re-stamped with a new IPPC mark.',
+        text: 'No. Heat treatment lasts for the lifetime of the pallet. However, if any part of the pallet is repaired or a component is replaced, the entire pallet must be re-treated and re-stamped with a new IPPC mark.',
       },
     },
     {
@@ -96,7 +97,7 @@ const faqJsonLd = {
       name: 'Can heat treated pallets be used for food export?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Because heat treatment uses no chemicals, heat treated pallets are suitable for direct and indirect food-contact applications. This makes them appropriate for tea, spice, coconut product and other food export from Sri Lanka.',
+        text: 'Yes. Because heat treatment uses no chemicals, heat treated pallets are suitable for direct and indirect food-contact applications. This makes them appropriate for tea, spice, coconut product and other food exports from Sri Lanka.',
       },
     },
     {
@@ -104,12 +105,12 @@ const faqJsonLd = {
       name: 'What happens if I export goods on a pallet without an IPPC stamp?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'The shipment may be stopped at the destination port. Customs authorities can quarantine the goods, fumigate the packaging at the exporter\'s expense, or reject the shipment entirely. Non-compliance can also result in fines and damage your reputation with importing buyers.',
+        text: "The shipment may be stopped at the destination port. Customs authorities can quarantine the goods, fumigate the packaging at the exporter's expense, or reject the shipment entirely. Non-compliance can also result in fines and damage your reputation with importing buyers.",
       },
     },
     {
       '@type': 'Question',
-      name: 'Does CeyPall provide treatment certificates?',
+      name: 'Does CeyPall provide heat treatment certificates with every order?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Yes. CeyPall provides full treatment documentation including heat treatment certificates, batch treatment records and IPPC compliance letters for every order.',
@@ -128,7 +129,7 @@ const faqJsonLd = {
       name: 'How quickly can CeyPall deliver heat treated pallets?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Lead times depend on order volume and specification. For standard sizes, CeyPall typically delivers within 3–5 working days.',
+        text: 'For standard sizes, CeyPall typically delivers within 3–5 working days from the Kochchikade facility. Contact CeyPall for a specific timeline based on your order volume and requirements.',
       },
     },
   ],
@@ -355,22 +356,10 @@ export default function HeatTreatedPalletsPage() {
   return (
     <>
       {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
-      />
+      <SchemaScript schema={productJsonLd} />
+      <SchemaScript schema={faqJsonLd} />
+      <SchemaScript schema={breadcrumbJsonLd} />
+      <SchemaScript schema={howToJsonLd} />
 
       {/* ── Breadcrumb ──────────────────────────────────────────────────── */}
       <nav aria-label="Breadcrumb" className="bg-cream border-b border-warm-gray">
