@@ -7,6 +7,43 @@ export const metadata: Metadata = {
   title: 'About — Our Story & Certifications',
   description:
     "Learn about CeyPall — Sri Lanka's dedicated ISPM 15-certified wooden pallet manufacturer, with timber expertise dating to 1955 and pallet manufacturing since 2005. IPPC registered. Supplying island-wide.",
+  openGraph: {
+    url: '/about',
+  },
+}
+
+const aboutPageJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  '@id': 'https://www.ceypall.com/about#webpage',
+  name: 'About CeyPall — Our Story & Certifications',
+  url: 'https://www.ceypall.com/about',
+  description:
+    "Learn about CeyPall — Sri Lanka's dedicated ISPM 15-certified wooden pallet manufacturer, with timber expertise dating to 1955 and pallet manufacturing since 2005.",
+  publisher: {
+    '@type': 'Organization',
+    '@id': 'https://www.ceypall.com/#organization',
+    name: 'CeyPall (Pvt) Ltd',
+    url: 'https://www.ceypall.com',
+  },
+  about: {
+    '@type': 'Organization',
+    name: 'CeyPall (Pvt) Ltd',
+    foundingDate: '2005',
+    description: "Sri Lanka's dedicated ISPM 15-certified wooden pallet manufacturer.",
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '1088 Colombo Road',
+      addressLocality: 'Kochchikade',
+      postalCode: '11540',
+      addressCountry: 'LK',
+    },
+    sameAs: [
+      'https://www.facebook.com/profile.php?id=61587265021762',
+      'https://www.instagram.com/ceypall/',
+      'https://www.linkedin.com/company/ceypall-pvt-ltd/',
+    ],
+  },
 }
 
 const whyItems = [
@@ -23,6 +60,12 @@ const whyItems = [
 export default function AboutPage() {
   return (
     <>
+      {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutPageJsonLd) }}
+      />
+
       {/* Header */}
       <section className="wood-texture section-padding">
         <div className="container-content">

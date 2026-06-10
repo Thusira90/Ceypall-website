@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Products — Wooden Pallets for Export & Storage',
   description:
     'CeyPall manufactures heat-treated ISPM 15 pallets for export and vacuum pressure impregnated pallets for long-term storage. All standard sizes and custom dimensions available.',
+  openGraph: {
+    url: '/products',
+  },
 }
 
 const exportFeatures = [

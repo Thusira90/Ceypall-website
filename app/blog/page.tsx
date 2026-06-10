@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Blog — ISPM 15 & Export Pallet Guides',
   description:
     'Expert guides on ISPM 15, wooden pallets, and export packaging for Sri Lankan exporters and manufacturers.',
+  openGraph: {
+    url: '/blog',
+  },
 }
 
 export default function BlogPage() {

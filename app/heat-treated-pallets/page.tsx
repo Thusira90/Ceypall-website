@@ -6,7 +6,7 @@ import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 
 export const metadata: Metadata = {
-  title: 'Heat Treated Pallets Sri Lanka | ISPM 15 Certified | CeyPall',
+  title: 'Heat Treated Pallets Sri Lanka | ISPM 15 Certified',
   description:
     'ISPM 15 certified heat treated wooden pallets from CeyPall, Sri Lanka. IPPC-stamped, export-ready pallets with island-wide delivery. Custom sizes for tea, apparel, rubber and coconut exporters.',
   alternates: {
@@ -145,6 +145,52 @@ const breadcrumbJsonLd = {
       position: 3,
       name: 'Heat Treated Pallets',
       item: 'https://www.ceypall.com/heat-treated-pallets',
+    },
+  ],
+}
+
+const howToJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How ISPM 15 Heat Treatment Is Applied to Export Pallets',
+  description:
+    'The certified heat treatment process used by CeyPall to produce ISPM 15-compliant, IPPC-stamped wooden pallets for export.',
+  step: [
+    {
+      '@type': 'HowToStep',
+      position: 1,
+      name: 'Timber Selection and Preparation',
+      text: 'We source rubber wood and other approved timber species. All timber is debarked and cut to the required dimensions before treatment. Debarking is a mandatory pre-treatment requirement under ISPM 15, as bark can harbour pests even after heat treatment.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 2,
+      name: 'Kiln Loading',
+      text: 'Pallets or pallet components are loaded into our heat treatment kiln. Temperature probes are placed at the core of the thickest wood sections to ensure accurate monitoring throughout the process.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 3,
+      name: 'Heating Phase',
+      text: 'The kiln temperature is raised until the core temperature of the wood reaches a minimum of 56°C. This is the critical threshold established by the IPPC as effective for eliminating quarantine-significant pests at all life stages — eggs, larvae, pupae and adults.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 4,
+      name: 'Holding Phase',
+      text: 'Once the 56°C core temperature is achieved, it is maintained for a minimum of 30 continuous minutes. Our standard treatment cycle exceeds this minimum to provide additional assurance, particularly for thicker timber sections.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 5,
+      name: 'Cooling and Inspection',
+      text: 'After the holding phase, the kiln is opened and pallets are allowed to cool. Each batch is inspected and treatment records are logged, including time-temperature data from the core probes.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 6,
+      name: 'IPPC Stamping',
+      text: 'Every compliant pallet is stamped with our IPPC mark: the IPPC wheat sheaf logo, country code LK (Sri Lanka), our producer registration number (assigned by the NPQS), and the treatment code HT.',
     },
   ],
 }
@@ -320,6 +366,10 @@ export default function HeatTreatedPalletsPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
       />
 
       {/* ── Breadcrumb ──────────────────────────────────────────────────── */}
