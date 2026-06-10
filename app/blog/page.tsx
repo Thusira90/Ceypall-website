@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { getAllBlogPosts } from '@/lib/blog'
 import { FadeUp } from '@/components/ui/FadeUp'
 import { SectionHeader } from '@/components/ui/SectionHeader'
+import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
   title: 'Blog — ISPM 15 & Export Pallet Guides',
@@ -13,11 +14,23 @@ export const metadata: Metadata = {
   },
 }
 
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ceypall.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.ceypall.com/blog' },
+  ],
+}
+
 export default function BlogPage() {
   const posts = getAllBlogPosts()
 
   return (
     <>
+      {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
+      <SchemaScript schema={breadcrumbJsonLd} />
+
       {/* Header */}
       <section className="wood-texture section-padding">
         <div className="container-content">

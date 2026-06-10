@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { GeoLandingPage } from '@/components/geo/GeoLandingPage'
+import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
   title: 'ISPM 15 Wooden Pallets — Colombo Port & Western Province',
@@ -65,13 +66,20 @@ const jsonLd = {
   },
 }
 
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ceypall.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Wooden Pallets Colombo', item: 'https://www.ceypall.com/wooden-pallets-colombo' },
+  ],
+}
+
 export default function ColomboPage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <SchemaScript schema={jsonLd} />
+      <SchemaScript schema={breadcrumbJsonLd} />
       <GeoLandingPage
         city="Colombo"
         eyebrow="Colombo Port & Western Province"

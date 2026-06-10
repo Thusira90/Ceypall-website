@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
 import { SectionHeader } from '@/components/ui/SectionHeader'
+import { SchemaScript } from '@/components/ui/SchemaScript'
 import { Button } from '@/components/ui/Button'
 
 export const metadata: Metadata = {
@@ -38,9 +39,21 @@ const sizes = [
   { dimensions: 'Custom', standard: 'Available on request' },
 ]
 
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ceypall.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://www.ceypall.com/products' },
+  ],
+}
+
 export default function ProductsPage() {
   return (
     <>
+      {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
+      <SchemaScript schema={breadcrumbJsonLd} />
+
       {/* Page header */}
       <section className="wood-texture section-padding">
         <div className="container-content">

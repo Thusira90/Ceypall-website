@@ -94,11 +94,21 @@ const localBusinessJsonLd = {
   hasMap: 'https://maps.google.com/?q=1088+Colombo+Road+Kochchikade+Sri+Lanka',
 }
 
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ceypall.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://www.ceypall.com/contact' },
+  ],
+}
+
 export default function ContactPage() {
   return (
     <>
       {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
       <SchemaScript schema={localBusinessJsonLd} />
+      <SchemaScript schema={breadcrumbJsonLd} />
 
       {/* Header */}
       <section className="wood-texture section-padding">

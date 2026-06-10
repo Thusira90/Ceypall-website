@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
+import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
   title: 'How It Works — Our Pallet Manufacturing Process',
@@ -87,9 +88,21 @@ const steps = [
   },
 ]
 
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ceypall.com/' },
+    { '@type': 'ListItem', position: 2, name: 'How It Works', item: 'https://www.ceypall.com/how-it-works' },
+  ],
+}
+
 export default function HowItWorksPage() {
   return (
     <>
+      {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
+      <SchemaScript schema={breadcrumbJsonLd} />
+
       {/* Header */}
       <section className="wood-texture section-padding">
         <div className="container-content">

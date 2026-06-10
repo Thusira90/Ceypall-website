@@ -58,11 +58,21 @@ const whyItems = [
   { label: 'Trusted by 40+ companies' },
 ]
 
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ceypall.com/' },
+    { '@type': 'ListItem', position: 2, name: 'About', item: 'https://www.ceypall.com/about' },
+  ],
+}
+
 export default function AboutPage() {
   return (
     <>
       {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
       <SchemaScript schema={aboutPageJsonLd} />
+      <SchemaScript schema={breadcrumbJsonLd} />
 
       {/* Header */}
       <section className="wood-texture section-padding">
