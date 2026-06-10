@@ -14,6 +14,8 @@ export const blogPosts: BlogPost[] = [
     description:
       "If you export goods from Sri Lanka, you've likely come across the term ISPM 15. But what does it actually mean — and why can your shipment be rejected at the border without it?",
     content: `
+ISPM 15 is the international standard that requires all wooden packaging materials used in cross-border trade — including pallets — to be heat treated and stamped with an IPPC mark. Without it, your shipment can be rejected at the destination port.
+
 If you export goods from Sri Lanka, you've likely come across the term ISPM 15. But what does it actually mean — and why can your shipment be rejected at the border without it?
 
 ## What is ISPM 15?
@@ -89,6 +91,8 @@ Using a certified pallet manufacturer from the start is far cheaper than dealing
     description:
       "A rejected shipment at a foreign port is costly and entirely avoidable. Here's why IPPC certification matters for every Sri Lankan exporter.",
     content: `
+Sri Lankan exporters need IPPC-certified pallets because every major export destination — the EU, US, UK, Australia, Japan, China and the Middle East — enforces ISPM 15 at customs. Non-compliant wooden pallets will be quarantined, fumigated at your expense, or rejected outright.
+
 Sri Lanka exports billions of dollars worth of goods every year — from tea and apparel to electronics and rubber products. But there's one thing many exporters overlook until it's too late: the pallet carrying their goods must be IPPC-certified.
 
 ## What is the IPPC?
@@ -144,6 +148,8 @@ CeyPall (Pvt) Ltd is officially registered with the National Plant Quarantine Se
     description:
       "Not all pallets are the same size — and using the wrong dimensions can cause problems at the port, in the container, or at the destination warehouse. Here's a complete guide to standard pallet sizes used in international trade.",
     content: `
+The most common export pallet size used by Sri Lankan exporters is 1200×1000mm, followed by 1200×800mm for European markets and 1100×1100mm for Asian and Australian destinations. Using the wrong size wastes container space and can cause loading problems at the destination warehouse.
+
 Choosing the right pallet size is more important than most exporters realise. The wrong dimensions can mean wasted container space, rejected shipments, or pallets that don't fit the destination warehouse's racking system. Here's everything you need to know about standard pallet sizes used in international trade — and which one is right for your cargo.
 
 ## Why Pallet Size Matters
@@ -202,6 +208,8 @@ CeyPall manufactures all standard international pallet sizes — and custom dime
     description:
       "ISPM 15 allows two treatment methods for wooden pallets: heat treatment and methyl bromide fumigation. But one of them is being banned worldwide. Here's what every Sri Lankan exporter needs to know.",
     content: `
+Heat treatment is the preferred ISPM 15 method worldwide — it leaves no chemical residue, is accepted in all 195 IPPC member countries, and its effectiveness lasts the lifetime of the pallet. Methyl bromide fumigation is being phased out globally under the Montreal Protocol and is already banned in several countries.
+
 When sourcing ISPM 15-certified pallets, there are two approved treatment methods: heat treatment (HT) and methyl bromide fumigation (MB). On paper, both satisfy the ISPM 15 standard — but in practice, only one is accepted in all major export markets. Here's what you need to know before your next shipment.
 
 ## The Two ISPM 15 Treatment Methods
@@ -258,6 +266,8 @@ When in doubt, choose HT. It's safer, cleaner, and accepted everywhere.
     description:
       "The IPPC stamp on a wooden pallet contains several pieces of information — but many exporters don't know how to read it. Here's exactly what each part of the mark means.",
     content: `
+The IPPC stamp on a wooden pallet contains four pieces of information: the IPPC wheat sheaf logo, the two-letter country code (LK for Sri Lanka), the treatment provider's registration number assigned by the national plant protection authority, and the treatment code (HT for heat treatment). Customs officers worldwide are trained to verify each component.
+
 Every ISPM 15-compliant wooden pallet carries an IPPC mark — a stamp burned, branded, or ink-marked directly into the wood. But what does each part of the mark actually mean? And how do you know if a stamp is genuine? Here's a complete guide.
 
 ## Why the IPPC Stamp Matters
@@ -318,6 +328,8 @@ If a customer or customs authority ever needs to verify our registration, we can
     description:
       "CeyPall offers two types of treated wooden pallets — heat-treated for export and vacuum pressure impregnated for long-term storage. Here's how to choose the right one for your application.",
     content: `
+Heat-treated pallets are required for international export — they carry the IPPC stamp and meet ISPM 15 phytosanitary standards. Vacuum pressure impregnated pallets are for long-term warehouse and racking use — they are not ISPM 15 certified but carry a warranty of up to 6 years against pest contamination.
+
 Not all treated pallets are the same. CeyPall manufactures two distinct types: heat-treated pallets designed for international export, and vacuum pressure impregnated (VPI) pallets designed for long-term warehouse and storage use. Choosing the right type can save you money and protect your goods. Here's how they compare.
 
 ## Heat-Treated Pallets (ISPM 15 Export Pallets)
@@ -396,6 +408,8 @@ If you need both — some companies export goods on heat-treated pallets and sto
     description:
       "Customs rejections are costly and damaging to buyer relationships. Many are caused by pallet compliance issues that are entirely avoidable. Here are the five most common pallet-related reasons Sri Lankan shipments get stopped at foreign ports.",
     content: `
+The five most common pallet-related reasons Sri Lankan export shipments get rejected at customs are: missing or invalid IPPC stamp, damaged or repaired pallets that were not re-treated, bark remaining on the timber, using a non-registered treatment provider, and pallet components replaced after treatment without re-stamping.
+
 A customs rejection at a foreign port can mean days of delays, significant unexpected costs, and damage to your relationship with the buyer. Many rejections that Sri Lankan exporters face are caused not by the goods themselves, but by the pallets carrying them. Here are the five most common pallet-related reasons — and how to avoid every one of them.
 
 ## 1. No IPPC Stamp on the Pallet
@@ -448,6 +462,8 @@ Every pallet manufactured by CeyPall is produced under our NPQS-certified heat t
     description:
       "Not every pallet manufacturer in Sri Lanka is IPPC-registered or capable of producing ISPM 15-compliant export pallets. Here's what to look for — and the questions you should ask before placing an order.",
     content: `
+The most important thing to check when choosing a pallet supplier in Sri Lanka is whether they are registered with the National Plant Quarantine Service (NPQS) as an approved ISPM 15 heat treatment provider. Only NPQS-registered suppliers can legally issue IPPC-stamped pallets accepted at international ports.
+
 With export volumes growing and compliance standards tightening, choosing the right pallet supplier in Sri Lanka is more important than ever. A wrong choice can lead to rejected shipments, delays, and unexpected costs. Here's a practical guide to evaluating suppliers and making the right decision.
 
 ## The Most Important Factor: NPQS Registration
@@ -522,6 +538,8 @@ CeyPall (Pvt) Ltd has been manufacturing ISPM 15-certified wooden pallets since 
     description:
       "Sri Lanka is the world's fourth-largest tea exporter. If you export Ceylon tea, your pallets must meet strict ISPM 15 requirements. Here's what tea exporters need to know about pallet compliance.",
     content: `
+Wooden pallets used for Ceylon tea export must be ISPM 15 certified with a valid IPPC stamp — this applies to every destination market Sri Lanka exports tea to, including Iraq, Russia, Turkey, Iran, the UAE, Japan and all EU countries. Non-compliant pallets risk quarantine or rejection of the entire tea consignment.
+
 Sri Lanka is the world's fourth-largest tea exporter, shipping hundreds of millions of kilograms of Ceylon tea to markets across Europe, the Middle East, Russia, China, and beyond. For tea exporters, pallet compliance is not optional — it is a condition of market entry in almost every destination.
 
 ## Why Tea Exporters Need ISPM 15 Pallets
@@ -578,6 +596,8 @@ To discuss your pallet requirements for tea export, contact CeyPall directly. We
     description:
       "The European Union has some of the strictest wooden packaging requirements in the world. Here's exactly what Sri Lankan exporters need to ensure their pallets are EU-compliant before a shipment leaves.",
     content: `
+To export goods to the European Union from Sri Lanka, all wooden pallets must be ISPM 15 compliant — heat treated to 56°C core temperature for a minimum of 30 minutes and stamped with a valid IPPC mark. The EU enforces this at every port of entry with no exceptions.
+
 The European Union is Sri Lanka's largest export market for goods including tea, apparel, rubber products, and spices. It also has some of the strictest biosecurity requirements for wooden packaging in the world. Here's exactly what Sri Lankan exporters need to know to ensure their pallets pass EU customs without issues.
 
 ## The EU's ISPM 15 Requirements
