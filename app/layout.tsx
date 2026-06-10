@@ -126,45 +126,6 @@ export default function RootLayout({
         },
         areaServed: { '@type': 'Country', name: 'Sri Lanka' },
         foundingDate: '2005',
-        hasOfferCatalog: {
-          '@type': 'OfferCatalog',
-          name: 'Wooden Pallets',
-          itemListElement: [
-            {
-              '@type': 'Offer',
-              itemOffered: {
-                '@type': 'Service',
-                name: 'Heat-Treated ISPM 15 Pallets',
-                description: 'ISPM 15-compliant heat-treated wooden pallets with IPPC stamp and treatment certificate. Core heated to 56°C for 30 minutes minimum.',
-                image: 'https://www.ceypall.com/hero.jpg',
-                brand: { '@type': 'Brand', name: 'CeyPall' },
-                offers: { '@type': 'Offer', availability: 'https://schema.org/InStock', url: 'https://www.ceypall.com/products', seller: { '@type': 'Organization', name: 'CeyPall (Pvt) Ltd' } },
-              },
-            },
-            {
-              '@type': 'Offer',
-              itemOffered: {
-                '@type': 'Service',
-                name: 'Vacuum Pressure Impregnated Pallets',
-                description: 'Long-term warehouse pallets treated with Boron Borax under vacuum pressure. Up to 10 bar. 6-year warranty against pest contamination.',
-                image: 'https://www.ceypall.com/hero.jpg',
-                brand: { '@type': 'Brand', name: 'CeyPall' },
-                offers: { '@type': 'Offer', availability: 'https://schema.org/InStock', url: 'https://www.ceypall.com/products', seller: { '@type': 'Organization', name: 'CeyPall (Pvt) Ltd' } },
-              },
-            },
-            {
-              '@type': 'Offer',
-              itemOffered: {
-                '@type': 'Service',
-                name: 'Custom Size Pallets',
-                description: 'Custom wooden pallets manufactured to exact specifications with ISPM 15 heat treatment.',
-                image: 'https://www.ceypall.com/hero.jpg',
-                brand: { '@type': 'Brand', name: 'CeyPall' },
-                offers: { '@type': 'Offer', availability: 'https://schema.org/InStock', url: 'https://www.ceypall.com/products', seller: { '@type': 'Organization', name: 'CeyPall (Pvt) Ltd' } },
-              },
-            },
-          ],
-        },
       },
     ],
   }
