@@ -23,35 +23,6 @@ export const metadata: Metadata = {
 
 // ── Structured data ────────────────────────────────────────────────────────
 
-const productJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Product',
-  name: 'Export Wooden Pallets',
-  description:
-    'ISPM 15 certified export wooden pallets manufactured by CeyPall (Pvt) Ltd in Sri Lanka. Heat treated, IPPC-stamped, custom sizes with island-wide delivery.',
-  brand: { '@type': 'Brand', name: 'CeyPall' },
-  manufacturer: {
-    '@type': 'Organization',
-    name: 'CeyPall (Pvt) Ltd',
-    url: 'https://www.ceypall.com',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: '1088 Colombo Road',
-      addressLocality: 'Daluwakotuwa',
-      postalCode: '11540',
-      addressCountry: 'LK',
-    },
-    telephone: '+94714711417',
-  },
-  category: 'Export Pallets',
-  material: 'Wood',
-  additionalProperty: [
-    { '@type': 'PropertyValue', name: 'Certification', value: 'ISPM 15' },
-    { '@type': 'PropertyValue', name: 'Treatment Method', value: 'Heat Treatment (HT)' },
-    { '@type': 'PropertyValue', name: 'IPPC Stamped', value: 'Yes' },
-    { '@type': 'PropertyValue', name: 'Delivery Coverage', value: 'Island-wide across Sri Lanka' },
-  ],
-}
 
 const faqJsonLd = {
   '@context': 'https://schema.org',
@@ -363,7 +334,6 @@ export default function ExportPalletManufacturerPage() {
   return (
     <>
       {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
-      <SchemaScript schema={productJsonLd} />
       <SchemaScript schema={faqJsonLd} />
       <SchemaScript schema={breadcrumbJsonLd} />
       <SchemaScript schema={howToJsonLd} />
@@ -747,10 +717,6 @@ export default function ExportPalletManufacturerPage() {
                     {
                       label: 'Facility location',
                       value: '1088 Colombo Road, Daluwakotuwa, Kochchikade — 11540',
-                    },
-                    {
-                      label: 'Standard lead time',
-                      value: '3–5 working days for standard sizes',
                     },
                     {
                       label: 'Large order scheduling',
