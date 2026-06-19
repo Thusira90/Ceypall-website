@@ -9,10 +9,13 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'CeyPall (Pvt) Ltd — ISPM 15 Certified Wooden Pallets | Sri Lanka',
+    absolute: 'ISPM 15 Wooden Pallet Manufacturer Sri Lanka | CeyPall',
   },
   description:
     'Heat-treated, IPPC-stamped wooden pallets for Sri Lankan exporters. Custom sizes, island-wide delivery, ISPM 15 compliant. CeyPall (Pvt) Ltd.',
+  alternates: {
+    canonical: 'https://www.ceypall.com',
+  },
   openGraph: {
     url: '/',
   },
