@@ -8,8 +8,12 @@ export const metadata: Metadata = {
   title: 'ISPM 15 Wooden Pallets — Negombo & Wattala',
   description:
     'CeyPall delivers heat-treated, ISPM 15-certified wooden pallets to Negombo and the Wattala region. Export pallets and storage pallets manufactured in Kochchikade, just 20 km away.',
+  twitter: {
+    description:
+      'CeyPall delivers heat-treated, ISPM 15-certified wooden pallets to Negombo and the Wattala region. Export pallets and storage pallets manufactured in Kochchikade, just 20 km away.',
+  },
   openGraph: {
-    title: 'ISPM 15 Wooden Pallets — Negombo & Wattala | CeyPall',
+    title: 'ISPM 15 Wooden Pallets — Negombo & Wattala | CeyPall (Pvt) Ltd',
     description:
       'Heat-treated, ISPM 15-certified wooden pallets delivered to Negombo exporters and manufacturers. CeyPall (Pvt) Ltd — Kochchikade, Sri Lanka.',
     url: 'https://www.ceypall.com/wooden-pallets-negombo',

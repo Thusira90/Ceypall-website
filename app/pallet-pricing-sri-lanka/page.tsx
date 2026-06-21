@@ -5,11 +5,15 @@ import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'Wooden Pallet Pricing in Sri Lanka — What Determines the Cost | CeyPall',
+  title: 'Wooden Pallet Pricing in Sri Lanka — What Determines the Cost',
   description:
     'The price of wooden pallets in Sri Lanka depends on several factors — wood species, dimensions, treatment type, order volume, and delivery distance. Get a quote from CeyPall for your specific requirements.',
+  twitter: {
+    description:
+      'The price of wooden pallets in Sri Lanka depends on several factors — wood species, dimensions, treatment type, order volume, and delivery distance. Get a quote from CeyPall for your specific requirements.',
+  },
   openGraph: {
-    title: 'Wooden Pallet Pricing in Sri Lanka — What Determines the Cost | CeyPall',
+    title: 'Wooden Pallet Pricing in Sri Lanka — What Determines the Cost | CeyPall (Pvt) Ltd',
     description:
       'The price of wooden pallets in Sri Lanka depends on several factors — wood species, dimensions, treatment type, order volume, and delivery distance. Get a quote from CeyPall for your specific requirements.',
     url: 'https://www.ceypall.com/pallet-pricing-sri-lanka',

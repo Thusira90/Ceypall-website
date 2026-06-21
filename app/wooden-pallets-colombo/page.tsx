@@ -8,8 +8,12 @@ export const metadata: Metadata = {
   title: 'ISPM 15 Wooden Pallets — Colombo Port & Western Province',
   description:
     'CeyPall supplies heat-treated, IPPC-stamped wooden pallets to Colombo exporters, port logistics operators, and warehouse businesses across the Western Province. ISPM 15 certified.',
+  twitter: {
+    description:
+      'CeyPall supplies heat-treated, IPPC-stamped wooden pallets to Colombo exporters, port logistics operators, and warehouse businesses across the Western Province. ISPM 15 certified.',
+  },
   openGraph: {
-    title: 'ISPM 15 Wooden Pallets — Colombo Port & Western Province | CeyPall',
+    title: 'ISPM 15 Wooden Pallets — Colombo Port & Western Province | CeyPall (Pvt) Ltd',
     description:
       'Heat-treated, ISPM 15-compliant pallets for Colombo port exporters. Volume capacity, full documentation, and reliable delivery. CeyPall (Pvt) Ltd.',
     url: 'https://www.ceypall.com/wooden-pallets-colombo',

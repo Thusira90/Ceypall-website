@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   title: 'Heat Treated Pallets Sri Lanka | ISPM 15 Certified',
   description:
     'ISPM 15 certified heat treated wooden pallets from CeyPall, Sri Lanka. IPPC-stamped, export-ready pallets with island-wide delivery. Custom sizes for tea, apparel, rubber and coconut exporters.',
+  twitter: {
+    description:
+      'ISPM 15 certified heat treated wooden pallets from CeyPall, Sri Lanka. IPPC-stamped, export-ready pallets with island-wide delivery. Custom sizes for tea, apparel, rubber and coconut exporters.',
+  },
   alternates: {
     canonical: 'https://www.ceypall.com/heat-treated-pallets',
   },
