@@ -445,7 +445,7 @@ export default function HeatTreatedPalletsPage() {
                   </p>
                   <p>
                     Heat treatment is the internationally approved method for making wooden packaging materials safe for cross-border shipment. It is governed by{' '}
-                    <Link href="/ispm15-pallets-sri-lanka" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
+                    <Link href="/heat-treated-pallets" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
                       ISPM 15
                     </Link>{' '}
                     (International Standards for Phytosanitary Measures No. 15), a regulation developed by the International Plant Protection Convention (IPPC) under the United Nations Food and Agriculture Organization.
@@ -502,7 +502,7 @@ export default function HeatTreatedPalletsPage() {
             <div className="mt-8 max-w-3xl space-y-4 font-body text-sm text-charcoal/70 leading-relaxed">
               <p>
                 Any wooden packaging material used in international trade must comply with{' '}
-                <Link href="/ispm15-pallets-sri-lanka" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
+                <Link href="/heat-treated-pallets" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
                   ISPM 15
                 </Link>
                 . This includes pallets, crates, dunnage and other solid wood packaging with a thickness greater than 6mm. The regulation exists because untreated wood can harbour invasive insects and plant diseases that threaten agriculture and forestry in the destination country.

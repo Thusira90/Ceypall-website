@@ -434,7 +434,7 @@ export default function ExportPalletManufacturerPage() {
                   </p>
                   <p>
                     Sri Lanka&apos;s export economy depends on compliant packaging. Apparel shipments to the US and EU, tea exports to the Middle East and Russia, coconut products to Europe and East Asia, and rubber goods to global industrial markets — all require wooden pallets that meet{' '}
-                    <Link href="/ispm15-pallets-sri-lanka" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
+                    <Link href="/heat-treated-pallets" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
                       ISPM 15
                     </Link>{' '}
                     international phytosanitary standards. Non-compliant pallets can result in customs rejections, fumigation charges, quarantine delays and damaged buyer relationships.
@@ -491,7 +491,7 @@ export default function ExportPalletManufacturerPage() {
             <div className="mt-2 max-w-3xl space-y-4 font-body text-sm text-charcoal/70 leading-relaxed">
               <p>
                 For a wooden pallet to be legally used in international shipping, it must meet the requirements of{' '}
-                <Link href="/ispm15-pallets-sri-lanka" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
+                <Link href="/heat-treated-pallets" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
                   ISPM 15
                 </Link>{' '}
                 — the International Standards for Phytosanitary Measures No. 15. This regulation is enforced by customs authorities worldwide. Sri Lanka, as both an exporter and importer, is a signatory to the International Plant Protection Convention (IPPC) that administers this standard.
