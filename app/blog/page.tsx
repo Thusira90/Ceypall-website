@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Blog — ISPM 15 & Export Pallet Guides',
   description:
     'Expert guides on ISPM 15, wooden pallets, and export packaging for Sri Lankan exporters and manufacturers.',
+  alternates: {
+    canonical: 'https://www.ceypall.com/blog',
+  },
   openGraph: {
     url: '/blog',
   },
@@ -36,8 +39,9 @@ export default function BlogPage() {
         <div className="container-content">
           <FadeUp>
             <SectionHeader
+              as="h1"
               eyebrow="From the blog"
-              title="Guides & insights."
+              title="Blog — ISPM 15 & Export Pallet Guides"
               subtitle="Expert articles on ISPM 15, wooden pallets, and export packaging for Sri Lankan exporters."
               light
             />

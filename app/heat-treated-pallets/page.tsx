@@ -54,8 +54,10 @@ const productJsonLd = {
   offers: {
     '@type': 'Offer',
     priceCurrency: 'LKR',
+    price: '0',
+    priceValidUntil: '2027-12-31',
     availability: 'https://schema.org/InStock',
-    url: 'https://www.ceypall.com/heat-treated-pallets',
+    url: 'https://www.ceypall.com/contact',
     seller: {
       '@type': 'Organization',
       name: 'CeyPall (Pvt) Ltd',

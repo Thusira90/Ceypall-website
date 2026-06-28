@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Clients — Companies We Supply',
   description:
     'CeyPall supplies ISPM 15-certified wooden pallets to leading Sri Lankan exporters and manufacturers — including Akbar Brothers, CBL, and Hela Clothing — across tea, food, textiles, logistics, and chemicals.',
+  alternates: {
+    canonical: 'https://www.ceypall.com/clients',
+  },
 }
 
 const clients = [
@@ -63,8 +66,9 @@ export default function ClientsPage() {
         <div className="container-content">
           <FadeUp>
             <SectionHeader
+              as="h1"
               eyebrow="Our clients"
-              title="Our clients."
+              title="Our Clients — Companies We Supply"
               subtitle="We are proud to supply pallets to some of Sri Lanka's most respected exporters and manufacturers — across tea, food, textiles, chemicals, logistics, and more."
               light
             />

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'How It Works — Our Pallet Manufacturing Process',
   description:
     'A transparent look at how CeyPall manufactures ISPM 15-certified pallets — from timber sourcing through boron pre-treatment, heat treatment, IPPC stamping, and delivery.',
+  alternates: {
+    canonical: 'https://www.ceypall.com/how-it-works',
+  },
 }
 
 const steps = [
@@ -108,8 +111,9 @@ export default function HowItWorksPage() {
         <div className="container-content">
           <FadeUp>
             <SectionHeader
+              as="h1"
               eyebrow="Manufacturing process"
-              title="How we make your pallets."
+              title="How It Works — Our Pallet Manufacturing Process"
               subtitle="A transparent, step-by-step process — from raw timber to certified, delivery-ready pallets."
               light
             />

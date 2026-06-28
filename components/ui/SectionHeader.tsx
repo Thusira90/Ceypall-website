@@ -7,6 +7,7 @@ interface SectionHeaderProps {
   align?: 'left' | 'center'
   light?: boolean
   className?: string
+  as?: 'h1' | 'h2'
 }
 
 export function SectionHeader({
@@ -16,6 +17,7 @@ export function SectionHeader({
   align = 'left',
   light = false,
   className,
+  as: Tag = 'h2',
 }: SectionHeaderProps) {
   return (
     <div
@@ -35,14 +37,14 @@ export function SectionHeader({
           {eyebrow}
         </p>
       )}
-      <h2
+      <Tag
         className={cn(
           'font-display text-display-lg',
           light ? 'text-cream' : 'text-primary',
         )}
       >
         {title}
-      </h2>
+      </Tag>
       {align === 'left' && (
         <span
           className={cn(
