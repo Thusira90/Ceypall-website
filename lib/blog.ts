@@ -654,6 +654,113 @@ EU customs authorities carry out random and targeted inspections of wooden packa
 CeyPall (Pvt) Ltd has been supplying EU-compliant ISPM 15 heat-treated pallets to Sri Lankan exporters for over two decades. All pallets carry the HT stamp and are supplied with treatment certificates. We manufacture Euro-size (1200 × 800 mm) and all other standard international dimensions, with island-wide delivery across Sri Lanka.
     `,
   },
+  {
+    slug: "sri-lanka-export-packaging-regulations-2026",
+    title: "Sri Lanka Export Packaging Regulations in 2026: A Complete Guide for Exporters",
+    date: "2026-06-30",
+    description:
+      "Sri Lanka's export packaging rules are tightening as global phytosanitary enforcement intensifies. Here's what every Sri Lankan exporter needs to know about wooden packaging compliance in 2026.",
+    content: `
+Sri Lanka's export packaging regulations require all wooden packaging materials — pallets, crates, dunnage, and skids — used in international shipments to be ISPM 15 compliant, heat treated to 56°C core temperature for 30 minutes, and stamped with a valid IPPC mark. In 2026, enforcement at destination ports is stricter than ever.
+
+If you export goods from Sri Lanka on wooden pallets, the regulatory landscape has never been more demanding. Destination countries are investing in automated scanning, stricter border inspections, and heavier penalties for non-compliance. Here is a complete guide to the regulations that affect Sri Lankan exporters in 2026.
+
+## The Regulatory Framework
+
+### ISPM 15 — The Global Standard
+
+ISPM 15 (International Standards for Phytosanitary Measures No. 15) is the international standard governing wooden packaging materials in cross-border trade. It is administered by the IPPC (International Plant Protection Convention) under the UN Food and Agriculture Organization.
+
+The standard requires that all solid wood packaging — including pallets, crates, dunnage, and blocking — be treated using an approved method and marked with the official IPPC stamp before crossing international borders.
+
+Over 180 countries have adopted ISPM 15, including every major destination for Sri Lankan exports.
+
+### NPQS — Sri Lanka's National Authority
+
+In Sri Lanka, ISPM 15 compliance is overseen by the National Plant Quarantine Service (NPQS) under the Department of Agriculture. NPQS is responsible for registering and auditing heat treatment providers, issuing IPPC producer codes, and certifying that treatment facilities meet international standards.
+
+Only NPQS-registered manufacturers can legally produce ISPM 15-certified pallets in Sri Lanka. Pallets from unregistered suppliers — regardless of how they were treated — are not compliant.
+
+## What Sri Lankan Exporters Must Comply With
+
+### 1. Heat Treatment Requirement
+
+All wooden packaging used for export must be heat treated. The wood must reach a core temperature of 56°C maintained for a minimum of 30 continuous minutes. This kills insects, larvae, and pathogens that could pose a biosecurity risk at the destination country.
+
+Methyl bromide fumigation (MB) is technically still permitted under ISPM 15 but is banned by the European Union, the United Kingdom, and increasingly restricted in other markets. For Sri Lankan exporters shipping to multiple destinations, heat treatment (HT) is the only universally accepted method.
+
+### 2. IPPC Stamp
+
+Every treated pallet must carry the official IPPC mark — physically applied to the wood by burning, branding, or permanent ink. The stamp must include the IPPC wheat symbol, the country code LK, the producer's NPQS registration number, and the treatment abbreviation HT.
+
+Labels, stickers, and printed paper marks are not accepted. The stamp must be on at least two opposite sides of the pallet.
+
+### 3. Treatment Certificate
+
+A heat treatment certificate must accompany the shipment documentation. This certificate confirms the treatment date, temperature achieved, duration, batch reference, and the manufacturer's NPQS registration details.
+
+Many customs authorities — particularly in the EU, Australia, and the Middle East — routinely request this document. Shipments without a treatment certificate face a higher risk of inspection and delay.
+
+### 4. No Bark Requirement
+
+Under ISPM 15, treated wood packaging must be free of bark. Small pieces of bark are permitted only if they are less than 3 cm wide (regardless of length) or less than 50 cm² in total area. Pallets with visible bark exceeding these thresholds can be rejected at the destination port.
+
+## Key Destination Markets and Their 2026 Requirements
+
+### European Union
+
+The EU remains Sri Lanka's most demanding export market for packaging compliance. Only HT-stamped pallets are accepted — MB treatment has been banned since 2010. The EU has increased the frequency of random phytosanitary inspections at ports, particularly for shipments from tropical-origin countries. Treatment certificates are strongly recommended for all EU-bound shipments.
+
+### United States
+
+The US requires ISPM 15-compliant pallets for all wooden packaging. Both HT and MB are technically accepted, but HT is recommended. US Customs and Border Protection (CBP) conducts risk-based inspections and can impose penalties for repeated non-compliance from the same origin.
+
+### Australia and New Zealand
+
+Australia has some of the world's strictest biosecurity controls. All wooden packaging must be ISPM 15 compliant, and the Australian Department of Agriculture inspects a high percentage of incoming shipments. Non-compliant pallets are treated or destroyed at the importer's expense — there is no option to return them.
+
+### Middle East (UAE, Saudi Arabia, Qatar)
+
+All GCC countries require ISPM 15-compliant pallets. With Sri Lanka's significant tea, rubber, and coconut exports to the region, compliance is essential. The UAE has increased inspection capacity at Jebel Ali and other major ports.
+
+### China and Japan
+
+Both countries enforce ISPM 15 strictly. Japan in particular has very low tolerance for non-compliance and may quarantine entire containers if a single pallet is found to be non-compliant.
+
+## Common Compliance Mistakes Sri Lankan Exporters Make
+
+### Using pallets from unregistered suppliers
+
+Some exporters purchase pallets from small workshops or informal suppliers who are not NPQS-registered. These pallets may look treated but do not carry a valid IPPC stamp — and are therefore non-compliant regardless of what treatment was actually applied.
+
+### Reusing old or damaged pallets
+
+Pallets that have been repaired, modified, or had components replaced after treatment must be re-treated and re-stamped. Using a repaired pallet with the original stamp is a compliance violation.
+
+### Assuming the freight forwarder handles compliance
+
+The responsibility for pallet compliance lies with the exporter, not the freight forwarder. Most freight forwarders do not inspect pallets — they assume the exporter has sourced compliant packaging. If a shipment is rejected at the destination, the cost falls on the exporter.
+
+### Not keeping treatment certificates
+
+Some exporters discard or do not request treatment certificates. When a customs authority asks for documentation, the absence of a certificate can trigger a full inspection — causing delays even when the pallets are actually compliant.
+
+## How to Ensure Full Compliance
+
+- Source pallets only from NPQS-registered manufacturers
+- Confirm every pallet carries a legible IPPC stamp with LK, producer code, and HT
+- Request and file a heat treatment certificate with every order
+- Inspect pallets before loading — check for bark, damaged stamps, and repairs
+- Use heat treatment (HT) exclusively — avoid MB-treated pallets for any market
+- Keep records of your pallet supplier's NPQS registration number
+
+## CeyPall: Fully Compliant Since 2005
+
+CeyPall (Pvt) Ltd is registered with the National Plant Quarantine Service of Sri Lanka as an approved ISPM 15 heat treatment provider. Every pallet we manufacture is heat treated to 56°C core temperature for 30 minutes, IPPC-stamped with our registered producer code, supplied with an official treatment certificate, and manufactured from locally sourced rubber wood and Lunumidella.
+
+We supply exporters across every sector in Sri Lanka — tea, apparel, rubber, coconut, electronics, and industrial goods — with island-wide delivery and standard or custom pallet sizes.
+    `,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
