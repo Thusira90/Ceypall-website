@@ -18,6 +18,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
   { url: `${BASE}/wooden-pallets-negombo`,                   lastModified: new Date('2026-05-20'), changeFrequency: 'monthly', priority: 0.7 },
   { url: `${BASE}/clients`,                                  lastModified: new Date('2026-05-19'), changeFrequency: 'monthly', priority: 0.7 },
   { url: `${BASE}/about`,                                    lastModified: new Date('2026-05-19'), changeFrequency: 'yearly',  priority: 0.6 },
+  { url: `${BASE}/container-pallet-calculator`,              lastModified: new Date('2026-06-30'), changeFrequency: 'yearly',  priority: 0.7 },
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
