@@ -14,6 +14,7 @@ const links = [
   { href: '/clients', label: 'Clients' },
   { href: '/about', label: 'About' },
   { href: '/blog', label: 'Blog' },
+  { href: '/container-pallet-calculator', label: 'Calculator' },
   { href: '/contact', label: 'Contact' },
 ]
 
