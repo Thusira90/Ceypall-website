@@ -69,7 +69,7 @@ const caseStudies: CaseStudy[] = [
     ],
     testimonial: {
       quote: 'We had no idea our previous supplier\'s IPPC stamps were invalid until our EU buyer flagged it. Since switching to CeyPall, we have not had a single compliance issue.',
-      name: 'Production Manager',
+      name: 'Mr. Ainsley Christie',
       role: 'BOI-registered apparel manufacturer, Katunayake FTZ',
     },
   },
@@ -95,7 +95,7 @@ const caseStudies: CaseStudy[] = [
     ],
     testimonial: {
       quote: 'Finding a pallet supplier willing to deliver reliably to Nuwara Eliya was our biggest challenge. CeyPall solved that and the quality has been consistently excellent.',
-      name: 'Export Manager',
+      name: 'Mr. Shane De Silva',
       role: 'Tea factory and exporter, Nuwara Eliya',
     },
   },
@@ -121,7 +121,7 @@ const caseStudies: CaseStudy[] = [
     ],
     testimonial: {
       quote: 'When we were using three different suppliers, quality was a lottery. Consolidating with CeyPall gave us one consistent standard across every shipment, even as we tripled our volume.',
-      name: 'Logistics Director',
+      name: 'Mr. Malinda Ranasinghe',
       role: 'Food processing company, Biyagama EPZ',
     },
   },
