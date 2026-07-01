@@ -20,6 +20,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
   { url: `${BASE}/about`,                                    lastModified: new Date('2026-05-19'), changeFrequency: 'yearly',  priority: 0.6 },
   { url: `${BASE}/container-pallet-calculator`,              lastModified: new Date('2026-06-30'), changeFrequency: 'yearly',  priority: 0.7 },
   { url: `${BASE}/knowledge-centre`,                         lastModified: new Date('2026-07-01'), changeFrequency: 'weekly',  priority: 0.8 },
+  { url: `${BASE}/case-studies`,                             lastModified: new Date('2026-07-01'), changeFrequency: 'monthly', priority: 0.7 },
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {

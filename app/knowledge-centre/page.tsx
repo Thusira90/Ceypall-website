@@ -255,7 +255,7 @@ export default function KnowledgeCentrePage() {
         </div>
       </section>
 
-      {/* Case Studies (Coming Soon) */}
+      {/* Case Studies */}
       <section className="section-padding cream-texture">
         <div className="container-content">
           <FadeUp>
@@ -266,11 +266,30 @@ export default function KnowledgeCentrePage() {
             />
           </FadeUp>
 
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+            {[
+              { title: 'Eliminating Shipment Rejections', industry: 'Apparel & Garments', location: 'Katunayake FTZ', result: '0 rejections in 18 months' },
+              { title: 'Reliable Pallet Supply', industry: 'Tea Export', location: 'Nuwara Eliya', result: '98% on-time delivery' },
+              { title: 'Scaling Pallet Supply', industry: 'Food Manufacturing', location: 'Biyagama EPZ', result: '600+ pallets/month' },
+            ].map((study) => (
+              <FadeUp key={study.title}>
+                <div className="bg-white border border-warm-gray p-6">
+                  <p className="font-body text-xs font-semibold tracking-[0.12em] uppercase text-accent mb-2">
+                    {study.industry}
+                  </p>
+                  <h3 className="font-display text-lg text-primary mb-1">{study.title}</h3>
+                  <p className="font-body text-xs text-charcoal/50 mb-4">{study.location}</p>
+                  <p className="font-display text-xl text-accent">{study.result}</p>
+                </div>
+              </FadeUp>
+            ))}
+          </div>
+
           <FadeUp>
-            <div className="mt-8 bg-warm-gray/30 border border-warm-gray/60 border-dashed p-8 text-center max-w-lg">
-              <p className="font-body text-sm text-charcoal/50">
-                Case studies coming soon. We are documenting real results from exporters across apparel, tea, food manufacturing, and logistics.
-              </p>
+            <div className="mt-8">
+              <Button href="/case-studies" variant="outline" size="md">
+                Read all case studies →
+              </Button>
             </div>
           </FadeUp>
         </div>
