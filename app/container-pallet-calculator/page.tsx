@@ -16,9 +16,11 @@ export const metadata: Metadata = {
     title: 'Container Pallet Calculator — How Many Pallets Fit? | CeyPall (Pvt) Ltd',
     description:
       'Calculate how many pallets fit in a 20ft, 40ft, or 40ft high cube shipping container. Instant floor plan with stacking layers.',
-    url: '/container-pallet-calculator',
+    url: 'https://www.ceypall.com/container-pallet-calculator',
   },
   twitter: {
+    card: 'summary_large_image',
+    title: 'Container Pallet Calculator — How Many Pallets Fit? | CeyPall',
     description:
       'Calculate how many pallets fit in a 20ft, 40ft, or 40ft high cube shipping container. Instant floor plan with stacking layers.',
   },

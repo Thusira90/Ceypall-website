@@ -17,7 +17,18 @@ export const metadata: Metadata = {
     canonical: 'https://www.ceypall.com',
   },
   openGraph: {
-    url: '/',
+    title: 'ISPM 15 Wooden Pallet Manufacturer Sri Lanka | CeyPall',
+    description:
+      'Heat-treated, IPPC-stamped wooden pallets for Sri Lankan exporters. Custom sizes, island-wide delivery, ISPM 15 compliant. CeyPall (Pvt) Ltd.',
+    url: 'https://www.ceypall.com',
+    siteName: 'CeyPall (Pvt) Ltd',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ISPM 15 Wooden Pallet Manufacturer Sri Lanka | CeyPall',
+    description:
+      'Heat-treated, IPPC-stamped wooden pallets for Sri Lankan exporters. Custom sizes, island-wide delivery, ISPM 15 compliant.',
   },
 }
 

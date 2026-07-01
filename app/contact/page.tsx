@@ -11,6 +11,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.ceypall.com/contact',
   },
+  openGraph: {
+    title: 'Contact CeyPall — Get a Quote for Export Pallets',
+    description:
+      'Request a quote from CeyPall (Pvt) Ltd for ISPM 15 heat-treated export pallets or vacuum pressure impregnated storage pallets. Call +94 312 277 752 or email office@ceypall.com.',
+    url: 'https://www.ceypall.com/contact',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact CeyPall — Get a Quote for Export Pallets',
+    description:
+      'Request a quote for ISPM 15 heat-treated export pallets. Call +94 312 277 752 or email office@ceypall.com.',
+  },
 }
 
 const contactDetails = [

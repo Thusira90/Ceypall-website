@@ -23,6 +23,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: `https://www.ceypall.com/blog/${params.slug}`,
     },
+    openGraph: {
+      title: `${post.title} | CeyPall`,
+      description: post.description,
+      url: `https://www.ceypall.com/blog/${params.slug}`,
+      type: 'article',
+      publishedTime: post.date,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${post.title} | CeyPall`,
+      description: post.description,
+    },
   }
 }
 

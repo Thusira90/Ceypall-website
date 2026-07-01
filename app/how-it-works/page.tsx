@@ -12,6 +12,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.ceypall.com/how-it-works',
   },
+  openGraph: {
+    title: 'How It Works — Our Pallet Manufacturing Process | CeyPall',
+    description:
+      'A transparent look at how CeyPall manufactures ISPM 15-certified pallets — from timber sourcing through boron pre-treatment, heat treatment, IPPC stamping, and delivery.',
+    url: 'https://www.ceypall.com/how-it-works',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How It Works — Our Pallet Manufacturing Process | CeyPall',
+    description:
+      'From timber sourcing to IPPC stamping — how CeyPall manufactures ISPM 15-certified pallets.',
+  },
 }
 
 const steps = [
@@ -100,11 +112,71 @@ const breadcrumbJsonLd = {
   ],
 }
 
+const howToJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How CeyPall Manufactures ISPM 15 Certified Pallets',
+  description:
+    'The step-by-step process CeyPall uses to manufacture ISPM 15 certified, IPPC-stamped wooden pallets for Sri Lankan exporters.',
+  totalTime: 'P5D',
+  supply: [
+    { '@type': 'HowToSupply', name: 'Rubber wood timber' },
+    { '@type': 'HowToSupply', name: 'Lunumidella timber' },
+    { '@type': 'HowToSupply', name: 'Boron chemical solution' },
+    { '@type': 'HowToSupply', name: 'Industrial nails' },
+  ],
+  tool: [
+    { '@type': 'HowToTool', name: 'Heat treatment kiln' },
+    { '@type': 'HowToTool', name: 'Industrial nailing equipment' },
+    { '@type': 'HowToTool', name: 'IPPC branding iron' },
+    { '@type': 'HowToTool', name: 'Boron chemical treatment tank' },
+  ],
+  step: [
+    {
+      '@type': 'HowToStep',
+      position: 1,
+      name: 'Timber sourcing',
+      text: 'Source rubber wood and Lunumidella timber — both locally available in Sri Lanka and well suited for pallet manufacturing due to their structural strength and durability.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 2,
+      name: 'Boron chemical pre-treatment',
+      text: 'Immerse all timber components in a boron chemical bath at temperatures between 45°C and 60°C for 30–45 minutes, providing baseline protection against insects and fungal growth.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 3,
+      name: 'Pallet assembly',
+      text: 'Assemble sized and treated planks and blocks into pallets using industrial nailing equipment. Build to standard international dimensions or custom specifications.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 4,
+      name: 'ISPM 15 heat treatment',
+      text: 'Load assembled pallets into heat treatment chambers. Raise core temperature to 56°C, maintained for a minimum of 30 minutes, until moisture content falls below 15%.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 5,
+      name: 'IPPC stamping',
+      text: 'Stamp each pallet with the IPPC mark confirming ISPM 15 compliance, along with CeyPall\'s official registration number issued by the National Plant Quarantine Service of Sri Lanka.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 6,
+      name: 'Treatment certificate and delivery',
+      text: 'Issue a treatment certificate for the order and schedule delivery to the customer\'s location across Sri Lanka.',
+    },
+  ],
+}
+
 export default function HowItWorksPage() {
   return (
     <>
       {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
       <SchemaScript schema={breadcrumbJsonLd} />
+      <SchemaScript schema={howToJsonLd} />
 
       {/* Header */}
       <section className="wood-texture section-padding">

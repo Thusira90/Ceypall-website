@@ -129,11 +129,25 @@ const faqs = [
   },
 ]
 
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+}
+
 export default function WoodenPalletsSriLankaPage() {
   return (
     <>
       <SchemaScript schema={jsonLd} />
       <SchemaScript schema={breadcrumbJsonLd} />
+      <SchemaScript schema={faqJsonLd} />
 
       {/* ── Hero ─────────────────────────────────────────────────────── */}
       <section className="wood-texture section-padding">

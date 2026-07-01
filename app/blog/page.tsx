@@ -13,7 +13,16 @@ export const metadata: Metadata = {
     canonical: 'https://www.ceypall.com/blog',
   },
   openGraph: {
-    url: '/blog',
+    title: 'Blog — ISPM 15 & Export Pallet Guides | CeyPall',
+    description:
+      'Expert guides on ISPM 15, wooden pallets, and export packaging for Sri Lankan exporters and manufacturers.',
+    url: 'https://www.ceypall.com/blog',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Blog — ISPM 15 & Export Pallet Guides | CeyPall',
+    description:
+      'Expert guides on ISPM 15, wooden pallets, and export packaging for Sri Lankan exporters and manufacturers.',
   },
 }
 
