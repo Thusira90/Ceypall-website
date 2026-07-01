@@ -761,6 +761,152 @@ CeyPall (Pvt) Ltd is registered with the National Plant Quarantine Service of Sr
 We supply exporters across every sector in Sri Lanka — tea, apparel, rubber, coconut, electronics, and industrial goods — with island-wide delivery and standard or custom pallet sizes.
     `,
   },
+  {
+    slug: "how-many-pallets-fit-in-a-container",
+    title: "How Many Pallets Fit in a 20ft and 40ft Container? A Practical Guide",
+    date: "2026-07-01",
+    description:
+      "The number of pallets that fit in a shipping container depends on pallet size, container type, and stacking method. Here's a complete breakdown for 20ft and 40ft containers with real-world loading plans.",
+    content: `
+The number of pallets that fit in a standard shipping container depends on three factors: pallet dimensions, container type, and whether you single-stack or double-stack. A standard 20ft container fits 8 to 11 pallets on the floor. A 40ft container fits 18 to 24. This guide breaks down the exact numbers for every common pallet size used in Sri Lankan exports.
+
+If you are an exporter, freight forwarder, or warehouse manager in Sri Lanka, knowing exactly how many pallets fit in your container is essential for costing, space planning, and avoiding wasted freight spend.
+
+## Container Internal Dimensions
+
+Before calculating pallet quantities, you need the actual usable space inside the container — not the external dimensions.
+
+### 20ft Standard Container (20' GP)
+
+- Internal length: 5,898 mm (19 ft 4 in)
+- Internal width: 2,352 mm (7 ft 8 in)
+- Internal height: 2,393 mm (7 ft 10 in)
+- Door opening width: 2,340 mm
+- Door opening height: 2,280 mm
+- Max payload: approximately 28,200 kg
+
+### 40ft Standard Container (40' GP)
+
+- Internal length: 12,032 mm (39 ft 6 in)
+- Internal width: 2,352 mm (7 ft 8 in)
+- Internal height: 2,393 mm (7 ft 10 in)
+- Door opening width: 2,340 mm
+- Door opening height: 2,280 mm
+- Max payload: approximately 26,680 kg
+
+### 40ft High Cube Container (40' HC)
+
+- Internal length: 12,032 mm
+- Internal width: 2,352 mm
+- Internal height: 2,698 mm (8 ft 10 in)
+- Max payload: approximately 26,460 kg
+
+The extra 305 mm of height in a high cube container can be the difference between single-stacking and double-stacking pallets — a significant cost advantage for lightweight goods.
+
+## Pallet Counts by Size
+
+### Euro Pallet (1200 x 800 mm)
+
+The Euro pallet is the most common size for exports to the European Union.
+
+- **20ft container:** 11 pallets (single layer)
+- **40ft container:** 23–24 pallets (single layer)
+
+Euro pallets fit efficiently because their 800 mm width allows two pallets side by side across the container's 2,352 mm width (800 + 800 = 1,600 mm) with space to spare, or they can be turned lengthwise in alternating rows.
+
+### Standard Pallet (1200 x 1000 mm)
+
+The 1200 x 1000 mm pallet is widely used for exports to the US, Middle East, and Asia-Pacific.
+
+- **20ft container:** 8–10 pallets (single layer)
+- **40ft container:** 18–20 pallets (single layer)
+
+Two 1000 mm pallets placed side by side (2,000 mm total) fit within the 2,352 mm container width. Length-wise, a 20ft container accommodates 4 rows of 1,200 mm pallets along its 5,898 mm length, with approximately 1,098 mm of usable space remaining.
+
+### Half Pallet (600 x 800 mm)
+
+Half pallets are used for smaller shipments and retail-ready loads, particularly for supermarket distribution in Europe.
+
+- **20ft container:** 22 pallets (single layer)
+- **40ft container:** 44–48 pallets (single layer)
+
+### Custom Sizes
+
+Sri Lankan exporters frequently use non-standard pallet sizes optimised for specific cargo. Tea chests, for example, often use pallets sized to match the chest footprint rather than a standard dimension. For custom sizes, use our [container pallet calculator](/container-pallet-calculator) to get an exact count with a visual floor plan.
+
+## Single-Stack vs Double-Stack
+
+### Single-Stack (One Layer)
+
+Every pallet sits directly on the container floor. This is the standard approach for heavy cargo — machinery, stone, ceramics, canned goods — where the combined weight of two stacked pallets would exceed the container's payload limit or the bottom pallet's load capacity.
+
+### Double-Stack (Two Layers)
+
+A second layer of pallets is placed on top of the first. This effectively doubles your pallet count but requires:
+
+- Lightweight cargo (total weight must stay within the container's payload limit)
+- Pallets strong enough to bear the upper load without deforming
+- Cargo height that fits within the container's internal height when doubled
+- Stable, uniform loads that won't shift during transit
+
+For a standard 20ft container with 2,393 mm internal height, each pallet-plus-cargo unit must be under approximately 1,190 mm tall to double-stack. A 40ft high cube container gives you about 1,340 mm per layer — significantly more forgiving.
+
+**Example:** An apparel exporter in Katunayake shipping garments on Euro pallets (1200 x 800 mm) in a 40ft HC container. Each pallet with cargo stands 1,100 mm tall. Double-stacking gives them 46–48 pallets instead of 23–24 — cutting their per-unit freight cost nearly in half.
+
+## Loading Orientation Matters
+
+Pallets can be placed in two orientations:
+
+- **Lengthwise:** The pallet's longer dimension runs along the container's length
+- **Widthwise:** The pallet's longer dimension runs across the container's width
+
+The optimal layout often mixes orientations. For Euro pallets in a 40ft container, alternating rows — one lengthwise, one widthwise — maximises floor coverage. Our [container pallet calculator](/container-pallet-calculator) automatically finds the best orientation mix.
+
+## Weight vs Space: Which Limit Do You Hit First?
+
+Many Sri Lankan exporters assume they have a "space problem" when they actually have a "weight problem" — or vice versa.
+
+### Weight-limited cargo (you run out of payload before floor space)
+
+- Tea, rubber, coconut oil, ceramics, stone products
+- These shipments rarely fill the container floor; pallets are heavy enough that you hit the container's max payload with fewer pallets than the floor can hold
+
+### Space-limited cargo (you run out of floor space before payload)
+
+- Apparel, footwear, electronics, packaged food, plastic goods
+- These shipments are light enough that you can fill every square metre of floor space (and often double-stack) without approaching the weight limit
+
+Knowing which category your cargo falls into determines whether you should optimise for pallet count (space-limited) or pallet strength (weight-limited).
+
+## Common Loading Mistakes
+
+### Not accounting for the door swing
+
+Container doors open to approximately 2,340 mm — slightly narrower than the internal width. If your last row of pallets is positioned too close to the door, you may not be able to slide them in. Always leave 50–100 mm of clearance at the door end.
+
+### Ignoring pallet height with cargo
+
+The pallet itself is typically 140–150 mm tall. Add your cargo height on top. Many exporters calculate "how many pallets fit" based on pallet dimensions alone, then discover at loading time that their cargo extends above the container's door opening height (2,280 mm).
+
+### Mixing pallet sizes in one container
+
+Using two different pallet sizes in the same container almost always wastes space. The smaller pallets create gaps that cannot be filled, and the loading pattern becomes irregular. Standardise on one pallet size per container wherever possible.
+
+### Not bracing the load
+
+Pallets that fit perfectly on the floor can still shift during ocean transit. Use dunnage, airbags, or strapping to secure the load — especially for partial containers where pallets do not fill the entire floor.
+
+## Calculate Your Exact Layout
+
+Every shipment is different. Rather than estimating, use our free [container pallet calculator](/container-pallet-calculator) to enter your exact pallet dimensions and container type. It generates a visual floor plan showing exactly how many pallets fit and where they should be placed.
+
+## Need Pallets Sized for Your Container?
+
+CeyPall manufactures custom-sized pallets to maximise your container utilisation. If your current pallet size leaves wasted space, we can design a pallet dimension that fits your container perfectly — ISPM 15 compliant, heat treated, and IPPC stamped.
+
+[Contact us](/contact) for a free quote, or call +94 714 711 417.
+    `,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
