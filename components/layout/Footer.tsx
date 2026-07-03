@@ -121,10 +121,47 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Regions */}
+          {/* Industries & Regions */}
           <div>
             <p className="font-body text-xs font-semibold tracking-[0.12em] uppercase text-accent mb-5">
-              Regions served
+              Industries
+            </p>
+            <ul className="space-y-3 mb-8">
+              <li>
+                <Link
+                  href="/pallets-for-tea-export"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Tea Export Pallets
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/pallets-for-apparel-export"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Apparel Export Pallets
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/pallets-for-coconut-export"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Coconut Export Pallets
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/pallets-for-rubber-export"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Rubber Export Pallets
+                </Link>
+              </li>
+            </ul>
+            <p className="font-body text-xs font-semibold tracking-[0.12em] uppercase text-accent mb-5">
+              Regions
             </p>
             <ul className="space-y-3">
               <li>

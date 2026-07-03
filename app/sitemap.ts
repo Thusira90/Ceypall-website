@@ -22,6 +22,10 @@ const staticRoutes: MetadataRoute.Sitemap = [
   { url: `${BASE}/knowledge-centre`,                         lastModified: new Date('2026-07-01'), changeFrequency: 'weekly',  priority: 0.8 },
   { url: `${BASE}/case-studies`,                             lastModified: new Date('2026-07-01'), changeFrequency: 'monthly', priority: 0.7 },
   { url: `${BASE}/moisture-content-calculator`,              lastModified: new Date('2026-07-01'), changeFrequency: 'yearly',  priority: 0.7 },
+  { url: `${BASE}/pallets-for-tea-export`,                   lastModified: new Date('2026-07-03'), changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${BASE}/pallets-for-apparel-export`,               lastModified: new Date('2026-07-03'), changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${BASE}/pallets-for-coconut-export`,               lastModified: new Date('2026-07-03'), changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${BASE}/pallets-for-rubber-export`,                lastModified: new Date('2026-07-03'), changeFrequency: 'monthly', priority: 0.8 },
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
