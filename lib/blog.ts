@@ -2,6 +2,7 @@ export interface BlogPost {
   slug: string;
   title: string;
   date: string;
+  lastUpdated?: string;
   description: string;
   content: string;
 }
@@ -11,6 +12,7 @@ export const blogPosts: BlogPost[] = [
     slug: "what-is-ispm-15",
     title: "What is ISPM 15 and Why Does It Matter for Sri Lankan Exporters?",
     date: "2026-05-20",
+    lastUpdated: "2026-07-01",
     description:
       "If you export goods from Sri Lanka, you've likely come across the term ISPM 15. But what does it actually mean — and why can your shipment be rejected at the border without it?",
     content: `
@@ -88,6 +90,7 @@ Using a certified pallet manufacturer from the start is far cheaper than dealing
     slug: "why-sri-lankan-exporters-need-ippc-certified-pallets",
     title: "Why Sri Lankan Exporters Need IPPC-Certified Pallets",
     date: "2026-05-20",
+    lastUpdated: "2026-07-01",
     description:
       "A rejected shipment at a foreign port is costly and entirely avoidable. Here's why IPPC certification matters for every Sri Lankan exporter.",
     content: `
@@ -145,6 +148,7 @@ CeyPall (Pvt) Ltd is officially registered with the National Plant Quarantine Se
     slug: "standard-pallet-sizes-sri-lanka",
     title: "Standard Pallet Sizes for Sri Lankan Exporters: Which One Do You Need?",
     date: "2026-05-22",
+    lastUpdated: "2026-07-01",
     description:
       "Not all pallets are the same size — and using the wrong dimensions can cause problems at the port, in the container, or at the destination warehouse. Here's a complete guide to standard pallet sizes used in international trade.",
     content: `
@@ -205,6 +209,7 @@ CeyPall manufactures all standard international pallet sizes — and custom dime
     slug: "heat-treatment-vs-methyl-bromide-fumigation",
     title: "Heat Treatment vs Methyl Bromide Fumigation: What Exporters Need to Know",
     date: "2026-05-24",
+    lastUpdated: "2026-07-01",
     description:
       "ISPM 15 allows two treatment methods for wooden pallets: heat treatment and methyl bromide fumigation. But one of them is being banned worldwide. Here's what every Sri Lankan exporter needs to know.",
     content: `
@@ -263,6 +268,7 @@ When in doubt, choose HT. It's safer, cleaner, and accepted everywhere.
     slug: "how-to-read-ippc-stamp",
     title: "How to Read the IPPC Stamp on a Wooden Pallet",
     date: "2026-05-26",
+    lastUpdated: "2026-07-01",
     description:
       "The IPPC stamp on a wooden pallet contains several pieces of information — but many exporters don't know how to read it. Here's exactly what each part of the mark means.",
     content: `

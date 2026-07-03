@@ -75,40 +75,6 @@ const contactDetails = [
   },
 ]
 
-const localBusinessJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  name: 'CeyPall (Pvt) Ltd',
-  description:
-    "Sri Lanka's dedicated export pallet manufacturer. ISPM 15 certified, IPPC-stamped heat treated wooden pallets for exporters island-wide.",
-  url: 'https://www.ceypall.com',
-  telephone: '+94714711417',
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: '1088 Colombo Road',
-    addressLocality: 'Kochchikade',
-    addressRegion: 'Western Province',
-    postalCode: '11540',
-    addressCountry: 'LK',
-  },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 7.2533,
-    longitude: 79.8518,
-  },
-  openingHoursSpecification: {
-    '@type': 'OpeningHoursSpecification',
-    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-    opens: '08:30',
-    closes: '17:30',
-  },
-  areaServed: {
-    '@type': 'Country',
-    name: 'Sri Lanka',
-  },
-  hasMap: 'https://maps.google.com/?q=1088+Colombo+Road+Kochchikade+Sri+Lanka',
-}
-
 const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -122,7 +88,6 @@ export default function ContactPage() {
   return (
     <>
       {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
-      <SchemaScript schema={localBusinessJsonLd} />
       <SchemaScript schema={breadcrumbJsonLd} />
 
       {/* Header */}

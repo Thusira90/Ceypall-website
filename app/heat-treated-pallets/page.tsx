@@ -25,6 +25,17 @@ export const metadata: Metadata = {
   },
 }
 
+const speakableJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Heat Treated Pallets Sri Lanka | ISPM 15 Certified',
+  url: 'https://www.ceypall.com/heat-treated-pallets',
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', 'h2', '.faq-answer'],
+  },
+}
+
 const productJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Product',
@@ -366,6 +377,7 @@ export default function HeatTreatedPalletsPage() {
       <SchemaScript schema={faqJsonLd} />
       <SchemaScript schema={breadcrumbJsonLd} />
       <SchemaScript schema={howToJsonLd} />
+      <SchemaScript schema={speakableJsonLd} />
 
       {/* ── Breadcrumb ──────────────────────────────────────────────────── */}
       <nav aria-label="Breadcrumb" className="bg-cream border-b border-warm-gray">

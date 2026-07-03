@@ -63,6 +63,17 @@ const tools = [
       </svg>
     ),
   },
+  {
+    title: 'Moisture Content Calculator',
+    description: 'Calculate wood moisture content from weight measurements or meter readings. Check if your pallets are safe for export.',
+    href: '/moisture-content-calculator',
+    icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <path d="M12 3C12 3 5 13 5 17a7 7 0 0014 0C19 13 12 3 12 3z" stroke="currentColor" strokeWidth="1.5" />
+        <path d="M9 18a3 3 0 003 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+      </svg>
+    ),
+  },
 ]
 
 const guideClusters = [
@@ -184,7 +195,7 @@ export default function KnowledgeCentrePage() {
                   More Tools Coming Soon
                 </h3>
                 <p className="font-body text-sm text-charcoal/30 mt-2 leading-relaxed">
-                  Moisture content calculator, pallet size selector, and more.
+                  Pallet size selector, weight calculator, and more.
                 </p>
               </div>
             </FadeUp>

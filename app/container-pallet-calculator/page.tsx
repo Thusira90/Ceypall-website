@@ -66,11 +66,35 @@ const faqJsonLd = {
   ],
 }
 
+const webAppJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: 'Container Pallet Calculator',
+  description:
+    'Free online calculator to determine how many pallets fit in a 20ft, 40ft, or 40ft high cube shipping container. Includes visual floor plan and stacking layers.',
+  url: 'https://www.ceypall.com/container-pallet-calculator',
+  applicationCategory: 'BusinessApplication',
+  operatingSystem: 'All',
+  offers: {
+    '@type': 'Offer',
+    price: '0',
+    priceCurrency: 'USD',
+  },
+  featureList: [
+    'Calculate pallets per container for 20ft, 40ft, and 40ft HC',
+    'Support for Euro, North American, Asia-Pacific, and custom pallet sizes',
+    'Visual floor plan layout',
+    'Multi-layer stacking calculation',
+  ],
+  provider: { '@id': 'https://www.ceypall.com/#organization' },
+}
+
 export default function ContainerPalletCalculatorPage() {
   return (
     <>
       <SchemaScript schema={breadcrumbJsonLd} />
       <SchemaScript schema={faqJsonLd} />
+      <SchemaScript schema={webAppJsonLd} />
 
       {/* Header */}
       <section className="wood-texture section-padding">

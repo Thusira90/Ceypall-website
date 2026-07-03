@@ -51,6 +51,56 @@ const sizes = [
   { dimensions: 'Custom', standard: 'Available on request' },
 ]
 
+const productListJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'CeyPall Wooden Pallet Products',
+  url: 'https://www.ceypall.com/products',
+  numberOfItems: 2,
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      item: {
+        '@type': 'Product',
+        name: 'ISPM 15 Heat Treated Export Pallets',
+        description:
+          'ISPM 15 certified, IPPC-stamped wooden pallets for international export. Core heated to 56°C for 30 minutes minimum. Kiln-dried below 15% moisture content. Available in Euro, North American, Asia-Pacific, and custom sizes.',
+        brand: { '@type': 'Brand', name: 'CeyPall' },
+        manufacturer: { '@id': 'https://www.ceypall.com/#organization' },
+        category: 'Export Pallets',
+        material: 'Rubber Wood, Lunumidella',
+        offers: {
+          '@type': 'Offer',
+          availability: 'https://schema.org/InStock',
+          priceCurrency: 'LKR',
+          url: 'https://www.ceypall.com/contact',
+        },
+      },
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      item: {
+        '@type': 'Product',
+        name: 'VPI Storage Pallets',
+        description:
+          'Vacuum pressure impregnated wooden pallets for long-term storage. Boron Borax treatment under up to 10 bar pressure. Protection guaranteed for up to 6 years. Ideal for warehousing and racking systems.',
+        brand: { '@type': 'Brand', name: 'CeyPall' },
+        manufacturer: { '@id': 'https://www.ceypall.com/#organization' },
+        category: 'Storage Pallets',
+        material: 'Rubber Wood, Lunumidella',
+        offers: {
+          '@type': 'Offer',
+          availability: 'https://schema.org/InStock',
+          priceCurrency: 'LKR',
+          url: 'https://www.ceypall.com/contact',
+        },
+      },
+    },
+  ],
+}
+
 const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -65,6 +115,7 @@ export default function ProductsPage() {
     <>
       {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
       <SchemaScript schema={breadcrumbJsonLd} />
+      <SchemaScript schema={productListJsonLd} />
 
       {/* Page header */}
       <section className="wood-texture section-padding">

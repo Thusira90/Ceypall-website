@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: 'About CeyPall — Our Story & Certifications | CeyPall (Pvt) Ltd',
     description:
       "Learn about CeyPall — Sri Lanka's dedicated ISPM 15-certified wooden pallet manufacturer, with timber expertise dating to 1955 and pallet manufacturing since 2005. IPPC registered. Supplying island-wide.",
-    url: '/about',
+    url: 'https://www.ceypall.com/about',
   },
 }
 

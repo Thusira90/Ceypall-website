@@ -27,6 +27,16 @@ export const metadata: Metadata = {
 
 // ── Structured data ────────────────────────────────────────────────────────
 
+const speakableJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Export Pallet Manufacturer Sri Lanka | ISPM 15 Certified',
+  url: 'https://www.ceypall.com/export-pallet-manufacturer-sri-lanka',
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', 'h2', '.faq-answer'],
+  },
+}
 
 const faqJsonLd = {
   '@context': 'https://schema.org',
@@ -170,6 +180,28 @@ const howToJsonLd = {
       text: 'Finished pallets are inspected for structural integrity, stamp clarity and dimensional accuracy. Treatment certificates and compliance documentation are prepared and dispatched with every consignment.',
     },
   ],
+}
+
+const serviceJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'Export Pallet Manufacturing',
+  description:
+    'ISPM 15 certified wooden pallet manufacturing for Sri Lankan exporters. Heat treated, IPPC stamped, with treatment certificates and island-wide delivery.',
+  provider: { '@id': 'https://www.ceypall.com/#organization' },
+  serviceType: 'Pallet Manufacturing',
+  areaServed: { '@type': 'Country', name: 'Sri Lanka' },
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Export Pallet Sizes',
+    itemListElement: [
+      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: '1200 x 1000 mm — General Export Pallet' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: '1200 x 800 mm — Euro Pallet' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: '1219 x 1016 mm — North American Pallet' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: '1100 x 1100 mm — Asia Pacific Pallet' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Custom Size Pallets' } },
+    ],
+  },
 }
 
 // ── Page data ──────────────────────────────────────────────────────────────
@@ -341,6 +373,8 @@ export default function ExportPalletManufacturerPage() {
       <SchemaScript schema={faqJsonLd} />
       <SchemaScript schema={breadcrumbJsonLd} />
       <SchemaScript schema={howToJsonLd} />
+      <SchemaScript schema={serviceJsonLd} />
+      <SchemaScript schema={speakableJsonLd} />
 
       {/* ── Breadcrumb ──────────────────────────────────────────────────── */}
       <nav aria-label="Breadcrumb" className="bg-cream border-b border-warm-gray">

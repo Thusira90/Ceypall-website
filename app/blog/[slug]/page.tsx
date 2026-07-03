@@ -51,7 +51,7 @@ export default function BlogPostPage({ params }: Props) {
     description: post.description,
     url: postUrl,
     datePublished: post.date,
-    dateModified: post.date,
+    dateModified: post.lastUpdated || post.date,
     image: {
       '@type': 'ImageObject',
       url: 'https://www.ceypall.com/hero.jpg',
@@ -60,22 +60,20 @@ export default function BlogPostPage({ params }: Props) {
     },
     author: {
       '@type': 'Organization',
+      '@id': 'https://www.ceypall.com/#organization',
       name: 'CeyPall (Pvt) Ltd',
       url: 'https://www.ceypall.com',
     },
     publisher: {
-      '@type': 'Organization',
-      name: 'CeyPall (Pvt) Ltd',
-      logo: {
-        '@type': 'ImageObject',
-        url: 'https://www.ceypall.com/logo.png',
-        width: 384,
-        height: 120,
-      },
+      '@id': 'https://www.ceypall.com/#organization',
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': postUrl,
+    },
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['h1', '.blog-description', 'h2'],
     },
   }
 
