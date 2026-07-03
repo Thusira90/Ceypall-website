@@ -38,6 +38,51 @@ const speakableJsonLd = {
   },
 }
 
+const definedTermSetJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'DefinedTermSet',
+  name: 'Export Pallet Terminology',
+  description: 'Key terms used in ISPM 15 compliant wooden pallet manufacturing and international shipping.',
+  hasDefinedTerm: [
+    {
+      '@type': 'DefinedTerm',
+      name: 'ISPM 15',
+      description:
+        'International Standards for Phytosanitary Measures No. 15 — the global standard requiring wooden packaging materials used in international trade to be heat treated or fumigated to prevent the spread of invasive pests.',
+    },
+    {
+      '@type': 'DefinedTerm',
+      name: 'IPPC Stamp',
+      description:
+        'The International Plant Protection Convention mark branded onto treated wooden pallets. It includes the country code (LK for Sri Lanka), the producer registration number, and the treatment code (HT for heat treatment).',
+    },
+    {
+      '@type': 'DefinedTerm',
+      name: 'Heat Treatment (HT)',
+      description:
+        'A phytosanitary treatment where wooden pallet material is heated until the core temperature reaches 56°C for a minimum of 30 continuous minutes, killing wood-boring pests and their larvae.',
+    },
+    {
+      '@type': 'DefinedTerm',
+      name: 'NPQS',
+      description:
+        'National Plant Quarantine Service of Sri Lanka — the government authority that registers and audits ISPM 15 treatment providers and issues IPPC registration numbers.',
+    },
+    {
+      '@type': 'DefinedTerm',
+      name: 'Vacuum Pressure Impregnation (VPI)',
+      description:
+        'A wood treatment process where preservative chemicals (typically Boron Borax) are forced deep into the timber under vacuum and pressure (up to 10 bar), providing long-term protection against fungal decay and insect attack for storage pallets.',
+    },
+    {
+      '@type': 'DefinedTerm',
+      name: 'Moisture Content (MC)',
+      description:
+        'The percentage of water in wood by weight, measured using the oven-dry method. Export pallets should have MC below 15% to prevent mould growth during ocean transit.',
+    },
+  ],
+}
+
 const faqJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
@@ -375,6 +420,7 @@ export default function ExportPalletManufacturerPage() {
       <SchemaScript schema={howToJsonLd} />
       <SchemaScript schema={serviceJsonLd} />
       <SchemaScript schema={speakableJsonLd} />
+      <SchemaScript schema={definedTermSetJsonLd} />
 
       {/* ── Breadcrumb ──────────────────────────────────────────────────── */}
       <nav aria-label="Breadcrumb" className="bg-cream border-b border-warm-gray">

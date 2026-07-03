@@ -50,6 +50,41 @@ const collectionJsonLd = {
   },
 }
 
+const definedTermSetJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'DefinedTermSet',
+  name: 'Export Pallet & Packaging Glossary',
+  description: 'Definitions of key terms used in ISPM 15 pallet manufacturing, phytosanitary compliance, and international shipping from Sri Lanka.',
+  url: 'https://www.ceypall.com/knowledge-centre',
+  hasDefinedTerm: [
+    {
+      '@type': 'DefinedTerm',
+      name: 'ISPM 15',
+      description: 'International Standards for Phytosanitary Measures No. 15 — the global standard requiring wooden packaging in international trade to be heat treated or fumigated to prevent pest spread.',
+    },
+    {
+      '@type': 'DefinedTerm',
+      name: 'IPPC',
+      description: 'International Plant Protection Convention — the UN body that sets global phytosanitary standards including ISPM 15. The IPPC stamp on a pallet proves it has been treated by a registered provider.',
+    },
+    {
+      '@type': 'DefinedTerm',
+      name: 'Heat Treatment (HT)',
+      description: 'Heating wooden pallet material until the core reaches 56°C for at least 30 continuous minutes, killing wood-boring pests. The standard treatment method under ISPM 15.',
+    },
+    {
+      '@type': 'DefinedTerm',
+      name: 'Phytosanitary Certificate',
+      description: 'An official document issued by a national plant protection organisation certifying that a shipment meets the importing country\'s phytosanitary requirements.',
+    },
+    {
+      '@type': 'DefinedTerm',
+      name: 'Kiln Drying',
+      description: 'Drying wood in a controlled-temperature kiln to reduce moisture content, typically to below 15% for export pallets. Prevents mould growth during ocean transit.',
+    },
+  ],
+}
+
 const tools = [
   {
     title: 'Container Pallet Calculator',
@@ -129,6 +164,7 @@ export default function KnowledgeCentrePage() {
     <>
       <SchemaScript schema={breadcrumbJsonLd} />
       <SchemaScript schema={collectionJsonLd} />
+      <SchemaScript schema={definedTermSetJsonLd} />
 
       {/* Hero */}
       <section className="wood-texture section-padding">

@@ -117,6 +117,16 @@ export default function BlogPostPage({ params }: Props) {
                 month: 'long',
                 day: 'numeric',
               })}
+              {post.lastUpdated && post.lastUpdated !== post.date && (
+                <span className="text-cream/50 ml-3">
+                  · Updated{' '}
+                  {new Date(post.lastUpdated).toLocaleDateString('en-LK', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                  })}
+                </span>
+              )}
             </p>
             <h1 className="font-display text-display-lg text-cream font-semibold leading-tight max-w-3xl">
               {post.title}
@@ -166,6 +176,27 @@ export default function BlogPostPage({ params }: Props) {
                   </p>
                 )
               })}
+              <div className="mt-12 pt-6 border-t border-warm-gray">
+                <p className="font-body text-xs text-charcoal/40">
+                  Published{' '}
+                  {new Date(post.date).toLocaleDateString('en-LK', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                  })}
+                  {post.lastUpdated && post.lastUpdated !== post.date && (
+                    <>
+                      {' · Last reviewed '}
+                      {new Date(post.lastUpdated).toLocaleDateString('en-LK', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric',
+                      })}
+                    </>
+                  )}
+                  {' · By CeyPall (Pvt) Ltd'}
+                </p>
+              </div>
             </div>
           </FadeUp>
         </div>
