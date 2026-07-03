@@ -74,6 +74,8 @@ In Sri Lanka, ISPM 15 heat treatment providers must be registered with the Natio
 
 CeyPall (Pvt) Ltd is an IPPC-registered, NPQS-certified pallet manufacturer based in Kochchikade. We supply ISPM 15-compliant, heat-treated, IPPC-stamped pallets with a treatment certificate included with every order.
 
+For industry-specific ISPM 15 guidance, see our pages on [pallets for tea export](/pallets-for-tea-export), [apparel export pallets](/pallets-for-apparel-export), [coconut export pallets](/pallets-for-coconut-export), [rubber export pallets](/pallets-for-rubber-export), and [spice & cinnamon export pallets](/pallets-for-spice-export).
+
 ## Why Does This Matter for Your Business?
 
 Getting ISPM 15 wrong can cost your business in multiple ways:
@@ -595,6 +597,8 @@ CeyPall issues an official treatment certificate with every order, formatted for
 For tea exporters, lead time and reliability are critical. Delays in pallet supply can hold up container loading and miss vessel cut-off times. CeyPall supplies pallets to tea exporters and manufacturers across Sri Lanka with island-wide delivery.
 
 To discuss your pallet requirements for tea export, contact CeyPall directly. We will confirm sizes, quantities, lead times, and provide a quote.
+
+For detailed information about tea pallet sizes, delivery regions, and FAQ, visit our dedicated [pallets for tea export](/pallets-for-tea-export) page. You can also check moisture levels with our [Moisture Content Calculator](/moisture-content-calculator) and plan container loading with our [Container Pallet Calculator](/container-pallet-calculator).
     `,
   },
   {
@@ -765,6 +769,194 @@ Some exporters discard or do not request treatment certificates. When a customs 
 CeyPall (Pvt) Ltd is registered with the National Plant Quarantine Service of Sri Lanka as an approved ISPM 15 heat treatment provider. Every pallet we manufacture is heat treated to 56°C core temperature for 30 minutes, IPPC-stamped with our registered producer code, supplied with an official treatment certificate, and manufactured from locally sourced rubber wood and Lunumidella.
 
 We supply exporters across every sector in Sri Lanka — tea, apparel, rubber, coconut, electronics, and industrial goods — with island-wide delivery and standard or custom pallet sizes.
+    `,
+  },
+  {
+    slug: "pallet-moisture-content-guide-exporters",
+    title: "Pallet Moisture Content: Why It Matters and How to Check It",
+    date: "2026-07-03",
+    description:
+      "High moisture in pallet wood can damage cargo during ocean transit. Here's how moisture content affects your shipment, what levels are safe, and how to measure it before loading.",
+    content: `
+Pallet moisture content (MC) should be below 15% for export shipments. Wood above 19% MC can release enough moisture inside a sealed shipping container to cause condensation, mould growth, and cargo damage — a problem known as "container rain" that costs exporters thousands of dollars per incident.
+
+If you export goods from Sri Lanka on wooden pallets, the moisture content of the pallet wood is one of the most overlooked risks to your cargo. Here is a practical guide to understanding, measuring, and managing pallet moisture content.
+
+## What is Moisture Content?
+
+Moisture content (MC) is the percentage of water present in wood, expressed as a ratio of the weight of water to the weight of the dry wood. It is calculated using the formula:
+
+**MC% = ((Wet Weight - Dry Weight) / Dry Weight) x 100**
+
+Freshly sawn timber in Sri Lanka typically has a moisture content of 40-80%, depending on the species and season. For export pallets, this must be reduced to below 15% through kiln drying.
+
+## Why Does Pallet Moisture Matter for Exporters?
+
+### Container Rain
+
+When a sealed shipping container travels from a tropical climate (Sri Lanka) to a colder destination (Europe, Japan, Russia), the temperature inside the container drops. If the pallet wood has high moisture content, the wood releases moisture as the temperature falls. This moisture condenses on the container ceiling and walls, then drips onto your cargo.
+
+This phenomenon — known as "container rain" or "container sweat" — can cause:
+
+- Mould growth on cartons, packaging, and products
+- Water staining and packaging damage
+- Corrosion of metal components
+- Clumping and degradation of hygroscopic products (tea, spices, desiccated coconut)
+- Complete rejection of the shipment by the buyer
+
+### Product-Specific Risks
+
+Different export products have different sensitivities to pallet moisture:
+
+- **Tea and spices**: Extremely sensitive. These hygroscopic products absorb moisture from their surroundings, causing flavour loss, clumping, and mould
+- **Apparel and textiles**: Moisture causes mildew, staining, and odour that renders garments unsaleable
+- **Electronics**: Condensation can cause short circuits and corrosion
+- **Coconut products**: Desiccated coconut and coconut milk powder absorb moisture readily
+- **Rubber**: Less moisture-sensitive but high-MC pallets can still cause mould on packaging
+
+For industry-specific guidance, see our pages on [pallets for tea export](/pallets-for-tea-export), [pallets for spice export](/pallets-for-spice-export), and [pallets for coconut export](/pallets-for-coconut-export).
+
+## What MC Level is Safe for Export?
+
+The widely accepted maximum moisture content for export pallets is **15%**. Some destinations and products require even lower levels:
+
+- **General export**: Below 15% MC
+- **EU food-contact products**: Below 12% recommended
+- **Hygroscopic cargo (tea, spices)**: Below 12% MC preferred
+- **Electronics**: Below 12% MC recommended
+
+CeyPall kiln-dries all export pallets to below 15% MC as standard. For moisture-sensitive cargo, we can target lower MC levels on request.
+
+## How to Measure Pallet Moisture Content
+
+### Pin-Type Moisture Meters
+
+Two metal pins are inserted into the wood surface. The meter measures electrical resistance between the pins — higher moisture means lower resistance. Pin meters are accurate, affordable, and give instant readings.
+
+**How to use**: Insert pins along the grain, at least 25mm from any edge. Take readings at multiple points on the pallet and average them.
+
+### Pinless (Capacitance) Moisture Meters
+
+A flat sensor pad is pressed against the wood surface. The meter measures changes in an electromagnetic field caused by moisture. Pinless meters are faster and do not leave holes in the wood, but can be affected by surface moisture.
+
+### Oven-Dry Method
+
+The most accurate method. A wood sample is weighed, dried in an oven at 103°C until the weight stabilises, then reweighed. The moisture content is calculated from the weight difference. This method is used for calibration but is too slow for routine checks.
+
+Use our free [Moisture Content Calculator](/moisture-content-calculator) to calculate MC from weight measurements or convert between meter readings and actual moisture content.
+
+## When to Check Moisture Content
+
+- **Before accepting delivery**: Check a sample of pallets from each batch when they arrive at your facility
+- **Before loading**: If pallets have been stored in an open or humid environment, re-check before container stuffing
+- **After rain exposure**: If pallets have been left outside and exposed to rain, they must be re-dried before use
+
+## How CeyPall Controls Moisture Content
+
+All CeyPall pallets go through our kiln-drying process, which reduces moisture content to below 15%. The heat treatment required for ISPM 15 compliance (56°C core temperature for 30 minutes) is carried out simultaneously with kiln drying, ensuring both phytosanitary compliance and low moisture content in a single process.
+
+We use calibrated moisture meters to verify MC levels before pallets leave our facility. If you have specific MC requirements for your cargo, contact us to discuss your needs.
+    `,
+  },
+  {
+    slug: "pallet-storage-handling-best-practices",
+    title: "How to Store and Handle Wooden Pallets: Best Practices for Exporters",
+    date: "2026-07-03",
+    description:
+      "Proper pallet storage protects your ISPM 15 compliance and prevents moisture damage. Here's how to store, handle, and inspect wooden pallets before loading your export shipment.",
+    content: `
+Wooden export pallets should be stored under cover on a dry, level surface, elevated off the ground, and away from direct contact with untreated timber. Improper storage can increase moisture content above safe export levels and compromise ISPM 15 compliance — turning a compliant pallet into a compliance risk before it reaches the container.
+
+You have invested in ISPM 15-certified, IPPC-stamped pallets. But how you store and handle them between delivery and container loading can make or break their effectiveness. Here are the best practices every Sri Lankan exporter should follow.
+
+## Why Storage Matters
+
+### Moisture Re-Absorption
+
+Kiln-dried pallets delivered at below 15% moisture content will absorb moisture from their environment if stored improperly. In Sri Lanka's tropical climate — with humidity regularly exceeding 80% — an uncovered pallet can absorb enough moisture in 1-2 weeks to exceed safe export levels.
+
+This is especially critical for exporters shipping [tea](/pallets-for-tea-export), [spices and cinnamon](/pallets-for-spice-export), and [coconut products](/pallets-for-coconut-export) — all hygroscopic products that are damaged by pallet moisture.
+
+### IPPC Stamp Damage
+
+The IPPC stamp is your proof of ISPM 15 compliance. If pallets are dragged across rough surfaces, stacked carelessly, or exposed to prolonged rain, the stamp can become illegible. An illegible stamp is treated the same as no stamp at all by customs authorities.
+
+### Pest Re-Infestation
+
+Heat-treated pallets are pest-free when they leave the treatment facility. But if stored in contact with untreated timber, soil, or vegetation, they can be re-infested — and a re-infested pallet may be rejected at the destination port even if it carries a valid IPPC stamp.
+
+## Storage Best Practices
+
+### 1. Store Under Cover
+
+Always store pallets under a roof or tarpaulin. Direct rain exposure will rapidly increase moisture content and can cause mould growth within days. Even heavy dew in coastal areas can be problematic over time.
+
+If covered storage is not available, use heavy-duty tarpaulins secured against wind. Ensure air circulation underneath the cover to prevent condensation.
+
+### 2. Elevate Off the Ground
+
+Never place pallets directly on bare ground, soil, or grass. Ground moisture wicks upward into the bottom boards. Use concrete flooring, a gravel bed, or place pallets on bearers to keep them elevated.
+
+### 3. Allow Air Circulation
+
+Stack pallets with uniform spacing to allow air movement between layers. Tight stacking in humid conditions creates micro-climates where moisture accumulates and mould thrives.
+
+Maximum recommended stack height is 15 pallets for standard construction.
+
+### 4. Separate from Untreated Timber
+
+Do not store ISPM 15-treated pallets alongside untreated timber, raw logs, or wood waste. Untreated wood can harbour pests that migrate to treated pallets, compromising their compliance status.
+
+### 5. First-In, First-Out
+
+Use older pallets first. The longer a pallet sits in storage — especially in humid conditions — the more moisture it absorbs. A first-in, first-out rotation ensures pallets are used while their moisture content is still within specification.
+
+## Pre-Loading Inspection Checklist
+
+Before loading pallets into a container, check each one for:
+
+- **IPPC stamp visible and legible** on at least two sides
+- **No visible mould** on any surface (white, green, or black spots)
+- **No bark present** (ISPM 15 requires bark-free timber with limited exceptions)
+- **No structural damage** — cracked boards, broken blocks, protruding nails
+- **No signs of pest activity** — bore holes, frass (sawdust from boring insects), live insects
+- **Moisture content below 15%** — use a pin-type moisture meter if available
+
+If any pallet fails these checks, do not use it for export. Replace it with a compliant pallet.
+
+Use our [Moisture Content Calculator](/moisture-content-calculator) to verify MC levels from meter readings or weight measurements.
+
+## Handling Best Practices
+
+### Forklift Operation
+
+- Enter fork pockets squarely — angled entry can crack deck boards and damage blocks
+- Lift pallets fully before moving — dragging pallets across rough surfaces damages the stamp and bottom boards
+- Do not push pallets with the forklift blade — this splits and cracks the leading edge
+
+### Loading into Containers
+
+- Inspect the container floor for moisture, debris, or damage before loading
+- Place pallets flat — do not angle or force pallets into position
+- Ensure pallets are seated squarely against each other with minimal gaps
+- Use dunnage or airbags to prevent shifting during transit
+- For container loading optimisation, use our [Container Pallet Calculator](/container-pallet-calculator)
+
+## What to Do If Pallets Get Wet
+
+If pallets are exposed to rain or flooding:
+
+1. Move them to a dry, covered area immediately
+2. Separate wet pallets from dry stock
+3. Allow them to air-dry with good ventilation for 3-5 days
+4. Re-check moisture content with a meter before use
+5. If MC is above 15%, do not use for export — contact your pallet supplier for replacements
+
+## CeyPall Delivery and Storage Support
+
+CeyPall delivers pallets on a scheduled basis aligned with your container stuffing schedule, minimising storage time at your facility. For clients with limited covered storage, we can arrange just-in-time delivery within 3-5 working days of your loading date.
+
+All pallets are delivered at below 15% MC and are stored in our covered facility until dispatch. Contact us to set up a recurring delivery schedule that matches your export cycle.
     `,
   },
   {

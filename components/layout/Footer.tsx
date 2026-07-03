@@ -159,6 +159,14 @@ export function Footer() {
                   Rubber Export Pallets
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/pallets-for-spice-export"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Spice &amp; Cinnamon Pallets
+                </Link>
+              </li>
             </ul>
             <p className="font-body text-xs font-semibold tracking-[0.12em] uppercase text-accent mb-5">
               Regions

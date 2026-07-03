@@ -148,6 +148,14 @@ const guideClusters = [
     ],
   },
   {
+    title: 'Moisture & Storage',
+    description: 'Understand pallet moisture content, how to measure it, and best practices for storage and handling.',
+    slugs: [
+      'pallet-moisture-content-guide-exporters',
+      'pallet-storage-handling-best-practices',
+    ],
+  },
+  {
     title: 'Choosing a Supplier',
     description: 'What to look for in a pallet supplier — certifications, documentation, and red flags.',
     slugs: [
@@ -235,6 +243,49 @@ export default function KnowledgeCentrePage() {
                 </p>
               </div>
             </FadeUp>
+          </div>
+        </div>
+      </section>
+
+      {/* Industry Guides */}
+      <section className="section-padding bg-white">
+        <div className="container-content">
+          <FadeUp>
+            <SectionHeader
+              eyebrow="Industry guides"
+              title="Pallet Solutions by Export Industry"
+              subtitle="Industry-specific guides covering pallet requirements, delivery regions, and compliance for Sri Lanka's major export sectors."
+            />
+          </FadeUp>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+            {[
+              { href: '/pallets-for-tea-export', title: 'Tea Export Pallets', description: 'Low MC pallets for Ceylon tea. Covers tea regions, moisture sensitivity, and Japan/EU/Russia market requirements.' },
+              { href: '/pallets-for-apparel-export', title: 'Apparel Export Pallets', description: 'IPPC-stamped pallets for garment exporters. EPZ delivery coverage, EU/US compliance, and BOI documentation.' },
+              { href: '/pallets-for-coconut-export', title: 'Coconut Export Pallets', description: 'Food-safe pallets for desiccated coconut, coconut oil, and coir. Coconut Triangle delivery and moisture protection.' },
+              { href: '/pallets-for-rubber-export', title: 'Rubber Export Pallets', description: 'Heavy-duty pallets for crepe rubber, RSS sheets, and latex drums. Reinforced construction for 1,000-1,500 kg loads.' },
+              { href: '/pallets-for-spice-export', title: 'Spice & Cinnamon Pallets', description: 'Low moisture pallets for Ceylon cinnamon, pepper, cloves, and cardamom. Food-safe, bark-free, with spice region delivery.' },
+            ].map((industry) => (
+              <FadeUp key={industry.href}>
+                <Link
+                  href={industry.href}
+                  className="group block bg-cream/60 border border-warm-gray hover:border-accent p-6 transition-all duration-200 hover:shadow-sm"
+                >
+                  <h3 className="font-display text-lg text-primary group-hover:text-accent transition-colors duration-200">
+                    {industry.title}
+                  </h3>
+                  <p className="font-body text-sm text-charcoal/60 mt-2 leading-relaxed">
+                    {industry.description}
+                  </p>
+                  <span className="inline-flex items-center gap-1 font-body text-sm font-medium text-accent mt-4">
+                    Read guide
+                    <svg className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" viewBox="0 0 14 14" fill="none">
+                      <path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </span>
+                </Link>
+              </FadeUp>
+            ))}
           </div>
         </div>
       </section>
