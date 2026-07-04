@@ -183,14 +183,15 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen flex flex-col">
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-18176480799"
+          src="https://www.googletagmanager.com/gtag/js?id=G-Z1LQXV56LN"
           strategy="afterInteractive"
         />
-        <Script id="google-ads-tag" strategy="afterInteractive">
+        <Script id="google-analytics-tag" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+            gtag('config', 'G-Z1LQXV56LN');
             gtag('config', 'AW-18176480799');
           `}
         </Script>
