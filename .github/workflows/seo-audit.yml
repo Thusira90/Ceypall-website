@@ -1,0 +1,42 @@
+name: SEO Audit
+
+# Runs on every push and PR to main, plus a weekly scheduled self-audit.
+# Blocks bad deploys: builds the site, starts it, then crawls every
+# sitemap URL for canonical/title/meta/H1/JSON-LD issues and broken
+# internal links. Any ERROR fails the job.
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 6 * * 1' # Mondays 06:00 UTC — weekly self-audit
+  workflow_dispatch: {}
+
+jobs:
+  seo-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Start server
+        run: npm run start &
+
+      - name: Wait for server
+        run: npx --yes wait-on http://localhost:3000 --timeout 60000
+
+      - name: Run SEO audit
+        env:
+          BASE_URL: http://localhost:3000
+        run: node scripts/seo-audit.mjs
