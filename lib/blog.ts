@@ -1,6 +1,10 @@
 export interface BlogPost {
   slug: string;
   title: string;
+  // Optional shorter title for the <title> tag / SERP. When omitted, the
+  // full `title` (the on-page H1 headline) is used. Set this for posts
+  // whose headline runs long enough to truncate in search results.
+  seoTitle?: string;
   date: string;
   lastUpdated?: string;
   description: string;
@@ -11,6 +15,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "what-is-ispm-15",
     title: "What is ISPM 15 and Why Does It Matter for Sri Lankan Exporters?",
+    seoTitle: "What Is ISPM 15? A Guide for Sri Lankan Exporters",
     date: "2026-05-20",
     lastUpdated: "2026-07-01",
     description:
@@ -149,6 +154,7 @@ CeyPall (Pvt) Ltd is officially registered with the National Plant Quarantine Se
   {
     slug: "standard-pallet-sizes-sri-lanka",
     title: "Standard Pallet Sizes for Sri Lankan Exporters: Which One Do You Need?",
+    seoTitle: "Standard Pallet Sizes for Sri Lankan Exporters",
     date: "2026-05-22",
     lastUpdated: "2026-07-01",
     description:
@@ -210,6 +216,7 @@ CeyPall manufactures all standard international pallet sizes — and custom dime
   {
     slug: "heat-treatment-vs-methyl-bromide-fumigation",
     title: "Heat Treatment vs Methyl Bromide Fumigation: What Exporters Need to Know",
+    seoTitle: "Heat Treatment vs Methyl Bromide Fumigation",
     date: "2026-05-24",
     lastUpdated: "2026-07-01",
     description:
@@ -332,6 +339,7 @@ If a customer or customs authority ever needs to verify our registration, we can
   {
     slug: "vacuum-pressure-impregnated-vs-heat-treated-pallets",
     title: "Vacuum Pressure Impregnated vs Heat-Treated Pallets: Which Do You Need?",
+    seoTitle: "Vacuum Pressure Impregnated vs Heat-Treated Pallets",
     date: "2026-05-28",
     description:
       "CeyPall offers two types of treated wooden pallets — heat-treated for export and vacuum pressure impregnated for long-term storage. Here's how to choose the right one for your application.",
@@ -414,6 +422,7 @@ If you need both — some companies export goods on heat-treated pallets and sto
   {
     slug: "why-shipments-get-rejected-customs-pallet-issues",
     title: "5 Pallet-Related Reasons Sri Lankan Export Shipments Get Rejected at Customs",
+    seoTitle: "5 Pallet Reasons Export Shipments Get Rejected at Customs",
     date: "2026-05-30",
     description:
       "Customs rejections are costly and damaging to buyer relationships. Many are caused by pallet compliance issues that are entirely avoidable. Here are the five most common pallet-related reasons Sri Lankan shipments get stopped at foreign ports.",
@@ -544,6 +553,7 @@ CeyPall (Pvt) Ltd has been manufacturing ISPM 15-certified wooden pallets since 
   {
     slug: "wooden-pallets-for-tea-export-sri-lanka",
     title: "Wooden Pallets for Tea Export from Sri Lanka: What You Need to Know",
+    seoTitle: "Wooden Pallets for Tea Export from Sri Lanka",
     date: "2026-06-01",
     description:
       "Sri Lanka is the world's fourth-largest tea exporter. If you export Ceylon tea, your pallets must meet strict ISPM 15 requirements. Here's what tea exporters need to know about pallet compliance.",
@@ -667,6 +677,7 @@ CeyPall (Pvt) Ltd has been supplying EU-compliant ISPM 15 heat-treated pallets t
   {
     slug: "sri-lanka-export-packaging-regulations-2026",
     title: "Sri Lanka Export Packaging Regulations in 2026: A Complete Guide for Exporters",
+    seoTitle: "Sri Lanka Export Packaging Regulations in 2026",
     date: "2026-06-30",
     description:
       "Sri Lanka's export packaging rules are tightening as global phytosanitary enforcement intensifies. Here's what every Sri Lankan exporter needs to know about wooden packaging compliance in 2026.",
@@ -861,6 +872,7 @@ We use calibrated moisture meters to verify MC levels before pallets leave our f
   {
     slug: "pallet-storage-handling-best-practices",
     title: "How to Store and Handle Wooden Pallets: Best Practices for Exporters",
+    seoTitle: "How to Store and Handle Wooden Pallets",
     date: "2026-07-03",
     description:
       "Proper pallet storage protects your ISPM 15 compliance and prevents moisture damage. Here's how to store, handle, and inspect wooden pallets before loading your export shipment.",
@@ -962,6 +974,7 @@ All pallets are delivered at below 15% MC and are stored in our covered facility
   {
     slug: "how-many-pallets-fit-in-a-container",
     title: "How Many Pallets Fit in a 20ft and 40ft Container? A Practical Guide",
+    seoTitle: "How Many Pallets Fit in a 20ft and 40ft Container?",
     date: "2026-07-01",
     description:
       "The number of pallets that fit in a shipping container depends on pallet size, container type, and stacking method. Here's a complete breakdown for 20ft and 40ft containers with real-world loading plans.",

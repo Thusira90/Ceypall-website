@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // Use an absolute title with a short brand suffix so the 20-char
     // "| CeyPall (Pvt) Ltd" template suffix doesn't push blog titles
     // past the SERP truncation point.
-    title: { absolute: `${post.title} | CeyPall` },
+    title: { absolute: `${post.seoTitle ?? post.title} | CeyPall` },
     description: post.description,
     alternates: {
       canonical: `https://www.ceypall.com/blog/${params.slug}`,

@@ -16,6 +16,19 @@ const warnings = []
 const err = (page, msg) => errors.push(`${page} — ${msg}`)
 const warn = (page, msg) => warnings.push(`${page} — ${msg}`)
 
+// Decode the handful of HTML entities that show up in titles/meta so we
+// measure the length Google actually displays, not the HTML-source length
+// (e.g. "&amp;" is one character on screen, not five).
+function decodeEntities(s) {
+  return s
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#0?39;|&#x27;|&apos;/g, "'")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n))
+}
+
 async function getText(url) {
   const res = await fetch(url, { redirect: 'manual' })
   const body = await res.text()
@@ -50,16 +63,17 @@ function checkPage(prodUrl, localUrl, body) {
   }
 
   // Title — present and a sane length.
-  const title = body.match(/<title[^>]*>([^<]*)<\/title>/i)?.[1]?.trim()
+  const title = decodeEntities(body.match(/<title[^>]*>([^<]*)<\/title>/i)?.[1]?.trim() || '') || undefined
   if (!title) err(prodUrl, 'missing <title>')
   else if (title.length < 10) warn(prodUrl, `title very short (${title.length} chars): "${title}"`)
   else if (title.length > 70) warn(prodUrl, `title long (${title.length} chars, may truncate in SERP)`)
 
   // Meta description — present and a sane length.
-  const desc = body
+  const descRaw = body
     .match(/<meta[^>]+name=["']description["'][^>]*>/i)?.[0]
     ?.match(/content=["']([^"']*)["']/i)?.[1]
     ?.trim()
+  const desc = descRaw ? decodeEntities(descRaw) : undefined
   if (!desc) err(prodUrl, 'missing meta description')
   else if (desc.length < 50) warn(prodUrl, `meta description short (${desc.length} chars)`)
   else if (desc.length > 175) warn(prodUrl, `meta description long (${desc.length} chars)`)
