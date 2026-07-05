@@ -19,7 +19,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-05-20",
     lastUpdated: "2026-07-01",
     description:
-      "If you export goods from Sri Lanka, you've likely come across the term ISPM 15. But what does it actually mean — and why can your shipment be rejected at the border without it?",
+      "If you export from Sri Lanka, you've seen the term ISPM 15. Here's what it actually means — and why your shipment can be rejected at the border without it.",
     content: `
 ISPM 15 is the international standard that requires all wooden packaging materials used in cross-border trade — including pallets — to be heat treated and stamped with an IPPC mark. Without it, your shipment can be rejected at the destination port.
 
@@ -158,7 +158,7 @@ CeyPall (Pvt) Ltd is officially registered with the National Plant Quarantine Se
     date: "2026-05-22",
     lastUpdated: "2026-07-01",
     description:
-      "Not all pallets are the same size — and using the wrong dimensions can cause problems at the port, in the container, or at the destination warehouse. Here's a complete guide to standard pallet sizes used in international trade.",
+      "Using the wrong pallet dimensions causes problems at the port, in the container, and at the destination warehouse. A guide to standard pallet sizes in international trade.",
     content: `
 The most common export pallet size used by Sri Lankan exporters is 1200×1000mm, followed by 1200×800mm for European markets and 1100×1100mm for Asian and Australian destinations. Using the wrong size wastes container space and can cause loading problems at the destination warehouse.
 
@@ -220,7 +220,7 @@ CeyPall manufactures all standard international pallet sizes — and custom dime
     date: "2026-05-24",
     lastUpdated: "2026-07-01",
     description:
-      "ISPM 15 allows two treatment methods for wooden pallets: heat treatment and methyl bromide fumigation. But one of them is being banned worldwide. Here's what every Sri Lankan exporter needs to know.",
+      "ISPM 15 allows two pallet treatments: heat treatment and methyl bromide fumigation — but one is being banned worldwide. What Sri Lankan exporters need to know.",
     content: `
 Heat treatment is the preferred ISPM 15 method worldwide — it leaves no chemical residue, is accepted in all 195 IPPC member countries, and its effectiveness lasts the lifetime of the pallet. Methyl bromide fumigation is being phased out globally under the Montreal Protocol and is already banned in several countries.
 
@@ -342,7 +342,7 @@ If a customer or customs authority ever needs to verify our registration, we can
     seoTitle: "Vacuum Pressure Impregnated vs Heat-Treated Pallets",
     date: "2026-05-28",
     description:
-      "CeyPall offers two types of treated wooden pallets — heat-treated for export and vacuum pressure impregnated for long-term storage. Here's how to choose the right one for your application.",
+      "CeyPall offers heat-treated pallets for export and vacuum pressure impregnated pallets for long-term storage. Here's how to choose the right one for your needs.",
     content: `
 Heat-treated pallets are required for international export — they carry the IPPC stamp and meet ISPM 15 phytosanitary standards. Vacuum pressure impregnated pallets are for long-term warehouse and racking use — they are not ISPM 15 certified but carry a warranty of up to 6 years against pest contamination.
 
@@ -425,7 +425,7 @@ If you need both — some companies export goods on heat-treated pallets and sto
     seoTitle: "5 Pallet Reasons Export Shipments Get Rejected at Customs",
     date: "2026-05-30",
     description:
-      "Customs rejections are costly and damaging to buyer relationships. Many are caused by pallet compliance issues that are entirely avoidable. Here are the five most common pallet-related reasons Sri Lankan shipments get stopped at foreign ports.",
+      "Many customs rejections come from avoidable pallet compliance issues. Here are the five most common pallet-related reasons Sri Lankan shipments get stopped abroad.",
     content: `
 The five most common pallet-related reasons Sri Lankan export shipments get rejected at customs are: missing or invalid IPPC stamp, damaged or repaired pallets that were not re-treated, bark remaining on the timber, using a non-registered treatment provider, and pallet components replaced after treatment without re-stamping.
 
@@ -479,7 +479,7 @@ Every pallet manufactured by CeyPall is produced under our NPQS-certified heat t
     title: "How to Choose the Right Pallet Supplier in Sri Lanka",
     date: "2026-06-01",
     description:
-      "Not every pallet manufacturer in Sri Lanka is IPPC-registered or capable of producing ISPM 15-compliant export pallets. Here's what to look for — and the questions you should ask before placing an order.",
+      "Not every pallet manufacturer in Sri Lanka is IPPC-registered or ISPM 15-capable. Here's what to look for — and the questions to ask before placing an order.",
     content: `
 The most important thing to check when choosing a pallet supplier in Sri Lanka is whether they are registered with the National Plant Quarantine Service (NPQS) as an approved ISPM 15 heat treatment provider. Only NPQS-registered suppliers can legally issue IPPC-stamped pallets accepted at international ports.
 
@@ -556,7 +556,7 @@ CeyPall (Pvt) Ltd has been manufacturing ISPM 15-certified wooden pallets since 
     seoTitle: "Wooden Pallets for Tea Export from Sri Lanka",
     date: "2026-06-01",
     description:
-      "Sri Lanka is the world's fourth-largest tea exporter. If you export Ceylon tea, your pallets must meet strict ISPM 15 requirements. Here's what tea exporters need to know about pallet compliance.",
+      "If you export Ceylon tea, your pallets must meet strict ISPM 15 requirements. Here's what Sri Lankan tea exporters need to know about pallet compliance.",
     content: `
 Wooden pallets used for Ceylon tea export must be ISPM 15 certified with a valid IPPC stamp — this applies to every destination market Sri Lanka exports tea to, including Iraq, Russia, Turkey, Iran, the UAE, Japan and all EU countries. Non-compliant pallets risk quarantine or rejection of the entire tea consignment.
 
@@ -616,7 +616,7 @@ For detailed information about tea pallet sizes, delivery regions, and FAQ, visi
     title: "Pallet Requirements for Exporting to the EU from Sri Lanka",
     date: "2026-06-01",
     description:
-      "The European Union has some of the strictest wooden packaging requirements in the world. Here's exactly what Sri Lankan exporters need to ensure their pallets are EU-compliant before a shipment leaves.",
+      "The EU has some of the world's strictest wooden packaging rules. Here's what Sri Lankan exporters need to ensure their pallets are EU-compliant before a shipment leaves.",
     content: `
 To export goods to the European Union from Sri Lanka, all wooden pallets must be ISPM 15 compliant — heat treated to 56°C core temperature for a minimum of 30 minutes and stamped with a valid IPPC mark. The EU enforces this at every port of entry with no exceptions.
 
@@ -680,7 +680,7 @@ CeyPall (Pvt) Ltd has been supplying EU-compliant ISPM 15 heat-treated pallets t
     seoTitle: "Sri Lanka Export Packaging Regulations in 2026",
     date: "2026-06-30",
     description:
-      "Sri Lanka's export packaging rules are tightening as global phytosanitary enforcement intensifies. Here's what every Sri Lankan exporter needs to know about wooden packaging compliance in 2026.",
+      "Sri Lanka's export packaging rules are tightening as phytosanitary enforcement intensifies. What exporters need to know about wooden packaging compliance in 2026.",
     content: `
 Sri Lanka's export packaging regulations require all wooden packaging materials — pallets, crates, dunnage, and skids — used in international shipments to be ISPM 15 compliant, heat treated to 56°C core temperature for 30 minutes, and stamped with a valid IPPC mark. In 2026, enforcement at destination ports is stricter than ever.
 
@@ -787,7 +787,7 @@ We supply exporters across every sector in Sri Lanka — tea, apparel, rubber, c
     title: "Pallet Moisture Content: Why It Matters and How to Check It",
     date: "2026-07-03",
     description:
-      "High moisture in pallet wood can damage cargo during ocean transit. Here's how moisture content affects your shipment, what levels are safe, and how to measure it before loading.",
+      "High moisture in pallet wood can damage cargo in ocean transit. How moisture content affects your shipment, what levels are safe, and how to measure it before loading.",
     content: `
 Pallet moisture content (MC) should be below 15% for export shipments. Wood above 19% MC can release enough moisture inside a sealed shipping container to cause condensation, mould growth, and cargo damage — a problem known as "container rain" that costs exporters thousands of dollars per incident.
 
@@ -875,7 +875,7 @@ We use calibrated moisture meters to verify MC levels before pallets leave our f
     seoTitle: "How to Store and Handle Wooden Pallets",
     date: "2026-07-03",
     description:
-      "Proper pallet storage protects your ISPM 15 compliance and prevents moisture damage. Here's how to store, handle, and inspect wooden pallets before loading your export shipment.",
+      "Proper storage protects ISPM 15 compliance and prevents moisture damage. How to store, handle, and inspect wooden pallets before loading your export shipment.",
     content: `
 Wooden export pallets should be stored under cover on a dry, level surface, elevated off the ground, and away from direct contact with untreated timber. Improper storage can increase moisture content above safe export levels and compromise ISPM 15 compliance — turning a compliant pallet into a compliance risk before it reaches the container.
 
@@ -977,7 +977,7 @@ All pallets are delivered at below 15% MC and are stored in our covered facility
     seoTitle: "How Many Pallets Fit in a 20ft and 40ft Container?",
     date: "2026-07-01",
     description:
-      "The number of pallets that fit in a shipping container depends on pallet size, container type, and stacking method. Here's a complete breakdown for 20ft and 40ft containers with real-world loading plans.",
+      "How many pallets fit in a container depends on pallet size, container type, and stacking method. A breakdown for 20ft and 40ft containers with real loading plans.",
     content: `
 The number of pallets that fit in a standard shipping container depends on three factors: pallet dimensions, container type, and whether you single-stack or double-stack. A standard 20ft container fits 8 to 11 pallets on the floor. A 40ft container fits 18 to 24. This guide breaks down the exact numbers for every common pallet size used in Sri Lankan exports.
 

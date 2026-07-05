@@ -7,7 +7,7 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'ISPM 15 Wooden Pallets — Negombo & Wattala',
   description:
-    'CeyPall delivers heat-treated, ISPM 15-certified wooden pallets to Negombo and the Wattala region. Export pallets and storage pallets manufactured in Kochchikade, just 20 km away.',
+    'CeyPall delivers heat-treated, ISPM 15-certified wooden pallets to Negombo and Wattala. Export and storage pallets manufactured in Kochchikade, just 20 km away.',
   twitter: {
     description:
       'CeyPall delivers heat-treated, ISPM 15-certified wooden pallets to Negombo and the Wattala region. Export pallets and storage pallets manufactured in Kochchikade, just 20 km away.',

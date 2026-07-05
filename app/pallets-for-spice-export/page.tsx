@@ -8,7 +8,7 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: { absolute: 'Spice & Cinnamon Export Pallets Sri Lanka | ISPM 15' },
   description:
-    'ISPM 15 heat-treated wooden pallets for Sri Lankan spice and cinnamon exporters. Low moisture content, bark-free, food-safe. IPPC stamped with delivery to Matale, Kandy, Galle, and all spice-producing regions.',
+    'ISPM 15 heat-treated pallets for Sri Lankan spice and cinnamon exporters. Low moisture, bark-free, food-safe. IPPC stamped, delivered to Matale, Kandy, Galle, and beyond.',
   alternates: {
     canonical: 'https://www.ceypall.com/pallets-for-spice-export',
   },

@@ -8,7 +8,7 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'Pallets for Apparel Export Sri Lanka | ISPM 15 Certified',
   description:
-    'ISPM 15 heat-treated wooden pallets for Sri Lankan apparel and garment exporters. IPPC stamped, treatment certificates included. Delivery to Katunayake, Biyagama, and all EPZs.',
+    'ISPM 15 heat-treated pallets for Sri Lankan apparel and garment exporters. IPPC stamped, treatment certificates included. Delivery to Katunayake, Biyagama, and all EPZs.',
   alternates: {
     canonical: 'https://www.ceypall.com/pallets-for-apparel-export',
   },

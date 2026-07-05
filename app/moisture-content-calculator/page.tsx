@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/Button'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Wood Moisture Content Calculator — Check Pallet MC for Export',
+  title: 'Wood Moisture Content Calculator — Pallet MC for Export',
   description:
     'Calculate wood moisture content for export pallets. Enter weights or meter readings to check if your pallet wood meets the recommended MC level for safe ocean transit.',
   alternates: {

@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/Button'
 export const metadata: Metadata = {
   title: 'Knowledge Centre — Export Pallet Guides, Tools & Resources',
   description:
-    'Free guides, calculators, and resources for Sri Lankan exporters. Learn about ISPM 15 compliance, pallet sizes, container loading, heat treatment, and export packaging regulations.',
+    'Free guides, calculators, and resources for Sri Lankan exporters — covering ISPM 15 compliance, pallet sizes, container loading, and export packaging regulations.',
   alternates: {
     canonical: 'https://www.ceypall.com/knowledge-centre',
   },

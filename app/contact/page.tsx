@@ -7,7 +7,7 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'Contact — Get a Quote',
   description:
-    'Request a quote from CeyPall (Pvt) Ltd for ISPM 15 heat-treated export pallets or vacuum pressure impregnated storage pallets. Call +94 312 277 752 or email office@ceypall.com.',
+    'Request a quote from CeyPall for ISPM 15 heat-treated export pallets or vacuum pressure impregnated storage pallets. Call +94 312 277 752 or email office@ceypall.com.',
   alternates: {
     canonical: 'https://www.ceypall.com/contact',
   },

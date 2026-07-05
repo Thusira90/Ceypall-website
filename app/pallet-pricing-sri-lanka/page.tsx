@@ -5,9 +5,9 @@ import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'Wooden Pallet Pricing in Sri Lanka — What Determines the Cost',
+  title: 'Wooden Pallet Pricing in Sri Lanka — What Drives Cost',
   description:
-    'The price of wooden pallets in Sri Lanka depends on several factors — wood species, dimensions, treatment type, order volume, and delivery distance. Get a quote from CeyPall for your specific requirements.',
+    'Wooden pallet prices in Sri Lanka depend on wood species, dimensions, treatment type, order volume, and delivery distance. Get a quote from CeyPall for your requirements.',
   twitter: {
     description:
       'The price of wooden pallets in Sri Lanka depends on several factors — wood species, dimensions, treatment type, order volume, and delivery distance. Get a quote from CeyPall for your specific requirements.',

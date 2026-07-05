@@ -8,7 +8,7 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'Pallets for Rubber Export Sri Lanka | ISPM 15 Certified',
   description:
-    'ISPM 15 heat-treated wooden pallets for Sri Lankan rubber exporters. Heavy-duty pallets for crepe rubber, RSS sheets, and latex products. IPPC stamped with island-wide delivery.',
+    'ISPM 15 heat-treated pallets for Sri Lankan rubber exporters. Heavy-duty pallets for crepe rubber, RSS sheets, and latex products. IPPC stamped, island-wide delivery.',
   alternates: {
     canonical: 'https://www.ceypall.com/pallets-for-rubber-export',
   },

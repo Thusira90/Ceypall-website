@@ -8,7 +8,7 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'Pallets for Tea Export Sri Lanka | ISPM 15 Certified',
   description:
-    'ISPM 15 heat-treated wooden pallets for Sri Lankan tea exporters. Sized to fit standard tea chests, kiln-dried below 15% MC to prevent moisture damage. IPPC stamped with delivery to Nuwara Eliya, Kandy, and Colombo.',
+    'ISPM 15 heat-treated pallets for Sri Lankan tea exporters. Sized for standard tea chests, kiln-dried below 15% MC. IPPC stamped, delivered to Nuwara Eliya, Kandy, and Colombo.',
   alternates: {
     canonical: 'https://www.ceypall.com/pallets-for-tea-export',
   },

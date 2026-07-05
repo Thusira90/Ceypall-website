@@ -8,7 +8,7 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'Pallets for Coconut Export Sri Lanka | ISPM 15 Certified',
   description:
-    'ISPM 15 heat-treated wooden pallets for Sri Lankan coconut product exporters. Kiln-dried below 15% MC for desiccated coconut, coconut oil, coconut cream, and coir products. IPPC stamped.',
+    'ISPM 15 heat-treated pallets for Sri Lankan coconut exporters. Kiln-dried below 15% MC for desiccated coconut, coconut oil, cream, and coir products. IPPC stamped.',
   alternates: {
     canonical: 'https://www.ceypall.com/pallets-for-coconut-export',
   },
