@@ -4,6 +4,7 @@ import Script from 'next/script'
 import './globals.css'
 import { Nav } from '@/components/layout/Nav'
 import { Footer } from '@/components/layout/Footer'
+import { ConversionTracker } from '@/components/analytics/ConversionTracker'
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -195,6 +196,7 @@ export default function RootLayout({
             gtag('config', 'AW-18176480799');
           `}
         </Script>
+        <ConversionTracker />
         <Nav />
         <main className="flex-1 pt-[72px]">{children}</main>
         <Footer />

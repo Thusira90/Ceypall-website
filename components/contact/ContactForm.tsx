@@ -6,6 +6,7 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 import { Button } from '@/components/ui/Button'
 import { cn } from '@/lib/utils'
+import { trackConversion, CONVERSION_EVENTS } from '@/lib/analytics'
 
 const schema = z.object({
   name: z.string().min(2, 'Please enter your name'),
@@ -47,6 +48,11 @@ export function ContactForm() {
         throw new Error(json.error || 'Failed to send enquiry.')
       }
       setSubmitted(true)
+      trackConversion(CONVERSION_EVENTS.formSubmit, {
+        method: 'contact_form',
+        pallet_use: data.palletUse,
+        quantity: data.quantity || undefined,
+      })
     } catch (err) {
       setSubmitError(err instanceof Error ? err.message : 'Failed to send enquiry. Please try again.')
     }
