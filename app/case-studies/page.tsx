@@ -5,7 +5,7 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 import { Button } from '@/components/ui/Button'
 
 export const metadata: Metadata = {
-  title: 'Case Studies — How Sri Lankan Exporters Solved Pallet Compliance Challenges',
+  title: 'Case Studies — Sri Lanka Export Pallet Compliance',
   description:
     'Real results from Sri Lankan exporters who switched to CeyPall for ISPM 15 certified pallets. Case studies from apparel, tea, and food manufacturing industries.',
   alternates: {

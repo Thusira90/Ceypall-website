@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   title: {
     default: 'CeyPall (Pvt) Ltd — ISPM 15 Certified Wooden Pallets, Sri Lanka',
-    template: '%s | CeyPall (Pvt) Ltd',
+    template: '%s | CeyPall',
   },
   description:
     'CeyPall manufactures heat-treated, IPPC-stamped wooden pallets for export and storage. ISPM 15 certified. Custom sizes. Island-wide delivery across Sri Lanka.',

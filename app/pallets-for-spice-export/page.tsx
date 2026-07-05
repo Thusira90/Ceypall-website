@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'Pallets for Spice & Cinnamon Export Sri Lanka | ISPM 15 Certified',
+  title: { absolute: 'Spice & Cinnamon Export Pallets Sri Lanka | ISPM 15' },
   description:
     'ISPM 15 heat-treated wooden pallets for Sri Lankan spice and cinnamon exporters. Low moisture content, bark-free, food-safe. IPPC stamped with delivery to Matale, Kandy, Galle, and all spice-producing regions.',
   alternates: {
