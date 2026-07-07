@@ -71,10 +71,13 @@ const productListJsonLd = {
         category: 'Export Pallets',
         material: 'Rubber Wood, Lunumidella',
         offers: {
-          '@type': 'Offer',
-          availability: 'https://schema.org/InStock',
+          '@type': 'AggregateOffer',
           priceCurrency: 'LKR',
+          lowPrice: '2450.00',
+          highPrice: '8750.00',
+          availability: 'https://schema.org/InStock',
           url: 'https://www.ceypall.com/contact',
+          seller: { '@id': 'https://www.ceypall.com/#organization' },
         },
       },
     },
@@ -91,10 +94,13 @@ const productListJsonLd = {
         category: 'Storage Pallets',
         material: 'Rubber Wood, Lunumidella',
         offers: {
-          '@type': 'Offer',
-          availability: 'https://schema.org/InStock',
+          '@type': 'AggregateOffer',
           priceCurrency: 'LKR',
+          lowPrice: '2450.00',
+          highPrice: '8750.00',
+          availability: 'https://schema.org/InStock',
           url: 'https://www.ceypall.com/contact',
+          seller: { '@id': 'https://www.ceypall.com/#organization' },
         },
       },
     },
@@ -305,6 +311,53 @@ export default function ProductsPage() {
               Not sure which size you need? Contact us and we&apos;ll help you choose the right pallet for
               your cargo and destination.
             </p>
+          </FadeUp>
+        </div>
+      </section>
+
+      {/* ISPM 15 vs untreated — comparison table (extractable by AI answer engines) */}
+      <section className="section-padding bg-warm-gray/40">
+        <div className="container-content">
+          <FadeUp>
+            <SectionHeader
+              eyebrow="Why certified pallets"
+              title="ISPM 15 pallet vs untreated pallet."
+              subtitle="For any export shipment, an ISPM 15-certified pallet is a legal requirement — not an upgrade. Here is how the two compare."
+            />
+          </FadeUp>
+
+          <FadeUp delay={0.1}>
+            <div className="mt-10 overflow-x-auto">
+              <table className="w-full font-body text-sm border border-warm-gray">
+                <caption className="sr-only">
+                  ISPM 15 certified export pallet compared with an untreated wooden pallet
+                </caption>
+                <thead>
+                  <tr className="bg-primary text-cream">
+                    <th scope="col" className="text-left py-3 px-4 font-semibold">Factor</th>
+                    <th scope="col" className="text-left py-3 px-4 font-semibold">ISPM 15 Pallet</th>
+                    <th scope="col" className="text-left py-3 px-4 font-semibold">Untreated Pallet</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-warm-gray">
+                  {[
+                    ['Heat treated to 56°C', 'Yes', 'No'],
+                    ['IPPC stamp', 'Yes (LK + HT code)', 'None'],
+                    ['Treatment certificate', 'Included', 'Not available'],
+                    ['Accepted for export', 'Yes — 180+ countries', 'No — rejected at customs'],
+                    ['Pest / larvae risk', 'Eliminated', 'Present'],
+                    ['Risk at destination port', 'None', 'Quarantine, fumigation, or destruction'],
+                    ['Suitable for', 'International export', 'Local / internal use only'],
+                  ].map(([factor, ispm, untreated]) => (
+                    <tr key={factor} className="bg-white">
+                      <th scope="row" className="text-left py-3 px-4 font-semibold text-primary align-top">{factor}</th>
+                      <td className="py-3 px-4 text-charcoal/75 align-top">{ispm}</td>
+                      <td className="py-3 px-4 text-charcoal/60 align-top">{untreated}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </FadeUp>
         </div>
       </section>

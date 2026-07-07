@@ -4,6 +4,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { FadeUp } from '@/components/ui/FadeUp'
 import { SchemaScript } from '@/components/ui/SchemaScript'
+import { author, authorDisplayName, authorJsonLd } from '@/lib/author'
 
 interface Props {
   params: { slug: string }
@@ -61,12 +62,7 @@ export default function BlogPostPage({ params }: Props) {
       width: 1200,
       height: 630,
     },
-    author: {
-      '@type': 'Organization',
-      '@id': 'https://www.ceypall.com/#organization',
-      name: 'CeyPall (Pvt) Ltd',
-      url: 'https://www.ceypall.com',
-    },
+    author: authorJsonLd,
     publisher: {
       '@id': 'https://www.ceypall.com/#organization',
     },
@@ -130,6 +126,7 @@ export default function BlogPostPage({ params }: Props) {
                   })}
                 </span>
               )}
+              <span className="text-cream/50 ml-3">· By {authorDisplayName}</span>
             </p>
             <h1 className="font-display text-display-lg text-cream font-semibold leading-tight max-w-3xl">
               {post.title}
@@ -197,8 +194,29 @@ export default function BlogPostPage({ params }: Props) {
                       })}
                     </>
                   )}
-                  {' · By CeyPall (Pvt) Ltd'}
+                  {` · By ${authorDisplayName}`}
                 </p>
+              </div>
+
+              {/* Author bio — E-E-A-T signal for search and answer engines */}
+              <div className="mt-8 flex items-start gap-4 bg-warm-gray/30 border border-warm-gray p-6">
+                <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
+                  <span className="font-display text-lg font-semibold text-cream select-none">
+                    {author.name.charAt(0)}
+                  </span>
+                </div>
+                <div>
+                  <p className="font-display text-sm font-semibold text-primary">
+                    {authorDisplayName}
+                    <span className="font-body font-normal text-charcoal/50">
+                      {' · '}
+                      {author.jobTitle}, CeyPall (Pvt) Ltd
+                    </span>
+                  </p>
+                  <p className="mt-1.5 font-body text-sm text-charcoal/70 leading-relaxed">
+                    {author.bio}
+                  </p>
+                </div>
               </div>
             </div>
           </FadeUp>

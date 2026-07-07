@@ -63,10 +63,10 @@ const productJsonLd = {
   category: 'Export Pallets',
   material: 'Wood',
   offers: {
-    '@type': 'Offer',
+    '@type': 'AggregateOffer',
     priceCurrency: 'LKR',
-    price: '0',
-    priceValidUntil: '2027-12-31',
+    lowPrice: '2450.00',
+    highPrice: '8750.00',
     availability: 'https://schema.org/InStock',
     url: 'https://www.ceypall.com/contact',
     seller: {
@@ -678,6 +678,42 @@ export default function HeatTreatedPalletsPage() {
             <p className="mt-0 max-w-3xl font-body text-sm text-charcoal/70 leading-relaxed">
               ISPM 15 historically approved two treatment methods: heat treatment (HT) and methyl bromide fumigation (MB). However, methyl bromide is an ozone-depleting substance and its use is being phased out under the Montreal Protocol. Heat treatment is the preferred and dominant method globally.
             </p>
+          </FadeUp>
+
+          {/* Direct comparison table — extractable by search & answer engines */}
+          <FadeUp delay={0.1}>
+            <div className="mt-10 overflow-x-auto">
+              <table className="w-full font-body text-sm border border-warm-gray">
+                <caption className="sr-only">
+                  Heat treatment versus methyl bromide fumigation for ISPM 15 export pallets
+                </caption>
+                <thead>
+                  <tr className="bg-primary text-cream">
+                    <th scope="col" className="text-left py-3 px-4 font-semibold">Factor</th>
+                    <th scope="col" className="text-left py-3 px-4 font-semibold">Heat Treatment (HT)</th>
+                    <th scope="col" className="text-left py-3 px-4 font-semibold">Methyl Bromide (MB)</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-warm-gray">
+                  {[
+                    ['Method', 'Kiln heat — 56°C core for 30+ min', 'Chemical gas fumigation'],
+                    ['Chemical residue', 'None', 'Chemical residue on wood'],
+                    ['Food-contact safe', 'Yes', 'Not recommended'],
+                    ['EU acceptance', 'Accepted', 'Banned / not accepted'],
+                    ['Environmental impact', 'No emissions', 'Ozone-depleting (Montreal Protocol phase-out)'],
+                    ['Global acceptance', 'All 195 IPPC nations', 'Declining — many countries ban it'],
+                    ['IPPC mark code', 'HT', 'MB'],
+                    ['Used by CeyPall', 'Yes — exclusively', 'No'],
+                  ].map(([factor, ht, mb]) => (
+                    <tr key={factor} className="bg-white">
+                      <th scope="row" className="text-left py-3 px-4 font-semibold text-primary align-top">{factor}</th>
+                      <td className="py-3 px-4 text-charcoal/75 align-top">{ht}</td>
+                      <td className="py-3 px-4 text-charcoal/60 align-top">{mb}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </FadeUp>
 
           <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
