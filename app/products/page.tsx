@@ -64,6 +64,7 @@ const productListJsonLd = {
       item: {
         '@type': 'Product',
         name: 'ISPM 15 Heat Treated Export Pallets',
+        image: 'https://www.ceypall.com/HT%20PALLET%2012.PNG',
         description:
           'ISPM 15 certified, IPPC-stamped wooden pallets for international export. Core heated to 56°C for 30 minutes minimum. Kiln-dried below 15% moisture content. Available in Euro, North American, Asia-Pacific, and custom sizes.',
         brand: { '@type': 'Brand', name: 'CeyPall' },
@@ -87,6 +88,7 @@ const productListJsonLd = {
       item: {
         '@type': 'Product',
         name: 'VPI Storage Pallets',
+        image: 'https://www.ceypall.com/Storage.png',
         description:
           'Vacuum pressure impregnated wooden pallets for long-term storage. Boron Borax treatment under up to 10 bar pressure. Protection guaranteed for up to 6 years. Ideal for warehousing and racking systems.',
         brand: { '@type': 'Brand', name: 'CeyPall' },
