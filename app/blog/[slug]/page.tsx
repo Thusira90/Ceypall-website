@@ -91,6 +91,42 @@ export default function BlogPostPage({ params }: Props) {
     .split('\n')
     .filter((line) => line.trim() !== '')
 
+  // Render a line of body text: convert inline markdown links [label](href)
+  // into real anchors (internal → Link, external → <a>) and strip **bold**
+  // markers. Without this, links in blog content render as raw markdown text.
+  const renderInline = (text: string): React.ReactNode => {
+    const linkClass =
+      'text-accent underline underline-offset-2 hover:text-accent-hover transition-colors'
+    const parts: React.ReactNode[] = []
+    const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g
+    let lastIndex = 0
+    let match: RegExpExecArray | null
+    let key = 0
+    const pushText = (raw: string) => {
+      if (raw) parts.push(<span key={`t${key++}`}>{raw.replace(/\*\*(.*?)\*\*/g, '$1')}</span>)
+    }
+    while ((match = linkRegex.exec(text)) !== null) {
+      pushText(text.slice(lastIndex, match.index))
+      const [, label, href] = match
+      if (href.startsWith('/')) {
+        parts.push(
+          <Link key={`l${key++}`} href={href} className={linkClass}>
+            {label}
+          </Link>,
+        )
+      } else {
+        parts.push(
+          <a key={`a${key++}`} href={href} className={linkClass} target="_blank" rel="noopener noreferrer">
+            {label}
+          </a>,
+        )
+      }
+      lastIndex = linkRegex.lastIndex
+    }
+    pushText(text.slice(lastIndex))
+    return parts
+  }
+
   return (
     <>
       {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
@@ -165,14 +201,14 @@ export default function BlogPostPage({ params }: Props) {
                     <li key={i} className="flex items-start gap-3 mb-2">
                       <div className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0 mt-2" />
                       <span className="font-body text-sm text-charcoal/70 leading-relaxed">
-                        {line.replace('- ', '')}
+                        {renderInline(line.replace('- ', ''))}
                       </span>
                     </li>
                   )
                 }
                 return (
                   <p key={i} className="font-body text-sm text-charcoal/70 leading-relaxed mb-5">
-                    {line.replace(/\*\*(.*?)\*\*/g, '$1')}
+                    {renderInline(line)}
                   </p>
                 )
               })}
