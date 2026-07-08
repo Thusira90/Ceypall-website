@@ -21,6 +21,9 @@ Key facts:
 - [Export pallet manufacturer](https://www.ceypall.com/export-pallet-manufacturer-sri-lanka): Export-grade pallet manufacturing overview.
 - [Products](https://www.ceypall.com/products): Pallet types, sizes, and specifications.
 - [Heat-treated pallets](https://www.ceypall.com/heat-treated-pallets): How ISPM 15 heat treatment works.
+- [Euro pallets](https://www.ceypall.com/euro-pallets-sri-lanka): Euro-standard 1200 × 800 mm pallets for EU/UK export.
+- [Custom wooden pallets](https://www.ceypall.com/custom-wooden-pallets-sri-lanka): Bespoke pallets built to any dimension and load rating.
+- [Industrial pallets](https://www.ceypall.com/industrial-pallets-sri-lanka): Heavy-duty, load-rated pallets for manufacturing and warehousing.
 - [Pallet pricing](https://www.ceypall.com/pallet-pricing-sri-lanka): What drives wooden pallet cost in Sri Lanka.
 - [How it works](https://www.ceypall.com/how-it-works): Ordering, treatment, and delivery process.
 - [Contact](https://www.ceypall.com/contact): Request a quote.

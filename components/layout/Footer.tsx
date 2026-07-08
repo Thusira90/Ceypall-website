@@ -96,6 +96,30 @@ export function Footer() {
               </li>
               <li>
                 <Link
+                  href="/euro-pallets-sri-lanka"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Euro Pallets
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/custom-wooden-pallets-sri-lanka"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Custom Wooden Pallets
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/industrial-pallets-sri-lanka"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Industrial Pallets
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/container-pallet-calculator"
                   className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
                 >
