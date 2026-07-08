@@ -44,7 +44,7 @@ const productJsonLd = {
   name: 'Euro Pallet (1200 × 800 mm) — ISPM 15 Heat Treated',
   description:
     'Euro-standard 1200 × 800 mm wooden pallet manufactured in Sri Lanka. Four-way entry, ISPM 15 heat treated to 56°C core temperature and IPPC stamped for export to the EU and UK.',
-  image: 'https://www.ceypall.com/HT%20PALLET%2012.PNG',
+  image: 'https://www.ceypall.com/Euro%20Pallet.jpg',
   brand: { '@type': 'Brand', name: 'CeyPall' },
   category: 'Wooden Pallets',
   offers: {
@@ -257,12 +257,12 @@ export default function EuroPalletsSriLankaPage() {
             </FadeUp>
 
             <FadeUp delay={0.12}>
-              <div className="aspect-[4/3] relative overflow-hidden">
+              <div className="aspect-[3/2] relative overflow-hidden bg-white">
                 <Image
-                  src="/HT PALLET 12.PNG"
+                  src="/Euro Pallet.jpg"
                   alt="Euro-standard 1200 x 800 mm wooden pallet manufactured by CeyPall in Sri Lanka, ISPM 15 heat treated"
                   fill
-                  className="object-cover"
+                  className="object-contain scale-110"
                   priority
                 />
               </div>
