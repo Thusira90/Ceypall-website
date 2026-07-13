@@ -12,6 +12,7 @@ const products = [
     tag: 'Export',
     title: 'Heat-treated pallets',
     subtitle: 'ISPM 15 compliant',
+    href: '/heat-treated-pallets',
     body: 'ISPM 15-compliant pallets with IPPC stamp. Core heated to 56°C for a minimum of 30 minutes. Accepted in all major international markets. Treatment certificate provided.',
     features: ['56°C core heat treatment', 'IPPC stamped', 'Treatment certificate included', 'ISPM 15 compliant'],
     accent: true,
@@ -29,6 +30,7 @@ const products = [
     tag: 'Storage',
     title: 'Vacuum pressure impregnated',
     subtitle: 'Long-term warehouse',
+    href: '/industrial-pallets-sri-lanka',
     body: 'For long-term warehouse and racking applications, pallets are treated using vacuum pressure impregnation — forcing Boron Borax deep into the wood core under pressure. Backed by a warranty of up to 6 years against pest contamination.',
     features: ['Up to 10 bar pressure impregnation', '6-year warranty (pest)', 'Ideal for racking systems', 'Enhanced durability'],
     accent: false,
@@ -45,6 +47,7 @@ const products = [
     tag: 'Custom',
     title: 'Custom size pallets',
     subtitle: 'Built to spec',
+    href: '/custom-wooden-pallets-sri-lanka',
     body: 'We manufacture all standard international dimensions and custom sizes built to your exact specifications. Contact us with your requirements.',
     features: ['All standard sizes', 'Custom dimensions available', 'Same treatment standards', 'Quick turnaround'],
     accent: false,
@@ -82,41 +85,50 @@ export function ProductsOverview() {
           animate={isInView ? 'show' : 'hidden'}
           className="grid grid-cols-1 md:grid-cols-3 gap-px bg-white/5"
         >
-          {products.map(({ tag, title, subtitle, body, features, accent, icon }) => (
+          {products.map(({ tag, title, subtitle, href, body, features, accent, icon }) => (
             <motion.div
               key={title}
               variants={staggerItem}
-              className={`flex flex-col p-8 gap-6 ${accent ? 'bg-accent' : 'bg-charcoal'}`}
+              className={accent ? 'bg-accent' : 'bg-charcoal'}
             >
-              <div className="flex items-start justify-between">
-                <div className={`w-14 h-14 flex items-center justify-center ${accent ? 'bg-white/15 text-white' : 'bg-white/5 text-accent'}`}>
-                  {icon}
+              <Link href={href} className="group flex flex-col p-8 gap-6 h-full">
+                <div className="flex items-start justify-between">
+                  <div className={`w-14 h-14 flex items-center justify-center ${accent ? 'bg-white/15 text-white' : 'bg-white/5 text-accent'}`}>
+                    {icon}
+                  </div>
+                  <span className={`font-body text-xs font-semibold tracking-[0.12em] uppercase px-2.5 py-1 ${accent ? 'bg-white/20 text-white' : 'bg-white/8 text-cream/60'}`}>
+                    {tag}
+                  </span>
                 </div>
-                <span className={`font-body text-xs font-semibold tracking-[0.12em] uppercase px-2.5 py-1 ${accent ? 'bg-white/20 text-white' : 'bg-white/8 text-cream/60'}`}>
-                  {tag}
+
+                <div>
+                  <p className={`font-body text-xs mb-1 ${accent ? 'text-white/70' : 'text-cream/50'}`}>{subtitle}</p>
+                  <h3 className={`font-display text-xl font-semibold mb-4 ${accent ? 'text-white' : 'text-cream'}`}>
+                    {title}
+                  </h3>
+                  <p className={`font-body text-sm leading-relaxed ${accent ? 'text-white/80' : 'text-cream/65'}`}>
+                    {body}
+                  </p>
+                </div>
+
+                <ul className="space-y-2 mt-auto">
+                  {features.map((f) => (
+                    <li key={f} className="flex items-center gap-2.5">
+                      <svg className={`w-3.5 h-3.5 flex-shrink-0 ${accent ? 'text-white' : 'text-accent'}`} viewBox="0 0 14 14" fill="none">
+                        <path d="M2 7l3.5 3.5L12 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                      <span className={`font-body text-xs ${accent ? 'text-white/85' : 'text-cream/70'}`}>{f}</span>
+                    </li>
+                  ))}
+                </ul>
+
+                <span className={`inline-flex items-center gap-1.5 font-body text-xs font-semibold tracking-[0.08em] uppercase ${accent ? 'text-white' : 'text-accent'}`}>
+                  Learn more
+                  <svg className="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-1" viewBox="0 0 14 14" fill="none">
+                    <path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
                 </span>
-              </div>
-
-              <div>
-                <p className={`font-body text-xs mb-1 ${accent ? 'text-white/70' : 'text-cream/50'}`}>{subtitle}</p>
-                <h3 className={`font-display text-xl font-semibold mb-4 ${accent ? 'text-white' : 'text-cream'}`}>
-                  {title}
-                </h3>
-                <p className={`font-body text-sm leading-relaxed ${accent ? 'text-white/80' : 'text-cream/65'}`}>
-                  {body}
-                </p>
-              </div>
-
-              <ul className="space-y-2 mt-auto">
-                {features.map((f) => (
-                  <li key={f} className="flex items-center gap-2.5">
-                    <svg className={`w-3.5 h-3.5 flex-shrink-0 ${accent ? 'text-white' : 'text-accent'}`} viewBox="0 0 14 14" fill="none">
-                      <path d="M2 7l3.5 3.5L12 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                    <span className={`font-body text-xs ${accent ? 'text-white/85' : 'text-cream/70'}`}>{f}</span>
-                  </li>
-                ))}
-              </ul>
+              </Link>
             </motion.div>
           ))}
         </motion.div>
