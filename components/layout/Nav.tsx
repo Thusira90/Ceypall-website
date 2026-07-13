@@ -18,10 +18,12 @@ const palletsLinks = [
   { href: '/export-pallet-manufacturer-sri-lanka', label: 'Export Pallet Manufacturer' },
 ]
 
+// Rendered before the Pallets dropdown, as the first item in the bar.
+const leadLink = { href: '/about', label: 'About' }
+
 const links = [
   { href: '/how-it-works', label: 'How It Works' },
   { href: '/clients', label: 'Clients' },
-  { href: '/about', label: 'About' },
   { href: '/knowledge-centre', label: 'Knowledge Centre' },
   { href: '/contact', label: 'Contact' },
 ]
@@ -83,6 +85,26 @@ export function Nav() {
 
           {/* Desktop nav */}
           <nav className="hidden lg:flex items-center gap-8">
+            {/* About — first item, before the Pallets dropdown */}
+            <Link
+              href={leadLink.href}
+              className={cn(
+                'font-body text-sm font-medium transition-colors duration-150 relative pb-0.5',
+                pathname === leadLink.href || pathname.startsWith(leadLink.href + '/')
+                  ? 'text-primary'
+                  : 'text-charcoal/60 hover:text-primary',
+              )}
+            >
+              {leadLink.label}
+              {(pathname === leadLink.href || pathname.startsWith(leadLink.href + '/')) && (
+                <motion.span
+                  layoutId="nav-indicator"
+                  className="absolute -bottom-1 left-0 right-0 h-0.5 bg-accent"
+                  transition={{ type: 'spring', stiffness: 400, damping: 40 }}
+                />
+              )}
+            </Link>
+
             {/* Pallets dropdown */}
             <div className="relative group">
               <button
@@ -201,8 +223,19 @@ export function Nav() {
             className="fixed inset-0 z-40 bg-cream pt-[72px] lg:hidden overflow-y-auto"
           >
             <nav className="flex flex-col px-5 pt-8 pb-10 gap-1">
+              {/* About — first item */}
+              <Link
+                href={leadLink.href}
+                className={cn(
+                  'font-display text-lg py-3 border-b border-warm-gray transition-colors duration-150',
+                  pathname === leadLink.href ? 'text-primary' : 'text-charcoal/70 hover:text-primary',
+                )}
+              >
+                {leadLink.label}
+              </Link>
+
               {/* Pallets group */}
-              <p className="font-body text-xs font-semibold tracking-[0.15em] uppercase text-accent pt-2 pb-3">
+              <p className="font-body text-xs font-semibold tracking-[0.15em] uppercase text-accent pt-6 pb-3">
                 Pallets
               </p>
               {palletsLinks.map(({ href, label }) => (
