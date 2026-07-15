@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/container-pallet-calculator',
     images: [
       {
-        url: '/OPENGIMAGE.png',
+        url: '/OPENGIMAGE.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: 'Container Pallet Calculator — How Many Pallets Fit? | CeyPall',
     description:
       'Calculate how many pallets fit in a 20ft, 40ft, or 40ft high cube shipping container. Instant floor plan with stacking layers.',
-    images: ['/OPENGIMAGE.png'],
+    images: ['/OPENGIMAGE.jpg'],
   },
 }
 

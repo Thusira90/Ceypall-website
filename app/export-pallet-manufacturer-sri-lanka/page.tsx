@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   twitter: {
     description:
       "CeyPall is Sri Lanka's dedicated export pallet manufacturer. ISPM 15 certified, IPPC-stamped heat treated wooden pallets for tea, apparel, coconut, rubber and general export. Custom sizes, island-wide delivery.",
-    images: ['/OPENGIMAGE.png'],
+    images: ['/OPENGIMAGE.jpg'],
   },
   alternates: {
     canonical: 'https://www.ceypall.com/export-pallet-manufacturer-sri-lanka',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/export-pallet-manufacturer-sri-lanka',
     images: [
       {
-        url: '/OPENGIMAGE.png',
+        url: '/OPENGIMAGE.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',

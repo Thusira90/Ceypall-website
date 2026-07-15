@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   twitter: {
     description:
       'Euro-size (1200 × 800 mm) wooden pallets manufactured in Sri Lanka. ISPM 15 heat treated, IPPC stamped for EU-bound exports. Custom quantities, island-wide delivery.',
-    images: ['/OPENGIMAGE.png'],
+    images: ['/OPENGIMAGE.jpg'],
   },
   alternates: {
     canonical: 'https://www.ceypall.com/euro-pallets-sri-lanka',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/euro-pallets-sri-lanka',
     images: [
       {
-        url: '/OPENGIMAGE.png',
+        url: '/OPENGIMAGE.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   twitter: {
     description:
       'CeyPall supplies heat-treated, IPPC-stamped wooden pallets to Colombo exporters, port logistics operators, and warehouse businesses across the Western Province. ISPM 15 certified.',
-    images: ['/OPENGIMAGE.png'],
+    images: ['/OPENGIMAGE.jpg'],
   },
   openGraph: {
     title: 'ISPM 15 Wooden Pallets — Colombo Port & Western Province | CeyPall (Pvt) Ltd',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/wooden-pallets-colombo',
     images: [
       {
-        url: '/OPENGIMAGE.png',
+        url: '/OPENGIMAGE.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',

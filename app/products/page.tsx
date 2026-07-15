@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/products',
     images: [
       {
-        url: '/OPENGIMAGE.png',
+        url: '/OPENGIMAGE.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: 'Products — Wooden Pallets for Export & Storage | CeyPall',
     description:
       'Heat-treated ISPM 15 pallets for export and VPI pallets for long-term storage. Standard and custom sizes available.',
-    images: ['/OPENGIMAGE.png'],
+    images: ['/OPENGIMAGE.jpg'],
   },
 }
 

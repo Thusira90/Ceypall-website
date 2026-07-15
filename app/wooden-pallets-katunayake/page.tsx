@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   twitter: {
     description:
       'CeyPall supplies heat-treated, IPPC-stamped export pallets to BOI companies and exporters in the Katunayake Free Trade Zone and Seeduwa area. ISPM 15 certified. Treatment certificate included.',
-    images: ['/OPENGIMAGE.png'],
+    images: ['/OPENGIMAGE.jpg'],
   },
   openGraph: {
     title: 'ISPM 15 Wooden Pallets — Katunayake FTZ & Seeduwa | CeyPall (Pvt) Ltd',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/wooden-pallets-katunayake',
     images: [
       {
-        url: '/OPENGIMAGE.png',
+        url: '/OPENGIMAGE.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',

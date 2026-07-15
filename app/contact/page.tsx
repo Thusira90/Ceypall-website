@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/contact',
     images: [
       {
-        url: '/OPENGIMAGE.png',
+        url: '/OPENGIMAGE.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: 'Contact CeyPall — Get a Quote for Export Pallets',
     description:
       'Request a quote for ISPM 15 heat-treated export pallets. Call +94 312 277 752 or email office@ceypall.com.',
-    images: ['/OPENGIMAGE.png'],
+    images: ['/OPENGIMAGE.jpg'],
   },
 }
 

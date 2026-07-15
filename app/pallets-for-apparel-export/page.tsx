@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/pallets-for-apparel-export',
     images: [
       {
-        url: '/OPENGIMAGE.png',
+        url: '/OPENGIMAGE.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: 'Pallets for Apparel Export Sri Lanka | CeyPall',
     description:
       'ISPM 15 certified pallets for garment exporters. IPPC stamped, treatment certificates, EPZ delivery.',
-    images: ['/OPENGIMAGE.png'],
+    images: ['/OPENGIMAGE.jpg'],
   },
 }
 

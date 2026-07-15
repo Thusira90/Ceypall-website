@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   twitter: {
     description:
       'Heavy-duty industrial wooden pallets manufactured in Sri Lanka. Load-rated for machinery, drums and heavy cargo. ISPM 15 heat treated or VPI-treated. Island-wide delivery.',
-    images: ['/OPENGIMAGE.png'],
+    images: ['/OPENGIMAGE.jpg'],
   },
   alternates: {
     canonical: 'https://www.ceypall.com/industrial-pallets-sri-lanka',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/industrial-pallets-sri-lanka',
     images: [
       {
-        url: '/OPENGIMAGE.png',
+        url: '/OPENGIMAGE.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
