@@ -60,7 +60,7 @@ const aboutPageJsonLd = {
 const whyItems = [
   { label: 'Timber expertise since 1955' },
   { label: 'Pallet manufacturing since 2005' },
-  { label: 'Officially IPPC registered in Sri Lanka' },
+  { label: 'IPPC registered — NPQS Reg. No. LK-0175' },
   { label: 'ISPM 15 certified — export compliant' },
   { label: 'Locally sourced rubber wood and Lunumidella' },
   { label: 'Treatment certificates with every order' },
@@ -137,7 +137,7 @@ export default function AboutPage() {
                 {[
                   { year: '1955', label: 'Timber business founded', sub: 'Seven decades of working with wood' },
                   { year: '2005', label: 'Pallet manufacturing launched', sub: 'Focused on export-grade ISPM 15 pallets' },
-                  { year: '2010s', label: 'IPPC registration secured', sub: 'National Plant Quarantine Service, Sri Lanka' },
+                  { year: '2007', label: 'IPPC registration secured', sub: 'National Plant Quarantine Service — Reg. No. LK-0175' },
                   { year: 'Today', label: '40+ active clients', sub: 'Island-wide delivery network' },
                 ].map(({ year, label, sub }, i, arr) => (
                   <div key={year} className="flex gap-6">

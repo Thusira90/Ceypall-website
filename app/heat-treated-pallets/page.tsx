@@ -664,6 +664,119 @@ export default function HeatTreatedPalletsPage() {
         </div>
       </section>
 
+      {/* ── NPQS Registration & Certification ──────────────────────────── */}
+      <section className="section-padding bg-primary">
+        <div className="container-content">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
+            {/* Text + registration facts */}
+            <FadeUp>
+              <div>
+                <SectionHeader
+                  eyebrow="Registration &amp; certification"
+                  title="Registered with Sri Lanka's National Plant Quarantine Service"
+                  light
+                />
+                <p className="font-body text-sm text-cream/75 leading-relaxed mb-5">
+                  CeyPall operates under IPPC registration <span className="font-semibold text-cream">LK&#8209;0175</span>, issued by the National Plant Quarantine Service (NPQS), Department of Agriculture — the authority that governs ISPM 15 heat treatment in Sri Lanka. Our authorisation to heat&#8209;treat wooden pallets and apply the IPPC mark has been in place since 2007 and is renewed annually.
+                </p>
+                <p className="font-body text-sm text-cream/75 leading-relaxed">
+                  The current registration is valid to <span className="font-semibold text-cream">23 June 2027</span>. It authorises CeyPall to apply the IPPC / ISPM 15 mark (LK&#8209;0175, HT) to wooden pallets and wood packaging materials — the compliance proof that customs authorities worldwide are trained to inspect at the border.
+                </p>
+
+                <dl className="mt-8 grid grid-cols-2 gap-px bg-white/10 border border-white/10">
+                  {[
+                    ['Registration No.', 'LK-0175'],
+                    ['Issuing authority', 'NPQS — Dept. of Agriculture'],
+                    ['Standard', 'IPPC / ISPM 15 (HT)'],
+                    ['Registered since', '2007'],
+                  ].map(([label, value]) => (
+                    <div key={label} className="bg-primary p-5">
+                      <dt className="font-body text-xs font-semibold tracking-[0.12em] uppercase text-accent-light mb-1.5">{label}</dt>
+                      <dd className="font-body text-sm text-cream leading-snug">{value}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+            </FadeUp>
+
+            {/* Featured — current certificate */}
+            <FadeUp delay={0.12}>
+              <figure className="bg-cream p-3 border border-white/10 shadow-2xl">
+                <div className="flex items-center justify-between px-1 pb-3">
+                  <span className="inline-flex items-center gap-1.5 font-body text-xs font-semibold tracking-[0.1em] uppercase text-primary">
+                    <span className="w-1.5 h-1.5 rounded-full bg-accent" />
+                    Current registration
+                  </span>
+                  <span className="font-body text-xs font-semibold text-charcoal/50">2026 · valid to Jun 2027</span>
+                </div>
+                <div className="relative w-full aspect-[1250/1767] bg-white">
+                  <Image
+                    src="/npqs-ippc-certificate-2026.jpg"
+                    alt="National Plant Quarantine Service IPPC registration renewal certificate for CeyPall (Pvt) Ltd, registration number LK-0175, valid to 23 June 2027"
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 45vw"
+                    className="object-contain"
+                  />
+                </div>
+                <figcaption className="font-body text-xs text-charcoal/55 leading-relaxed px-1 pt-3 pb-1">
+                  NPQS registration renewal — Reg. No. LK&#8209;0175, valid to June 2027. Personal identifiers have been redacted for privacy.
+                </figcaption>
+              </figure>
+            </FadeUp>
+          </div>
+
+          {/* Registration history — all certificates */}
+          <FadeUp delay={0.1}>
+            <div className="mt-16 pt-14 border-t border-white/10">
+              <p className="font-body text-xs font-semibold tracking-[0.15em] uppercase text-accent-light mb-3">
+                Registered under LK&#8209;0175 since 2007
+              </p>
+              <p className="max-w-3xl font-body text-sm text-cream/70 leading-relaxed mb-10">
+                The same NPQS registration — <span className="font-semibold text-cream">LK&#8209;0175</span> — has been held continuously since 2007. It was first issued to the founding family timber operation (St.&nbsp;Xavier) at our Kochchikade premises and is today renewed under CeyPall&nbsp;(Pvt)&nbsp;Ltd. The registration number, treatment facility and location remain unchanged.
+              </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                {[
+                  {
+                    src: '/npqs-ippc-certificate-2007.jpg',
+                    year: '2007',
+                    label: 'Original IPPC logo authorisation',
+                    meta: 'Reg. LK-0175 · with effect from 27 Aug 2007',
+                    alt: 'Plant Quarantine Station 2007 authorisation to use the IPPC logo under registration LK-0175 at the Kochchikade facility',
+                  },
+                  {
+                    src: '/npqs-ippc-certificate-2018.jpg',
+                    year: '2018',
+                    label: 'IPPC / FAO Phytosanitary Mark licence',
+                    meta: 'Reg. LK-0175 · HT-DB',
+                    alt: 'NPQS 2018 certificate licensing use of the IPPC/FAO phytosanitary mark under registration LK-0175',
+                  },
+                ].map(({ src, year, label, meta, alt }) => (
+                  <figure key={year} className="bg-cream p-3 border border-white/10 shadow-xl">
+                    <div className="flex items-center justify-between px-1 pb-3">
+                      <span className="font-display text-sm font-semibold text-primary">{year}</span>
+                      <span className="font-body text-xs font-medium text-charcoal/50">{meta}</span>
+                    </div>
+                    <div className="relative w-full aspect-[4/3] bg-white">
+                      <Image
+                        src={src}
+                        alt={alt}
+                        fill
+                        sizes="(max-width: 640px) 100vw, 45vw"
+                        className="object-contain"
+                      />
+                    </div>
+                    <figcaption className="font-body text-xs text-charcoal/55 leading-relaxed px-1 pt-3 pb-1">
+                      {label}. Personal identifiers redacted for privacy.
+                    </figcaption>
+                  </figure>
+                ))}
+              </div>
+            </div>
+          </FadeUp>
+        </div>
+      </section>
+
       {/* ── HT vs Fumigation ───────────────────────────────────────────── */}
       <section className="section-padding cream-texture">
         <div className="container-content">

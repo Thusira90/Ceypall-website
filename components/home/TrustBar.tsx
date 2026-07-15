@@ -14,7 +14,7 @@ const items = [
         <path d="M7 10l2 2 4-4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
-    label: 'IPPC registered — NPQS Sri Lanka',
+    label: 'IPPC registered · LK-0175 (NPQS)',
   },
   {
     icon: (
