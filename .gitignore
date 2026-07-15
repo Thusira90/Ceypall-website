@@ -34,3 +34,4 @@ next-env.d.ts
 # Source certificate PDFs — contain recoverable name/NIC under annotation overlay; never deploy
 public/IPPC Certificates/
 /IPPC Certificates/
+certificates-source/
