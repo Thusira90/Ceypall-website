@@ -665,7 +665,7 @@ export default function HeatTreatedPalletsPage() {
       </section>
 
       {/* ── NPQS Registration & Certification ──────────────────────────── */}
-      <section className="section-padding bg-primary">
+      <section id="certification" className="section-padding bg-primary scroll-mt-24">
         <div className="container-content">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
             {/* Text + registration facts */}

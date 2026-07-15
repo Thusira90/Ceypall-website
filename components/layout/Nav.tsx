@@ -9,13 +9,15 @@ import { cn } from '@/lib/utils'
 
 // Pallet product pages, grouped under a single "Pallets" dropdown so the top
 // bar stays uncluttered while every money page is one click away.
-const palletsLinks = [
+const palletsLinks: { href: string; label: string; divider?: boolean }[] = [
   { href: '/products', label: 'All Products' },
   { href: '/heat-treated-pallets', label: 'Heat-Treated Pallets' },
   { href: '/euro-pallets-sri-lanka', label: 'Euro Pallets' },
   { href: '/custom-wooden-pallets-sri-lanka', label: 'Custom Wooden Pallets' },
   { href: '/industrial-pallets-sri-lanka', label: 'Industrial Pallets' },
   { href: '/export-pallet-manufacturer-sri-lanka', label: 'Export Pallet Manufacturer' },
+  // Registration & certificates — set apart from the product pages by a divider.
+  { href: '/heat-treated-pallets#certification', label: 'IPPC Certification', divider: true },
 ]
 
 // Rendered before the Pallets dropdown, as the first item in the bar.
@@ -134,12 +136,13 @@ export function Nav() {
               {/* Dropdown panel — pt-3 keeps the hover bridge over the gap */}
               <div className="invisible opacity-0 translate-y-1 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-0 transition-all duration-200 absolute left-0 top-full pt-3 z-50">
                 <div className="bg-cream border border-warm-gray shadow-lg min-w-[248px] py-2">
-                  {palletsLinks.map(({ href, label }) => (
+                  {palletsLinks.map(({ href, label, divider }) => (
                     <Link
                       key={href}
                       href={href}
                       className={cn(
                         'block px-5 py-2.5 font-body text-sm transition-colors duration-150',
+                        divider && 'mt-1 border-t border-warm-gray pt-3 font-medium',
                         pathname === href || pathname.startsWith(href + '/')
                           ? 'text-accent bg-warm-gray/40'
                           : 'text-charcoal/70 hover:text-primary hover:bg-warm-gray/30',
