@@ -16,12 +16,21 @@ export const metadata: Metadata = {
     description:
       'CeyPall supplies ISPM 15-certified wooden pallets to leading Sri Lankan exporters and manufacturers — including Akbar Brothers, CBL, and Hela Clothing.',
     url: 'https://www.ceypall.com/clients',
+    images: [
+      {
+        url: '/OPENGIMAGE.png',
+        width: 1200,
+        height: 630,
+        alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Clients — Companies We Supply | CeyPall',
     description:
       'CeyPall supplies ISPM 15-certified wooden pallets to leading Sri Lankan exporters and manufacturers.',
+    images: ['/OPENGIMAGE.png'],
   },
 }
 

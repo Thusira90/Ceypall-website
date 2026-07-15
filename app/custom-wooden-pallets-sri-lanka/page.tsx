@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   twitter: {
     description:
       'Custom wooden pallets built to your exact dimensions in Sri Lanka. Any size, load rating and entry type. ISPM 15 heat treated. Island-wide delivery.',
+    images: ['/OPENGIMAGE.png'],
   },
   alternates: {
     canonical: 'https://www.ceypall.com/custom-wooden-pallets-sri-lanka',
@@ -22,6 +23,14 @@ export const metadata: Metadata = {
     description:
       'Bespoke wooden pallets built to any dimension and load rating in Sri Lanka. ISPM 15 heat treated, IPPC stamped, island-wide delivery.',
     url: 'https://www.ceypall.com/custom-wooden-pallets-sri-lanka',
+    images: [
+      {
+        url: '/OPENGIMAGE.png',
+        width: 1200,
+        height: 630,
+        alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
+      },
+    ],
   },
 }
 

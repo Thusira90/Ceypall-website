@@ -11,12 +11,21 @@ export const metadata: Metadata = {
   twitter: {
     description:
       'The price of wooden pallets in Sri Lanka depends on several factors — wood species, dimensions, treatment type, order volume, and delivery distance. Get a quote from CeyPall for your specific requirements.',
+    images: ['/OPENGIMAGE.png'],
   },
   openGraph: {
     title: 'Wooden Pallet Pricing in Sri Lanka — What Determines the Cost | CeyPall (Pvt) Ltd',
     description:
       'The price of wooden pallets in Sri Lanka depends on several factors — wood species, dimensions, treatment type, order volume, and delivery distance. Get a quote from CeyPall for your specific requirements.',
     url: 'https://www.ceypall.com/pallet-pricing-sri-lanka',
+    images: [
+      {
+        url: '/OPENGIMAGE.png',
+        width: 1200,
+        height: 630,
+        alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
+      },
+    ],
   },
   alternates: {
     canonical: 'https://www.ceypall.com/pallet-pricing-sri-lanka',

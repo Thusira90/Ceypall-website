@@ -11,12 +11,21 @@ export const metadata: Metadata = {
   twitter: {
     description:
       'CeyPall delivers ISPM 15 certified, IPPC-stamped wooden pallets to every BOI Export Processing Zone, industrial estate, and port hub across Sri Lanka. Heat treated at our Kochchikade facility. Island-wide delivery.',
+    images: ['/OPENGIMAGE.png'],
   },
   openGraph: {
     title: 'ISPM 15 Wooden Pallets — Island-Wide Delivery Across Sri Lanka | CeyPall (Pvt) Ltd',
     description:
       'CeyPall delivers ISPM 15 certified, IPPC-stamped wooden pallets to every BOI Export Processing Zone, industrial estate, and port hub across Sri Lanka. Heat treated at our Kochchikade facility. Island-wide delivery.',
     url: 'https://www.ceypall.com/wooden-pallets-sri-lanka',
+    images: [
+      {
+        url: '/OPENGIMAGE.png',
+        width: 1200,
+        height: 630,
+        alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
+      },
+    ],
   },
   alternates: {
     canonical: 'https://www.ceypall.com/wooden-pallets-sri-lanka',

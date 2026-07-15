@@ -17,12 +17,21 @@ export const metadata: Metadata = {
     description:
       'ISPM 15 certified pallets for coconut product exporters. Kiln-dried, IPPC stamped, island-wide delivery.',
     url: 'https://www.ceypall.com/pallets-for-coconut-export',
+    images: [
+      {
+        url: '/OPENGIMAGE.png',
+        width: 1200,
+        height: 630,
+        alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Pallets for Coconut Export Sri Lanka | CeyPall',
     description:
       'ISPM 15 certified pallets for coconut exporters. Low MC, IPPC stamped, treatment certificates included.',
+    images: ['/OPENGIMAGE.png'],
   },
 }
 

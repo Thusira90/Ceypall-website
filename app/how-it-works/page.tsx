@@ -17,12 +17,21 @@ export const metadata: Metadata = {
     description:
       'A transparent look at how CeyPall manufactures ISPM 15-certified pallets — from timber sourcing through boron pre-treatment, heat treatment, IPPC stamping, and delivery.',
     url: 'https://www.ceypall.com/how-it-works',
+    images: [
+      {
+        url: '/OPENGIMAGE.png',
+        width: 1200,
+        height: 630,
+        alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'How It Works — Our Pallet Manufacturing Process | CeyPall',
     description:
       'From timber sourcing to IPPC stamping — how CeyPall manufactures ISPM 15-certified pallets.',
+    images: ['/OPENGIMAGE.png'],
   },
 }
 

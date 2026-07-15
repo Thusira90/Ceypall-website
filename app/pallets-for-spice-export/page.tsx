@@ -17,12 +17,21 @@ export const metadata: Metadata = {
     description:
       'ISPM 15 certified pallets for spice and cinnamon exporters. Low MC, food-safe, IPPC stamped, island-wide delivery.',
     url: 'https://www.ceypall.com/pallets-for-spice-export',
+    images: [
+      {
+        url: '/OPENGIMAGE.png',
+        width: 1200,
+        height: 630,
+        alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Pallets for Spice & Cinnamon Export Sri Lanka | CeyPall',
     description:
       'ISPM 15 certified pallets for spice exporters. Low moisture, food-safe, IPPC stamped, treatment certificates.',
+    images: ['/OPENGIMAGE.png'],
   },
 }
 

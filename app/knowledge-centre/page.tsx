@@ -18,12 +18,21 @@ export const metadata: Metadata = {
     description:
       'Free guides, calculators, and resources for Sri Lankan exporters. ISPM 15 compliance, pallet sizes, container loading, and more.',
     url: 'https://www.ceypall.com/knowledge-centre',
+    images: [
+      {
+        url: '/OPENGIMAGE.png',
+        width: 1200,
+        height: 630,
+        alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Knowledge Centre — Export Pallet Guides, Tools & Resources | CeyPall',
     description:
       'Free guides, calculators, and resources for Sri Lankan exporters. ISPM 15 compliance, pallet sizes, container loading, and more.',
+    images: ['/OPENGIMAGE.png'],
   },
 }
 

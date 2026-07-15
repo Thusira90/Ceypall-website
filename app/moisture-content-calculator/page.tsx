@@ -18,12 +18,21 @@ export const metadata: Metadata = {
     description:
       'Calculate wood moisture content for export pallets. Check if your pallet wood meets recommended MC levels for safe ocean transit.',
     url: 'https://www.ceypall.com/moisture-content-calculator',
+    images: [
+      {
+        url: '/OPENGIMAGE.png',
+        width: 1200,
+        height: 630,
+        alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Wood Moisture Content Calculator | CeyPall',
     description:
       'Calculate wood moisture content for export pallets. Check if your pallet wood meets recommended MC levels for safe ocean transit.',
+    images: ['/OPENGIMAGE.png'],
   },
 }
 

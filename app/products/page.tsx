@@ -17,12 +17,21 @@ export const metadata: Metadata = {
     description:
       'CeyPall manufactures heat-treated ISPM 15 pallets for export and vacuum pressure impregnated pallets for long-term storage. All standard sizes and custom dimensions available.',
     url: 'https://www.ceypall.com/products',
+    images: [
+      {
+        url: '/OPENGIMAGE.png',
+        width: 1200,
+        height: 630,
+        alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Products — Wooden Pallets for Export & Storage | CeyPall',
     description:
       'Heat-treated ISPM 15 pallets for export and VPI pallets for long-term storage. Standard and custom sizes available.',
+    images: ['/OPENGIMAGE.png'],
   },
 }
 
