@@ -51,6 +51,71 @@ const speakableJsonLd = {
     cssSelector: ['h1', '.hero-subtitle', '.trust-bar'],
   },
 }
+
+const heatTreatmentServiceJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'ISPM 15 Heat Treatment',
+  serviceType: 'ISPM 15 heat treatment of wooden pallets',
+  description:
+    'ISPM 15-compliant heat treatment of wooden pallets — core temperature raised to 56°C for a minimum of 30 minutes, IPPC-stamped (country code LK) with a treatment certificate. Registered with the National Plant Quarantine Service (NPQS) of Sri Lanka.',
+  provider: { '@id': 'https://www.ceypall.com/#organization' },
+  areaServed: { '@type': 'Country', name: 'Sri Lanka' },
+  url: 'https://www.ceypall.com/heat-treated-pallets',
+}
+
+const customPalletServiceJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'Custom Pallet Manufacturing',
+  serviceType: 'Custom wooden pallet manufacturing',
+  description:
+    'Custom wooden pallets manufactured to your exact dimensions, load rating, and entry type — standard export (1200 × 1000 mm), Euro (1200 × 800 mm), or fully bespoke sizes, all with ISPM 15 heat treatment and island-wide delivery.',
+  provider: { '@id': 'https://www.ceypall.com/#organization' },
+  areaServed: { '@type': 'Country', name: 'Sri Lanka' },
+  url: 'https://www.ceypall.com/custom-wooden-pallets-sri-lanka',
+}
+
+const orderingHowToJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to Order Pallets from CeyPall',
+  description:
+    'The steps to order ISPM 15-certified wooden pallets from CeyPall, from first enquiry to delivery with a treatment certificate.',
+  step: [
+    {
+      '@type': 'HowToStep',
+      position: 1,
+      name: 'Send an enquiry',
+      text: 'Contact CeyPall through the website enquiry form, WhatsApp, or by phone on +94 71 471 1417.',
+      url: 'https://www.ceypall.com/contact',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 2,
+      name: 'Share your specifications',
+      text: 'Provide the pallet size, quantity, treatment type (export or storage), and delivery location, plus any special requirements.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 3,
+      name: 'Receive a quotation',
+      text: 'CeyPall responds with a quotation, typically within one working day.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 4,
+      name: 'Production and ISPM 15 heat treatment',
+      text: 'Approved orders are manufactured, boron pre-treated, heat-treated to ISPM 15 standard, and IPPC-stamped with a treatment certificate.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 5,
+      name: 'Delivery',
+      text: 'Finished pallets are delivered to your location island-wide across Sri Lanka, with the treatment certificate for every order.',
+    },
+  ],
+}
 export const metadata: Metadata = {
   title: {
     absolute: 'ISPM 15 Wooden Pallet Manufacturer Sri Lanka | CeyPall',
@@ -89,6 +154,9 @@ export default function HomePage() {
   return (
     <>
       <SchemaScript schema={speakableJsonLd} />
+      <SchemaScript schema={heatTreatmentServiceJsonLd} />
+      <SchemaScript schema={customPalletServiceJsonLd} />
+      <SchemaScript schema={orderingHowToJsonLd} />
       <Hero />
       <TrustBar />
       <WhyCeyPall />

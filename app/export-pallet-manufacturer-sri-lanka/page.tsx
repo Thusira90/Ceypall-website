@@ -149,7 +149,7 @@ const faqJsonLd = {
       name: 'How do I get a quotation for export pallets from CeyPall?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Contact CeyPall by phone at +94 714 711 417 or through the website contact form at ceypall.com/contact. Provide the pallet size, quantity, delivery location and any special requirements. CeyPall will respond with a quotation within one working day.',
+        text: 'Contact CeyPall by phone at +94 714 711 417 or through the website contact form at www.ceypall.com/contact. Provide the pallet size, quantity, delivery location and any special requirements. CeyPall will respond with a quotation within one working day.',
       },
     },
     {
