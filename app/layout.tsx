@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
 import { Playfair_Display, DM_Sans, Nunito } from 'next/font/google'
-import Script from 'next/script'
 import './globals.css'
 import { Nav } from '@/components/layout/Nav'
 import { Footer } from '@/components/layout/Footer'
 import { ConversionTracker } from '@/components/analytics/ConversionTracker'
+import { Analytics } from '@/components/analytics/Analytics'
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -114,7 +114,7 @@ export default function RootLayout({
           latitude: 7.2533,
           longitude: 79.8518,
         },
-        foundingDate: '2005',
+        foundingDate: '2025-10-03',
         areaServed: { '@type': 'Country', name: 'Sri Lanka' },
         sameAs: [
           'https://www.facebook.com/profile.php?id=61587265021762',
@@ -152,7 +152,7 @@ export default function RootLayout({
         },
         areaServed: { '@type': 'Country', name: 'Sri Lanka' },
         hasMap: 'https://maps.google.com/?q=1088+Colombo+Road+Kochchikade+Sri+Lanka',
-        foundingDate: '2005',
+        foundingDate: '2025-10-03',
         sameAs: [
           'https://www.facebook.com/profile.php?id=61587265021762',
           'https://www.instagram.com/ceypall/',
@@ -183,19 +183,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen flex flex-col">
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-Z1LQXV56LN"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics-tag" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-Z1LQXV56LN');
-            gtag('config', 'AW-18176480799');
-          `}
-        </Script>
+        <Analytics />
         <ConversionTracker />
         <Nav />
         <main className="flex-1 pt-[72px]">{children}</main>

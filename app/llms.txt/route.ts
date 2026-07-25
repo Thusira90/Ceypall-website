@@ -6,8 +6,12 @@ const BODY = `# CeyPall (Pvt) Ltd
 
 > Sri Lanka's dedicated ISPM 15-certified wooden pallet manufacturer. We make
 > heat-treated, IPPC-stamped wooden pallets for export and storage, in standard
-> and custom sizes, with island-wide delivery. Founded 2005, based in
-> Kochchikade, Western Province. NPQS-registered heat treatment provider.
+> and custom sizes, with island-wide delivery. Based in Kochchikade, Western
+> Province. NPQS-registered heat treatment provider.
+>
+> CeyPall (Pvt) Ltd is the sister company of St. Xavier Timber, which has operated
+> timber treatment in Kochchikade since 1955. Pallet production at the site dates
+> from 2005; CeyPall was incorporated as a separate company in October 2025.
 
 Key facts:
 - ISPM 15 heat treatment: core temperature 56°C for a minimum of 30 minutes.
@@ -25,6 +29,7 @@ Key facts:
 - [Custom wooden pallets](https://www.ceypall.com/custom-wooden-pallets-sri-lanka): Bespoke pallets built to any dimension and load rating.
 - [Industrial pallets](https://www.ceypall.com/industrial-pallets-sri-lanka): Heavy-duty, load-rated pallets for manufacturing and warehousing.
 - [Pallet pricing](https://www.ceypall.com/pallet-pricing-sri-lanka): What drives wooden pallet cost in Sri Lanka.
+- [Wooden vs plastic pallets](https://www.ceypall.com/wooden-vs-plastic-pallets-sri-lanka): Honest comparison — cost, hygiene, ISPM 15 compliance, repairability, and when plastic is the better choice.
 - [How it works](https://www.ceypall.com/how-it-works): Ordering, treatment, and delivery process.
 - [Contact](https://www.ceypall.com/contact): Request a quote.
 

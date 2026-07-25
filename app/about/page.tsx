@@ -49,7 +49,7 @@ const aboutPageJsonLd = {
   about: {
     '@type': 'Organization',
     name: 'CeyPall (Pvt) Ltd',
-    foundingDate: '2005',
+    foundingDate: '2025-10-03',
     description: "Sri Lanka's dedicated ISPM 15-certified wooden pallet manufacturer.",
     address: {
       '@type': 'PostalAddress',
@@ -120,14 +120,16 @@ export default function AboutPage() {
                 />
                 <p className="font-body text-sm text-charcoal/70 leading-relaxed mb-5">
                   CeyPall (Pvt) Ltd is a Sri Lankan manufacturer of high-quality wooden pallets, built
-                  specifically for international export markets. Our business is rooted in a timber
-                  legacy that stretches back to 1955 — over seven decades of working with wood.
+                  specifically for international export markets. We are the sister company of St. Xavier
+                  Timber, the Kochchikade timber-treatment business whose legacy stretches back to 1955 —
+                  so CeyPall is grounded in over seven decades of hands-on experience working with wood.
                 </p>
                 <p className="font-body text-sm text-charcoal/70 leading-relaxed mb-5">
-                  Since 2005, our focus has been the manufacture of ISPM 15-compliant pallets for
-                  exporters, freight companies, and manufacturers across Sri Lanka. Every pallet we
-                  produce undergoes certified heat treatment and is manufactured under strict quality
-                  controls.
+                  Pallet manufacturing at the Kochchikade site dates from 2005, and CeyPall was
+                  incorporated as a dedicated company in October 2025 to focus solely on ISPM 15-compliant
+                  export pallets for exporters, freight companies, and manufacturers across Sri Lanka.
+                  Every pallet we produce undergoes certified heat treatment and is manufactured under
+                  strict quality controls.
                 </p>
                 <p className="font-body text-sm text-charcoal/70 leading-relaxed">
                   We are recognised by the National Plant Quarantine Service of Sri Lanka as a certified
@@ -144,9 +146,10 @@ export default function AboutPage() {
                   Our timeline
                 </p>
                 {[
-                  { year: '1955', label: 'Timber business founded', sub: 'Seven decades of working with wood' },
+                  { year: '1955', label: 'Timber legacy begins', sub: 'St. Xavier Timber — our sister company in Kochchikade' },
                   { year: '2005', label: 'Pallet manufacturing launched', sub: 'Focused on export-grade ISPM 15 pallets' },
                   { year: '2007', label: 'IPPC registration secured', sub: 'National Plant Quarantine Service — Reg. No. LK-0175' },
+                  { year: '2025', label: 'CeyPall (Pvt) Ltd incorporated', sub: 'A dedicated company for export pallet production' },
                   { year: 'Today', label: '40+ active clients', sub: 'Island-wide delivery network' },
                 ].map(({ year, label, sub }, i, arr) => (
                   <div key={year} className="flex gap-6">

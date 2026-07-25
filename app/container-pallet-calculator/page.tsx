@@ -2,8 +2,18 @@ import type { Metadata } from 'next'
 import { FadeUp } from '@/components/ui/FadeUp'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SchemaScript } from '@/components/ui/SchemaScript'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { ContainerCalculator } from '@/components/tools/ContainerCalculator'
 import Link from 'next/link'
+
+// Single-layer floor capacity by pallet size — rendered as static HTML (below)
+// so answer engines can read the numbers without executing the calculator.
+const capacityRows = [
+  { size: 'Standard export — 1200 × 1000 mm', c20: '10', c40: '20–21' },
+  { size: 'Euro — 1200 × 800 mm', c20: '11', c40: '23–24' },
+  { size: 'Asia-Pacific — 1100 × 1100 mm', c20: '10', c40: '20' },
+  { size: 'North American — 1219 × 1016 mm', c20: '10', c40: '20' },
+]
 
 export const metadata: Metadata = {
   title: 'Container Pallet Calculator — How Many Pallets Fit?',
@@ -75,6 +85,40 @@ const faqJsonLd = {
   ],
 }
 
+const howToJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to Use the Container Pallet Calculator',
+  description:
+    'Work out how many pallets fit in a shipping container in four steps using the CeyPall container pallet calculator.',
+  step: [
+    {
+      '@type': 'HowToStep',
+      position: 1,
+      name: 'Select the container size',
+      text: 'Choose a 20ft, 40ft, or 40ft high cube container.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 2,
+      name: 'Choose your pallet size',
+      text: 'Pick a standard export, Euro, North American, or Asia-Pacific pallet, or enter custom dimensions.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 3,
+      name: 'Enter your cargo height',
+      text: 'Add the loaded height of a single pallet so the calculator can work out how many stacking layers fit.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 4,
+      name: 'Read the result',
+      text: 'The calculator shows the total pallet count and a visual floor plan for your container and pallet combination.',
+    },
+  ],
+}
+
 const webAppJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebApplication',
@@ -103,6 +147,7 @@ export default function ContainerPalletCalculatorPage() {
     <>
       <SchemaScript schema={breadcrumbJsonLd} />
       <SchemaScript schema={faqJsonLd} />
+      <SchemaScript schema={howToJsonLd} />
       <SchemaScript schema={webAppJsonLd} />
 
       {/* Header */}
@@ -120,9 +165,15 @@ export default function ContainerPalletCalculatorPage() {
         </div>
       </section>
 
-      {/* Calculator */}
+      {/* Direct answer + calculator */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: how many pallets fit in a container?">
+            A standard 20ft container fits about <strong>10 standard pallets</strong> (1200 × 1000 mm)
+            or <strong>11 Euro pallets</strong> (1200 × 800 mm) on a single layer. A 40ft container fits
+            about <strong>20–21 standard pallets</strong> or <strong>23–24 Euro pallets</strong>. Stacking
+            a second layer roughly doubles these figures where cargo height allows.
+          </AnswerBlock>
           <FadeUp>
             <ContainerCalculator />
           </FadeUp>
@@ -139,6 +190,34 @@ export default function ContainerPalletCalculatorPage() {
               </h2>
               <p className="font-body text-sm text-charcoal/70 leading-relaxed mb-5">
                 The number of pallets that fit in a shipping container depends on three factors: the internal dimensions of the container, the dimensions of the pallet, and the height of your cargo if you plan to stack multiple layers.
+              </p>
+
+              {/* Static capacity table — single-layer floor counts by pallet size */}
+              <div className="overflow-x-auto my-6">
+                <table className="w-full border-collapse font-body text-sm">
+                  <caption className="sr-only">
+                    Single-layer pallet capacity by pallet size for 20ft and 40ft shipping containers
+                  </caption>
+                  <thead>
+                    <tr className="bg-primary text-cream">
+                      <th scope="col" className="text-left font-semibold px-4 py-3 border border-warm-gray">Pallet size</th>
+                      <th scope="col" className="text-left font-semibold px-4 py-3 border border-warm-gray">20ft container</th>
+                      <th scope="col" className="text-left font-semibold px-4 py-3 border border-warm-gray">40ft container</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {capacityRows.map((row) => (
+                      <tr key={row.size} className="odd:bg-white/60 even:bg-warm-gray/20">
+                        <th scope="row" className="text-left font-medium text-charcoal/80 px-4 py-3 border border-warm-gray">{row.size}</th>
+                        <td className="text-charcoal/70 px-4 py-3 border border-warm-gray">{row.c20} pallets</td>
+                        <td className="text-charcoal/70 px-4 py-3 border border-warm-gray">{row.c40} pallets</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className="font-body text-xs text-charcoal/50 leading-relaxed mb-8">
+                Single-layer floor counts, based on standard internal container dimensions. Stacking a second layer roughly doubles these figures where cargo height allows. Use the calculator above for your exact pallet and cargo height.
               </p>
 
               <h3 className="font-display text-lg font-semibold text-primary mt-8 mb-3">
