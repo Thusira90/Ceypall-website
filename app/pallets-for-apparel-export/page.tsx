@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -172,6 +173,10 @@ export default function PalletsForApparelExportPage() {
       {/* Why CeyPall */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: what pallets do apparel exporters use?">
+            Sri Lankan apparel exporters shipping to the EU use <strong>1200 × 800 mm Euro pallets</strong>; US-bound shipments use <strong>1219 × 1016 mm (48 × 40 inch)</strong>. All must be ISPM 15 heat-treated and IPPC-stamped. CeyPall makes both sizes and delivers to Katunayake, Biyagama, Seethawaka and Koggala EPZs on recurring weekly or fortnightly schedules.
+          </AnswerBlock>
+
           <FadeUp>
             <div className="mb-12">
               <SectionHeader

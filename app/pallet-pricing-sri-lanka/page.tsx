@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { Button } from '@/components/ui/Button'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -194,6 +195,10 @@ export default function PalletPricingSriLankaPage() {
       {/* ── AEO direct answer ─────────────────────────────────────────── */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: how much do wooden pallets cost in Sri Lanka?">
+            There is <strong>no fixed list price</strong> — cost depends on dimensions, timber species, treatment type, order volume and delivery distance, so each order is quoted individually. Larger, recurring orders lower the per-unit price. For an accurate figure, contact CeyPall at <strong>+94 714 711 417</strong> with your size, quantity and destination.
+          </AnswerBlock>
+
           <FadeUp>
             <div className="max-w-3xl bg-primary p-8">
               <p className="font-body text-xs font-semibold tracking-[0.15em] uppercase text-accent mb-4">

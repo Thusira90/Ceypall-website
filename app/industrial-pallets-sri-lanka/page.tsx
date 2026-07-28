@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -262,6 +263,10 @@ export default function IndustrialPalletsSriLankaPage() {
       {/* ── Section 1: What is an industrial pallet (direct answer) ──────── */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: how much weight can an industrial pallet hold?">
+            Industrial pallets are heavy-duty wooden pallets with reinforced deck boards and stringers. Standard-duty units carry <strong>1,000–1,500 kg</strong>; heavy-duty builds handle <strong>2,000 kg or more</strong>, depending on timber grade, deck thickness and stringer configuration. CeyPall designs the framing to your static and dynamic loads, heat-treating for export or VPI-treating for storage.
+          </AnswerBlock>
+
           <div className="max-w-3xl">
             <FadeUp>
               <SectionHeader eyebrow="Definition" title="What Is an Industrial Pallet?" />

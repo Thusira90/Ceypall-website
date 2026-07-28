@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { Button } from '@/components/ui/Button'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -198,6 +199,10 @@ export default function ColomboPage() {
       {/* ── Why CeyPall for Colombo ──────────────────────────────────── */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: do you supply pallets to Colombo and its port?">
+            Yes. CeyPall supplies <strong>ISPM 15 heat-treated, IPPC-stamped wooden pallets</strong> to Colombo exporters, port logistics operators and Western Province warehouses. Our Kochchikade facility is about <strong>55 km from Colombo Fort</strong> on the A3 coastal corridor, and we schedule deliveries around your container stuffing and vessel departure dates. High-volume recurring orders are welcome.
+          </AnswerBlock>
+
           <FadeUp>
             <div className="mb-12">
               <SectionHeader

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -163,6 +164,10 @@ export default function PalletsForRubberExportPage() {
       {/* Why CeyPall */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: what pallet is best for rubber export?">
+            Rubber bales are heavy — palletised loads reach <strong>1,000–1,500 kg</strong> — so CeyPall builds <strong>heavy-duty pallets with reinforced deck boards and closer bearer spacing</strong>, usually in the 1200 × 1000 mm footprint. All wooden packaging for crepe rubber, RSS sheets and latex must be <strong>ISPM 15 heat-treated and IPPC-stamped</strong> for export.
+          </AnswerBlock>
+
           <FadeUp>
             <div className="mb-12">
               <SectionHeader

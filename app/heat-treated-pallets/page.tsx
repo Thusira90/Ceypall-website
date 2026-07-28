@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -455,6 +456,10 @@ export default function HeatTreatedPalletsPage() {
       {/* ── What Are Heat Treated Pallets ───────────────────────────────── */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: what are heat treated pallets?">
+            Heat treated pallets are wooden pallets whose core is heated to <strong>56°C for at least 30 continuous minutes</strong>, killing wood-boring pests at every life stage. This meets the <strong>ISPM 15</strong> standard, earns the official <strong>IPPC stamp</strong>, and makes the pallet legal for export to 180+ countries. The treatment lasts the pallet&apos;s lifetime.
+          </AnswerBlock>
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <FadeUp>
               <div>

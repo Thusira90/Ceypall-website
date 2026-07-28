@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -296,6 +297,10 @@ export default function CustomWoodenPalletsSriLankaPage() {
       {/* ── Section 1: What is a custom pallet (direct answer) ───────────── */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: can CeyPall build pallets to any size?">
+            Yes. CeyPall manufactures <strong>custom wooden pallets to any length, width and height</strong> — matched to your cargo footprint, load weight, entry type and deck configuration. There is no fixed size limit, from compact display pallets to oversized machinery bases. Export pallets are <strong>ISPM 15 heat-treated and IPPC-stamped</strong>; storage pallets can be VPI-treated instead.
+          </AnswerBlock>
+
           <div className="max-w-3xl">
             <FadeUp>
               <SectionHeader eyebrow="Definition" title="What Is a Custom Wooden Pallet?" />

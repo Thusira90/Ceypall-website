@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { Button } from '@/components/ui/Button'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -191,6 +192,10 @@ export default function WoodenPalletsSriLankaPage() {
       {/* ── Why CeyPall island-wide ───────────────────────────────────── */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: does CeyPall deliver pallets across Sri Lanka?">
+            Yes. CeyPall delivers <strong>ISPM 15 certified, IPPC-stamped wooden pallets island-wide</strong> from its Kochchikade facility — to all <strong>12 BOI Export Processing Zones</strong> (Katunayake, Biyagama, Seethawaka, Koggala, Mirijjawila and more), every industrial estate, and all major port hubs. Lead times run 3–5 days, with recurring schedules for regular exporters.
+          </AnswerBlock>
+
           <FadeUp>
             <div className="mb-12">
               <SectionHeader

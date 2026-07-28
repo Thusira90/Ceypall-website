@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -169,6 +170,10 @@ export default function PalletsForTeaExportPage() {
       {/* Why CeyPall for tea */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: what pallets are best for tea export?">
+            Ceylon tea exporters typically use <strong>1200 × 1000 mm</strong> standard pallets, or <strong>1200 × 800 mm Euro pallets</strong> for the EU. Because tea is hygroscopic, pallet wood must be <strong>kiln-dried below 15% moisture</strong> to avoid raising container humidity in transit. CeyPall supplies ISPM 15 heat-treated, IPPC-stamped tea pallets in standard and custom sizes.
+          </AnswerBlock>
+
           <FadeUp>
             <div className="mb-12">
               <SectionHeader

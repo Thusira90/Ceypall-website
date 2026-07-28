@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { Button } from '@/components/ui/Button'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -197,6 +198,10 @@ export default function KatunayakePage() {
       {/* ── Why CeyPall for Katunayake ───────────────────────────────── */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: how fast can you deliver to the Katunayake FTZ?">
+            Typically within <strong>1–2 business days</strong> for standard orders — CeyPall&apos;s Kochchikade facility is about <strong>35 km from the Katunayake Free Trade Zone</strong>. Every pallet is heat-treated to 56°C, IPPC-stamped and supplied with a treatment certificate, fully compliant with <strong>BOI export requirements</strong>. Recurring schedules can match your container loading dates.
+          </AnswerBlock>
+
           <FadeUp>
             <div className="mb-12">
               <SectionHeader

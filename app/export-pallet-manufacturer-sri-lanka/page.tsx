@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -506,6 +507,10 @@ export default function ExportPalletManufacturerPage() {
       {/* ── Section 1: Sri Lanka's Dedicated Export Pallet Manufacturer ──── */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: do you need ISPM 15 pallets to export from Sri Lanka?">
+            Yes. Any wooden packaging used in international trade must comply with <strong>ISPM 15</strong> — heat-treated to 56°C and <strong>IPPC-stamped (country code LK)</strong>. This applies to every destination, including the EU, USA, UK, Japan, Australia, India, China and the Middle East. CeyPall is an NPQS-registered provider supplying certified export pallets island-wide.
+          </AnswerBlock>
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <FadeUp>
               <div>

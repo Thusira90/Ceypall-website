@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -172,6 +173,10 @@ export default function PalletsForSpiceExportPage() {
       {/* Why CeyPall */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: what pallets do spice and cinnamon exporters need?">
+            Spice exporters need <strong>ISPM 15 heat-treated, IPPC-stamped pallets</strong> that are food-safe and bark-free. Because cinnamon, pepper, cloves and cardamom are hygroscopic, pallet wood is <strong>kiln-dried below 15% moisture</strong> to stop clumping, mould and flavour loss inside sealed containers. CeyPall supplies standard 1200 × 1000 mm, Euro 1200 × 800 mm and custom sizes.
+          </AnswerBlock>
+
           <FadeUp>
             <div className="mb-12">
               <SectionHeader

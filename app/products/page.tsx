@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 import { Button } from '@/components/ui/Button'
@@ -152,6 +153,10 @@ export default function ProductsPage() {
       {/* Product 1 — Heat-treated */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: what pallets does CeyPall make?">
+            CeyPall manufactures <strong>ISPM 15 heat-treated export pallets</strong> — IPPC-stamped and supplied with a treatment certificate — plus <strong>vacuum pressure impregnated (VPI) storage pallets</strong> for long-term warehousing. Both come in all standard international sizes (Euro, North American, Asia-Pacific) and fully custom dimensions, made from locally sourced rubber wood and Lunumidella.
+          </AnswerBlock>
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <FadeUp>
               <div>

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -205,6 +206,10 @@ export default function HowItWorksPage() {
       {/* Steps */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: how does CeyPall make its pallets?">
+            CeyPall sources local <strong>rubber wood and Lunumidella</strong>, immerses the timber in a <strong>boron chemical bath (45–60°C)</strong> for baseline insect and fungal protection, then <strong>heat-treats the core to 56°C for 30+ minutes</strong> to meet ISPM 15. Each pallet is <strong>IPPC-stamped</strong>, documented with a treatment certificate, and delivered island-wide.
+          </AnswerBlock>
+
           <div className="relative">
             {/* Vertical timeline line */}
             <div className="hidden lg:block absolute left-8 top-0 bottom-0 w-px bg-warm-gray" />

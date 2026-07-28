@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -283,6 +284,10 @@ export default function EuroPalletsSriLankaPage() {
       {/* ── Section 1: What is a Euro pallet (direct answer) ─────────────── */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: what is a Euro pallet?">
+            A Euro pallet is a wooden pallet built to the European standard <strong>1200 × 800 mm</strong> with four-way forklift entry, used across the EU and UK. A standard unit weighs 20–25 kg and supports up to <strong>1,500 kg</strong>. CeyPall manufactures Euro-size pallets to spec — <strong>ISPM 15 heat-treated and IPPC-stamped</strong> for export.
+          </AnswerBlock>
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <FadeUp>
               <div>
