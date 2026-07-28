@@ -9,7 +9,7 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'Euro Pallets Sri Lanka | 1200 × 800 mm EUR Pallets',
   description:
-    'CeyPall manufactures Euro-standard 1200 × 800 mm wooden pallets in Sri Lanka — ISPM 15 heat treated and IPPC stamped for exports to the EU and UK. Island-wide delivery.',
+    'Euro-standard 1200 × 800 mm wooden pallets from CeyPall, Sri Lanka — ISPM 15 heat treated, IPPC stamped for EU and UK exports. Island-wide delivery.',
   twitter: {
     description:
       'Euro-size (1200 × 800 mm) wooden pallets manufactured in Sri Lanka. ISPM 15 heat treated, IPPC stamped for EU-bound exports. Custom quantities, island-wide delivery.',

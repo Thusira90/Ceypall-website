@@ -7,7 +7,7 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'ISPM 15 Wooden Pallets — Katunayake FTZ & Seeduwa',
   description:
-    'CeyPall supplies heat-treated, IPPC-stamped, ISPM 15 export pallets to BOI companies and exporters in the Katunayake Free Trade Zone and Seeduwa. Certificate included.',
+    'CeyPall supplies heat-treated, IPPC-stamped ISPM 15 export pallets to BOI companies in the Katunayake Free Trade Zone and Seeduwa. Certificate included.',
   twitter: {
     description:
       'CeyPall supplies heat-treated, IPPC-stamped export pallets to BOI companies and exporters in the Katunayake Free Trade Zone and Seeduwa area. ISPM 15 certified. Treatment certificate included.',

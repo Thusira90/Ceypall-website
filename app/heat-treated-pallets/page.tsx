@@ -9,7 +9,7 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'Heat Treated Pallets Sri Lanka | ISPM 15 Certified',
   description:
-    'ISPM 15 certified heat treated wooden pallets from CeyPall, Sri Lanka. IPPC-stamped and export-ready, in custom sizes for tea, apparel, rubber and coconut exporters.',
+    'ISPM 15 certified heat treated wooden pallets from CeyPall, Sri Lanka — IPPC-stamped, export-ready, in custom sizes for tea, apparel, rubber and coconut.',
   twitter: {
     description:
       'ISPM 15 certified heat treated wooden pallets from CeyPall, Sri Lanka. IPPC-stamped, export-ready pallets with island-wide delivery. Custom sizes for tea, apparel, rubber and coconut exporters.',

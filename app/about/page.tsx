@@ -7,7 +7,7 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'About — Our Story & Certifications',
   description:
-    "CeyPall is Sri Lanka's dedicated ISPM 15-certified wooden pallet manufacturer, with timber expertise dating to 1955 and pallet manufacturing since 2005. IPPC registered.",
+    'CeyPall is Sri Lanka\'s dedicated ISPM 15-certified wooden pallet manufacturer — IPPC registered, with timber expertise since 1955 and pallets since 2005.',
   twitter: {
     description:
       "Learn about CeyPall — Sri Lanka's dedicated ISPM 15-certified wooden pallet manufacturer, with timber expertise dating to 1955 and pallet manufacturing since 2005. IPPC registered. Supplying island-wide.",

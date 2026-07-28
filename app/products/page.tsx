@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/Button'
 export const metadata: Metadata = {
   title: 'Products — Wooden Pallets for Export & Storage',
   description:
-    'CeyPall manufactures heat-treated ISPM 15 pallets for export and vacuum pressure impregnated pallets for long-term storage. All standard sizes and custom dimensions available.',
+    'CeyPall manufactures heat-treated ISPM 15 export pallets and vacuum pressure impregnated storage pallets — all standard sizes and custom dimensions.',
   alternates: {
     canonical: 'https://www.ceypall.com/products',
   },

@@ -7,7 +7,7 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'ISPM 15 Wooden Pallets — Island-Wide Across Sri Lanka',
   description:
-    'CeyPall delivers ISPM 15 certified, IPPC-stamped wooden pallets to every BOI EPZ, industrial estate, and port hub across Sri Lanka. Heat treated in Kochchikade.',
+    'CeyPall delivers ISPM 15-certified, IPPC-stamped wooden pallets to every BOI EPZ, industrial estate, and port in Sri Lanka. Heat treated in Kochchikade.',
   twitter: {
     description:
       'CeyPall delivers ISPM 15 certified, IPPC-stamped wooden pallets to every BOI Export Processing Zone, industrial estate, and port hub across Sri Lanka. Heat treated at our Kochchikade facility. Island-wide delivery.',

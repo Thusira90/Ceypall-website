@@ -10,7 +10,7 @@ import { Button } from '@/components/ui/Button'
 export const metadata: Metadata = {
   title: 'Wooden vs Plastic Pallets in Sri Lanka — Which to Choose',
   description:
-    'An honest comparison of wooden and plastic pallets for Sri Lankan exporters and warehouses — cost, hygiene, ISPM 15 export compliance, repairability, and when plastic is genuinely the better choice.',
+    'An honest comparison of wooden vs plastic pallets for Sri Lankan exporters — cost, hygiene, ISPM 15 export compliance, repairability, and when plastic wins',
   alternates: {
     canonical: 'https://www.ceypall.com/wooden-vs-plastic-pallets-sri-lanka',
   },
