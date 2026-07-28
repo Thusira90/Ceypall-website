@@ -7,7 +7,7 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'Clients — Companies We Supply',
   description:
-    'CeyPall supplies ISPM 15-certified pallets to leading Sri Lankan exporters — including Akbar Brothers, CBL, and Hela Clothing — across tea, food, and textiles.',
+    'CeyPall supplies ISPM 15-certified pallets to leading Sri Lankan exporters — Akbar Brothers, CBL, Hela Clothing — across tea, food, and textiles.',
   alternates: {
     canonical: 'https://www.ceypall.com/clients',
   },

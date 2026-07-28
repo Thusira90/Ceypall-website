@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/Button'
 export const metadata: Metadata = {
   title: 'Knowledge Centre — Export Pallet Guides, Tools & Resources',
   description:
-    'Free guides, calculators, and resources for Sri Lankan exporters — covering ISPM 15 compliance, pallet sizes, container loading, and export packaging regulations.',
+    'Free guides, calculators, and resources for Sri Lankan exporters — ISPM 15 compliance, pallet sizes, container loading, and export packaging rules.',
   alternates: {
     canonical: 'https://www.ceypall.com/knowledge-centre',
   },
@@ -308,6 +308,26 @@ export default function KnowledgeCentrePage() {
               title="Guides by Topic"
               subtitle="In-depth articles organised by subject. Whether you need to understand ISPM 15 compliance or choose the right pallet size, start here."
             />
+          </FadeUp>
+
+          <FadeUp>
+            <Link
+              href="/wooden-vs-plastic-pallets-sri-lanka"
+              className="group mt-8 flex items-start gap-4 bg-cream/60 border border-warm-gray hover:border-accent p-6 transition-all duration-200 hover:shadow-sm"
+            >
+              <span className="font-body text-xs font-semibold tracking-[0.12em] uppercase text-accent shrink-0 mt-1">
+                Featured
+              </span>
+              <div>
+                <h3 className="font-display text-lg text-primary group-hover:text-accent transition-colors duration-200">
+                  Wooden vs Plastic Pallets: An Honest Comparison
+                </h3>
+                <p className="font-body text-sm text-charcoal/60 mt-1 leading-relaxed">
+                  Cost, hygiene, ISPM 15 export compliance, repairability — and when plastic is
+                  genuinely the better choice.
+                </p>
+              </div>
+            </Link>
           </FadeUp>
 
           <div className="space-y-12 mt-10">

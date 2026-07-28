@@ -9,7 +9,7 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'Custom Wooden Pallets Sri Lanka | Built to Your Spec',
   description:
-    'CeyPall builds custom wooden pallets in Sri Lanka to any dimension, load rating and entry type — ISPM 15 heat treated and IPPC stamped. Bespoke sizes for machinery, drums and non-standard cargo.',
+    'CeyPall builds custom wooden pallets in Sri Lanka to any dimension, load rating and entry type — ISPM 15 heat treated, IPPC stamped for non-standard cargo.',
   twitter: {
     description:
       'Custom wooden pallets built to your exact dimensions in Sri Lanka. Any size, load rating and entry type. ISPM 15 heat treated. Island-wide delivery.',

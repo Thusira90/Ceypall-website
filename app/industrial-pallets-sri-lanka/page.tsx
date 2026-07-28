@@ -9,7 +9,7 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'Industrial Pallets Sri Lanka | Heavy-Duty Wooden Pallets',
   description:
-    'CeyPall manufactures heavy-duty industrial wooden pallets in Sri Lanka for manufacturing, warehousing and heavy cargo — load-rated, ISPM 15 heat treated or VPI-treated for long-term storage. Island-wide delivery.',
+    'Heavy-duty industrial wooden pallets from CeyPall, Sri Lanka — load-rated, ISPM 15 heat treated or VPI-treated for long-term storage. Island-wide delivery.',
   twitter: {
     description:
       'Heavy-duty industrial wooden pallets manufactured in Sri Lanka. Load-rated for machinery, drums and heavy cargo. ISPM 15 heat treated or VPI-treated. Island-wide delivery.',

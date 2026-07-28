@@ -8,7 +8,7 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'How It Works — Our Pallet Manufacturing Process',
   description:
-    'A transparent look at how CeyPall manufactures ISPM 15-certified pallets — from timber sourcing through boron pre-treatment, heat treatment, IPPC stamping, and delivery.',
+    'How CeyPall manufactures ISPM 15-certified pallets — from timber sourcing through boron pre-treatment, heat treatment, IPPC stamping, and delivery.',
   alternates: {
     canonical: 'https://www.ceypall.com/how-it-works',
   },
