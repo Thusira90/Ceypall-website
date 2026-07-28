@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { RelatedLinks } from '@/components/ui/RelatedLinks'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -172,6 +174,10 @@ export default function PalletsForSpiceExportPage() {
       {/* Why CeyPall */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: what pallets do spice and cinnamon exporters need?">
+            Spice exporters need <strong>ISPM 15 heat-treated, IPPC-stamped pallets</strong> that are food-safe and bark-free. Because cinnamon, pepper, cloves and cardamom are hygroscopic, pallet wood is <strong>kiln-dried below 15% moisture</strong> to stop clumping, mould and flavour loss inside sealed containers. CeyPall supplies standard 1200 × 1000 mm, Euro 1200 × 800 mm and custom sizes.
+          </AnswerBlock>
+
           <FadeUp>
             <div className="mb-12">
               <SectionHeader
@@ -328,6 +334,16 @@ export default function PalletsForSpiceExportPage() {
           </FadeUp>
         </div>
       </section>
+
+      {/* ── Related pages ─────────────────────────────────────────────── */}
+      <RelatedLinks
+        links={[
+          { href: '/heat-treated-pallets', title: 'Heat Treated Pallets', description: 'ISPM 15 heat treatment to 56°C, IPPC-stamped and export-ready.' },
+          { href: '/moisture-content-calculator', title: 'Moisture Content Calculator', description: 'Check whether your pallet wood meets the safe MC for ocean transit.' },
+          { href: '/pallets-for-coconut-export', title: 'Coconut Export Pallets', description: 'Food-safe, low-MC pallets for desiccated coconut, oil and coir.' },
+          { href: '/export-pallet-manufacturer-sri-lanka', title: 'Export Pallet Manufacturer', description: 'ISPM 15 certified pallets for every Sri Lankan export destination.' },
+        ]}
+      />
 
       {/* CTA */}
       <section className="bg-accent py-16">

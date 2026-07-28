@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { RelatedLinks } from '@/components/ui/RelatedLinks'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 import { Button } from '@/components/ui/Button'
@@ -152,6 +154,10 @@ export default function ProductsPage() {
       {/* Product 1 — Heat-treated */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: what pallets does CeyPall make?">
+            CeyPall manufactures <strong>ISPM 15 heat-treated export pallets</strong> — IPPC-stamped and supplied with a treatment certificate — plus <strong>vacuum pressure impregnated (VPI) storage pallets</strong> for long-term warehousing. Both come in all standard international sizes (Euro, North American, Asia-Pacific) and fully custom dimensions, made from locally sourced rubber wood and Lunumidella.
+          </AnswerBlock>
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <FadeUp>
               <div>
@@ -372,6 +378,16 @@ export default function ProductsPage() {
           </FadeUp>
         </div>
       </section>
+
+      {/* ── Related pages ─────────────────────────────────────────────── */}
+      <RelatedLinks
+        links={[
+          { href: '/heat-treated-pallets', title: 'Heat Treated Pallets', description: 'ISPM 15 heat treatment to 56°C, IPPC-stamped and export-ready.' },
+          { href: '/custom-wooden-pallets-sri-lanka', title: 'Custom Wooden Pallets', description: 'Bespoke pallets built to any size, load rating and entry type.' },
+          { href: '/euro-pallets-sri-lanka', title: 'Euro Pallets', description: 'Standard 1200 × 800 mm Euro pallets for EU and UK exports.' },
+          { href: '/industrial-pallets-sri-lanka', title: 'Industrial Pallets', description: 'Heavy-duty pallets rated for 1,000–2,000 kg and above.' },
+        ]}
+      />
 
       {/* CTA */}
       <section className="bg-accent py-16">

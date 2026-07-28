@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { RelatedLinks } from '@/components/ui/RelatedLinks'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -506,6 +508,10 @@ export default function ExportPalletManufacturerPage() {
       {/* ── Section 1: Sri Lanka's Dedicated Export Pallet Manufacturer ──── */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: do you need ISPM 15 pallets to export from Sri Lanka?">
+            Yes. Any wooden packaging used in international trade must comply with <strong>ISPM 15</strong> — heat-treated to 56°C and <strong>IPPC-stamped (country code LK)</strong>. This applies to every destination, including the EU, USA, UK, Japan, Australia, India, China and the Middle East. CeyPall is an NPQS-registered provider supplying certified export pallets island-wide.
+          </AnswerBlock>
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <FadeUp>
               <div>
@@ -915,6 +921,16 @@ export default function ExportPalletManufacturerPage() {
           </FadeUp>
         </div>
       </section>
+
+      {/* ── Related pages ─────────────────────────────────────────────── */}
+      <RelatedLinks
+        links={[
+          { href: '/heat-treated-pallets', title: 'Heat Treated Pallets', description: 'ISPM 15 heat treatment to 56°C, IPPC-stamped and export-ready.' },
+          { href: '/wooden-pallets-sri-lanka', title: 'Island-wide Delivery', description: 'ISPM 15 pallets delivered to every BOI zone and port in Sri Lanka.' },
+          { href: '/pallets-for-tea-export', title: 'Tea Export Pallets', description: 'Low-moisture, kiln-dried pallets sized for Ceylon tea shipments.' },
+          { href: '/pallets-for-apparel-export', title: 'Apparel Export Pallets', description: 'Euro and US-size pallets for garment exporters and EPZs.' },
+        ]}
+      />
 
       {/* ── Section 9: CTA ──────────────────────────────────────────────── */}
       <section className="bg-accent py-20">

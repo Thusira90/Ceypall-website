@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 import { MoistureCalculator } from '@/components/tools/MoistureCalculator'
@@ -134,6 +135,10 @@ export default function MoistureContentCalculatorPage() {
       {/* Reference content */}
       <section className="section-padding bg-warm-gray/40">
         <div className="container-content">
+          <AnswerBlock question="In short: what moisture content should export pallets be?">
+            Export pallet wood should be <strong>below 15% moisture content</strong>. ISPM 15 sets no maximum, but industry best practice keeps pallets under 15% to prevent mould during ocean transit — pallets above 20% MC are high-risk, especially on long voyages. Use the calculator below with weights or meter readings to check yours.
+          </AnswerBlock>
+
           <FadeUp>
             <div className="max-w-2xl">
               <h2 className="font-display text-2xl font-semibold text-primary mb-6">

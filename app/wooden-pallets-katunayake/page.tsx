@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { RelatedLinks } from '@/components/ui/RelatedLinks'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { Button } from '@/components/ui/Button'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -197,6 +199,10 @@ export default function KatunayakePage() {
       {/* ── Why CeyPall for Katunayake ───────────────────────────────── */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: how fast can you deliver to the Katunayake FTZ?">
+            Typically within <strong>1–2 business days</strong> for standard orders — CeyPall&apos;s Kochchikade facility is about <strong>35 km from the Katunayake Free Trade Zone</strong>. Every pallet is heat-treated to 56°C, IPPC-stamped and supplied with a treatment certificate, fully compliant with <strong>BOI export requirements</strong>. Recurring schedules can match your container loading dates.
+          </AnswerBlock>
+
           <FadeUp>
             <div className="mb-12">
               <SectionHeader
@@ -468,6 +474,16 @@ export default function KatunayakePage() {
           </FadeUp>
         </div>
       </section>
+
+      {/* ── Related pages ─────────────────────────────────────────────── */}
+      <RelatedLinks
+        links={[
+          { href: '/pallets-for-apparel-export', title: 'Apparel Export Pallets', description: 'Euro and US-size pallets for garment exporters and EPZs.' },
+          { href: '/wooden-pallets-negombo', title: 'Pallets in Negombo', description: 'Fast delivery to Negombo and Wattala, 20 km from our facility.' },
+          { href: '/wooden-pallets-sri-lanka', title: 'Island-wide Delivery', description: 'ISPM 15 pallets delivered to every BOI zone and port in Sri Lanka.' },
+          { href: '/export-pallet-manufacturer-sri-lanka', title: 'Export Pallet Manufacturer', description: 'ISPM 15 certified pallets for every Sri Lankan export destination.' },
+        ]}
+      />
 
       {/* ── CTA ─────────────────────────────────────────────────────── */}
       <section className="bg-accent py-16">

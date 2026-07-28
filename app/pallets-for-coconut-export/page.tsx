@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { RelatedLinks } from '@/components/ui/RelatedLinks'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -154,6 +156,10 @@ export default function PalletsForCoconutExportPage() {
       {/* Why CeyPall */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: what pallets are used for coconut exports?">
+            Coconut product exporters use <strong>1200 × 1000 mm</strong> standard or <strong>1200 × 800 mm Euro pallets</strong>, all ISPM 15 certified and IPPC-stamped. Because desiccated coconut, milk powder and cream are moisture-sensitive, CeyPall <strong>kiln-dries every pallet below 15% MC</strong> to prevent container humidity, clumping and mould during ocean transit. Standard and custom sizes available.
+          </AnswerBlock>
+
           <FadeUp>
             <div className="mb-12">
               <SectionHeader
@@ -280,6 +286,16 @@ export default function PalletsForCoconutExportPage() {
           </FadeUp>
         </div>
       </section>
+
+      {/* ── Related pages ─────────────────────────────────────────────── */}
+      <RelatedLinks
+        links={[
+          { href: '/heat-treated-pallets', title: 'Heat Treated Pallets', description: 'ISPM 15 heat treatment to 56°C, IPPC-stamped and export-ready.' },
+          { href: '/moisture-content-calculator', title: 'Moisture Content Calculator', description: 'Check whether your pallet wood meets the safe MC for ocean transit.' },
+          { href: '/pallets-for-spice-export', title: 'Spice & Cinnamon Pallets', description: 'Bark-free, low-moisture pallets for spice and cinnamon exports.' },
+          { href: '/export-pallet-manufacturer-sri-lanka', title: 'Export Pallet Manufacturer', description: 'ISPM 15 certified pallets for every Sri Lankan export destination.' },
+        ]}
+      />
 
       {/* CTA */}
       <section className="bg-accent py-16">

@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { RelatedLinks } from '@/components/ui/RelatedLinks'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -262,6 +264,10 @@ export default function IndustrialPalletsSriLankaPage() {
       {/* ── Section 1: What is an industrial pallet (direct answer) ──────── */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: how much weight can an industrial pallet hold?">
+            Industrial pallets are heavy-duty wooden pallets with reinforced deck boards and stringers. Standard-duty units carry <strong>1,000–1,500 kg</strong>; heavy-duty builds handle <strong>2,000 kg or more</strong>, depending on timber grade, deck thickness and stringer configuration. CeyPall designs the framing to your static and dynamic loads, heat-treating for export or VPI-treating for storage.
+          </AnswerBlock>
+
           <div className="max-w-3xl">
             <FadeUp>
               <SectionHeader eyebrow="Definition" title="What Is an Industrial Pallet?" />
@@ -414,6 +420,16 @@ export default function IndustrialPalletsSriLankaPage() {
           </FadeUp>
         </div>
       </section>
+
+      {/* ── Related pages ─────────────────────────────────────────────── */}
+      <RelatedLinks
+        links={[
+          { href: '/heat-treated-pallets', title: 'Heat Treated Pallets', description: 'ISPM 15 heat treatment to 56°C, IPPC-stamped and export-ready.' },
+          { href: '/custom-wooden-pallets-sri-lanka', title: 'Custom Wooden Pallets', description: 'Bespoke pallets built to any size, load rating and entry type.' },
+          { href: '/pallets-for-rubber-export', title: 'Rubber Export Pallets', description: 'Heavy-duty pallets for crepe rubber, RSS sheets and latex.' },
+          { href: '/pallet-pricing-sri-lanka', title: 'Pallet Pricing', description: 'What drives wooden pallet cost in Sri Lanka, and how to get a quote.' },
+        ]}
+      />
 
       {/* ── Section 6: CTA ──────────────────────────────────────────────── */}
       <section className="bg-accent py-20">

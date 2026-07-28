@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { RelatedLinks } from '@/components/ui/RelatedLinks'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { Button } from '@/components/ui/Button'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -198,6 +200,10 @@ export default function ColomboPage() {
       {/* ── Why CeyPall for Colombo ──────────────────────────────────── */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: do you supply pallets to Colombo and its port?">
+            Yes. CeyPall supplies <strong>ISPM 15 heat-treated, IPPC-stamped wooden pallets</strong> to Colombo exporters, port logistics operators and Western Province warehouses. Our Kochchikade facility is about <strong>55 km from Colombo Fort</strong> on the A3 coastal corridor, and we schedule deliveries around your container stuffing and vessel departure dates. High-volume recurring orders are welcome.
+          </AnswerBlock>
+
           <FadeUp>
             <div className="mb-12">
               <SectionHeader
@@ -468,6 +474,16 @@ export default function ColomboPage() {
           </FadeUp>
         </div>
       </section>
+
+      {/* ── Related pages ─────────────────────────────────────────────── */}
+      <RelatedLinks
+        links={[
+          { href: '/wooden-pallets-sri-lanka', title: 'Island-wide Delivery', description: 'ISPM 15 pallets delivered to every BOI zone and port in Sri Lanka.' },
+          { href: '/wooden-pallets-negombo', title: 'Pallets in Negombo', description: 'Fast delivery to Negombo and Wattala, 20 km from our facility.' },
+          { href: '/export-pallet-manufacturer-sri-lanka', title: 'Export Pallet Manufacturer', description: 'ISPM 15 certified pallets for every Sri Lankan export destination.' },
+          { href: '/heat-treated-pallets', title: 'Heat Treated Pallets', description: 'ISPM 15 heat treatment to 56°C, IPPC-stamped and export-ready.' },
+        ]}
+      />
 
       {/* ── CTA ─────────────────────────────────────────────────────── */}
       <section className="bg-accent py-16">

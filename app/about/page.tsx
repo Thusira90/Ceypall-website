@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
@@ -111,6 +112,10 @@ export default function AboutPage() {
       {/* Story */}
       <section className="section-padding cream-texture">
         <div className="container-content">
+          <AnswerBlock question="In short: who is CeyPall?">
+            CeyPall (Pvt) Ltd is <strong>Sri Lanka&apos;s dedicated ISPM 15-certified wooden pallet manufacturer</strong>, based in Kochchikade and <strong>NPQS-registered under LK-0175</strong>. Incorporated in 2025, it builds on a family timber legacy dating to 1955 and on-site pallet manufacturing since 2005 (sister company St. Xavier Timber). It supplies heat-treated export and VPI storage pallets island-wide.
+          </AnswerBlock>
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <FadeUp>
               <div>
