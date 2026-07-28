@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { RelatedLinks } from '@/components/ui/RelatedLinks'
 import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { Button } from '@/components/ui/Button'
 import { SectionHeader } from '@/components/ui/SectionHeader'
@@ -473,6 +474,16 @@ export default function KatunayakePage() {
           </FadeUp>
         </div>
       </section>
+
+      {/* ── Related pages ─────────────────────────────────────────────── */}
+      <RelatedLinks
+        links={[
+          { href: '/pallets-for-apparel-export', title: 'Apparel Export Pallets', description: 'Euro and US-size pallets for garment exporters and EPZs.' },
+          { href: '/wooden-pallets-negombo', title: 'Pallets in Negombo', description: 'Fast delivery to Negombo and Wattala, 20 km from our facility.' },
+          { href: '/wooden-pallets-sri-lanka', title: 'Island-wide Delivery', description: 'ISPM 15 pallets delivered to every BOI zone and port in Sri Lanka.' },
+          { href: '/export-pallet-manufacturer-sri-lanka', title: 'Export Pallet Manufacturer', description: 'ISPM 15 certified pallets for every Sri Lankan export destination.' },
+        ]}
+      />
 
       {/* ── CTA ─────────────────────────────────────────────────────── */}
       <section className="bg-accent py-16">

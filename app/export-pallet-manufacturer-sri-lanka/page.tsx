@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { RelatedLinks } from '@/components/ui/RelatedLinks'
 import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
@@ -920,6 +921,16 @@ export default function ExportPalletManufacturerPage() {
           </FadeUp>
         </div>
       </section>
+
+      {/* ── Related pages ─────────────────────────────────────────────── */}
+      <RelatedLinks
+        links={[
+          { href: '/heat-treated-pallets', title: 'Heat Treated Pallets', description: 'ISPM 15 heat treatment to 56°C, IPPC-stamped and export-ready.' },
+          { href: '/wooden-pallets-sri-lanka', title: 'Island-wide Delivery', description: 'ISPM 15 pallets delivered to every BOI zone and port in Sri Lanka.' },
+          { href: '/pallets-for-tea-export', title: 'Tea Export Pallets', description: 'Low-moisture, kiln-dried pallets sized for Ceylon tea shipments.' },
+          { href: '/pallets-for-apparel-export', title: 'Apparel Export Pallets', description: 'Euro and US-size pallets for garment exporters and EPZs.' },
+        ]}
+      />
 
       {/* ── Section 9: CTA ──────────────────────────────────────────────── */}
       <section className="bg-accent py-20">

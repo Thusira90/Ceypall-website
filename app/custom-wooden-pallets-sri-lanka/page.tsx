@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { RelatedLinks } from '@/components/ui/RelatedLinks'
 import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
@@ -424,6 +425,16 @@ export default function CustomWoodenPalletsSriLankaPage() {
           </FadeUp>
         </div>
       </section>
+
+      {/* ── Related pages ─────────────────────────────────────────────── */}
+      <RelatedLinks
+        links={[
+          { href: '/heat-treated-pallets', title: 'Heat Treated Pallets', description: 'ISPM 15 heat treatment to 56°C, IPPC-stamped and export-ready.' },
+          { href: '/industrial-pallets-sri-lanka', title: 'Industrial Pallets', description: 'Heavy-duty pallets rated for 1,000–2,000 kg and above.' },
+          { href: '/euro-pallets-sri-lanka', title: 'Euro Pallets', description: 'Standard 1200 × 800 mm Euro pallets for EU and UK exports.' },
+          { href: '/container-pallet-calculator', title: 'Container Pallet Calculator', description: 'See how many pallets fit a 20ft, 40ft or high-cube container.' },
+        ]}
+      />
 
       {/* ── Section 6: CTA ──────────────────────────────────────────────── */}
       <section className="bg-accent py-20">

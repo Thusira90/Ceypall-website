@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { RelatedLinks } from '@/components/ui/RelatedLinks'
 import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
@@ -319,6 +320,16 @@ export default function PalletsForRubberExportPage() {
           </FadeUp>
         </div>
       </section>
+
+      {/* ── Related pages ─────────────────────────────────────────────── */}
+      <RelatedLinks
+        links={[
+          { href: '/industrial-pallets-sri-lanka', title: 'Industrial Pallets', description: 'Heavy-duty pallets rated for 1,000–2,000 kg and above.' },
+          { href: '/heat-treated-pallets', title: 'Heat Treated Pallets', description: 'ISPM 15 heat treatment to 56°C, IPPC-stamped and export-ready.' },
+          { href: '/export-pallet-manufacturer-sri-lanka', title: 'Export Pallet Manufacturer', description: 'ISPM 15 certified pallets for every Sri Lankan export destination.' },
+          { href: '/pallet-pricing-sri-lanka', title: 'Pallet Pricing', description: 'What drives wooden pallet cost in Sri Lanka, and how to get a quote.' },
+        ]}
+      />
 
       {/* CTA */}
       <section className="bg-accent py-16">

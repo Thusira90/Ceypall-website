@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { RelatedLinks } from '@/components/ui/RelatedLinks'
 import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
@@ -1003,6 +1004,16 @@ export default function HeatTreatedPalletsPage() {
           </FadeUp>
         </div>
       </section>
+
+      {/* ── Related pages ─────────────────────────────────────────────── */}
+      <RelatedLinks
+        links={[
+          { href: '/export-pallet-manufacturer-sri-lanka', title: 'Export Pallet Manufacturer', description: 'ISPM 15 certified pallets for every Sri Lankan export destination.' },
+          { href: '/custom-wooden-pallets-sri-lanka', title: 'Custom Wooden Pallets', description: 'Bespoke pallets built to any size, load rating and entry type.' },
+          { href: '/wooden-vs-plastic-pallets-sri-lanka', title: 'Wooden vs Plastic Pallets', description: 'An honest cost, hygiene and compliance comparison for exporters.' },
+          { href: '/pallet-pricing-sri-lanka', title: 'Pallet Pricing', description: 'What drives wooden pallet cost in Sri Lanka, and how to get a quote.' },
+        ]}
+      />
 
       {/* ── CTA ────────────────────────────────────────────────────────── */}
       <section className="bg-accent py-20">

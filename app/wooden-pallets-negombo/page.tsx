@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { FadeUp } from '@/components/ui/FadeUp'
+import { RelatedLinks } from '@/components/ui/RelatedLinks'
 import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { Button } from '@/components/ui/Button'
 import { SectionHeader } from '@/components/ui/SectionHeader'
@@ -472,6 +473,16 @@ export default function NegomboPage() {
           </FadeUp>
         </div>
       </section>
+
+      {/* ── Related pages ─────────────────────────────────────────────── */}
+      <RelatedLinks
+        links={[
+          { href: '/wooden-pallets-katunayake', title: 'Pallets in Katunayake', description: 'BOI-compliant export pallets for the Katunayake Free Trade Zone.' },
+          { href: '/wooden-pallets-colombo', title: 'Pallets in Colombo', description: 'Supply to Colombo port exporters and Western Province warehouses.' },
+          { href: '/wooden-pallets-sri-lanka', title: 'Island-wide Delivery', description: 'ISPM 15 pallets delivered to every BOI zone and port in Sri Lanka.' },
+          { href: '/heat-treated-pallets', title: 'Heat Treated Pallets', description: 'ISPM 15 heat treatment to 56°C, IPPC-stamped and export-ready.' },
+        ]}
+      />
 
       {/* ── CTA ─────────────────────────────────────────────────────── */}
       <section className="bg-accent py-16">
