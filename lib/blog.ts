@@ -9,6 +9,11 @@ export interface BlogPost {
   lastUpdated?: string;
   description: string;
   content: string;
+  // Optional FAQ pairs. When present, the post page emits FAQPage JSON-LD
+  // from these. The visible Q&A still lives in `content` so it renders with
+  // the rest of the body — this array exists purely to power the structured
+  // data, mirroring the FAQ schema on the site's static pages.
+  faqs?: { question: string; answer: string }[];
 }
 
 export const blogPosts: BlogPost[] = [
@@ -1117,6 +1122,132 @@ CeyPall manufactures custom-sized pallets to maximise your container utilisation
 
 [Contact us](/contact) for a free quote, or call +94 714 711 417.
     `,
+  },
+  {
+    slug: "how-to-store-heat-treated-export-pallets",
+    title: "How to Store Heat-Treated (ISPM 15) Export Pallets",
+    seoTitle: "How to Store Heat-Treated ISPM 15 Export Pallets",
+    date: "2026-07-29",
+    description:
+      "Heat treatment protects your shipment only if pallets stay compliant until they ship. How to store ISPM 15 pallets so they stay dry, pest-free and port-ready.",
+    content: `
+To keep ISPM 15 heat-treated pallets export-compliant, store them under cover, off the ground, and physically separated from raw timber, bark and sawdust. Keep them dry and ventilated, stack them squarely, rotate stock oldest-first, and protect the IPPC mark from damage — so each pallet ships in the pest-free, dry, correctly-marked condition it left the kiln in.
+
+When you buy ISPM 15 heat-treated pallets for an export shipment, you're paying for one thing above all: a pallet that will clear quarantine at the destination port. What many exporters don't realise is that the compliance you buy on the day of treatment can be lost in your own yard before the container is ever sealed.
+
+Heat treatment kills the pests present in the wood at the moment of treatment. It does not make the timber permanently immune. Store treated pallets carelessly — next to raw timber, out in the rain, or in a damp corner for weeks — and they can be re-infested, grow mould, or have their certification mark damaged. Any of those can mean rejection, fumigation, or a returned shipment at the other end, no matter what mark the pallet carries.
+
+Here's how to store heat-treated export pallets so the compliance you paid for is still intact when they ship.
+
+## Why storage matters after heat treatment
+
+To meet the ISPM 15 standard, wood is heated until its core reaches at least 56°C for 30 continuous minutes — the process CeyPall applies and certifies on every export pallet. That heat treatment is a snapshot in time: it eliminates borers, termites and other pests that are in the wood right then.
+
+After that, the wood is ordinary timber again — vulnerable to the same moisture and the same insects as any other piece of wood. In Sri Lanka's climate, where termite and powderpost beetle pressure is high all year, a treated pallet left in the wrong conditions can pick up a fresh infestation within weeks. Quarantine officers at the destination inspect what arrives, not what left the kiln. So storage isn't housekeeping — it's the final step in staying compliant.
+
+## Keep treated pallets away from re-infestation
+
+This is the single most important rule, and it's mostly about separation and cleanliness:
+
+- **Separate treated from untreated.** Keep finished, marked pallets physically apart from raw timber, green offcuts, bark and sawdust — these are the main sources of re-infestation.
+- **Store enclosed or under cover.** A roofed, enclosed space away from live trees, vegetation and debris sharply reduces exposure to termites and borers.
+- **Keep pallets off the ground.** Direct soil contact is an open door for termites and moisture. Store on dunnage, concrete or racking.
+- **Watch for the warning signs.** Fine powder (frass), small round exit holes, or mud tubes mean live pests. Set that stock aside and don't ship it.
+
+## Protect them from moisture
+
+Heat-treated pallets leave the kiln dry. Holding that low moisture content keeps them light, strong and free of mould and blue-stain — the grey and blue discoloration that often gets a shipment rejected on appearance alone, even when the wood is perfectly sound.
+
+- Store under a roof or weatherproof cover; rain and ground damp drive moisture back into the wood.
+- Elevate stacks so ground moisture can't wick up into the bottom pallets.
+- Leave space for air to move between and around stacks.
+- If you wrap pallets for storage, wrap them dry — sealing damp wood under plastic traps condensation and invites mould.
+
+For more on why moisture matters in transit, see our guide to [pallet moisture content](/blog/pallet-moisture-content-guide-exporters).
+
+## Stack and rotate correctly
+
+- Stack on a firm, level base so loads don't lean or settle unevenly.
+- Keep stacks square and plumb — leaning stacks are both a topple hazard and a way to crush the pallets at the bottom.
+- Don't over-stack; cap the height so base pallets aren't damaged.
+- Rotate stock first-in, first-out. The longer a treated pallet sits, the more chance it has to weather or pick up pests, so ship the oldest stock first.
+
+## Protect the ISPM 15 mark
+
+The IPPC mark is what customs and quarantine authorities actually read. If it's painted over, gouged, or worn away, the pallet can be treated as non-compliant even though it was correctly heat-treated. A valid mark carries the IPPC wheat symbol, the country code LK for Sri Lanka, the manufacturer's registered facility number, and the treatment code HT.
+
+Handle marked pallets so the stamp stays clean and legible, and don't sticker or paint across the marked faces. Our guide on [how to read the IPPC stamp](/blog/how-to-read-ippc-stamp) explains what each element means.
+
+## Don't forget fire safety
+
+Idle wooden pallets are a well-known fire hazard — the gaps between boards let a fire spread fast, and plastic wrap adds fuel. Keep stored pallets away from ignition sources and electrical equipment, maintain clear separation from buildings and other goods, and don't let outdoor piles grow too large.
+
+## Your quick storage checklist
+
+- ✅ Treated pallets kept separate from raw timber and wood waste
+- ✅ Stored under cover, off the ground, with airflow around stacks
+- ✅ Kept dry — no rain exposure, no damp wrapping
+- ✅ Stacked square and within a safe height
+- ✅ Oldest stock shipped first (FIFO)
+- ✅ IPPC / ISPM 15 mark clean and legible
+- ✅ Yard clear of debris, standing water and vegetation
+- ✅ Idle stacks clear of fire and ignition risks
+
+## Frequently asked questions
+
+### Does heat treatment make pallets permanently pest-free?
+
+No. Heat treatment eliminates the pests present at the time of treatment, but the wood can be re-infested afterwards if it's stored near untreated timber or in poor conditions. Correct storage is what keeps a treated pallet compliant until it ships.
+
+### Can heat-treated pallets be stored outside?
+
+It's best avoided. If pallets must sit outside, treat it as short-term staging only — tarp or shade them, keep them elevated, and move them under cover as soon as possible. Prolonged sun and rain cause warping, checking and surface degradation.
+
+### How long can you store ISPM 15 pallets before shipping?
+
+There's no fixed expiry on the treatment itself, but the longer pallets sit, the greater the risk of moisture uptake or re-infestation. Store them well, rotate oldest-first, and inspect before dispatch rather than assuming stored stock is still fine.
+
+### What happens if the ISPM 15 mark is damaged or unreadable?
+
+A pallet with an illegible or defaced mark may be treated as non-compliant at the destination, even if it was correctly treated. Protect the marked faces during handling and storage.
+
+### Do heat-treated pallets need to be kept separate from regular timber?
+
+Yes. Keeping treated, marked pallets physically separated from raw timber, offcuts, bark and sawdust is the most effective way to prevent re-infestation before shipping.
+
+## Export pallets that arrive compliant
+
+CeyPall manufactures ISPM 15 / IPPC certified [heat-treated pallets](/heat-treated-pallets) for exporters across Sri Lanka, treated and marked to clear quarantine at destination. Trusted by exporters including Akbar Brothers, Hemas Manufacturing and De La Rue, we can advise on the right pallet spec — and the right handling — for your market.
+
+Talk to us about your export pallet requirements: [Contact us](/contact) or call +94 714 711 417.
+    `,
+    faqs: [
+      {
+        question: "Does heat treatment make pallets permanently pest-free?",
+        answer:
+          "No. Heat treatment eliminates the pests present at the time of treatment, but the wood can be re-infested afterwards if stored near untreated timber or in poor conditions. Correct storage keeps a treated pallet compliant until it ships.",
+      },
+      {
+        question: "Can heat-treated pallets be stored outside?",
+        answer:
+          "It is best avoided. If pallets must sit outside, treat it as short-term staging only: tarp or shade them, keep them elevated, and move them under cover as soon as possible, as prolonged sun and rain cause warping and surface degradation.",
+      },
+      {
+        question: "How long can you store ISPM 15 pallets before shipping?",
+        answer:
+          "There is no fixed expiry on the treatment itself, but the longer pallets sit, the greater the risk of moisture uptake or re-infestation. Store them well, rotate oldest-first, and inspect before dispatch.",
+      },
+      {
+        question: "What happens if the ISPM 15 mark is damaged or unreadable?",
+        answer:
+          "A pallet with an illegible or defaced mark may be treated as non-compliant at the destination, even if it was correctly treated. Protect the marked faces during handling and storage.",
+      },
+      {
+        question: "Do heat-treated pallets need to be kept separate from regular timber?",
+        answer:
+          "Yes. Keeping treated, marked pallets physically separated from raw timber, offcuts, bark and sawdust is the most effective way to prevent re-infestation before shipping.",
+      },
+    ],
   },
 ];
 
