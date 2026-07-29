@@ -86,6 +86,19 @@ export default function BlogPostPage({ params }: Props) {
     ],
   }
 
+  const faqJsonLd =
+    post.faqs && post.faqs.length > 0
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: post.faqs.map((faq) => ({
+            '@type': 'Question',
+            name: faq.question,
+            acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+          })),
+        }
+      : null
+
   const paragraphs = post.content
     .trim()
     .split('\n')
@@ -132,6 +145,7 @@ export default function BlogPostPage({ params }: Props) {
       {/* ── JSON-LD ─────────────────────────────────────────────────────── */}
       <SchemaScript schema={articleJsonLd} />
       <SchemaScript schema={breadcrumbJsonLd} />
+      {faqJsonLd && <SchemaScript schema={faqJsonLd} />}
 
       {/* Header */}
       <section className="wood-texture section-padding">
