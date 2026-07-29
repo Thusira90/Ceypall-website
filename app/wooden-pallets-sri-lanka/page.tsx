@@ -37,7 +37,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  '@id': 'https://www.ceypall.com/#business',
+  '@id': 'https://www.ceypall.com/wooden-pallets-sri-lanka/#business',
   name: 'CeyPall (Pvt) Ltd — Island-Wide Pallet Delivery Sri Lanka',
   description:
     'CeyPall delivers ISPM 15 certified, IPPC-stamped heat treated wooden pallets to all BOI Export Processing Zones, industrial estates, port hubs, and tea regions across Sri Lanka. Manufactured at Kochchikade.',

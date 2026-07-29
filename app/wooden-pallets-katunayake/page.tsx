@@ -37,7 +37,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  '@id': 'https://www.ceypall.com/#business',
+  '@id': 'https://www.ceypall.com/wooden-pallets-katunayake/#business',
   name: 'CeyPall (Pvt) Ltd',
   description:
     'ISPM 15 certified wooden pallet manufacturer supplying heat-treated export pallets to the Katunayake Free Trade Zone and Seeduwa area.',
@@ -102,30 +102,6 @@ const nearbyZones = [
   { zone: 'Mirigama EPZ', district: 'Gampaha', industries: 'Export-focused manufacturing', driveTime: '60–75 min' },
   { zone: 'Malwatta EPZ', district: 'Gampaha', industries: 'Mixed export industries', driveTime: '30–45 min' },
   { zone: 'Seethawaka EPZ', district: 'Colombo', industries: 'Apparel, rubber, chemicals', driveTime: '75–90 min' },
-]
-
-const allZones = [
-  { zone: 'Katunayake EPZ', district: 'Gampaha', industries: 'Apparel, electronics, high-value manufacturing' },
-  { zone: 'Biyagama EPZ', district: 'Gampaha', industries: 'Electronics, chemicals, industrial manufacturing' },
-  { zone: 'Wathupitiwela EPZ', district: 'Gampaha', industries: 'Mixed manufacturing, low-polluting industries' },
-  { zone: 'Mirigama EPZ', district: 'Gampaha', industries: 'Export-focused manufacturing' },
-  { zone: 'Malwatta EPZ', district: 'Gampaha', industries: 'Mixed export industries' },
-  { zone: 'Seethawaka EPZ', district: 'Colombo', industries: 'Apparel, rubber, chemicals, mixed manufacturing' },
-  { zone: 'Horana EPZ', district: 'Kalutara', industries: 'Apparel, food processing, packaging' },
-  { zone: 'Koggala EPZ', district: 'Galle', industries: 'Garments, manufacturing' },
-  { zone: 'Mirijjawila EPZ', district: 'Hambantota', industries: 'Export-oriented manufacturing' },
-  { zone: 'Mawathagama EPZ', district: 'Kurunegala', industries: 'Low-polluting industries' },
-  { zone: 'Polgahawela EPZ', district: 'Kurunegala', industries: 'Mixed manufacturing' },
-  { zone: 'Bingiriya EPZ', district: 'Kurunegala', industries: 'Light manufacturing, sustainable industries' },
-  { zone: 'Kandy Industrial Park', district: 'Kandy', industries: 'Mixed industries, central Sri Lanka' },
-  { zone: 'Pannala Industrial Estate', district: 'Kurunegala', industries: 'Manufacturing' },
-  { zone: 'Atchchuveli Industrial Estate', district: 'Jaffna', industries: 'Manufacturing, northern Sri Lanka' },
-  { zone: 'Colombo Port & surrounds', district: 'Colombo', industries: 'All export industries — Peliyagoda, Ja-Ela, Ekala, Wattala' },
-  { zone: 'Hambantota Port zone', district: 'Hambantota', industries: 'Southern export hub' },
-  { zone: 'Trincomalee Port zone', district: 'Trincomalee', industries: 'Eastern export hub' },
-  { zone: 'Nuwara Eliya / Hatton', district: 'Nuwara Eliya', industries: 'Tea export' },
-  { zone: 'Ratnapura / Balangoda', district: 'Ratnapura', industries: 'Tea, rubber, gems export' },
-  { zone: 'Kandy / Matale', district: 'Kandy', industries: 'Tea, spices, coconut export' },
 ]
 
 const faqs = [
@@ -383,53 +359,6 @@ export default function KatunayakePage() {
               </a>
               .
             </p>
-          </FadeUp>
-        </div>
-      </section>
-
-      {/* ── All Sri Lanka EPZ reference table ───────────────────────── */}
-      <section className="section-padding bg-warm-gray/40">
-        <div className="container-content">
-          <FadeUp>
-            <div className="mb-8">
-              <SectionHeader
-                eyebrow="Full Coverage"
-                title="All Sri Lanka Export Processing Zones — Full Coverage"
-              />
-              <p className="font-body text-sm text-charcoal/70 leading-relaxed mt-4 max-w-2xl">
-                CeyPall delivers ISPM 15 certified export pallets to every BOI Export Processing Zone
-                and industrial estate in Sri Lanka. The complete zone reference:
-              </p>
-            </div>
-          </FadeUp>
-
-          <FadeUp delay={0.05}>
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm font-body border-collapse">
-                <thead>
-                  <tr className="bg-primary text-cream">
-                    <th className="text-left px-4 py-3 font-semibold text-xs tracking-[0.08em] uppercase">
-                      Zone / Industrial Area
-                    </th>
-                    <th className="text-left px-4 py-3 font-semibold text-xs tracking-[0.08em] uppercase">
-                      District
-                    </th>
-                    <th className="text-left px-4 py-3 font-semibold text-xs tracking-[0.08em] uppercase">
-                      Primary Industries
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {allZones.map(({ zone, district, industries: ind }, i) => (
-                    <tr key={zone} className={i % 2 === 0 ? 'bg-cream' : 'bg-cream/50'}>
-                      <td className="px-4 py-3 text-charcoal font-semibold">{zone}</td>
-                      <td className="px-4 py-3 text-charcoal/70">{district}</td>
-                      <td className="px-4 py-3 text-charcoal/65">{ind}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
           </FadeUp>
         </div>
       </section>
