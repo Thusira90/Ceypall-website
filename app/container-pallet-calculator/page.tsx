@@ -253,6 +253,13 @@ export default function ContainerPalletCalculatorPage() {
                   Standard Pallet Sizes for Sri Lankan Exporters
                 </Link>.
               </p>
+              <p className="font-body text-sm text-charcoal/70 leading-relaxed mt-3">
+                Planning a heavy or stacked load? See our guide to{' '}
+                <Link href="/blog/wooden-pallet-load-capacity-guide" className="text-accent hover:text-accent-hover underline underline-offset-2 transition-colors">
+                  wooden pallet load capacity
+                </Link>{' '}
+                for the static, dynamic and racking ratings you need.
+              </p>
             </div>
           </FadeUp>
         </div>

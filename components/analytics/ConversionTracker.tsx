@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
-import { trackConversion, CONVERSION_EVENTS } from '@/lib/analytics'
+import { trackLead, CONVERSION_EVENTS } from '@/lib/analytics'
 
 // A single delegated click listener that fires conversion events for every
 // phone (tel:) and WhatsApp (wa.me) link on the site — no need to wire an
@@ -14,9 +14,9 @@ export function ConversionTracker() {
       const href = anchor.getAttribute('href') || ''
 
       if (href.startsWith('tel:')) {
-        trackConversion(CONVERSION_EVENTS.phoneClick, { link_url: href })
+        trackLead(CONVERSION_EVENTS.phoneClick, { link_url: href })
       } else if (href.includes('wa.me') || href.includes('api.whatsapp.com')) {
-        trackConversion(CONVERSION_EVENTS.whatsappClick, { link_url: href })
+        trackLead(CONVERSION_EVENTS.whatsappClick, { link_url: href })
       }
     }
 

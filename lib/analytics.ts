@@ -32,3 +32,23 @@ export const CONVERSION_EVENTS = {
   phoneClick: 'contact_phone',
   formSubmit: 'generate_lead',
 } as const
+
+// Assumed average value per lead in LKR (avg order × close rate). Fed into
+// GA4 as `value`/`currency` on key events so channel ROI is measurable
+// (was Rs 0 across the board before). Update the constant to re-value all
+// historical lead-shaped events going forward.
+export const LEAD_VALUE_LKR = 25000
+export const LEAD_CURRENCY = 'LKR'
+
+/**
+ * Fire a lead-shaped conversion (WhatsApp, phone or form). Adds
+ * value/currency so GA4 reports non-zero revenue against the traffic
+ * source that produced the lead.
+ */
+export function trackLead(action: string, params: GtagParams = {}): void {
+  trackConversion(action, {
+    value: LEAD_VALUE_LKR,
+    currency: LEAD_CURRENCY,
+    ...params,
+  })
+}

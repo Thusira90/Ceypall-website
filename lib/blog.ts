@@ -1249,6 +1249,170 @@ Talk to us about your export pallet requirements: [Contact us](/contact) or call
       },
     ],
   },
+  {
+    slug: "wooden-pallet-load-capacity-guide",
+    title: "How Much Weight Can a Wooden Pallet Hold? A Load Capacity Guide",
+    seoTitle: "Wooden Pallet Load Capacity — How Much Weight Can It Hold?",
+    date: "2026-08-10",
+    description:
+      "Static, dynamic and racking load — what each pallet load rating actually means, typical capacities for standard export and Euro pallets, and how to spec one that won't fail in transit.",
+    content: `
+A standard 1200 × 1000 mm heat-treated export pallet typically handles a **static load of 3,000–5,000 kg**, a **dynamic (forklift) load of 1,000–1,500 kg**, and a **racking load of around 700–1,000 kg** — but the real figure depends on timber species, board thickness, block or stringer construction and how the weight sits on the deck. Under-specifying the pallet is one of the most common causes of transit failure.
+
+If you've ever asked "how much weight can this pallet actually hold?", you've hit one of the most misunderstood questions in export packaging. A pallet doesn't have a single load rating — it has three, and specifying the wrong one is the reason pallets collapse mid-lift, deform in racking, or arrive at the destination port broken under the cargo they were built to carry.
+
+Here's how pallet load capacity actually works, what typical numbers look like for the pallets Sri Lankan exporters use, and how to spec a pallet that will hold up all the way to the destination.
+
+## The three load ratings — and why they matter
+
+Every wooden pallet has three separate load capacities. They aren't interchangeable, and a pallet built to handle one may fail catastrophically at another.
+
+### Static load
+
+The **static load** is the maximum weight a pallet can support when resting flat on a solid, level surface — for example, sitting on a concrete warehouse floor with cargo piled on top, or as the bottom pallet in a stack. This is the highest of the three ratings, because the whole deck is supported evenly.
+
+A well-built 1200 × 1000 mm heat-treated export pallet can typically hold **3,000–5,000 kg of static load**, and heavy-duty industrial pallets go significantly higher.
+
+### Dynamic load
+
+The **dynamic load** is the weight the pallet can carry while it is being moved — lifted by a forklift, pushed by a pallet jack, or wheeled across the warehouse. Only the forks or wheels support the pallet during motion, so the load bears down on a much smaller contact area. That means the dynamic rating is much lower than the static one — typically **1,000–1,500 kg for a standard export pallet**.
+
+This is the rating most exporters actually need to think about, because it's what governs whether the pallet survives the trip from floor to container.
+
+### Racking load
+
+The **racking load** — sometimes called the shelf load — is the maximum weight the pallet can hold while resting only on its two edges, as it does in a warehouse racking system. This is the most demanding of the three, because the middle of the deck is unsupported and the entire load rests on the deckboards' ability to span between rack beams without sagging.
+
+Racking loads for standard export pallets are typically **700–1,000 kg**, and much less for lightweight or one-way pallets.
+
+If a pallet is rated for 1,500 kg dynamic but only 800 kg racking, putting a 1,200 kg load into racking will bow or break it — even though the forklift moved it there without incident.
+
+## Typical load capacities by pallet type
+
+The numbers below are indicative for standard heat-treated export pallets built to typical Sri Lankan export specifications. Actual ratings depend on your timber, board thickness and construction, so treat them as a starting point for a conversation, not a spec sheet.
+
+| Pallet type | Static load | Dynamic load | Racking load |
+|---|---|---|---|
+| Standard export (1200 × 1000 mm) | 3,000–5,000 kg | 1,000–1,500 kg | 700–1,000 kg |
+| Euro pallet (1200 × 800 mm) | 4,000–5,500 kg | 1,000–1,500 kg | 700–1,000 kg |
+| Heavy-duty industrial | 5,000–7,000 kg | 1,500–2,500 kg | 1,200–1,500 kg |
+| Light one-way / display | 1,500–2,000 kg | 500–800 kg | Not recommended |
+
+For cargo above ~1,000 kg per pallet, or for shipments going into racking at the destination warehouse, always confirm the exact load rating with your pallet supplier before you order.
+
+## What actually determines load capacity
+
+Two pallets of the same footprint can have very different capacities. The variables that matter most:
+
+### Timber species and grade
+
+Denser hardwoods and well-selected softwoods hold much more load than lower-grade timber with knots, splits or wide growth rings. Sri Lankan export pallets are typically built from pine or rubber wood — good, consistent species when properly graded, kiln-dried and heat-treated. Cheap, wet or knotty timber undermines every other design choice.
+
+### Board thickness
+
+Thicker deckboards and stringers hold more load. Halving deckboard thickness roughly halves the racking capacity of the pallet, and the difference is very visible in transit — thin-decked pallets bow first, then split at the fastener points.
+
+### Block vs stringer construction
+
+**Block pallets** use nine or twelve solid wooden blocks between the top and bottom decks, giving four-way forklift and pallet-jack entry from any side. They generally handle heavier and more variable loads.
+
+**Stringer pallets** use three parallel timbers ("stringers") between the decks. They're lighter and cheaper, but only allow two-way entry on the closed sides. For heavy or racked loads, block construction is usually the safer choice.
+
+### Deck coverage — full or perimeter?
+
+A **full-deck** top offers continuous support for the cargo, which matters a lot for sacks, drums, small cartons or fragile goods that need contact across the whole footprint. Perimeter or slatted decks save weight and cost but concentrate load on the boards below the cargo — fine for bulky rigid crates, risky for anything with a small footprint or uneven base.
+
+### Fastener pattern
+
+The number, size and pattern of nails or staples holding the pallet together makes a real difference to how loads are transferred between deckboards, stringers and blocks. Under-fastened pallets fail at the joints long before the timber itself gives way.
+
+## How your cargo affects the load the pallet actually sees
+
+The pallet's rating is only half the equation. The way your cargo sits on the deck decides how much of that capacity you're actually using.
+
+- **Evenly distributed loads** — a stable pallet-sized crate, or shrink-wrapped drums covering the whole deck — use the pallet close to its rated capacity.
+- **Concentrated loads** — a single heavy piece of machinery on one corner, or a small dense object in the centre — can overload part of the pallet even when the total weight is well within the rating.
+- **Stacked pallets** — remember that the bottom pallet is bearing not just its own cargo, but the full weight of everything above it. For a two-high stack, the bottom pallet needs a static rating well above the combined weight.
+
+For guidance on planning pallet stacks inside a container, see our [container pallet calculator](/container-pallet-calculator) and the accompanying loading notes.
+
+## How to spec a pallet that won't fail
+
+If you're not sure what load rating you need, work through these questions before ordering:
+
+1. **What is the total weight of one loaded pallet?** Include the packaging, not just the product.
+2. **How is the cargo distributed?** Full-deck, edge-loaded, single point of contact?
+3. **Will pallets be stacked in transit?** If so, the bottom pallet's static rating must cover the whole stack.
+4. **Will pallets go into racking at the destination?** If yes, the racking rating is the binding constraint, not the dynamic rating.
+5. **How many times will the pallet be lifted?** A pallet that only ships one-way can be lighter than one that will be reused for return shipments or internal warehouse moves.
+
+Once those answers are clear, a good pallet supplier can build to the exact spec — timber, thickness, entry type, deck pattern and fasteners — that gets your cargo safely to the destination without over-paying for capacity you don't need.
+
+## Frequently asked questions
+
+### What is the difference between static, dynamic and racking load?
+
+Static load is the maximum weight the pallet can hold when resting on a solid floor. Dynamic load is the maximum weight it can carry while being moved by forklift or pallet jack. Racking load is the maximum weight it can hold while suspended on its edges in a rack. Racking is the most demanding rating, and it is much lower than the static rating.
+
+### How much weight can a standard export pallet hold?
+
+A typical 1200 × 1000 mm heat-treated export pallet handles a static load of about 3,000–5,000 kg, a dynamic (forklift) load of 1,000–1,500 kg, and a racking load of about 700–1,000 kg. Exact figures depend on timber species, board thickness and construction.
+
+### How much weight can a Euro pallet hold?
+
+A standard Euro pallet (1200 × 800 mm, block construction) typically holds a static load of 4,000–5,500 kg, a dynamic load of 1,000–1,500 kg, and a racking load of around 700–1,000 kg. Heavier-duty Euro variants exist for specialised uses.
+
+### Does heat treatment change a pallet's load capacity?
+
+No. Correctly-performed [ISPM 15 heat treatment](/heat-treated-pallets) does not significantly change the mechanical strength of the timber. It removes pests but leaves the wood's structural properties intact.
+
+### What happens if you overload a pallet?
+
+Overloading causes deckboards to bow or split, stringers to crack at the fastener points, and — in racking — the entire pallet to fail suddenly. In transit, a failing pallet damages the cargo, the container floor, and often the pallets stacked beneath it.
+
+### Are two-way or four-way entry pallets stronger?
+
+Neither is inherently stronger. Four-way (block) pallets are more versatile because a forklift can enter from any side, and block construction generally holds heavy and irregular loads better than stringer construction. Two-way stringer pallets are lighter and cheaper, and are usually fine for lighter or well-distributed loads.
+
+## Spec the right pallet for your cargo
+
+CeyPall manufactures ISPM 15 certified [wooden pallets](/wooden-pallets-sri-lanka) built to your exact load spec — standard export, Euro or fully custom, in block or stringer construction, with the deck pattern and timber grade your cargo requires. Every pallet is heat-treated, IPPC-stamped and delivered island-wide across Sri Lanka with the treatment certificate for export.
+
+Not sure what capacity you need? [Contact us](/contact) with your cargo weight, distribution and destination — or call +94 714 711 417 — and we'll spec the right pallet for the job.
+    `,
+    faqs: [
+      {
+        question: "What is the difference between static, dynamic and racking load?",
+        answer:
+          "Static load is the maximum weight the pallet can hold when resting on a solid floor. Dynamic load is the maximum weight it can carry while being moved by forklift or pallet jack. Racking load is the maximum weight it can hold while suspended on its edges in a rack. Racking is the most demanding rating and much lower than the static rating.",
+      },
+      {
+        question: "How much weight can a standard export pallet hold?",
+        answer:
+          "A typical 1200 × 1000 mm heat-treated export pallet handles a static load of about 3,000–5,000 kg, a dynamic (forklift) load of 1,000–1,500 kg, and a racking load of about 700–1,000 kg. Exact figures depend on timber species, board thickness and construction.",
+      },
+      {
+        question: "How much weight can a Euro pallet hold?",
+        answer:
+          "A standard Euro pallet (1200 × 800 mm, block construction) typically holds a static load of 4,000–5,500 kg, a dynamic load of 1,000–1,500 kg, and a racking load of around 700–1,000 kg.",
+      },
+      {
+        question: "Does heat treatment change a pallet's load capacity?",
+        answer:
+          "No. Correctly-performed ISPM 15 heat treatment does not significantly change the mechanical strength of the timber. It removes pests but leaves the wood's structural properties intact.",
+      },
+      {
+        question: "What happens if you overload a pallet?",
+        answer:
+          "Overloading causes deckboards to bow or split, stringers to crack at the fastener points, and — in racking — the entire pallet to fail suddenly. In transit, a failing pallet damages the cargo, the container floor, and often the pallets stacked beneath it.",
+      },
+      {
+        question: "Are two-way or four-way entry pallets stronger?",
+        answer:
+          "Neither is inherently stronger. Four-way (block) pallets are more versatile because a forklift can enter from any side, and block construction generally holds heavy and irregular loads better than stringer construction. Two-way stringer pallets are lighter and cheaper, and are usually fine for well-distributed loads.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
