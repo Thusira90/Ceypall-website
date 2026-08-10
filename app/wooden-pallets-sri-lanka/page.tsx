@@ -7,9 +7,9 @@ import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'ISPM 15 Wooden Pallets — Island-Wide Across Sri Lanka',
+  title: 'Wooden Pallets Sri Lanka — ISPM 15, 3–5 Day Island-Wide Delivery',
   description:
-    'CeyPall delivers ISPM 15-certified, IPPC-stamped wooden pallets to every BOI EPZ, industrial estate, and port in Sri Lanka. Heat treated in Kochchikade.',
+    'Wooden pallets in Sri Lanka: ISPM 15 heat-treated, IPPC-stamped, 3–5 day delivery to all 12 BOI zones and every port. Standard, Euro & custom sizes. Get a quote today.',
   twitter: {
     description:
       'CeyPall delivers ISPM 15 certified, IPPC-stamped wooden pallets to every BOI Export Processing Zone, industrial estate, and port hub across Sri Lanka. Heat treated at our Kochchikade facility. Island-wide delivery.',

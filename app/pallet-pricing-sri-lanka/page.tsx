@@ -6,7 +6,7 @@ import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'Wooden Pallet Pricing in Sri Lanka — What Drives Cost',
+  title: 'Wooden Pallet Prices Sri Lanka (2026) — What You Actually Pay',
   description:
     'Wooden pallet prices in Sri Lanka depend on species, dimensions, treatment, order volume, and delivery distance. Get a quote from CeyPall for your needs.',
   twitter: {

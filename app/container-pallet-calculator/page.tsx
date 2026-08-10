@@ -16,16 +16,16 @@ const capacityRows = [
 ]
 
 export const metadata: Metadata = {
-  title: 'Container Pallet Calculator — How Many Pallets Fit?',
+  title: 'Free Container Pallet Calculator — 20ft, 40ft & High Cube (2026)',
   description:
-    'Calculate how many pallets fit a 20ft, 40ft, or high-cube container. Enter pallet size and cargo height for an instant floor plan with stacking layers.',
+    'How many pallets fit in a 20ft, 40ft or high-cube container? Free calculator — get the exact count and floor plan in 30 seconds. Euro, standard & custom pallet sizes.',
   alternates: {
     canonical: 'https://www.ceypall.com/container-pallet-calculator',
   },
   openGraph: {
-    title: 'Container Pallet Calculator — How Many Pallets Fit? | CeyPall (Pvt) Ltd',
+    title: 'Free Container Pallet Calculator — 20ft, 40ft & High Cube | CeyPall',
     description:
-      'Calculate how many pallets fit in a 20ft, 40ft, or 40ft high cube shipping container. Instant floor plan with stacking layers.',
+      'Get the exact pallet count and floor plan for any container in 30 seconds. Euro, standard, Asia-Pacific & custom pallet sizes.',
     url: 'https://www.ceypall.com/container-pallet-calculator',
     images: [
       {
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Container Pallet Calculator — How Many Pallets Fit? | CeyPall',
+    title: 'Free Container Pallet Calculator — 20ft, 40ft & High Cube | CeyPall',
     description:
-      'Calculate how many pallets fit in a 20ft, 40ft, or 40ft high cube shipping container. Instant floor plan with stacking layers.',
+      'Get the exact pallet count and floor plan for any container in 30 seconds. Free tool.',
     images: ['/OPENGIMAGE.jpg'],
   },
 }
