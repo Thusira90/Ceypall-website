@@ -46,6 +46,11 @@ export const metadata: Metadata = {
   authors: [{ name: 'CeyPall (Pvt) Ltd', url: 'https://www.ceypall.com' }],
   creator: 'CeyPall (Pvt) Ltd',
   publisher: 'CeyPall (Pvt) Ltd',
+  verification: {
+    other: {
+      'msvalidate.01': '8007F79D9D0F89E8137D0D777B9BD4C3',
+    },
+  },
   robots: {
     index: true,
     follow: true,
