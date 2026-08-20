@@ -1249,6 +1249,198 @@ Talk to us about your export pallet requirements: [Contact us](/contact) or call
       },
     ],
   },
+  {
+    slug: "two-way-vs-four-way-pallets",
+    title: "Two-Way vs Four-Way Pallets: Which One Should You Buy?",
+    seoTitle: "Two-Way vs Four-Way Pallets — Which to Choose",
+    date: "2026-08-20",
+    description:
+      "Two-way pallets are stiffer under heavy static loads; four-way pallets give handling flexibility. Here's how to pick — and where each one fails.",
+    content: `
+A two-way pallet accepts forklift entry on two opposite sides. A four-way pallet accepts entry on all four. The choice affects handling speed, load-bearing behaviour and cost — and it is one of the first questions we ask when quoting a new specification.
+
+## The physical difference
+
+A two-way pallet uses continuous stringers running the length of the pallet, so the forklift can only enter from the two open ends. Because the stringers are continuous, the pallet is stiff along its length — it resists sag under heavy static loads better than a comparable four-way build.
+
+A four-way pallet notches the stringers (or replaces them with blocks) so the forklift can enter from any side. The notches or block arrangement reduce longitudinal stiffness slightly, but the pallet is far more flexible to handle — especially in tight warehouses where the pallet cannot always be approached from the "correct" side.
+
+## When to choose two-way
+
+- **Heavy static loads.** Machinery, dense drums, castings — continuous stringers carry the weight without deflection.
+- **Cost-sensitive orders.** Two-way is typically cheaper per unit because the framing is simpler.
+- **Predictable handling.** Warehouses and factories where the pallet always approaches the forklift from the same axis.
+
+## When to choose four-way
+
+- **High-turnover warehousing.** Handling speed matters more than cost per pallet — the forklift picks up from whichever side is nearest.
+- **Racking.** Racking usually requires entry from a specific side; four-way makes it easier for the operator to load without repositioning.
+- **Export container loading.** Loading a 20ft or 40ft container is faster when the pallet can be nudged from either axis.
+
+## Common mistakes
+
+- **Choosing two-way to save money on a racking application.** The saving evaporates when the operator has to reorient every pallet.
+- **Choosing four-way for very heavy static loads without reinforcing the stringers.** The notches reduce stiffness — CeyPall compensates with thicker stringers or block framing.
+- **Ignoring the destination warehouse.** If your customer's warehouse only handles four-way, sending two-way pallets will trigger a rejection.
+
+## What CeyPall recommends
+
+For most Sri Lankan exporters, **four-way entry is the safer default** — it works in more warehouses, loads faster into containers, and is preferred by most destination customers. Choose two-way when the load is heavy and static, when the pallet stays in a controlled environment, or when unit cost is decisive.
+
+Tell us the load, dimensions and destination and we will confirm the right entry type in the quotation.
+    `,
+    faqs: [
+      {
+        question: "What is the difference between a two-way and four-way pallet?",
+        answer:
+          "A two-way pallet accepts forklift entry from two opposite sides only — its stringers run continuously along the length of the pallet. A four-way pallet accepts entry from all four sides, with notched stringers or block framing to allow the extra access.",
+      },
+      {
+        question: "Are four-way pallets weaker than two-way pallets?",
+        answer:
+          "Slightly, for the same board and stringer specification. The notches or block arrangement in a four-way pallet reduce longitudinal stiffness. In practice CeyPall compensates by increasing stringer size or timber grade — so a well-specified four-way pallet carries the same load as a comparable two-way build.",
+      },
+      {
+        question: "Which is better for exports — two-way or four-way?",
+        answer:
+          "Four-way is generally better for exports because it loads faster into shipping containers and is preferred by most destination warehouses. Two-way is the better choice only when the cargo is very heavy and static and the destination handling is fully controlled.",
+      },
+    ],
+  },
+  {
+    slug: "block-pallet-vs-stringer-pallet",
+    title: "Block Pallet vs Stringer Pallet: Which Design Is Better?",
+    seoTitle: "Block Pallet vs Stringer Pallet — CeyPall Guide",
+    date: "2026-08-20",
+    description:
+      "Block and stringer pallets look similar but handle differently. Here's what changes between them, when each design wins, and what Sri Lankan exporters should ask for.",
+    content: `
+Wooden pallets are built in one of two structural styles: **block** or **stringer**. Both work; they solve slightly different problems.
+
+## Stringer pallets
+
+A stringer pallet uses three (occasionally more) solid timber runners — the stringers — as its main structural members. Deck boards are nailed across the top and bottom of these stringers. Forklift entry is limited to the two open ends unless the stringers are notched for four-way entry.
+
+**Strengths:**
+- Simpler to manufacture, so typically cheaper.
+- Stiff along the length because the stringers are continuous.
+- Good for heavy static loads.
+
+**Weaknesses:**
+- Two-way entry limits handling flexibility.
+- Notched (four-way) versions lose some stiffness at the notches.
+
+## Block pallets
+
+A block pallet replaces the stringers with nine solid timber blocks (three across, three long) with unnotched stringer boards or perimeter members connecting them. Forklift entry is available on all four sides by design.
+
+**Strengths:**
+- True four-way entry without weakening cuts.
+- Consistent load-bearing behaviour on any axis.
+- The standard construction for Euro pallets (EPAL 1200 × 800).
+
+**Weaknesses:**
+- More timber, more nails, more labour — higher unit cost.
+- Slightly heavier for the same footprint.
+
+## Which one should exporters choose?
+
+For Sri Lankan exporters:
+
+- **EU-bound shipments** → block pallet (Euro pallet). Most European warehouses expect it, and racking systems are calibrated to it.
+- **General export markets** → stringer or block, both are accepted. Stringer is cheaper; block is more flexible.
+- **Very heavy static loads** → stringer with reinforced framing, or a custom block build with thicker perimeter members.
+- **Fast-turnover warehousing** → block, for the four-way handling.
+
+## The honest answer
+
+Neither design is "better" in isolation. Stringer pallets are the everyday workhorse of general export cargo; block pallets are the standard for European supply chains and high-turnover warehousing. CeyPall manufactures both and specifies the right one for your application in the quotation.
+    `,
+    faqs: [
+      {
+        question: "What is a block pallet?",
+        answer:
+          "A block pallet is a wooden pallet built with nine solid timber blocks (three by three) as its main structural members, connected by perimeter and internal stringer boards. It allows true four-way forklift entry and is the standard construction for European Euro pallets (EPAL 1200 × 800 mm).",
+      },
+      {
+        question: "What is a stringer pallet?",
+        answer:
+          "A stringer pallet uses three or more continuous timber runners — the stringers — as its main structural members, with deck boards nailed across the top and bottom. Entry is two-way by default, or four-way if the stringers are notched.",
+      },
+      {
+        question: "Which is stronger — block or stringer?",
+        answer:
+          "For heavy static loads on a single axis, a stringer pallet with continuous framing is typically stiffer at the same cost. For loads that need four-way handling or true multi-axis strength, a block pallet performs more consistently. CeyPall specifies which to build against your load and application.",
+      },
+    ],
+  },
+  {
+    slug: "how-many-pallets-fit-in-a-container",
+    title: "How Many Pallets Fit in a 20ft or 40ft Container?",
+    seoTitle: "How Many Pallets Fit in a Container? 20ft & 40ft",
+    date: "2026-08-20",
+    description:
+      "Single-layer pallet counts for standard, Euro and Asia-Pacific sizes in 20ft, 40ft and 40ft high-cube containers — plus what changes when you stack.",
+    content: `
+The short answer:
+
+- **20ft container** — 10 standard pallets (1200 × 1000 mm) or 11 Euro pallets (1200 × 800 mm) on a single layer.
+- **40ft container** — 20–21 standard pallets or 23–24 Euro pallets on a single layer.
+- **40ft high cube** — same floor count, but usually one extra stacked layer.
+
+## Where the numbers come from
+
+Container internal dimensions:
+
+| Container | Length | Width | Height |
+|-----------|--------|-------|--------|
+| 20ft standard | 5.9 m | 2.35 m | 2.39 m |
+| 40ft standard | 12.0 m | 2.35 m | 2.39 m |
+| 40ft high cube | 12.0 m | 2.35 m | 2.70 m |
+
+Divide floor area by pallet footprint, subtract a working tolerance for door frames and side clearance, and you get the single-layer count. Try our [container pallet calculator](/container-pallet-calculator) to run your exact size.
+
+## When stacking works
+
+Stacking doubles your pallet count — sometimes. It only works when:
+
+1. **Cargo is stackable.** Crushable cargo (fresh produce in unreinforced cartons, some cushioned goods) cannot support another loaded pallet on top.
+2. **Cargo height leaves room.** A stack of two pallets plus dunnage clearance must fit under the container ceiling. A 40ft high cube gains 30 cm — the difference between one and two layers for many loads.
+3. **Weight allows.** The container weight limit still applies. Two layers of dense cargo often hits the axle limit before the cube limit.
+
+## Choosing the right pallet size for the destination
+
+| Destination | Standard pallet |
+|-------------|-----------------|
+| Europe | 1200 × 800 mm (Euro / EPAL) |
+| North America | 1219 × 1016 mm (48" × 40") |
+| Asia-Pacific | 1100 × 1100 mm |
+| General export | 1200 × 1000 mm |
+
+If your carton footprint wastes deck space on a standard pallet, a **custom size** built to your carton often pays for itself in container utilisation over even a few shipments — see the CeyPall [custom pallets](/custom-wooden-pallets-sri-lanka) page.
+
+## What we tell exporters
+
+The container calculator gives you the mathematical answer. The real answer includes cargo shape, weight, stackability and destination expectations. Send us your loading list and we will recommend the best pallet size and layout for the actual container.
+    `,
+    faqs: [
+      {
+        question: "How many pallets fit in a 20ft container?",
+        answer:
+          "A standard 20ft container fits about 10 standard export pallets (1200 × 1000 mm) or 11 Euro pallets (1200 × 800 mm) on a single layer. Stacking a second layer roughly doubles these figures where cargo height and weight allow.",
+      },
+      {
+        question: "How many pallets fit in a 40ft container?",
+        answer:
+          "A standard 40ft container fits about 20–21 standard export pallets or 23–24 Euro pallets on a single layer. A 40ft high cube container has the same floor area but around 30 cm more internal height, which often accommodates an additional stacked layer.",
+      },
+      {
+        question: "Which pallet size gives the best container utilisation?",
+        answer:
+          "For European destinations, 1200 × 800 Euro pallets fit tightly and give the highest single-layer count. For general export, 1200 × 1000 mm is the standard. If your cargo carton is an unusual size, a custom pallet built to the carton footprint often improves utilisation more than any standard size.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
