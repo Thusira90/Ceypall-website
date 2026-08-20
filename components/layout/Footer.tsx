@@ -120,6 +120,22 @@ export function Footer() {
               </li>
               <li>
                 <Link
+                  href="/heavy-duty-pallets-sri-lanka"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Heavy-Duty Pallets
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/pallet-supplier-sri-lanka"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Pallet Supplier
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/wholesale-pallets-sri-lanka"
                   className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
                 >
@@ -226,6 +242,14 @@ export function Footer() {
                   className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
                 >
                   Pallet Pricing Guide
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/pallet-load-capacity"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Pallet Load Capacity
                 </Link>
               </li>
               <li>
