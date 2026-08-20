@@ -164,10 +164,11 @@ export default function HomePage() {
         <div className="container-content">
           <AnswerBlock question="In short: what does CeyPall do?">
             CeyPall (Pvt) Ltd is <strong>Sri Lanka&apos;s dedicated ISPM 15-certified wooden pallet
-            manufacturer</strong>. It supplies <strong>heat-treated, IPPC-stamped export pallets</strong> —
-            each with a treatment certificate — plus VPI storage pallets, in standard (1200 × 1000 mm),
-            Euro (1200 × 800 mm) and custom sizes. NPQS-registered, with island-wide delivery and 3–5 day
-            lead times.
+            manufacturer and supplier</strong>. As a wholesale wooden pallet supplier to exporters,
+            freight forwarders, and manufacturers island-wide, we produce <strong>heat-treated,
+            IPPC-stamped export pallets</strong> — each with a treatment certificate — plus VPI storage
+            pallets, in standard (1200 × 1000 mm), Euro (1200 × 800 mm) and custom sizes. NPQS-registered,
+            with 3–5 day lead times.
           </AnswerBlock>
         </div>
       </section>

@@ -120,6 +120,22 @@ export function Footer() {
               </li>
               <li>
                 <Link
+                  href="/wholesale-pallets-sri-lanka"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Wholesale &amp; Bulk Supply
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/ispm-15-certification-sri-lanka"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  ISPM 15 Certification Guide
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/container-pallet-calculator"
                   className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
                 >
@@ -189,6 +205,14 @@ export function Footer() {
                   className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
                 >
                   Spice &amp; Cinnamon Pallets
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/food-grade-pallets-sri-lanka"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Food Grade Pallets
                 </Link>
               </li>
             </ul>
