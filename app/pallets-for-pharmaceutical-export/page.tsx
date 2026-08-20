@@ -95,7 +95,7 @@ export default function PalletsForPharmaExportPage() {
       <section className="section-padding cream-texture">
         <div className="container-content">
           <AnswerBlock question="In short: why heat-treated pallets for pharma?">
-            Heat treatment is <strong>purely thermal — no chemicals</strong>. Timber is heated to 56°C core for at least 30 minutes and IPPC-stamped. That's what GMP incoming-goods inspection wants to see, and it's what regulators worldwide accept. Methyl-bromide fumigated pallets can leave residues that contaminate product; CeyPall pallets are HT only.
+            Heat treatment is <strong>purely thermal — no chemicals</strong>. Timber is heated to 56°C core for at least 30 minutes and IPPC-stamped. That&apos;s what GMP incoming-goods inspection wants to see, and it&apos;s what regulators worldwide accept. Methyl-bromide fumigated pallets can leave residues that contaminate product; CeyPall pallets are HT only.
           </AnswerBlock>
         </div>
       </section>

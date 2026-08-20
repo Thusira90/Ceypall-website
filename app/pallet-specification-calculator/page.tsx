@@ -76,7 +76,7 @@ export default function SpecCalcPage() {
       <section className="section-padding cream-texture">
         <div className="container-content">
           <AnswerBlock question="In short: how do I specify a pallet?">
-            Six inputs drive it: <strong>dimensions, load, entry type, deck configuration, treatment and application</strong>. This calculator maps them to CeyPall's build classes so you get a realistic board-thickness and stringer recommendation before you send an enquiry.
+            Six inputs drive it: <strong>dimensions, load, entry type, deck configuration, treatment and application</strong>. This calculator maps them to CeyPall&apos;s build classes so you get a realistic board-thickness and stringer recommendation before you send an enquiry.
           </AnswerBlock>
           <FadeUp>
             <SpecificationCalculator />

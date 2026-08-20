@@ -152,7 +152,7 @@ export default function PalletsForMachineryExportPage() {
             <div className="max-w-2xl mx-auto text-center">
               <h2 className="font-display text-display-md text-white">Order Machinery Export Pallets</h2>
               <span className="block w-10 h-0.5 bg-white/40 mt-4 mb-5 mx-auto" />
-              <p className="font-body text-base text-white/80 leading-relaxed mb-8">Send us your cargo weight, dimensions and destination — we'll engineer the base.</p>
+              <p className="font-body text-base text-white/80 leading-relaxed mb-8">Send us your cargo weight, dimensions and destination — we&apos;ll engineer the base.</p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Button href="/contact" variant="outline-light" size="lg">Request a quotation →</Button>
                 <a href="tel:+94714711417" className="inline-flex items-center gap-2 font-body font-semibold text-base text-white/90 hover:text-white transition-colors duration-200">
