@@ -31,6 +31,9 @@ const staticRoutes: MetadataRoute.Sitemap = [
   { url: `${BASE}/pallets-for-coconut-export`,               lastModified: new Date('2026-07-03'), changeFrequency: 'monthly', priority: 0.8 },
   { url: `${BASE}/pallets-for-rubber-export`,                lastModified: new Date('2026-07-03'), changeFrequency: 'monthly', priority: 0.8 },
   { url: `${BASE}/pallets-for-spice-export`,                 lastModified: new Date('2026-07-03'), changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${BASE}/food-grade-pallets-sri-lanka`,             lastModified: new Date('2026-08-20'), changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${BASE}/ispm-15-certification-sri-lanka`,          lastModified: new Date('2026-08-20'), changeFrequency: 'monthly', priority: 0.9 },
+  { url: `${BASE}/wholesale-pallets-sri-lanka`,              lastModified: new Date('2026-08-20'), changeFrequency: 'monthly', priority: 0.8 },
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {

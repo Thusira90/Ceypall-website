@@ -144,7 +144,7 @@ export default function ProductsPage() {
               as="h1"
               eyebrow="Our products"
               title="Our Products — Wooden Pallets for Export & Storage"
-              subtitle="We manufacture wooden pallets for export and storage — all boron pre-treated as standard, with additional vacuum pressure impregnation available for long-term storage applications."
+              subtitle="CeyPall is a wholesale wooden pallet supplier and manufacturer for Sri Lankan exporters and industry. We build pallets for export and storage — all boron pre-treated as standard, with additional vacuum pressure impregnation available for long-term storage applications."
               light
             />
           </FadeUp>
@@ -155,7 +155,7 @@ export default function ProductsPage() {
       <section className="section-padding cream-texture">
         <div className="container-content">
           <AnswerBlock question="In short: what pallets does CeyPall make?">
-            CeyPall manufactures <strong>ISPM 15 heat-treated export pallets</strong> — IPPC-stamped and supplied with a treatment certificate — plus <strong>vacuum pressure impregnated (VPI) storage pallets</strong> for long-term warehousing. Both come in all standard international sizes (Euro, North American, Asia-Pacific) and fully custom dimensions, made from locally sourced rubber wood and Lunumidella.
+            As a Sri Lankan wooden pallet manufacturer and wholesale supplier, CeyPall makes <strong>ISPM 15 heat-treated export pallets</strong> — IPPC-stamped and supplied with a treatment certificate — plus <strong>vacuum pressure impregnated (VPI) storage pallets</strong> for long-term warehousing. Both come in all standard international sizes (Euro, North American, Asia-Pacific) and fully custom dimensions, made from locally sourced rubber wood and Lunumidella.
           </AnswerBlock>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">

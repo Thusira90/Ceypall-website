@@ -105,6 +105,57 @@ const zoneRows = [
   { zone: 'Kandy / Matale', district: 'Kandy', industries: 'Tea, spices, coconut export' },
 ]
 
+const specSheet = [
+  {
+    name: 'Standard export pallet',
+    dimensions: '1200 × 1000 mm',
+    weight: '20–25 kg',
+    load: 'Up to 1,000 kg dynamic / 3,000 kg static',
+    entry: 'Four-way entry',
+    notes: 'Most common size for Sri Lankan tea, apparel, and coconut exports',
+  },
+  {
+    name: 'Euro pallet (EUR/EPAL)',
+    dimensions: '1200 × 800 mm',
+    weight: '18–22 kg',
+    load: 'Up to 1,000 kg dynamic / 4,000 kg static',
+    entry: 'Four-way entry',
+    notes: 'Preferred size for EU and UK-bound shipments',
+  },
+  {
+    name: 'North American pallet',
+    dimensions: '1219 × 1016 mm (48″ × 40″)',
+    weight: '20–25 kg',
+    load: 'Up to 1,000 kg dynamic / 3,000 kg static',
+    entry: 'Four-way entry',
+    notes: 'For USA and Canadian markets — GMA standard footprint',
+  },
+  {
+    name: 'Asia-Pacific pallet',
+    dimensions: '1100 × 1100 mm',
+    weight: '22–28 kg',
+    load: 'Up to 1,000 kg dynamic / 3,000 kg static',
+    entry: 'Four-way entry',
+    notes: 'Standard for Japan, Korea, and much of South-East Asia',
+  },
+  {
+    name: 'Heavy-duty industrial',
+    dimensions: 'Custom (typically 1200 × 1000 mm)',
+    weight: '30–45 kg',
+    load: 'Up to 2,000 kg dynamic / 5,000+ kg static',
+    entry: 'Two-way or four-way',
+    notes: 'For heavy machinery, industrial goods, and racking systems',
+  },
+  {
+    name: 'Custom size',
+    dimensions: 'Any dimension on request',
+    weight: 'Varies with size',
+    load: 'Specified by build',
+    entry: 'Two-way or four-way',
+    notes: 'Built to match specific product or container footprints',
+  },
+]
+
 const provinces = [
   'Western Province',
   'North Western Province',
@@ -273,6 +324,59 @@ export default function WoodenPalletsSriLankaPage() {
                 </tbody>
               </table>
             </div>
+          </FadeUp>
+        </div>
+      </section>
+
+      {/* ── Spec sheet ─────────────────────────────────────────────── */}
+      <section className="section-padding cream-texture">
+        <div className="container-content">
+          <FadeUp>
+            <SectionHeader
+              eyebrow="Pallet specifications"
+              title="Wooden pallet spec sheet — sizes, weights, and load ratings."
+              subtitle="Every CeyPall pallet is heat treated to ISPM 15 and kiln-dried below 15% MC. Weight and load ratings below are typical values — actual figures depend on timber grade and build."
+            />
+          </FadeUp>
+
+          <FadeUp delay={0.1}>
+            <div className="mt-10 overflow-x-auto">
+              <table className="w-full text-sm font-body border-collapse min-w-[720px]">
+                <thead>
+                  <tr className="bg-primary text-cream">
+                    <th className="text-left px-4 py-3 font-semibold text-xs tracking-[0.08em] uppercase">Pallet type</th>
+                    <th className="text-left px-4 py-3 font-semibold text-xs tracking-[0.08em] uppercase">Dimensions</th>
+                    <th className="text-left px-4 py-3 font-semibold text-xs tracking-[0.08em] uppercase">Weight</th>
+                    <th className="text-left px-4 py-3 font-semibold text-xs tracking-[0.08em] uppercase">Load capacity</th>
+                    <th className="text-left px-4 py-3 font-semibold text-xs tracking-[0.08em] uppercase">Entry</th>
+                    <th className="text-left px-4 py-3 font-semibold text-xs tracking-[0.08em] uppercase">Notes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {specSheet.map((row, i) => (
+                    <tr key={row.name} className={i % 2 === 0 ? 'bg-cream' : 'bg-cream/50'}>
+                      <td className="px-4 py-3 text-charcoal font-semibold">{row.name}</td>
+                      <td className="px-4 py-3 text-charcoal/70">{row.dimensions}</td>
+                      <td className="px-4 py-3 text-charcoal/70">{row.weight}</td>
+                      <td className="px-4 py-3 text-charcoal/70">{row.load}</td>
+                      <td className="px-4 py-3 text-charcoal/70">{row.entry}</td>
+                      <td className="px-4 py-3 text-charcoal/65">{row.notes}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </FadeUp>
+
+          <FadeUp delay={0.15}>
+            <p className="mt-6 font-body text-sm text-charcoal/60 max-w-2xl">
+              Need a specification not listed? All CeyPall pallets can be built to custom dimensions,
+              load ratings, and entry types.{' '}
+              <a href="/contact" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
+                Contact us
+              </a>{' '}
+              with your requirement.
+            </p>
           </FadeUp>
         </div>
       </section>
