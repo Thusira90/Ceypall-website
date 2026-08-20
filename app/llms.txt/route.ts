@@ -28,6 +28,8 @@ Key facts:
 - [Euro pallets](https://www.ceypall.com/euro-pallets-sri-lanka): Euro-standard 1200 × 800 mm pallets for EU/UK export.
 - [Custom wooden pallets](https://www.ceypall.com/custom-wooden-pallets-sri-lanka): Bespoke pallets built to any dimension and load rating.
 - [Industrial pallets](https://www.ceypall.com/industrial-pallets-sri-lanka): Heavy-duty, load-rated pallets for manufacturing and warehousing.
+- [Heavy-duty pallets](https://www.ceypall.com/heavy-duty-pallets-sri-lanka): Reinforced, load-rated pallets (1,500–2,000 kg+) for machinery, drums and dense cargo.
+- [Pallet supplier](https://www.ceypall.com/pallet-supplier-sri-lanka): Manufacturer + supplier — one-off orders, recurring supply, island-wide delivery.
 - [Pallet pricing](https://www.ceypall.com/pallet-pricing-sri-lanka): What drives wooden pallet cost in Sri Lanka.
 - [Wooden vs plastic pallets](https://www.ceypall.com/wooden-vs-plastic-pallets-sri-lanka): Honest comparison — cost, hygiene, ISPM 15 compliance, repairability, and when plastic is the better choice.
 - [How it works](https://www.ceypall.com/how-it-works): Ordering, treatment, and delivery process.
@@ -49,6 +51,7 @@ Key facts:
 ## Tools & knowledge
 - [Container pallet calculator](https://www.ceypall.com/container-pallet-calculator)
 - [Moisture content calculator](https://www.ceypall.com/moisture-content-calculator)
+- [Pallet load capacity guide](https://www.ceypall.com/pallet-load-capacity): Static, dynamic and racking loads; the six specification factors that set the rating.
 - [Knowledge Centre](https://www.ceypall.com/knowledge-centre)
 - [Blog](https://www.ceypall.com/blog): Guides on ISPM 15, IPPC certification, and pallet compliance.
 `

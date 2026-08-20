@@ -15,7 +15,9 @@ const palletsLinks: { href: string; label: string; divider?: boolean }[] = [
   { href: '/euro-pallets-sri-lanka', label: 'Euro Pallets' },
   { href: '/custom-wooden-pallets-sri-lanka', label: 'Custom Wooden Pallets' },
   { href: '/industrial-pallets-sri-lanka', label: 'Industrial Pallets' },
+  { href: '/heavy-duty-pallets-sri-lanka', label: 'Heavy-Duty Pallets' },
   { href: '/export-pallet-manufacturer-sri-lanka', label: 'Export Pallet Manufacturer' },
+  { href: '/pallet-supplier-sri-lanka', label: 'Pallet Supplier' },
   // Registration & certificates — set apart from the product pages by a divider.
   { href: '/heat-treated-pallets#certification', label: 'IPPC Certification', divider: true },
 ]
