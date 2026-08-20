@@ -41,15 +41,22 @@ Key facts:
 - [Coconut export pallets](https://www.ceypall.com/pallets-for-coconut-export)
 - [Rubber export pallets](https://www.ceypall.com/pallets-for-rubber-export)
 - [Spice & cinnamon export pallets](https://www.ceypall.com/pallets-for-spice-export)
+- [Seafood export pallets](https://www.ceypall.com/pallets-for-seafood-export)
+- [Machinery export pallets](https://www.ceypall.com/pallets-for-machinery-export)
+- [Pharmaceutical export pallets](https://www.ceypall.com/pallets-for-pharmaceutical-export)
 
 ## Locations
 - [Wooden pallets Sri Lanka (island-wide)](https://www.ceypall.com/wooden-pallets-sri-lanka)
 - [Wooden pallets Colombo](https://www.ceypall.com/wooden-pallets-colombo)
 - [Wooden pallets Katunayake](https://www.ceypall.com/wooden-pallets-katunayake)
 - [Wooden pallets Negombo](https://www.ceypall.com/wooden-pallets-negombo)
+- [Wooden pallets Biyagama](https://www.ceypall.com/wooden-pallets-biyagama)
+- [Wooden pallets Wattala](https://www.ceypall.com/wooden-pallets-wattala)
+- [Wooden pallets Peliyagoda](https://www.ceypall.com/wooden-pallets-peliyagoda)
 
 ## Tools & knowledge
 - [Container pallet calculator](https://www.ceypall.com/container-pallet-calculator)
+- [Pallet specification calculator](https://www.ceypall.com/pallet-specification-calculator): Recommends board thickness, stringer, deck type and treatment from load, dimensions, entry and application.
 - [Moisture content calculator](https://www.ceypall.com/moisture-content-calculator)
 - [Pallet load capacity guide](https://www.ceypall.com/pallet-load-capacity): Static, dynamic and racking loads; the six specification factors that set the rating.
 - [Knowledge Centre](https://www.ceypall.com/knowledge-centre)

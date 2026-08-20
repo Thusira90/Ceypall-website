@@ -37,6 +37,13 @@ const staticRoutes: MetadataRoute.Sitemap = [
   { url: `${BASE}/pallet-supplier-sri-lanka`,                lastModified: new Date('2026-08-20'), changeFrequency: 'monthly', priority: 0.9 },
   { url: `${BASE}/heavy-duty-pallets-sri-lanka`,             lastModified: new Date('2026-08-20'), changeFrequency: 'monthly', priority: 0.8 },
   { url: `${BASE}/pallet-load-capacity`,                     lastModified: new Date('2026-08-20'), changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${BASE}/wooden-pallets-biyagama`,                  lastModified: new Date('2026-08-20'), changeFrequency: 'monthly', priority: 0.7 },
+  { url: `${BASE}/wooden-pallets-wattala`,                   lastModified: new Date('2026-08-20'), changeFrequency: 'monthly', priority: 0.7 },
+  { url: `${BASE}/wooden-pallets-peliyagoda`,                lastModified: new Date('2026-08-20'), changeFrequency: 'monthly', priority: 0.7 },
+  { url: `${BASE}/pallets-for-seafood-export`,               lastModified: new Date('2026-08-20'), changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${BASE}/pallets-for-machinery-export`,             lastModified: new Date('2026-08-20'), changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${BASE}/pallets-for-pharmaceutical-export`,        lastModified: new Date('2026-08-20'), changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${BASE}/pallet-specification-calculator`,          lastModified: new Date('2026-08-20'), changeFrequency: 'yearly',  priority: 0.7 },
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {

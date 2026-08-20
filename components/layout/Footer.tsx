@@ -231,6 +231,30 @@ export function Footer() {
                   Food Grade Pallets
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/pallets-for-seafood-export"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Seafood Export Pallets
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/pallets-for-machinery-export"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Machinery Export Pallets
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/pallets-for-pharmaceutical-export"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Pharmaceutical Pallets
+                </Link>
+              </li>
             </ul>
             <p className="font-body text-xs font-semibold tracking-[0.12em] uppercase text-accent mb-5">
               Regions
@@ -281,7 +305,39 @@ export function Footer() {
                   href="/wooden-pallets-negombo"
                   className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
                 >
-                  Negombo & Wattala
+                  Negombo
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/wooden-pallets-biyagama"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Biyagama EPZ
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/wooden-pallets-wattala"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Wattala
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/wooden-pallets-peliyagoda"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Peliyagoda
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/pallet-specification-calculator"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Specification Calculator
                 </Link>
               </li>
             </ul>
