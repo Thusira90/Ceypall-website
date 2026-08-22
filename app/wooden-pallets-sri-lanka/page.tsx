@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import { FadeUp } from '@/components/ui/FadeUp'
 import { RelatedLinks } from '@/components/ui/RelatedLinks'
 import { AnswerBlock } from '@/components/ui/AnswerBlock'
@@ -372,9 +373,9 @@ export default function WoodenPalletsSriLankaPage() {
             <p className="mt-6 font-body text-sm text-charcoal/60 max-w-2xl">
               Need a specification not listed? All CeyPall pallets can be built to custom dimensions,
               load ratings, and entry types.{' '}
-              <a href="/contact" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
+              <Link href="/contact" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
                 Contact us
-              </a>{' '}
+              </Link>{' '}
               with your requirement.
             </p>
           </FadeUp>
