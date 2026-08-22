@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { FadeUp } from '@/components/ui/FadeUp'
 import { Button } from '@/components/ui/Button'
 import { SectionHeader } from '@/components/ui/SectionHeader'
@@ -124,9 +125,9 @@ export function GeoLandingPage({
                 <p className="mt-6 font-body text-sm text-charcoal/60 leading-relaxed">
                   Not listed here? If your business exports or stores goods, we almost certainly
                   supply what you need.{' '}
-                  <a href="/contact" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
+                  <Link href="/contact" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
                     Ask us.
-                  </a>
+                  </Link>
                 </p>
               </div>
             </FadeUp>
@@ -211,9 +212,9 @@ export function GeoLandingPage({
           <FadeUp delay={0.1}>
             <p className="mt-8 font-body text-sm text-charcoal/60">
               More questions?{' '}
-              <a href="/contact" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
+              <Link href="/contact" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
                 Contact us directly
-              </a>{' '}
+              </Link>{' '}
               or call{' '}
               <a href="tel:+94714711417" className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors">
                 +94 714 711 417
