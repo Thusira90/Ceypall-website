@@ -45,6 +45,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
   { url: `${BASE}/wooden-pallets-ratmalana`,                 lastModified: new Date('2026-08-24'), changeFrequency: 'monthly', priority: 0.7 },
   { url: `${BASE}/wooden-pallets-kandy`,                     lastModified: new Date('2026-08-24'), changeFrequency: 'monthly', priority: 0.7 },
   { url: `${BASE}/wooden-pallets-galle`,                     lastModified: new Date('2026-08-24'), changeFrequency: 'monthly', priority: 0.7 },
+  { url: `${BASE}/pallet-terminology-glossary`,              lastModified: new Date('2026-08-24'), changeFrequency: 'monthly', priority: 0.8 },
   { url: `${BASE}/pallets-for-seafood-export`,               lastModified: new Date('2026-08-20'), changeFrequency: 'monthly', priority: 0.8 },
   { url: `${BASE}/pallets-for-machinery-export`,             lastModified: new Date('2026-08-20'), changeFrequency: 'monthly', priority: 0.8 },
   { url: `${BASE}/pallets-for-pharmaceutical-export`,        lastModified: new Date('2026-08-20'), changeFrequency: 'monthly', priority: 0.8 },
