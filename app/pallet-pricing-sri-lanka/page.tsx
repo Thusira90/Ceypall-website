@@ -42,7 +42,7 @@ const faqJsonLd = {
       name: 'How much do wooden pallets cost in Sri Lanka?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Wooden pallets in Sri Lanka typically cost between Rs 2,500 and Rs 8,500 per pallet, depending on size, timber species, treatment type (heat treatment or VPI), order volume and delivery location. Contact CeyPall at +94 714 711 417 for a quote specific to your requirements.',
+        text: 'Wooden pallets in Sri Lanka typically cost between Rs 2,500 and Rs 8,500 per pallet. Six factors determine where inside that range a specific order lands: (1) pallet dimensions and load specification, (2) timber species, (3) treatment type (heat treatment or VPI), (4) order volume, (5) delivery location, and (6) lead time. Contact CeyPall at +94 714 711 417 for a quote specific to your requirements.',
       },
     },
     {
@@ -162,7 +162,7 @@ const faqs = [
   {
     question: 'How much do wooden pallets cost in Sri Lanka?',
     answer:
-      'Wooden pallets in Sri Lanka typically cost between Rs 2,500 and Rs 8,500 per pallet, depending on size, timber species, treatment type (heat treatment or VPI), order volume and delivery location. Contact CeyPall on +94 714 711 417 for a quote specific to your requirements.',
+      'Wooden pallets in Sri Lanka typically cost between Rs 2,500 and Rs 8,500 per pallet. Six factors determine where inside that range a specific order lands: (1) pallet dimensions and load specification, (2) timber species, (3) treatment type (heat treatment or VPI), (4) order volume, (5) delivery location, and (6) lead time. Contact CeyPall on +94 714 711 417 for a quote specific to your requirements.',
   },
   {
     question: 'Are heat treated pallets more expensive than untreated pallets?',
@@ -228,7 +228,7 @@ export default function PalletPricingSriLankaPage() {
       <section className="section-padding cream-texture">
         <div className="container-content">
           <AnswerBlock question="In short: how much do wooden pallets cost in Sri Lanka?">
-            Wooden pallets in Sri Lanka typically cost between <strong>Rs 2,500 and Rs 8,500 per pallet</strong>. The final figure depends on size, timber species, treatment type, order volume and delivery location — contact us with your specification for an exact quote.
+            Wooden pallets in Sri Lanka typically cost between <strong>Rs 2,500 and Rs 8,500 per pallet</strong>. Six factors determine where inside that range your quote lands: <strong>pallet dimensions</strong>, <strong>timber species</strong>, <strong>treatment type</strong> (heat treatment or VPI), <strong>order volume</strong>, <strong>delivery location</strong>, and <strong>lead time</strong>.
           </AnswerBlock>
 
           <FadeUp>
@@ -236,13 +236,39 @@ export default function PalletPricingSriLankaPage() {
               <p className="font-body text-xs font-semibold tracking-[0.15em] uppercase text-accent mb-4">
                 Direct answer
               </p>
-              <p className="font-body text-base text-cream/90 leading-relaxed">
+              <p className="font-body text-base text-cream/90 leading-relaxed mb-6">
                 Wooden pallets manufactured in Sri Lanka typically cost between{' '}
                 <strong className="text-accent">Rs 2,500 and Rs 8,500 per pallet</strong>. Where a
-                given order lands inside that range depends on the pallet size, timber species,
-                treatment type (heat treatment or vacuum pressure impregnation), order volume and
-                delivery location. Every CeyPall order is quoted against your exact specification —
-                contact us at{' '}
+                given order sits inside that range is determined by six factors:
+              </p>
+              <ul className="font-body text-sm text-cream/85 leading-relaxed space-y-2 mb-6 list-none">
+                <li className="flex gap-3">
+                  <span className="text-accent font-semibold flex-shrink-0">01.</span>
+                  <span><strong className="text-cream">Pallet dimensions &amp; load spec</strong> — larger pallets and non-standard sizes use more timber.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent font-semibold flex-shrink-0">02.</span>
+                  <span><strong className="text-cream">Timber species</strong> — rubber wood is the most cost-efficient; alternative species carry a premium.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent font-semibold flex-shrink-0">03.</span>
+                  <span><strong className="text-cream">Treatment type</strong> — heat treatment (ISPM 15) vs vacuum pressure impregnation (VPI) have different cost structures.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent font-semibold flex-shrink-0">04.</span>
+                  <span><strong className="text-cream">Order volume</strong> — larger orders and recurring contracts spread setup costs and lower per-unit pricing.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent font-semibold flex-shrink-0">05.</span>
+                  <span><strong className="text-cream">Delivery location</strong> — Western Province deliveries are lowest cost; upcountry and southern delivery carry a distance premium.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent font-semibold flex-shrink-0">06.</span>
+                  <span><strong className="text-cream">Lead time</strong> — planned recurring orders are most cost-efficient; urgent or short-notice orders may carry a premium.</span>
+                </li>
+              </ul>
+              <p className="font-body text-base text-cream/90 leading-relaxed">
+                Every CeyPall order is quoted against your exact specification — contact us at{' '}
                 <a
                   href="tel:+94714711417"
                   className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors"
