@@ -6,18 +6,18 @@ import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'Wooden Pallet Pricing in Sri Lanka — What Drives Cost',
+  title: 'Wooden Pallet Prices Sri Lanka — Rs 2,500 to Rs 8,500',
   description:
-    'Wooden pallet prices in Sri Lanka depend on species, dimensions, treatment, order volume, and delivery distance. Get a quote from CeyPall for your needs.',
+    'Wooden pallet prices in Sri Lanka range from Rs 2,500 to Rs 8,500 per pallet, depending on size, treatment (HT or VPI) and order volume. See the price bands.',
   twitter: {
     description:
-      'The price of wooden pallets in Sri Lanka depends on several factors — wood species, dimensions, treatment type, order volume, and delivery distance. Get a quote from CeyPall for your specific requirements.',
+      'Wooden pallet prices in Sri Lanka range from Rs 2,500 to Rs 8,500 per pallet, depending on size, treatment and volume. See the price bands and get a quote from CeyPall.',
     images: ['/OPENGIMAGE.jpg'],
   },
   openGraph: {
-    title: 'Wooden Pallet Pricing in Sri Lanka — What Determines the Cost | CeyPall (Pvt) Ltd',
+    title: 'Wooden Pallet Prices Sri Lanka — Rs 2,500 to Rs 8,500 | CeyPall (Pvt) Ltd',
     description:
-      'The price of wooden pallets in Sri Lanka depends on several factors — wood species, dimensions, treatment type, order volume, and delivery distance. Get a quote from CeyPall for your specific requirements.',
+      'Wooden pallet prices in Sri Lanka range from Rs 2,500 to Rs 8,500 per pallet, depending on size, treatment and volume. See the price bands and get a quote from CeyPall.',
     url: 'https://www.ceypall.com/pallet-pricing-sri-lanka',
     images: [
       {
@@ -42,7 +42,7 @@ const faqJsonLd = {
       name: 'How much do wooden pallets cost in Sri Lanka?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Wooden pallet prices in Sri Lanka vary based on dimensions, timber species, treatment type, order volume, and delivery location. There is no fixed list price — each order is quoted individually. Contact CeyPall at +94 714 711 417 or through the contact form for a quotation specific to your requirements.',
+        text: 'Wooden pallets in Sri Lanka typically cost between Rs 2,500 and Rs 8,500 per pallet. Standard ISPM 15 heat-treated export pallets (1200 × 800 mm Euro or 1200 × 1000 mm ISO) fall in the Rs 2,500 – Rs 4,000 range. Heavy-duty industrial pallets cost Rs 4,000 – Rs 6,000. Custom-sized, oversized or VPI-treated pallets range from Rs 6,000 – Rs 8,500. Final price depends on size, treatment, order volume and delivery location.',
       },
     },
     {
@@ -89,6 +89,82 @@ const breadcrumbJsonLd = {
   ],
 }
 
+// Indicative price bands surfaced to the visitor and to search / AI engines
+// via Product + AggregateOffer JSON-LD. Exact quotes still come via /contact.
+const priceTiers = [
+  {
+    tier: 'Standard export pallets',
+    examples: '1200 × 800 mm Euro, 1200 × 1000 mm ISO',
+    treatment: 'Heat treated (HT), IPPC-stamped',
+    range: 'Rs 2,500 – Rs 4,000',
+    lowPrice: 2500,
+    highPrice: 4000,
+    note: 'Highest-volume tier — best per-unit pricing on recurring orders.',
+  },
+  {
+    tier: 'Heavy-duty industrial',
+    examples: '1200 × 1000 mm with thicker deck boards, four-way entry, higher load rating',
+    treatment: 'Heat treated (HT), IPPC-stamped',
+    range: 'Rs 4,000 – Rs 6,000',
+    lowPrice: 4000,
+    highPrice: 6000,
+    note: 'For machinery, chemicals, ceramics and other high-load export cargo.',
+  },
+  {
+    tier: 'Custom / VPI / oversize',
+    examples: 'Built-to-carton custom dimensions, VPI-treated warehouse pallets, oversized industrial',
+    treatment: 'Heat treated or vacuum pressure impregnated (VPI)',
+    range: 'Rs 6,000 – Rs 8,500',
+    lowPrice: 6000,
+    highPrice: 8500,
+    note: 'VPI carries a 6-year pest warranty for long-term racking and storage.',
+  },
+]
+
+const productJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: 'Wooden Pallets — ISPM 15 heat treated and VPI',
+  description:
+    'ISPM 15 heat-treated, IPPC-stamped wooden export pallets and vacuum pressure impregnated (VPI) warehouse pallets, manufactured in Sri Lanka by CeyPall (Pvt) Ltd.',
+  brand: { '@type': 'Brand', name: 'CeyPall' },
+  category: 'Wooden pallets',
+  image: 'https://www.ceypall.com/OPENGIMAGE.jpg',
+  manufacturer: {
+    '@type': 'Organization',
+    name: 'CeyPall (Pvt) Ltd',
+    url: 'https://www.ceypall.com',
+  },
+  offers: {
+    '@type': 'AggregateOffer',
+    priceCurrency: 'LKR',
+    lowPrice: '2500',
+    highPrice: '8500',
+    offerCount: String(priceTiers.length),
+    availability: 'https://schema.org/InStock',
+    areaServed: { '@type': 'Country', name: 'Sri Lanka' },
+    seller: {
+      '@type': 'Organization',
+      name: 'CeyPall (Pvt) Ltd',
+      url: 'https://www.ceypall.com',
+      telephone: '+94714711417',
+    },
+    offers: priceTiers.map((t) => ({
+      '@type': 'Offer',
+      name: t.tier,
+      description: `${t.examples}. ${t.treatment}.`,
+      priceCurrency: 'LKR',
+      priceSpecification: {
+        '@type': 'PriceSpecification',
+        priceCurrency: 'LKR',
+        minPrice: t.lowPrice,
+        maxPrice: t.highPrice,
+      },
+      availability: 'https://schema.org/InStock',
+    })),
+  },
+}
+
 const factors = [
   {
     number: '01',
@@ -132,7 +208,7 @@ const faqs = [
   {
     question: 'How much do wooden pallets cost in Sri Lanka?',
     answer:
-      'Wooden pallet prices in Sri Lanka vary based on dimensions, timber species, treatment type, order volume, and delivery location. There is no fixed list price — each order is quoted individually. Contact CeyPall at +94 714 711 417 or through the contact form for a quotation specific to your requirements.',
+      'Wooden pallets in Sri Lanka typically cost between Rs 2,500 and Rs 8,500 per pallet. Standard ISPM 15 heat-treated export pallets (1200 × 800 mm Euro or 1200 × 1000 mm ISO) fall in the Rs 2,500 – Rs 4,000 range. Heavy-duty industrial pallets are Rs 4,000 – Rs 6,000. Custom-sized, oversized or VPI-treated pallets range from Rs 6,000 – Rs 8,500. Final price depends on size, treatment type, order volume and delivery location. Contact CeyPall on +94 714 711 417 for an exact quote.',
   },
   {
     question: 'Are heat treated pallets more expensive than untreated pallets?',
@@ -161,6 +237,7 @@ export default function PalletPricingSriLankaPage() {
     <>
       <SchemaScript schema={faqJsonLd} />
       <SchemaScript schema={breadcrumbJsonLd} />
+      <SchemaScript schema={productJsonLd} />
 
       {/* ── Hero ─────────────────────────────────────────────────────── */}
       <section className="wood-texture section-padding">
@@ -171,13 +248,14 @@ export default function PalletPricingSriLankaPage() {
                 Pricing Guide · Sri Lanka
               </p>
               <h1 className="font-display text-display-lg text-cream">
-                What Determines the Price of Wooden Pallets in Sri Lanka?
+                Wooden Pallet Prices in Sri Lanka — Rs 2,500 to Rs 8,500.
               </h1>
               <span className="block w-10 h-0.5 bg-accent mt-4 mb-5" />
               <p className="font-body text-base text-cream/80 leading-relaxed mb-8">
-                Wooden pallet pricing in Sri Lanka is not one-size-fits-all. Every order is priced
-                based on your specific requirements — dimensions, treatment type, timber species,
-                volume, and delivery location. Here is what goes into the cost of a pallet order.
+                Wooden pallets in Sri Lanka typically cost between{' '}
+                <strong className="text-cream">Rs 2,500 and Rs 8,500 per pallet</strong>, depending on
+                size, treatment (heat treatment or VPI), order volume and delivery location. See the
+                price bands below, or contact us for an exact quote for your specification.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button href="/contact" variant="primary" size="lg">
@@ -196,7 +274,7 @@ export default function PalletPricingSriLankaPage() {
       <section className="section-padding cream-texture">
         <div className="container-content">
           <AnswerBlock question="In short: how much do wooden pallets cost in Sri Lanka?">
-            There is <strong>no fixed list price</strong> — cost depends on dimensions, timber species, treatment type, order volume and delivery distance, so each order is quoted individually. Larger, recurring orders lower the per-unit price. For an accurate figure, contact CeyPall at <strong>+94 714 711 417</strong> with your size, quantity and destination.
+            Wooden pallets in Sri Lanka typically cost between <strong>Rs 2,500 and Rs 8,500 per pallet</strong>. Standard ISPM 15 heat-treated export pallets sit in the <strong>Rs 2,500 – Rs 4,000</strong> band, heavy-duty industrial pallets <strong>Rs 4,000 – Rs 6,000</strong>, and custom or VPI-treated pallets <strong>Rs 6,000 – Rs 8,500</strong>. Size, order volume and delivery location move the final figure inside these bands.
           </AnswerBlock>
 
           <FadeUp>
@@ -205,33 +283,106 @@ export default function PalletPricingSriLankaPage() {
                 Direct answer
               </p>
               <p className="font-body text-base text-cream/90 leading-relaxed">
-                The price of wooden pallets in Sri Lanka depends on five main factors: the pallet
-                dimensions and load specification, the timber species used, the treatment type
-                required (heat treatment or vacuum pressure impregnation), the order volume, and
-                the delivery location. There is no standard list price — each order is quoted
-                individually based on your specific requirements. Contact CeyPall at{' '}
+                Wooden pallets manufactured in Sri Lanka typically cost between{' '}
+                <strong className="text-accent">Rs 2,500 and Rs 8,500 per pallet</strong>. A standard
+                ISPM 15 heat-treated export pallet (1200 × 800 mm Euro or 1200 × 1000 mm ISO) falls
+                in the Rs 2,500 – Rs 4,000 range. Heavy-duty industrial pallets are Rs 4,000 – Rs 6,000.
+                Custom-sized, oversized or vacuum-pressure-impregnated (VPI) pallets range from Rs 6,000
+                – Rs 8,500. The final figure inside each band is determined by pallet size, timber
+                species, order volume, treatment type and delivery location. Contact CeyPall at{' '}
                 <a
                   href="tel:+94714711417"
                   className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors"
                 >
                   +94 714 711 417
                 </a>{' '}
-                for a quotation.
+                for a quotation specific to your requirements.
               </p>
             </div>
           </FadeUp>
         </div>
       </section>
 
-      {/* ── Pricing factors ───────────────────────────────────────────── */}
+      {/* ── Price bands table ─────────────────────────────────────────── */}
       <section className="section-padding bg-warm-gray/40">
+        <div className="container-content">
+          <FadeUp>
+            <div className="mb-8">
+              <SectionHeader
+                eyebrow="Indicative price bands"
+                title="Wooden Pallet Prices by Product Type — Sri Lanka"
+              />
+              <p className="font-body text-sm text-charcoal/70 leading-relaxed mt-4 max-w-2xl">
+                The bands below are indicative CeyPall pricing per pallet in Sri Lankan Rupees. Actual
+                quotes depend on exact size, order volume, timber species availability and delivery
+                distance — send us your specification for a firm figure.
+              </p>
+            </div>
+          </FadeUp>
+
+          <FadeUp delay={0.05}>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm font-body border-collapse">
+                <thead>
+                  <tr className="bg-primary text-cream">
+                    <th className="text-left px-4 py-3 font-semibold text-xs tracking-[0.08em] uppercase">
+                      Pallet type
+                    </th>
+                    <th className="text-left px-4 py-3 font-semibold text-xs tracking-[0.08em] uppercase">
+                      Typical spec
+                    </th>
+                    <th className="text-left px-4 py-3 font-semibold text-xs tracking-[0.08em] uppercase">
+                      Treatment
+                    </th>
+                    <th className="text-left px-4 py-3 font-semibold text-xs tracking-[0.08em] uppercase whitespace-nowrap">
+                      Indicative price (per pallet)
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {priceTiers.map(({ tier, examples, treatment, range, note }, i) => (
+                    <tr key={tier} className={i % 2 === 0 ? 'bg-cream' : 'bg-cream/50'}>
+                      <td className="px-4 py-4 text-charcoal font-semibold align-top">
+                        {tier}
+                        <p className="mt-1 font-body text-xs font-normal text-charcoal/60 leading-snug">
+                          {note}
+                        </p>
+                      </td>
+                      <td className="px-4 py-4 text-charcoal/70 align-top">{examples}</td>
+                      <td className="px-4 py-4 text-charcoal/70 align-top">{treatment}</td>
+                      <td className="px-4 py-4 text-primary font-semibold whitespace-nowrap align-top">
+                        {range}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </FadeUp>
+
+          <FadeUp delay={0.1}>
+            <p className="mt-6 font-body text-xs text-charcoal/60 leading-relaxed max-w-2xl">
+              Prices exclude VAT and delivery outside the Western Province. Recurring supply
+              contracts and larger container-scale orders attract better per-unit pricing than the
+              indicative bands above — ask us about volume terms.
+            </p>
+          </FadeUp>
+        </div>
+      </section>
+
+      {/* ── Pricing factors ───────────────────────────────────────────── */}
+      <section className="section-padding cream-texture">
         <div className="container-content">
           <FadeUp>
             <div className="mb-12">
               <SectionHeader
                 eyebrow="Pricing factors"
-                title="6 Factors That Determine Wooden Pallet Pricing in Sri Lanka"
+                title="6 Factors That Move Prices Within Each Band"
               />
+              <p className="font-body text-sm text-charcoal/70 leading-relaxed mt-4 max-w-2xl">
+                The price bands above cover CeyPall&apos;s standard product range. Where your quote
+                lands inside each band depends on the six factors below.
+              </p>
             </div>
           </FadeUp>
 
@@ -262,19 +413,19 @@ export default function PalletPricingSriLankaPage() {
       </section>
 
       {/* ── CTA ─────────────────────────────────────────────────────── */}
-      <section className="section-padding cream-texture">
+      <section className="section-padding bg-warm-gray/40">
         <div className="container-content">
           <div className="max-w-3xl">
             <FadeUp>
               <SectionHeader
                 eyebrow="Get a quote"
-                title="Get a Quote for Your Pallet Requirements"
+                title="Get an Exact Price for Your Pallet Requirements"
               />
               <p className="font-body text-sm text-charcoal/70 leading-relaxed mt-6 mb-6">
-                Every pallet order at CeyPall is quoted based on your specific requirements. To get
-                an accurate price, contact us with: the pallet size and quantity you need, whether
-                you require heat treatment (ISPM 15) or VPI treatment, your delivery location and
-                required lead time, and whether this is a one-off order or a recurring requirement.
+                The bands above are indicative — every CeyPall order is quoted against your exact
+                specification. Send us: the pallet size and quantity you need, whether you require
+                heat treatment (ISPM 15) or VPI treatment, your delivery location and required lead
+                time, and whether this is a one-off order or a recurring requirement.
               </p>
               <Button href="/contact" variant="primary" size="lg">
                 Request a Quote →
@@ -285,7 +436,7 @@ export default function PalletPricingSriLankaPage() {
       </section>
 
       {/* ── FAQ ─────────────────────────────────────────────────────── */}
-      <section className="section-padding bg-warm-gray/40">
+      <section className="section-padding cream-texture">
         <div className="container-content">
           <FadeUp>
             <div className="mb-12">
