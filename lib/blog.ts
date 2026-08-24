@@ -1126,10 +1126,10 @@ CeyPall manufactures custom-sized pallets to maximise your container utilisation
   {
     slug: "how-to-store-heat-treated-export-pallets",
     title: "How to Store Heat-Treated (ISPM 15) Export Pallets",
-    seoTitle: "How to Store Heat-Treated ISPM 15 Export Pallets",
+    seoTitle: "How to Store Heat-Treated ISPM 15 Pallets — 6 Rules",
     date: "2026-07-29",
     description:
-      "Heat treatment protects your shipment only if pallets stay compliant until they ship. How to store ISPM 15 pallets so they stay dry, pest-free and port-ready.",
+      "6 rules for storing ISPM 15 heat-treated pallets so they stay export-compliant: under cover, off the ground, dry, ventilated, away from raw timber, stamp protected.",
     content: `
 To keep ISPM 15 heat-treated pallets export-compliant, store them under cover, off the ground, and physically separated from raw timber, bark and sawdust. Keep them dry and ventilated, stack them squarely, rotate stock oldest-first, and protect the IPPC mark from damage — so each pallet ships in the pest-free, dry, correctly-marked condition it left the kiln in.
 
@@ -1438,6 +1438,205 @@ The container calculator gives you the mathematical answer. The real answer incl
         question: "Which pallet size gives the best container utilisation?",
         answer:
           "For European destinations, 1200 × 800 Euro pallets fit tightly and give the highest single-layer count. For general export, 1200 × 1000 mm is the standard. If your cargo carton is an unusual size, a custom pallet built to the carton footprint often improves utilisation more than any standard size.",
+      },
+    ],
+  },
+  {
+    slug: "can-heat-treated-pallets-be-stored-outside",
+    title: "Can Heat-Treated Pallets Be Stored Outside? (Complete Guide)",
+    seoTitle: "Can Heat-Treated Pallets Be Stored Outside?",
+    date: "2026-08-18",
+    description:
+      "Short answer: no — ISPM 15 heat-treated pallets should not be stored uncovered outdoors. Here is why, how long is safe, and what happens to compliance if you do.",
+    content: `
+Heat-treated (ISPM 15) pallets should **not** be stored outdoors uncovered. Heat treatment kills existing pests but does not seal the wood — pallets left in the open re-absorb moisture within days in humid climates, can be re-infested by insects laying eggs in the timber, and risk having their IPPC stamp become illegible from rain and UV exposure. All three outcomes can turn a compliant pallet into a non-compliant one before it reaches the container.
+
+If you have just taken delivery of ISPM 15 heat-treated pallets and you are wondering whether it is fine to leave them stacked in the yard until your container date, this guide answers exactly what happens if you do — and how long is actually safe.
+
+## Why heat treatment does not make pallets weather-proof
+
+Heat treatment under ISPM 15 raises the core temperature of the wood to 56 °C for at least 30 minutes. That kills the wood-boring insects and larvae the standard is designed to control. It does **not**:
+
+- Seal the wood against moisture
+- Impregnate the timber with any long-term preservative
+- Make the pallet immune to re-infestation
+- Make the IPPC stamp waterproof or UV-proof
+
+A heat-treated pallet stored outside is, structurally, the same as any other kiln-dried softwood pallet exposed to the weather.
+
+## What actually goes wrong when you store HT pallets outside
+
+### 1. Moisture re-absorption within days
+
+Kiln-dried pallets leave a compliant facility at below 15 % moisture content (MC). In Sri Lanka's monsoon climate — with humidity regularly above 80 % — an uncovered pallet can climb back above 19 % MC in **less than a week**. Above 19 % MC, wood releases enough moisture inside a sealed shipping container to cause condensation on the container ceiling and drip onto your cargo — a problem known as *container rain*.
+
+For hygroscopic cargo such as [tea](/pallets-for-tea-export), [spices](/pallets-for-spice-export) and [coconut](/pallets-for-coconut-export), that condensation causes mould, clumping and outright rejection at the destination.
+
+### 2. Re-infestation by fresh insects
+
+Heat treatment kills what was in the wood at the moment of treatment. It does nothing to stop a fresh insect landing on the pallet three weeks later and laying eggs. Customs authorities inspect for **live pests**, not treatment history — a re-infested pallet is a non-compliant pallet, even with a valid IPPC stamp.
+
+### 3. IPPC stamp damage
+
+The IPPC mark is your only proof of ISPM 15 compliance. Prolonged sun, rain and rough handling can fade or blur the burned or branded stamp until it is unreadable. **An illegible IPPC stamp is treated as no stamp at all** by customs officers in the EU, US, UK, Australia and every other ISPM 15 market. That means quarantine, re-treatment at the importer's expense, or destruction of the packaging.
+
+### 4. Timber staining and mould
+
+Beyond compliance, wet pallets go grey, grow surface mould and can transfer stains to the cartons stacked on them — a cosmetic problem that damages buyer relationships even when the goods themselves are fine.
+
+## How long is it "safe" to leave heat-treated pallets outside?
+
+There is no compliance grace period written into ISPM 15 — the standard cares about the pallet's condition **at the moment of export**, not the day it was treated. In practical terms:
+
+| Storage condition | Typical safe window before compliance risk |
+|---|---|
+| Fully enclosed warehouse, off the ground | Weeks to months |
+| Under a roof, three sides open, off the ground | Around 2–4 weeks in dry weather; days in monsoon |
+| Tarped stack in the open yard | 3–7 days at most |
+| Uncovered, direct rain and sun | Compliance risk from day 1 |
+
+If pallets have sat uncovered through even one heavy monsoon downpour, do not assume they are still export-ready. Check the moisture content and inspect the stamps before loading.
+
+## The correct way to store heat-treated pallets
+
+1. **Under cover** — a roofed shed or warehouse is the baseline. A tarp is a temporary measure, not storage.
+2. **Off the ground** — stack on dunnage or an existing pallet to keep air moving under the bottom deck.
+3. **Away from raw timber, bark and sawdust** — physically separate the treated stack from any untreated wood in the same yard to avoid cross-contamination and pest transfer.
+4. **Dry, ventilated, out of direct sun** — good airflow keeps MC stable; direct sun degrades the IPPC stamp.
+5. **Rotate stock oldest-first** — the pallet that has been in storage longest ships next.
+6. **Inspect before loading** — check the IPPC mark is legible on at least two opposite sides, and spot-check moisture content on a sample from each batch.
+
+For more detail on storage protocols, see our full guide on [pallet storage & handling best practices](/blog/pallet-storage-handling-best-practices).
+
+## What to do if pallets have already been left outside
+
+- **Check the moisture content** with a pin-type meter (or use the [free moisture calculator](/moisture-content-calculator)). If any pallet in the batch reads over 15 % MC, re-dry before use.
+- **Inspect every IPPC stamp**. If the mark is faded, blurred or incomplete, do not use that pallet for an export shipment.
+- **Look for live insects** — fresh sawdust, exit holes or larvae on the wood surface all mean the pallet has been re-infested and must be re-treated.
+- **If in doubt, contact your supplier**. A reputable NPQS-registered manufacturer can re-inspect, re-treat and re-stamp pallets that are borderline — always cheaper than a rejected shipment.
+
+## The bottom line
+
+Heat treatment is a one-time event, not a permanent property. ISPM 15 compliance depends on the pallet's condition on the day it enters the container — not the day it was treated. Store heat-treated pallets under cover, off the ground, and away from raw timber. If they have been in the open through monsoon rain, re-check moisture and stamps before you ship.
+
+CeyPall (Pvt) Ltd manufactures NPQS-registered ISPM 15 heat-treated pallets in Kochchikade, with island-wide delivery and treatment certificates issued for every batch. If you need advice on storing an existing stack or a re-inspection, contact us before your next container date.
+    `,
+    faqs: [
+      {
+        question: "Can I store ISPM 15 heat-treated pallets outside?",
+        answer:
+          "No, not uncovered. Heat treatment kills existing pests but does not seal the wood — pallets left in the open re-absorb moisture within days in humid climates, can be re-infested by insects, and risk having their IPPC stamp become illegible from rain and UV. Store heat-treated pallets under cover, off the ground, and away from raw timber.",
+      },
+      {
+        question: "How long can heat-treated pallets be stored before they must be re-treated?",
+        answer:
+          "There is no fixed re-treatment interval under ISPM 15 — the standard cares about the pallet's condition when it ships, not the treatment date. In a dry, covered warehouse a treated pallet stays export-ready for months. Left uncovered in monsoon conditions in Sri Lanka, compliance is at risk from day one.",
+      },
+      {
+        question: "Does rain damage ISPM 15 compliance?",
+        answer:
+          "Yes, in two ways. First, prolonged rain raises the pallet's moisture content above the 15 % export threshold, causing container-rain damage to cargo. Second, rain and UV can fade or blur the burned IPPC stamp until it is unreadable — and an illegible IPPC mark is treated as no mark at all by customs.",
+      },
+      {
+        question: "Can heat-treated pallets be re-infested by insects after treatment?",
+        answer:
+          "Yes. Heat treatment only kills insects present at the moment of treatment. A fresh insect landing on the pallet weeks later can lay eggs in the timber. Customs inspects for live pests, so a re-infested pallet is non-compliant regardless of its treatment history — which is why storage under cover, away from raw timber, matters.",
+      },
+    ],
+  },
+  {
+    slug: "are-all-chep-pallets-heat-treated",
+    title: "Are All CHEP Pallets Heat Treated? What Exporters Need to Know",
+    seoTitle: "Are All CHEP Pallets Heat Treated?",
+    date: "2026-08-19",
+    description:
+      "Not all CHEP pallets are heat-treated to ISPM 15. Here is which CHEP pallets carry the HT stamp, which ones do not, and what that means for Sri Lankan exporters.",
+    content: `
+**Most wooden CHEP pallets are heat-treated to ISPM 15 and carry the HT-branded IPPC stamp** — but not every CHEP pallet in circulation is. CHEP also operates a large plastic-pallet pool (which is not subject to ISPM 15 at all) and, in some markets, wooden pallets in its domestic-only pool that are not exported and therefore may not be HT-marked. If you plan to put your goods on a CHEP pallet for an international shipment, always check the pallet itself for a legible IPPC mark ending in **HT** before loading.
+
+CHEP is one of the world's largest pallet pool operators, so a lot of exporters end up using its blue wooden pallets — often on the assumption that "it's CHEP, it must be compliant." That is *usually* true, but not universally. This guide explains exactly how CHEP treats its wooden pool, what to check, and what to do if you receive a pallet without an HT stamp.
+
+## What CHEP actually is
+
+CHEP (a division of Brambles Limited) runs a **pallet-pooling** service: customers rent pallets in and out of a shared pool rather than buying them outright. The pool contains hundreds of millions of pallets globally, in a mix of wood and plastic, in several regional formats — most visibly the blue-painted wooden Euro pallet (1200 × 800 mm) and the blue 1200 × 1000 mm export pallet.
+
+Because CHEP owns the pallets, it also owns the maintenance and treatment programme.
+
+## The ISPM 15 status of CHEP's wooden pool
+
+### CHEP's own compliance position
+
+CHEP publishes that its wooden pallets used for international movements are manufactured and repaired under ISPM 15 heat-treatment programmes registered with the relevant national plant protection authority (in Sri Lanka, the NPQS; in the UK, Forestry Commission; in the US, ALSC). Pallets in that pool carry the burned IPPC mark including the **HT** treatment abbreviation.
+
+In practice this means the great majority of CHEP wooden pallets you will encounter in an export environment **are** heat-treated and IPPC-stamped.
+
+### Where it gets fuzzy
+
+Three things can trip exporters up:
+
+1. **Plastic CHEP pallets are outside ISPM 15 entirely.** ISPM 15 only applies to wooden packaging. If your CHEP pallet is plastic, no HT stamp is needed and none will be present — but that is not a compliance problem. Plastic is exempt.
+2. **Domestic-pool wooden pallets in some regions are not always HT-marked.** In markets where CHEP runs separate domestic and export pools, a wooden pallet from a purely domestic rotation might not carry the HT stamp. If that pallet is diverted to an export shipment, it becomes non-compliant.
+3. **Repaired components have to be re-treated and re-stamped.** A CHEP wooden pallet whose damaged deck board or block was replaced without the pallet being re-treated is technically non-compliant, regardless of the stamp burned into the original stringer.
+
+The safe rule is: **the stamp on the pallet is the source of truth**, not the brand painted on it.
+
+## How to verify a CHEP pallet is export-compliant
+
+Before you load, look at the actual pallet:
+
+1. **Find the IPPC mark.** On CHEP wooden pallets it is normally burned into at least two opposite stringers.
+2. **Confirm all four components are present**: the IPPC wheat-sheaf symbol, the country code (LK, GB, DE, etc.), the producer registration number, and the treatment code — which must read **HT** for it to be accepted in the EU and UK.
+3. **Reject anything stamped MB** for EU-bound cargo. Methyl bromide fumigation has not been accepted for wooden packaging entering the EU since 2010.
+4. **Reject any pallet with an illegible or damaged stamp**, or one that has been repaired without a fresh HT re-stamp.
+
+For a full walkthrough of what each part of the mark means, see [How to Read the IPPC Stamp on a Wooden Pallet](/blog/how-to-read-ippc-stamp).
+
+## When a CHEP pallet is *not* the right answer
+
+CHEP pooling is convenient, but a hired pallet is not always the best choice for a Sri Lankan exporter:
+
+- If your cargo carton is an unusual size, a standard CHEP pallet may waste 15–25 % of the container floor. A [custom-sized pallet](/custom-wooden-pallets-sri-lanka) built to the carton often more than pays for itself in container utilisation.
+- If your buyer is not in a CHEP-participating logistics network, the recovery/return economics of the pool break down.
+- If your shipment goes to a destination where CHEP does not operate a pool, the pallet becomes a one-way asset with no rental benefit.
+
+In those cases, buying purpose-built ISPM 15 heat-treated pallets from a local NPQS-registered manufacturer is usually simpler and cheaper per shipment.
+
+## CHEP vs buying your own ISPM 15 pallets
+
+| Aspect | CHEP pooled pallet | Own ISPM 15 pallet |
+|---|---|---|
+| Ownership | Rented from CHEP pool | Owned by you |
+| ISPM 15 compliance | Usually yes (verify HT stamp) | Yes, guaranteed by manufacturer |
+| Custom sizing | No — pool sizes only | Yes — built to your carton |
+| Best for | Regular EU / US lanes on CHEP-served routes | Custom cargo, non-CHEP destinations, project shipments |
+| Per-shipment economics | Rental fees each cycle | One-time cost per pallet |
+
+## Bottom line for Sri Lankan exporters
+
+Most wooden CHEP pallets in an export lane **are** heat-treated to ISPM 15 and carry the HT stamp — but "most" is not the same as "all". Always inspect the actual IPPC mark on the actual pallet before loading, especially if the pallet has been repaired, is from a mixed pool, or is bound for the EU or UK.
+
+If you would rather not gamble on a pool pallet's history, CeyPall (Pvt) Ltd manufactures NPQS-registered ISPM 15 heat-treated pallets in Kochchikade, in every standard international size and to custom dimensions, with a heat-treatment certificate for every batch and island-wide delivery.
+    `,
+    faqs: [
+      {
+        question: "Are all CHEP pallets heat treated?",
+        answer:
+          "Most wooden CHEP pallets used for international export are heat-treated to ISPM 15 and carry the HT-branded IPPC stamp. However, CHEP's plastic pool is outside ISPM 15 entirely, and domestic-pool wooden pallets in some regions may not carry an HT stamp. Always verify the actual IPPC mark on the actual pallet before loading an export shipment.",
+      },
+      {
+        question: "Do CHEP pallets have the IPPC stamp?",
+        answer:
+          "CHEP's export-pool wooden pallets are IPPC-stamped, typically burned into at least two opposite stringers. The stamp should show the IPPC wheat symbol, a country code (LK, GB, DE, etc.), CHEP's registered producer code, and the treatment abbreviation HT.",
+      },
+      {
+        question: "Can I use a CHEP pallet for a shipment to the EU?",
+        answer:
+          "Yes — provided the specific pallet carries a legible IPPC mark ending in HT. The EU has not accepted MB-treated wooden packaging since 2010, so if the stamp reads MB or is illegible, the pallet must not be used for an EU-bound shipment.",
+      },
+      {
+        question: "What if the CHEP pallet has been repaired?",
+        answer:
+          "A CHEP wooden pallet that has had components replaced must be re-treated and re-stamped after the repair to remain ISPM 15 compliant. If a repaired pallet does not carry a fresh HT re-stamp, treat it as non-compliant and do not use it for export.",
       },
     ],
   },

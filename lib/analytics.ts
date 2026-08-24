@@ -30,5 +30,7 @@ export function trackConversion(action: string, params: GtagParams = {}): void {
 export const CONVERSION_EVENTS = {
   whatsappClick: 'contact_whatsapp',
   phoneClick: 'contact_phone',
+  emailClick: 'contact_email',
   formSubmit: 'generate_lead',
+  outboundClick: 'outbound_click',
 } as const
