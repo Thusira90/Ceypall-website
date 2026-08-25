@@ -207,9 +207,10 @@ export default function PalletPricingSriLankaPage() {
               <span className="block w-10 h-0.5 bg-accent mt-4 mb-5" />
               <p className="font-body text-base text-cream/80 leading-relaxed mb-8">
                 Wooden pallets in Sri Lanka typically cost between{' '}
-                <strong className="text-cream">Rs 2,500 and Rs 8,500 per pallet</strong>, depending on
-                size, treatment (heat treatment or VPI), order volume and delivery location. See the
-                price bands below, or contact us for an exact quote for your specification.
+                <strong className="text-cream">Rs 2,500 and Rs 8,500 per pallet</strong>. Six factors
+                determine where inside that range your quote lands — pallet dimensions, timber
+                species, treatment type, order volume, delivery location and lead time. Contact us
+                for an exact quote for your specification.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button href="/contact" variant="primary" size="lg">
