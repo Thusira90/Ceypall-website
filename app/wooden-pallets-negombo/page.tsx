@@ -8,7 +8,7 @@ import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'ISPM 15 Wooden Pallets — Negombo & Wattala',
+  title: 'Wooden Pallets Negombo — ISPM 15 Certified for Negombo & Wattala',
   description:
     'CeyPall delivers heat-treated, ISPM 15-certified wooden pallets to Negombo and Wattala — export and storage pallets made in Kochchikade, 20 km away.',
   twitter: {
