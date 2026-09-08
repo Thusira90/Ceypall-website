@@ -44,8 +44,8 @@ export function Hero() {
             </motion.p>
 
             <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
+              initial={{ y: 20 }}
+              animate={{ y: 0 }}
               transition={{ duration: 0.6, delay: 0.08, ease: [0.22, 1, 0.36, 1] }}
               className="font-display text-display-xl text-cream leading-[1.08] tracking-tight text-balance mb-6"
             >
@@ -79,8 +79,8 @@ export function Hero() {
 
           {/* Right: image — shown on all screen sizes */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.96 }}
-            animate={{ opacity: 1, scale: 1 }}
+            initial={{ scale: 0.98 }}
+            animate={{ scale: 1 }}
             transition={{ duration: 0.7, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
             className="block"
           >
@@ -90,7 +90,9 @@ export function Hero() {
                 alt="CeyPall wooden pallets — ISPM 15 certified"
                 fill
                 className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 priority
+                fetchPriority="high"
               />
               {/* Corner accent */}
               <div className="absolute top-0 right-0 w-16 h-16 bg-accent opacity-90 z-10" />

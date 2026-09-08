@@ -8,9 +8,9 @@ import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'ISPM 15 Wooden Pallets — Island-Wide Across Sri Lanka',
+  title: 'Wooden Pallets Sri Lanka — ISPM 15 Certified, Island-Wide',
   description:
-    'CeyPall delivers ISPM 15-certified, IPPC-stamped wooden pallets to every BOI EPZ, industrial estate, and port in Sri Lanka. Heat treated in Kochchikade.',
+    'Wooden pallets Sri Lanka: ISPM 15 certified, IPPC-stamped, heat treated in Kochchikade. Delivered to every BOI EPZ, industrial estate and port island-wide.',
   twitter: {
     description:
       'CeyPall delivers ISPM 15 certified, IPPC-stamped wooden pallets to every BOI Export Processing Zone, industrial estate, and port hub across Sri Lanka. Heat treated at our Kochchikade facility. Island-wide delivery.',
