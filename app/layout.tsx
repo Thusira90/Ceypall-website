@@ -5,6 +5,7 @@ import { Nav } from '@/components/layout/Nav'
 import { Footer } from '@/components/layout/Footer'
 import { ConversionTracker } from '@/components/analytics/ConversionTracker'
 import { Analytics } from '@/components/analytics/Analytics'
+import { ConsentBanner } from '@/components/analytics/ConsentBanner'
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -181,7 +182,15 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.png" type="image/png" />
         <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        {/* Google Consent Mode v2 — set defaults synchronously in <head> so
+            they land before gtag.js executes. A prior "granted" choice stored
+            in localStorage is applied immediately. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{if(localStorage.getItem('ceypall_consent')==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}`,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -190,6 +199,7 @@ export default function RootLayout({
       <body className="min-h-screen flex flex-col">
         <Analytics />
         <ConversionTracker />
+        <ConsentBanner />
         <Nav />
         <main className="flex-1 pt-[72px]">{children}</main>
         <Footer />

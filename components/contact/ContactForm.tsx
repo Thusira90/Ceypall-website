@@ -18,6 +18,7 @@ const schema = z.object({
   }),
   quantity: z.string().regex(/^\d*$/, 'Please enter numbers only').optional(),
   message: z.string().optional(),
+  website: z.string().max(0).optional(),
 })
 
 type FormValues = z.infer<typeof schema>
@@ -99,7 +100,18 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} noValidate className="space-y-5">
+    <form onSubmit={handleSubmit(onSubmit)} method="post" noValidate className="space-y-5">
+      {/* Honeypot — hidden from real users, tempting for bots. */}
+      <div aria-hidden="true" style={{ position: 'absolute', left: '-10000px', top: 'auto', width: 1, height: 1, overflow: 'hidden' }}>
+        <label htmlFor="website">Website</label>
+        <input
+          id="website"
+          type="text"
+          tabIndex={-1}
+          autoComplete="off"
+          {...register('website')}
+        />
+      </div>
       {/* Name + Company */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <div>
