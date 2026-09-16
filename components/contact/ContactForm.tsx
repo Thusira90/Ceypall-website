@@ -6,17 +6,59 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 import { Button } from '@/components/ui/Button'
 import { cn } from '@/lib/utils'
-import { trackConversion, CONVERSION_EVENTS } from '@/lib/analytics'
+import { trackConversion, trackMetaEvent, CONVERSION_EVENTS } from '@/lib/analytics'
+
+// Quantity bands — the single strongest qualifier on this form. Values are
+// ASCII-safe for analytics params; labels are en-dashed for display.
+const QUANTITY_BANDS = [
+  { value: '1-50', label: '1–50' },
+  { value: '51-100', label: '51–100' },
+  { value: '101-500', label: '101–500' },
+  { value: '501-1000', label: '501–1,000' },
+  { value: '1000+', label: '1,000+' },
+] as const
+
+const INDUSTRIES = [
+  'Tea',
+  'Apparel',
+  'Coconut',
+  'Rubber',
+  'Spices/Cinnamon',
+  'Seafood',
+  'Food & Beverage',
+  'Pharmaceutical',
+  'Machinery',
+  'Logistics/Freight',
+  'Other',
+] as const
+
+const QUANTITY_VALUES = QUANTITY_BANDS.map((b) => b.value) as unknown as [
+  (typeof QUANTITY_BANDS)[number]['value'],
+  ...(typeof QUANTITY_BANDS)[number]['value'][],
+]
 
 const schema = z.object({
   name: z.string().min(2, 'Please enter your name'),
-  company: z.string().optional(),
-  email: z.string().email('Please enter a valid email address'),
-  phone: z.string().regex(/^[\d+\s\-()]*$/, 'Please enter a valid phone number').optional(),
+  phone: z
+    .string()
+    .min(6, 'Please enter your phone number')
+    .regex(/^[\d+\s\-()]+$/, 'Please enter a valid phone number'),
   palletUse: z.enum(['export', 'storage', 'unsure'], {
-    required_error: 'Please select a pallet use',
+    errorMap: () => ({ message: 'Please select a pallet use' }),
   }),
-  quantity: z.string().regex(/^\d*$/, 'Please enter numbers only').optional(),
+  quantity: z.enum(QUANTITY_VALUES, {
+    errorMap: () => ({ message: 'Please select a quantity band' }),
+  }),
+  industry: z.enum([...INDUSTRIES] as unknown as [string, ...string[]], {
+    errorMap: () => ({ message: 'Please select an industry' }),
+  }),
+  company: z.string().optional(),
+  email: z
+    .string()
+    .email('Please enter a valid email address')
+    .optional()
+    .or(z.literal('')),
+  location: z.string().optional(),
   message: z.string().optional(),
   website: z.string().max(0).optional(),
 })
@@ -50,10 +92,12 @@ export function ContactForm() {
       }
       setSubmitted(true)
       trackConversion(CONVERSION_EVENTS.formSubmit, {
-        method: 'contact_form',
+        form_location: 'contact',
         pallet_use: data.palletUse,
-        quantity: data.quantity || undefined,
+        quantity_band: data.quantity,
+        industry: data.industry,
       })
+      trackMetaEvent('Lead', { content_name: 'Quote Request' })
     } catch (err) {
       setSubmitError(err instanceof Error ? err.message : 'Failed to send enquiry. Please try again.')
     }
@@ -112,7 +156,8 @@ export function ContactForm() {
           {...register('website')}
         />
       </div>
-      {/* Name + Company */}
+
+      {/* Name + Phone (both required) */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <div>
           <label htmlFor="name" className="form-label">
@@ -132,44 +177,8 @@ export function ContactForm() {
         </div>
 
         <div>
-          <label htmlFor="company" className="form-label">
-            Company name{' '}
-            <span className="text-charcoal/40 font-normal">(optional)</span>
-          </label>
-          <input
-            id="company"
-            type="text"
-            autoComplete="organization"
-            placeholder="Your company"
-            className="form-input"
-            {...register('company')}
-          />
-        </div>
-      </div>
-
-      {/* Email + Phone */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-        <div>
-          <label htmlFor="email" className="form-label">
-            Email <span className="text-accent">*</span>
-          </label>
-          <input
-            id="email"
-            type="email"
-            autoComplete="email"
-            placeholder="you@company.com"
-            className={cn('form-input', errors.email && 'border-red-400')}
-            {...register('email')}
-          />
-          {errors.email && (
-            <p className="mt-1 font-body text-xs text-red-500">{errors.email.message}</p>
-          )}
-        </div>
-
-        <div>
           <label htmlFor="phone" className="form-label">
-            Phone{' '}
-            <span className="text-charcoal/40 font-normal">(optional)</span>
+            Phone / WhatsApp <span className="text-accent">*</span>
           </label>
           <input
             id="phone"
@@ -185,7 +194,7 @@ export function ContactForm() {
         </div>
       </div>
 
-      {/* Pallet use + Quantity */}
+      {/* Pallet use + Quantity (both required) */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <div>
           <label htmlFor="palletUse" className="form-label">
@@ -229,21 +238,140 @@ export function ContactForm() {
 
         <div>
           <label htmlFor="quantity" className="form-label">
-            Quantity{' '}
-            <span className="text-charcoal/40 font-normal">(optional)</span>
+            Quantity <span className="text-accent">*</span>
           </label>
-          <input
-            id="quantity"
-            type="number"
-            min="1"
-            placeholder="e.g. 500"
-            className={cn('form-input', errors.quantity && 'border-red-400')}
-            {...register('quantity')}
-          />
+          <div className="relative">
+            <select
+              id="quantity"
+              className={cn(
+                'form-input appearance-none pr-10 cursor-pointer',
+                errors.quantity && 'border-red-400',
+              )}
+              defaultValue=""
+              {...register('quantity')}
+            >
+              <option value="" disabled>
+                Select quantity band
+              </option>
+              {QUANTITY_BANDS.map((band) => (
+                <option key={band.value} value={band.value}>
+                  {band.label}
+                </option>
+              ))}
+            </select>
+            <svg
+              className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-charcoal/40"
+              viewBox="0 0 16 16"
+              fill="none"
+            >
+              <path
+                d="M4 6l4 4 4-4"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
           {errors.quantity && (
             <p className="mt-1 font-body text-xs text-red-500">{errors.quantity.message}</p>
           )}
         </div>
+      </div>
+
+      {/* Industry (required) */}
+      <div>
+        <label htmlFor="industry" className="form-label">
+          Industry <span className="text-accent">*</span>
+        </label>
+        <div className="relative">
+          <select
+            id="industry"
+            className={cn(
+              'form-input appearance-none pr-10 cursor-pointer',
+              errors.industry && 'border-red-400',
+            )}
+            defaultValue=""
+            {...register('industry')}
+          >
+            <option value="" disabled>
+              Select your industry
+            </option>
+            {INDUSTRIES.map((industry) => (
+              <option key={industry} value={industry}>
+                {industry}
+              </option>
+            ))}
+          </select>
+          <svg
+            className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-charcoal/40"
+            viewBox="0 0 16 16"
+            fill="none"
+          >
+            <path
+              d="M4 6l4 4 4-4"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
+        {errors.industry && (
+          <p className="mt-1 font-body text-xs text-red-500">{errors.industry.message}</p>
+        )}
+      </div>
+
+      {/* Company + Email (both optional) */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+        <div>
+          <label htmlFor="company" className="form-label">
+            Company{' '}
+            <span className="text-charcoal/40 font-normal">(optional)</span>
+          </label>
+          <input
+            id="company"
+            type="text"
+            autoComplete="organization"
+            placeholder="Your company"
+            className="form-input"
+            {...register('company')}
+          />
+        </div>
+
+        <div>
+          <label htmlFor="email" className="form-label">
+            Email{' '}
+            <span className="text-charcoal/40 font-normal">(optional)</span>
+          </label>
+          <input
+            id="email"
+            type="email"
+            autoComplete="email"
+            placeholder="you@company.com"
+            className={cn('form-input', errors.email && 'border-red-400')}
+            {...register('email')}
+          />
+          {errors.email && (
+            <p className="mt-1 font-body text-xs text-red-500">{errors.email.message}</p>
+          )}
+        </div>
+      </div>
+
+      {/* Delivery location (optional) */}
+      <div>
+        <label htmlFor="location" className="form-label">
+          Delivery location{' '}
+          <span className="text-charcoal/40 font-normal">(optional)</span>
+        </label>
+        <input
+          id="location"
+          type="text"
+          autoComplete="address-level2"
+          placeholder="City or district"
+          className="form-input"
+          {...register('location')}
+        />
       </div>
 
       {/* Message */}
@@ -255,7 +383,7 @@ export function ContactForm() {
         <textarea
           id="message"
           rows={5}
-          placeholder="Pallet size, treatment type, delivery location, special requirements..."
+          placeholder="Pallet size, treatment type, delivery date, special requirements..."
           className="form-input resize-none"
           {...register('message')}
         />

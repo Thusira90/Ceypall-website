@@ -1,12 +1,13 @@
 'use client'
 
 import { useEffect } from 'react'
-import { trackConversion, CONVERSION_EVENTS } from '@/lib/analytics'
+import { trackConversion, trackMetaEvent, CONVERSION_EVENTS } from '@/lib/analytics'
 
 // A single delegated click listener that fires conversion events for every
 // phone (tel:), email (mailto:), WhatsApp (wa.me) and off-site link on the
 // site — no need to wire an onClick into each of the many links across
-// pages and the footer.
+// pages and the footer. Fires GA4 key events plus the matching Meta Pixel
+// Contact event so both platforms see the same signal.
 export function ConversionTracker() {
   useEffect(() => {
     function onClick(e: MouseEvent) {
@@ -16,14 +17,17 @@ export function ConversionTracker() {
 
       if (href.startsWith('tel:')) {
         trackConversion(CONVERSION_EVENTS.phoneClick, { link_url: href })
+        trackMetaEvent('Contact', { method: 'phone' })
         return
       }
       if (href.startsWith('mailto:')) {
         trackConversion(CONVERSION_EVENTS.emailClick, { link_url: href })
+        trackMetaEvent('Contact', { method: 'email' })
         return
       }
       if (href.includes('wa.me') || href.includes('api.whatsapp.com')) {
         trackConversion(CONVERSION_EVENTS.whatsappClick, { link_url: href })
+        trackMetaEvent('Contact', { method: 'whatsapp' })
         return
       }
       // Outbound: any absolute link that isn't ours (facebook, instagram,

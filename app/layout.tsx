@@ -5,6 +5,7 @@ import { Nav } from '@/components/layout/Nav'
 import { Footer } from '@/components/layout/Footer'
 import { ConversionTracker } from '@/components/analytics/ConversionTracker'
 import { Analytics } from '@/components/analytics/Analytics'
+import { MetaPixel } from '@/components/analytics/MetaPixel'
 import { ConsentBanner } from '@/components/analytics/ConsentBanner'
 
 const playfair = Playfair_Display({
@@ -198,6 +199,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen flex flex-col">
         <Analytics />
+        <MetaPixel />
         <ConversionTracker />
         <ConsentBanner />
         <Nav />
