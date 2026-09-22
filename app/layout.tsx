@@ -63,6 +63,13 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  alternates: {
+    canonical: 'https://www.ceypall.com',
+    languages: {
+      'en-LK': 'https://www.ceypall.com',
+      'x-default': 'https://www.ceypall.com',
+    },
+  },
   openGraph: {
     siteName: 'CeyPall (Pvt) Ltd',
     locale: 'en_LK',
@@ -157,7 +164,17 @@ export default function RootLayout({
           opens: '08:30',
           closes: '17:30',
         },
-        areaServed: { '@type': 'Country', name: 'Sri Lanka' },
+        priceRange: 'LKR',
+        currenciesAccepted: 'LKR, USD',
+        paymentAccepted: 'Bank Transfer, Cheque, Cash',
+        areaServed: [
+          { '@type': 'Country', name: 'Sri Lanka' },
+          { '@type': 'AdministrativeArea', name: 'Western Province' },
+          { '@type': 'City', name: 'Colombo' },
+          { '@type': 'City', name: 'Katunayake' },
+          { '@type': 'City', name: 'Negombo' },
+          { '@type': 'City', name: 'Kochchikade' },
+        ],
         hasMap: 'https://maps.google.com/?q=1088+Colombo+Road+Kochchikade+Sri+Lanka',
         foundingDate: '2025-10-03',
         sameAs: [
@@ -178,7 +195,7 @@ export default function RootLayout({
   }
 
   return (
-    <html lang="en" className={`${playfair.variable} ${dmSans.variable} ${nunito.variable}`}>
+    <html lang="en-LK" className={`${playfair.variable} ${dmSans.variable} ${nunito.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.png" type="image/png" />
