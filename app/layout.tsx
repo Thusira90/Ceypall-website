@@ -65,10 +65,6 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://www.ceypall.com',
-    languages: {
-      'en-LK': 'https://www.ceypall.com',
-      'x-default': 'https://www.ceypall.com',
-    },
   },
   openGraph: {
     siteName: 'CeyPall (Pvt) Ltd',

@@ -8,6 +8,7 @@
 const isProductionDeploy = process.env.VERCEL_ENV === 'production'
 
 const nextConfig = {
+  trailingSlash: false,
   images: {
     formats: ['image/avif', 'image/webp'],
   },
@@ -22,6 +23,12 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'ceypall.com' }],
+        destination: 'https://www.ceypall.com/:path*',
+        permanent: true,
+      },
       {
         source: '/ispm15-pallets-sri-lanka',
         destination: '/heat-treated-pallets',
