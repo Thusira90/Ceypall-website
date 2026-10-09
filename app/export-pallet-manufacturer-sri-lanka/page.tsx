@@ -238,6 +238,16 @@ const howToJsonLd = {
   ],
 }
 
+const catalogOffer = {
+  '@type': 'AggregateOffer',
+  priceCurrency: 'LKR',
+  lowPrice: '2450.00',
+  highPrice: '8750.00',
+  availability: 'https://schema.org/InStock',
+  url: 'https://www.ceypall.com/contact',
+  seller: { '@id': 'https://www.ceypall.com/#organization' },
+}
+
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Service',
@@ -251,11 +261,11 @@ const serviceJsonLd = {
     '@type': 'OfferCatalog',
     name: 'Export Pallet Sizes',
     itemListElement: [
-      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: '1200 x 1000 mm — General Export Pallet' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: '1200 x 800 mm — Euro Pallet' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: '1219 x 1016 mm — North American Pallet' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: '1100 x 1100 mm — Asia Pacific Pallet' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Custom Size Pallets' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: '1200 x 1000 mm — General Export Pallet', brand: { '@type': 'Brand', name: 'CeyPall' }, offers: catalogOffer } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: '1200 x 800 mm — Euro Pallet', brand: { '@type': 'Brand', name: 'CeyPall' }, offers: catalogOffer } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: '1219 x 1016 mm — North American Pallet', brand: { '@type': 'Brand', name: 'CeyPall' }, offers: catalogOffer } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: '1100 x 1100 mm — Asia Pacific Pallet', brand: { '@type': 'Brand', name: 'CeyPall' }, offers: catalogOffer } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Custom Size Pallets', brand: { '@type': 'Brand', name: 'CeyPall' }, offers: catalogOffer } },
     ],
   },
 }
