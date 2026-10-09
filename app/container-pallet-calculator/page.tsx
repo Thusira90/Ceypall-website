@@ -16,9 +16,9 @@ const capacityRows = [
 ]
 
 export const metadata: Metadata = {
-  title: 'Pallet Calculator — How Many Pallets Fit in a 20ft / 40ft Container?',
+  title: 'Pallets per Container: 20ft, 40ft & 40HC Calculator',
   description:
-    'Free pallet calculator: how many pallets fit in a 20ft container (10–11), 40ft (20–24) or 40ft HC. Standard, Euro, US and custom sizes with instant stacking layout.',
+    'How many pallets fit in a container? 10–11 in a 20ft, 20–24 in a 40ft. Free calculator for Standard, Euro and US pallet sizes with an instant floor plan.',
   alternates: {
     canonical: 'https://www.ceypall.com/container-pallet-calculator',
   },
