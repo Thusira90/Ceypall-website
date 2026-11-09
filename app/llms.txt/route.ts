@@ -1,6 +1,9 @@
 // Serves /llms.txt — a plain-text guide for AI crawlers and answer engines,
 // pointing them at CeyPall's most useful pages. Emerging convention modelled
-// on https://llmstxt.org. Keep entries in sync with the sitemap.
+// on https://llmstxt.org. Keep static entries in sync with the sitemap;
+// blog posts are listed automatically from lib/blog.
+
+import { getAllBlogPosts } from '@/lib/blog'
 
 const BODY = `# CeyPall (Pvt) Ltd
 
@@ -25,15 +28,22 @@ Key facts:
 - [Export pallet manufacturer](https://www.ceypall.com/export-pallet-manufacturer-sri-lanka): Export-grade pallet manufacturing overview.
 - [Products](https://www.ceypall.com/products): Pallet types, sizes, and specifications.
 - [Heat-treated pallets](https://www.ceypall.com/heat-treated-pallets): How ISPM 15 heat treatment works.
+- [ISPM 15 certification](https://www.ceypall.com/ispm-15-certification-sri-lanka): What ISPM 15 certification means in Sri Lanka, who issues it, and what paperwork ships with each pallet.
 - [Euro pallets](https://www.ceypall.com/euro-pallets-sri-lanka): Euro-standard 1200 × 800 mm pallets for EU/UK export.
 - [Custom wooden pallets](https://www.ceypall.com/custom-wooden-pallets-sri-lanka): Bespoke pallets built to any dimension and load rating.
 - [Industrial pallets](https://www.ceypall.com/industrial-pallets-sri-lanka): Heavy-duty, load-rated pallets for manufacturing and warehousing.
 - [Heavy-duty pallets](https://www.ceypall.com/heavy-duty-pallets-sri-lanka): Reinforced, load-rated pallets (1,500–2,000 kg+) for machinery, drums and dense cargo.
 - [Pallet supplier](https://www.ceypall.com/pallet-supplier-sri-lanka): Manufacturer + supplier — one-off orders, recurring supply, island-wide delivery.
+- [Wholesale pallets](https://www.ceypall.com/wholesale-pallets-sri-lanka): Bulk and recurring pallet supply for high-volume buyers.
 - [Pallet pricing](https://www.ceypall.com/pallet-pricing-sri-lanka): What drives wooden pallet cost in Sri Lanka.
 - [Wooden vs plastic pallets](https://www.ceypall.com/wooden-vs-plastic-pallets-sri-lanka): Honest comparison — cost, hygiene, ISPM 15 compliance, repairability, and when plastic is the better choice.
 - [How it works](https://www.ceypall.com/how-it-works): Ordering, treatment, and delivery process.
 - [Contact](https://www.ceypall.com/contact): Request a quote.
+
+## Company
+- [About CeyPall](https://www.ceypall.com/about): Company background, St. Xavier Timber heritage, and NPQS registration.
+- [Clients](https://www.ceypall.com/clients): Exporters and manufacturers CeyPall supplies.
+- [Case studies](https://www.ceypall.com/case-studies): How exporters solved pallet compliance and supply problems.
 
 ## Industry guides
 - [Tea export pallets](https://www.ceypall.com/pallets-for-tea-export)
@@ -41,6 +51,7 @@ Key facts:
 - [Coconut export pallets](https://www.ceypall.com/pallets-for-coconut-export)
 - [Rubber export pallets](https://www.ceypall.com/pallets-for-rubber-export)
 - [Spice & cinnamon export pallets](https://www.ceypall.com/pallets-for-spice-export)
+- [Food-grade pallets](https://www.ceypall.com/food-grade-pallets-sri-lanka): Clean, bark-free, heat-treated pallets for food and beverage exporters.
 - [Seafood export pallets](https://www.ceypall.com/pallets-for-seafood-export)
 - [Machinery export pallets](https://www.ceypall.com/pallets-for-machinery-export)
 - [Pharmaceutical export pallets](https://www.ceypall.com/pallets-for-pharmaceutical-export)
@@ -53,6 +64,11 @@ Key facts:
 - [Wooden pallets Biyagama](https://www.ceypall.com/wooden-pallets-biyagama)
 - [Wooden pallets Wattala](https://www.ceypall.com/wooden-pallets-wattala)
 - [Wooden pallets Peliyagoda](https://www.ceypall.com/wooden-pallets-peliyagoda)
+- [Wooden pallets Ja-Ela](https://www.ceypall.com/wooden-pallets-ja-ela)
+- [Wooden pallets Kelaniya](https://www.ceypall.com/wooden-pallets-kelaniya)
+- [Wooden pallets Ratmalana](https://www.ceypall.com/wooden-pallets-ratmalana)
+- [Wooden pallets Kandy](https://www.ceypall.com/wooden-pallets-kandy)
+- [Wooden pallets Galle](https://www.ceypall.com/wooden-pallets-galle)
 
 ## Tools & knowledge
 - [Container pallet calculator](https://www.ceypall.com/container-pallet-calculator)
@@ -60,11 +76,20 @@ Key facts:
 - [Moisture content calculator](https://www.ceypall.com/moisture-content-calculator)
 - [Pallet load capacity guide](https://www.ceypall.com/pallet-load-capacity): Static, dynamic and racking loads; the six specification factors that set the rating.
 - [Knowledge Centre](https://www.ceypall.com/knowledge-centre)
+- [Pallet terminology glossary](https://www.ceypall.com/pallet-terminology-glossary): Definitions of pallet, timber and ISPM 15 terms.
 - [Blog](https://www.ceypall.com/blog): Guides on ISPM 15, IPPC certification, and pallet compliance.
 `
 
+function buildBody(): string {
+  const posts = getAllBlogPosts()
+  const lines = posts.map(
+    (p) => `- [${p.seoTitle ?? p.title}](https://www.ceypall.com/blog/${p.slug}): ${p.description}`,
+  )
+  return `${BODY}\n## Blog posts\n${lines.join('\n')}\n`
+}
+
 export function GET(): Response {
-  return new Response(BODY, {
+  return new Response(buildBody(), {
     headers: {
       'Content-Type': 'text/plain; charset=utf-8',
       'Cache-Control': 'public, max-age=3600, s-maxage=86400',

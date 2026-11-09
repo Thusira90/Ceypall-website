@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'Pallet Supplier Sri Lanka | Wooden Pallet Supply — CeyPall',
+  title: 'Pallet Supplier Sri Lanka | Wooden Pallet Supply',
   description:
     'CeyPall is a manufacturer and pallet supplier in Sri Lanka — standard, custom, export and ISPM 15 heat-treated wooden pallets. Recurring supply, island-wide delivery.',
   twitter: {

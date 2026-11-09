@@ -174,6 +174,30 @@ export function Footer() {
                   Knowledge Centre
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/pallet-terminology-glossary"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Pallet Glossary
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/wooden-vs-plastic-pallets-sri-lanka"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Wooden vs Plastic
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/case-studies"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Case Studies
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -330,6 +354,46 @@ export function Footer() {
                   className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
                 >
                   Peliyagoda
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/wooden-pallets-ja-ela"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Ja-Ela
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/wooden-pallets-kelaniya"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Kelaniya
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/wooden-pallets-ratmalana"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Ratmalana
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/wooden-pallets-kandy"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Kandy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/wooden-pallets-galle"
+                  className="font-body text-sm text-cream/70 hover:text-cream transition-colors duration-150"
+                >
+                  Galle
                 </Link>
               </li>
               <li>

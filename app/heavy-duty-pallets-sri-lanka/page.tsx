@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'Heavy-Duty Pallets Sri Lanka | Load-Rated Wooden Pallets — CeyPall',
+  title: 'Heavy-Duty Wooden Pallets Sri Lanka | Load-Rated',
   description:
     'Heavy-duty wooden pallets built in Sri Lanka for machinery, drums and dense cargo. Load-rated 1,500–2,000 kg+, reinforced deck and stringers. ISPM 15 or VPI-treated.',
   twitter: {

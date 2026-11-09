@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'Wooden Pallets Wattala | ISPM 15 Export Pallets — CeyPall',
+  title: 'Wooden Pallets Wattala | ISPM 15 Export Pallets',
   description:
     'ISPM 15 heat-treated wooden pallets delivered to Wattala, Hendala, Mabole and the Peliyagoda–Wattala industrial corridor. IPPC-stamped, certificate included.',
   alternates: { canonical: 'https://www.ceypall.com/wooden-pallets-wattala' },

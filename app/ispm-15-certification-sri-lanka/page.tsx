@@ -8,9 +8,9 @@ import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'ISPM 15 Certification Sri Lanka — Complete Exporter Guide | CeyPall',
+  title: 'ISPM 15 Certification Sri Lanka — Exporter Guide',
   description:
-    'Complete guide to ISPM 15 certification in Sri Lanka: what it is, how the NPQS scheme works, how to get certified pallets, and how to read an IPPC stamp. From CeyPall — NPQS-registered ISPM 15 treatment provider LK-0175.',
+    'ISPM 15 certification in Sri Lanka explained: how the NPQS scheme works, how to source certified pallets and read an IPPC stamp. From NPQS-registered provider LK-0175.',
   alternates: {
     canonical: 'https://www.ceypall.com/ispm-15-certification-sri-lanka',
   },

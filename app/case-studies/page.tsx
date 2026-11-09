@@ -55,41 +55,10 @@ interface CaseStudy {
   testimonial: { quote: string; name: string; role: string }
 }
 
-const reviewJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  '@id': 'https://www.ceypall.com/#local-business',
-  name: 'CeyPall (Pvt) Ltd',
-  review: [
-    {
-      '@type': 'Review',
-      author: { '@type': 'Person', name: 'Mr. Ainsley Christie' },
-      reviewBody:
-        "We had no idea our previous supplier's IPPC stamps were invalid until our EU buyer flagged it. Since switching to CeyPall, we have not had a single compliance issue.",
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-    },
-    {
-      '@type': 'Review',
-      author: { '@type': 'Person', name: 'Mr. Shane De Silva' },
-      reviewBody:
-        'Finding a pallet supplier willing to deliver reliably to Nuwara Eliya was our biggest challenge. CeyPall solved that and the quality has been consistently excellent.',
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-    },
-    {
-      '@type': 'Review',
-      author: { '@type': 'Person', name: 'Mr. Malinda Ranasinghe' },
-      reviewBody:
-        'When we were using three different suppliers, quality was a lottery. Consolidating with CeyPall gave us one consistent standard across every shipment, even as we tripled our volume.',
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-    },
-  ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '5',
-    reviewCount: '3',
-    bestRating: '5',
-  },
-}
+// Testimonials are shown on the page as plain text only. Google ignores
+// Review / AggregateRating markup that a business publishes about itself
+// (self-serving reviews) and may treat it as spammy structured data, so no
+// review schema is emitted here.
 
 const caseStudies: CaseStudy[] = [
   {
@@ -176,7 +145,6 @@ export default function CaseStudiesPage() {
   return (
     <>
       <SchemaScript schema={breadcrumbJsonLd} />
-      <SchemaScript schema={reviewJsonLd} />
 
       {/* Hero */}
       <section className="wood-texture section-padding">

@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'Pallet Load Capacity | How Much Weight Can a Wooden Pallet Hold?',
+  title: 'Pallet Load Capacity — How Much Can a Pallet Hold?',
   description:
     'Wooden pallet load capacity explained — static, dynamic and racking loads, timber grade, board thickness and stringer design. Engineering guide from CeyPall, Sri Lanka.',
   twitter: {

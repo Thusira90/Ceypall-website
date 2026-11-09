@@ -8,7 +8,7 @@ import { RelatedLinks } from '@/components/ui/RelatedLinks'
 import { SpecificationCalculator } from '@/components/tools/SpecificationCalculator'
 
 export const metadata: Metadata = {
-  title: 'Pallet Specification Calculator | Recommended Board, Stringer & Treatment',
+  title: 'Pallet Specification Calculator | Board & Stringer',
   description:
     'Enter your pallet dimensions, maximum load, entry type and application. Get an indicative CeyPall specification — board thickness, stringer, deck type and treatment.',
   alternates: { canonical: 'https://www.ceypall.com/pallet-specification-calculator' },

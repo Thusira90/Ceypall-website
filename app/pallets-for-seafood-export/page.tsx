@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'Pallets for Seafood Export Sri Lanka | ISPM 15 Cold-Chain Pallets',
+  title: 'Pallets for Seafood Export | ISPM 15 Cold Chain',
   description:
     'ISPM 15 heat-treated wooden pallets for Sri Lankan seafood exporters — sized for insulated cartons and freezer containers, kiln-dried, IPPC-stamped.',
   alternates: { canonical: 'https://www.ceypall.com/pallets-for-seafood-export' },

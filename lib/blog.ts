@@ -96,7 +96,47 @@ Getting ISPM 15 wrong can cost your business in multiple ways:
 - Damage to your relationship with the importer or buyer
 
 Using a certified pallet manufacturer from the start is far cheaper than dealing with a rejected shipment halfway around the world.
+
+## Frequently asked questions
+
+### What does ISPM 15 stand for?
+
+ISPM 15 stands for International Standards for Phytosanitary Measures No. 15. It is the global standard, set by the International Plant Protection Convention (IPPC), that regulates wooden packaging such as pallets, crates and dunnage used in international trade.
+
+### What temperature is required for ISPM 15 heat treatment?
+
+The core of the wood must reach 56°C and stay there for at least 30 continuous minutes. This kills insects and larvae living inside the timber.
+
+### Is a heat-treated pallet compliant without the IPPC stamp?
+
+No. Every ISPM 15 pallet must carry the IPPC mark showing the wheat symbol, the country code (LK for Sri Lanka), the producer code and the treatment method (HT). Without the stamp, even a correctly treated pallet is non-compliant.
+
+### Who can certify ISPM 15 pallets in Sri Lanka?
+
+Only heat treatment providers registered with the National Plant Quarantine Service (NPQS) under the Department of Agriculture. CeyPall is NPQS-registered and supplies a treatment certificate with every order.
     `,
+    faqs: [
+      {
+        question: "What does ISPM 15 stand for?",
+        answer:
+          "ISPM 15 stands for International Standards for Phytosanitary Measures No. 15. It is the global standard, set by the International Plant Protection Convention (IPPC), that regulates wooden packaging such as pallets, crates and dunnage used in international trade.",
+      },
+      {
+        question: "What temperature is required for ISPM 15 heat treatment?",
+        answer:
+          "The core of the wood must reach 56°C and stay there for at least 30 continuous minutes. This kills insects and larvae living inside the timber.",
+      },
+      {
+        question: "Is a heat-treated pallet compliant without the IPPC stamp?",
+        answer:
+          "No. Every ISPM 15 pallet must carry the IPPC mark showing the wheat symbol, the country code (LK for Sri Lanka), the producer code and the treatment method (HT). Without the stamp, even a correctly treated pallet is non-compliant.",
+      },
+      {
+        question: "Who can certify ISPM 15 pallets in Sri Lanka?",
+        answer:
+          "Only heat treatment providers registered with the National Plant Quarantine Service (NPQS) under the Department of Agriculture. CeyPall is NPQS-registered and supplies a treatment certificate with every order.",
+      },
+    ],
   },
   {
     slug: "why-sri-lankan-exporters-need-ippc-certified-pallets",
@@ -154,7 +194,38 @@ Every compliant pallet carries a mark that includes the IPPC wheat symbol, LK (t
 ## CeyPall: IPPC-Registered Pallet Manufacturer in Sri Lanka
 
 CeyPall (Pvt) Ltd is officially registered with the National Plant Quarantine Service of Sri Lanka as a certified ISPM 15 heat treatment provider. Every pallet we manufacture is heat-treated to 56°C core temperature for 30 minutes, IPPC-stamped with our registered producer code, and supplied with a treatment certificate. Available in standard and custom sizes with island-wide delivery across Sri Lanka.
+
+## Frequently asked questions
+
+### What does IPPC-certified mean for a pallet?
+
+It means the pallet was treated by an approved method (most commonly heat treatment at 56°C core for 30 minutes), stamped with the official IPPC mark, and produced by a manufacturer registered with the national plant protection authority, which in Sri Lanka is the NPQS.
+
+### Does my freight forwarder check whether my pallets are IPPC-certified?
+
+Usually not. Most freight forwarders focus on documents and logistics, not on the pallet stamp. Responsibility for pallet compliance falls on the exporter.
+
+### What happens if my shipment arrives on a non-certified pallet?
+
+It can be re-treated at your expense, held in quarantine with storage fees, or have the pallet destroyed if re-treatment is not possible. The delays can also damage your relationship with the buyer.
     `,
+    faqs: [
+      {
+        question: "What does IPPC-certified mean for a pallet?",
+        answer:
+          "It means the pallet was treated by an approved method (most commonly heat treatment at 56°C core for 30 minutes), stamped with the official IPPC mark, and produced by a manufacturer registered with the national plant protection authority, which in Sri Lanka is the NPQS.",
+      },
+      {
+        question: "Does my freight forwarder check whether my pallets are IPPC-certified?",
+        answer:
+          "Usually not. Most freight forwarders focus on documents and logistics, not on the pallet stamp. Responsibility for pallet compliance falls on the exporter.",
+      },
+      {
+        question: "What happens if my shipment arrives on a non-certified pallet?",
+        answer:
+          "It can be re-treated at your expense, held in quarantine with storage fees, or have the pallet destroyed if re-treatment is not possible. The delays can also damage your relationship with the buyer.",
+      },
+    ],
   },
   {
     slug: "standard-pallet-sizes-sri-lanka",
@@ -216,7 +287,38 @@ A standard 20-foot container can fit approximately 10 pallets of 1200 × 1000 mm
 ## Order ISPM 15 Pallets in Any Size
 
 CeyPall manufactures all standard international pallet sizes — and custom dimensions on request — with full ISPM 15 heat treatment, IPPC stamping, and treatment certificates. Island-wide delivery across Sri Lanka.
+
+## Frequently asked questions
+
+### What is the most common export pallet size in Sri Lanka?
+
+1200 × 1000 mm is the most widely used export pallet size. Use 1200 × 800 mm Euro pallets for Europe, 1219 × 1016 mm (48 × 40 inches) for the USA and Canada, and 1100 × 1100 mm for Japan and Australia.
+
+### How many pallets fit in a 20-foot container?
+
+Approximately 10 pallets of 1200 × 1000 mm, or 11 Euro pallets of 1200 × 800 mm. A 40-foot container fits approximately 20–21 pallets of 1200 × 1000 mm.
+
+### Can I order a custom pallet size for export?
+
+Yes. Custom sizes are common for industrial, machinery or oversized cargo. CeyPall manufactures pallets to any specification with full ISPM 15 heat treatment.
     `,
+    faqs: [
+      {
+        question: "What is the most common export pallet size in Sri Lanka?",
+        answer:
+          "1200 × 1000 mm is the most widely used export pallet size. Use 1200 × 800 mm Euro pallets for Europe, 1219 × 1016 mm (48 × 40 inches) for the USA and Canada, and 1100 × 1100 mm for Japan and Australia.",
+      },
+      {
+        question: "How many pallets fit in a 20-foot container?",
+        answer:
+          "Approximately 10 pallets of 1200 × 1000 mm, or 11 Euro pallets of 1200 × 800 mm. A 40-foot container fits approximately 20–21 pallets of 1200 × 1000 mm.",
+      },
+      {
+        question: "Can I order a custom pallet size for export?",
+        answer:
+          "Yes. Custom sizes are common for industrial, machinery or oversized cargo. CeyPall manufactures pallets to any specification with full ISPM 15 heat treatment.",
+      },
+    ],
   },
   {
     slug: "heat-treatment-vs-methyl-bromide-fumigation",
@@ -276,7 +378,38 @@ At CeyPall, all of our export pallets are heat-treated to 56°C core temperature
 - Methyl bromide (MB): Banned in the EU and UK. Not suitable for European shipments.
 
 When in doubt, choose HT. It's safer, cleaner, and accepted everywhere.
+
+## Frequently asked questions
+
+### Does the EU accept methyl bromide treated pallets?
+
+No. Since 2010 all wooden packaging entering the EU must be heat treated (HT). The UK follows the same rule, so MB-stamped pallets can be rejected at EU and UK borders.
+
+### Why is methyl bromide being phased out?
+
+Methyl bromide is an ozone-depleting substance listed under the Montreal Protocol. Its use has been restricted since the 1990s and is now banned or heavily regulated in most developed countries.
+
+### Which ISPM 15 treatment is safest for exporters?
+
+Heat treatment (HT). It leaves no chemical residue and is accepted in every ISPM 15 country, so an HT-stamped pallet will not be rejected on treatment grounds. CeyPall uses heat treatment for all export pallets.
     `,
+    faqs: [
+      {
+        question: "Does the EU accept methyl bromide treated pallets?",
+        answer:
+          "No. Since 2010 all wooden packaging entering the EU must be heat treated (HT). The UK follows the same rule, so MB-stamped pallets can be rejected at EU and UK borders.",
+      },
+      {
+        question: "Why is methyl bromide being phased out?",
+        answer:
+          "Methyl bromide is an ozone-depleting substance listed under the Montreal Protocol. Its use has been restricted since the 1990s and is now banned or heavily regulated in most developed countries.",
+      },
+      {
+        question: "Which ISPM 15 treatment is safest for exporters?",
+        answer:
+          "Heat treatment (HT). It leaves no chemical residue and is accepted in every ISPM 15 country, so an HT-stamped pallet will not be rejected on treatment grounds. CeyPall uses heat treatment for all export pallets.",
+      },
+    ],
   },
   {
     slug: "how-to-read-ippc-stamp",
@@ -339,7 +472,47 @@ Watch out for pallets that have a stamp missing any of the four components, a tr
 CeyPall (Pvt) Ltd is officially registered with the National Plant Quarantine Service of Sri Lanka. Every pallet we manufacture carries our registered IPPC mark — including the LK country code, our unique producer code, and the HT treatment designation. A treatment certificate is provided with every order.
 
 If a customer or customs authority ever needs to verify our registration, we can provide our NPQS certification documents on request.
+
+## Frequently asked questions
+
+### What are the four parts of an IPPC stamp?
+
+The IPPC wheat symbol, the two-letter country code (LK for Sri Lanka), the producer or treatment provider code issued by the national plant protection authority, and the treatment code such as HT for heat treatment.
+
+### What does HT, MB or DH mean on a pallet?
+
+HT means heat treatment (56°C core for at least 30 minutes), MB means methyl bromide fumigation (not accepted in the EU), and DH means dielectric heating, a newer and less common method.
+
+### Is an IPPC stamp on a label or sticker valid?
+
+No. The mark must be applied directly to the wood. Labels can be removed or transferred and are not accepted as genuine IPPC marks.
+
+### Where should the IPPC stamp appear on a pallet?
+
+The mark is typically applied to at least two opposite sides of the pallet so it is visible however the pallet is oriented.
     `,
+    faqs: [
+      {
+        question: "What are the four parts of an IPPC stamp?",
+        answer:
+          "The IPPC wheat symbol, the two-letter country code (LK for Sri Lanka), the producer or treatment provider code issued by the national plant protection authority, and the treatment code such as HT for heat treatment.",
+      },
+      {
+        question: "What does HT, MB or DH mean on a pallet?",
+        answer:
+          "HT means heat treatment (56°C core for at least 30 minutes), MB means methyl bromide fumigation (not accepted in the EU), and DH means dielectric heating, a newer and less common method.",
+      },
+      {
+        question: "Is an IPPC stamp on a label or sticker valid?",
+        answer:
+          "No. The mark must be applied directly to the wood. Labels can be removed or transferred and are not accepted as genuine IPPC marks.",
+      },
+      {
+        question: "Where should the IPPC stamp appear on a pallet?",
+        answer:
+          "The mark is typically applied to at least two opposite sides of the pallet so it is visible however the pallet is oriented.",
+      },
+    ],
   },
   {
     slug: "vacuum-pressure-impregnated-vs-heat-treated-pallets",
@@ -422,7 +595,38 @@ VPI pallets are not ISPM 15 export pallets. They are not intended for internatio
 If you are shipping goods internationally, order heat-treated ISPM 15 pallets. If you are building or upgrading a warehouse racking system, or need pallets for long-term internal use, order vacuum pressure impregnated pallets.
 
 If you need both — some companies export goods on heat-treated pallets and store goods internally on VPI pallets — CeyPall can supply both types. Contact us to discuss your requirements.
+
+## Frequently asked questions
+
+### Can VPI pallets be used for export?
+
+No. Vacuum pressure impregnated (VPI) pallets are not ISPM 15 export pallets and do not carry the IPPC stamp. For international shipping you need heat-treated pallets.
+
+### How long do VPI pallets last?
+
+CeyPall's VPI pallets carry a warranty of up to 6 years against pest contamination, which makes them suited to warehousing and racking.
+
+### How does vacuum pressure impregnation work?
+
+A Boron Borax solution is forced deep into the wood under pressures of up to 10 bar (145 PSI), driving the preservative to the core of every plank and block.
     `,
+    faqs: [
+      {
+        question: "Can VPI pallets be used for export?",
+        answer:
+          "No. Vacuum pressure impregnated (VPI) pallets are not ISPM 15 export pallets and do not carry the IPPC stamp. For international shipping you need heat-treated pallets.",
+      },
+      {
+        question: "How long do VPI pallets last?",
+        answer:
+          "CeyPall's VPI pallets carry a warranty of up to 6 years against pest contamination, which makes them suited to warehousing and racking.",
+      },
+      {
+        question: "How does vacuum pressure impregnation work?",
+        answer:
+          "A Boron Borax solution is forced deep into the wood under pressures of up to 10 bar (145 PSI), driving the preservative to the core of every plank and block.",
+      },
+    ],
   },
   {
     slug: "why-shipments-get-rejected-customs-pallet-issues",
@@ -477,7 +681,38 @@ These costs almost always exceed the price difference between a certified and un
 ## CeyPall Eliminates These Risks
 
 Every pallet manufactured by CeyPall is produced under our NPQS-certified heat treatment programme, carries the official IPPC stamp, and is supplied with a treatment certificate. We have been manufacturing ISPM 15-compliant export pallets since 2005 and supply exporters across every sector in Sri Lanka.
+
+## Frequently asked questions
+
+### What is the most common pallet reason for a customs rejection?
+
+A missing IPPC stamp. Without the IPPC mark, wooden packaging is flagged whether or not it was actually treated.
+
+### Can a damaged or illegible IPPC stamp cause a rejection?
+
+Yes. Customs inspectors are trained to spot incomplete or damaged marks. Inspect pallets before loading and do not use any pallet whose stamp is damaged.
+
+### Do I need a treatment certificate as well as the stamp?
+
+Many customs authorities, particularly in the EU and Australia, ask for a treatment certificate with the shipment. If it is missing or does not match the pallets, the shipment may be held for inspection.
     `,
+    faqs: [
+      {
+        question: "What is the most common pallet reason for a customs rejection?",
+        answer:
+          "A missing IPPC stamp. Without the IPPC mark, wooden packaging is flagged whether or not it was actually treated.",
+      },
+      {
+        question: "Can a damaged or illegible IPPC stamp cause a rejection?",
+        answer:
+          "Yes. Customs inspectors are trained to spot incomplete or damaged marks. Inspect pallets before loading and do not use any pallet whose stamp is damaged.",
+      },
+      {
+        question: "Do I need a treatment certificate as well as the stamp?",
+        answer:
+          "Many customs authorities, particularly in the EU and Australia, ask for a treatment certificate with the shipment. If it is missing or does not match the pallets, the shipment may be held for inspection.",
+      },
+    ],
   },
   {
     slug: "how-to-choose-pallet-supplier-sri-lanka",
@@ -553,7 +788,38 @@ The price difference between a certified and uncertified pallet is small compare
 ## About CeyPall
 
 CeyPall (Pvt) Ltd has been manufacturing ISPM 15-certified wooden pallets since 2005. We are NPQS-registered, IPPC-stamped, and supply treatment certificates with every order. We manufacture all standard international sizes and custom dimensions, using locally sourced rubber wood and Lunumidella, with island-wide delivery across Sri Lanka.
+
+## Frequently asked questions
+
+### What is the most important thing to check in a Sri Lankan pallet supplier?
+
+Whether they are registered with the National Plant Quarantine Service (NPQS) as an ISPM 15 heat treatment provider. Ask for their registration number and verify it with the Department of Agriculture if needed.
+
+### What questions should I ask a pallet supplier before ordering?
+
+Ask for their NPQS registration number, whether a treatment certificate comes with every order, their treatment temperature and duration, custom size capability, timber species, lead times for your volume, and client references.
+
+### What are the red flags when choosing a pallet supplier?
+
+No NPQS registration number, unexplained low prices, no sample treatment certificate, vague answers about the heat treatment process, and no on-site heat treatment facility.
     `,
+    faqs: [
+      {
+        question: "What is the most important thing to check in a Sri Lankan pallet supplier?",
+        answer:
+          "Whether they are registered with the National Plant Quarantine Service (NPQS) as an ISPM 15 heat treatment provider. Ask for their registration number and verify it with the Department of Agriculture if needed.",
+      },
+      {
+        question: "What questions should I ask a pallet supplier before ordering?",
+        answer:
+          "Ask for their NPQS registration number, whether a treatment certificate comes with every order, their treatment temperature and duration, custom size capability, timber species, lead times for your volume, and client references.",
+      },
+      {
+        question: "What are the red flags when choosing a pallet supplier?",
+        answer:
+          "No NPQS registration number, unexplained low prices, no sample treatment certificate, vague answers about the heat treatment process, and no on-site heat treatment facility.",
+      },
+    ],
   },
   {
     slug: "wooden-pallets-for-tea-export-sri-lanka",
@@ -614,7 +880,38 @@ For tea exporters, lead time and reliability are critical. Delays in pallet supp
 To discuss your pallet requirements for tea export, contact CeyPall directly. We will confirm sizes, quantities, lead times, and provide a quote.
 
 For detailed information about tea pallet sizes, delivery regions, and FAQ, visit our dedicated [pallets for tea export](/pallets-for-tea-export) page. You can also check moisture levels with our [Moisture Content Calculator](/moisture-content-calculator) and plan container loading with our [Container Pallet Calculator](/container-pallet-calculator).
+
+## Frequently asked questions
+
+### Do tea export pallets need to be ISPM 15 certified?
+
+Yes. All of Sri Lanka's major tea markets, including the EU, UK, Russia, the Middle East and China, require heat-treated, IPPC-stamped wooden pallets.
+
+### What pallet size is used for Ceylon tea export?
+
+Most commonly 1200 × 1000 mm, or 1200 × 800 mm Euro pallets for European buyers. Custom sizes are sometimes used for bulk tea.
+
+### Do tea buyers ask for a heat treatment certificate?
+
+Many do, particularly in Europe and the Middle East. The certificate confirms treatment date, temperature, duration and the manufacturer's NPQS registration. CeyPall issues one with every order.
     `,
+    faqs: [
+      {
+        question: "Do tea export pallets need to be ISPM 15 certified?",
+        answer:
+          "Yes. All of Sri Lanka's major tea markets, including the EU, UK, Russia, the Middle East and China, require heat-treated, IPPC-stamped wooden pallets.",
+      },
+      {
+        question: "What pallet size is used for Ceylon tea export?",
+        answer:
+          "Most commonly 1200 × 1000 mm, or 1200 × 800 mm Euro pallets for European buyers. Custom sizes are sometimes used for bulk tea.",
+      },
+      {
+        question: "Do tea buyers ask for a heat treatment certificate?",
+        answer:
+          "Many do, particularly in Europe and the Middle East. The certificate confirms treatment date, temperature, duration and the manufacturer's NPQS registration. CeyPall issues one with every order.",
+      },
+    ],
   },
   {
     slug: "pallet-requirements-exporting-to-eu-from-sri-lanka",
@@ -677,7 +974,38 @@ EU customs authorities carry out random and targeted inspections of wooden packa
 ## CeyPall Supplies EU-Compliant Pallets
 
 CeyPall (Pvt) Ltd has been supplying EU-compliant ISPM 15 heat-treated pallets to Sri Lankan exporters for over two decades. All pallets carry the HT stamp and are supplied with treatment certificates. We manufacture Euro-size (1200 × 800 mm) and all other standard international dimensions, with island-wide delivery across Sri Lanka.
+
+## Frequently asked questions
+
+### What pallets are required to export to the EU from Sri Lanka?
+
+ISPM 15 pallets that are heat treated to 56°C core for at least 30 minutes and stamped with a valid IPPC mark showing the wheat symbol, LK, the NPQS producer code and HT.
+
+### What pallet size do EU buyers expect?
+
+Usually the Euro pallet, 1200 × 800 mm, which most EU warehouses and distribution centres are built around. Confirm with your buyer before ordering.
+
+### Who pays if a pallet fails EU inspection?
+
+The cost of re-treatment, storage and possible destruction falls on the importer, which is often charged back to the exporter.
     `,
+    faqs: [
+      {
+        question: "What pallets are required to export to the EU from Sri Lanka?",
+        answer:
+          "ISPM 15 pallets that are heat treated to 56°C core for at least 30 minutes and stamped with a valid IPPC mark showing the wheat symbol, LK, the NPQS producer code and HT.",
+      },
+      {
+        question: "What pallet size do EU buyers expect?",
+        answer:
+          "Usually the Euro pallet, 1200 × 800 mm, which most EU warehouses and distribution centres are built around. Confirm with your buyer before ordering.",
+      },
+      {
+        question: "Who pays if a pallet fails EU inspection?",
+        answer:
+          "The cost of re-treatment, storage and possible destruction falls on the importer, which is often charged back to the exporter.",
+      },
+    ],
   },
   {
     slug: "sri-lanka-export-packaging-regulations-2026",
@@ -786,7 +1114,47 @@ Some exporters discard or do not request treatment certificates. When a customs 
 CeyPall (Pvt) Ltd is registered with the National Plant Quarantine Service of Sri Lanka as an approved ISPM 15 heat treatment provider. Every pallet we manufacture is heat treated to 56°C core temperature for 30 minutes, IPPC-stamped with our registered producer code, supplied with an official treatment certificate, and manufactured from locally sourced rubber wood and Lunumidella.
 
 We supply exporters across every sector in Sri Lanka — tea, apparel, rubber, coconut, electronics, and industrial goods — with island-wide delivery and standard or custom pallet sizes.
+
+## Frequently asked questions
+
+### Who regulates ISPM 15 in Sri Lanka?
+
+The National Plant Quarantine Service (NPQS) under the Department of Agriculture. It registers and audits heat treatment providers and issues IPPC producer codes.
+
+### How much bark is allowed on an ISPM 15 pallet?
+
+Treated wood must be bark-free, except for small pieces less than 3 cm wide (regardless of length) or less than 50 cm² in total area.
+
+### Does a repaired pallet need to be re-treated?
+
+Yes. A pallet that has been repaired, modified or had components replaced after treatment must be re-treated and re-stamped. Using it with the original stamp is a compliance violation.
+
+### Is the exporter or the freight forwarder responsible for pallet compliance?
+
+The exporter. Most freight forwarders do not inspect pallets, and if a shipment is rejected the cost falls on the exporter.
     `,
+    faqs: [
+      {
+        question: "Who regulates ISPM 15 in Sri Lanka?",
+        answer:
+          "The National Plant Quarantine Service (NPQS) under the Department of Agriculture. It registers and audits heat treatment providers and issues IPPC producer codes.",
+      },
+      {
+        question: "How much bark is allowed on an ISPM 15 pallet?",
+        answer:
+          "Treated wood must be bark-free, except for small pieces less than 3 cm wide (regardless of length) or less than 50 cm² in total area.",
+      },
+      {
+        question: "Does a repaired pallet need to be re-treated?",
+        answer:
+          "Yes. A pallet that has been repaired, modified or had components replaced after treatment must be re-treated and re-stamped. Using it with the original stamp is a compliance violation.",
+      },
+      {
+        question: "Is the exporter or the freight forwarder responsible for pallet compliance?",
+        answer:
+          "The exporter. Most freight forwarders do not inspect pallets, and if a shipment is rejected the cost falls on the exporter.",
+      },
+    ],
   },
   {
     slug: "pallet-moisture-content-guide-exporters",
@@ -873,7 +1241,38 @@ Use our free [Moisture Content Calculator](/moisture-content-calculator) to calc
 All CeyPall pallets go through our kiln-drying process, which reduces moisture content to below 15%. The heat treatment required for ISPM 15 compliance (56°C core temperature for 30 minutes) is carried out simultaneously with kiln drying, ensuring both phytosanitary compliance and low moisture content in a single process.
 
 We use calibrated moisture meters to verify MC levels before pallets leave our facility. If you have specific MC requirements for your cargo, contact us to discuss your needs.
+
+## Frequently asked questions
+
+### What moisture content should export pallets have?
+
+Below 15%. For moisture-sensitive cargo such as tea, spices, electronics and EU food-contact products, below 12% is recommended.
+
+### What is container rain?
+
+When a sealed container travels from tropical Sri Lanka to a colder destination, moisture released from high-moisture pallet wood condenses on the container walls and ceiling and drips onto the cargo, causing mould, staining and corrosion.
+
+### How do I measure pallet moisture content?
+
+Use a pin-type or pinless moisture meter and average readings from several points. The oven-dry method is the most accurate but is too slow for routine checks.
     `,
+    faqs: [
+      {
+        question: "What moisture content should export pallets have?",
+        answer:
+          "Below 15%. For moisture-sensitive cargo such as tea, spices, electronics and EU food-contact products, below 12% is recommended.",
+      },
+      {
+        question: "What is container rain?",
+        answer:
+          "When a sealed container travels from tropical Sri Lanka to a colder destination, moisture released from high-moisture pallet wood condenses on the container walls and ceiling and drips onto the cargo, causing mould, staining and corrosion.",
+      },
+      {
+        question: "How do I measure pallet moisture content?",
+        answer:
+          "Use a pin-type or pinless moisture meter and average readings from several points. The oven-dry method is the most accurate but is too slow for routine checks.",
+      },
+    ],
   },
   {
     slug: "pallet-storage-handling-best-practices",
@@ -975,7 +1374,47 @@ If pallets are exposed to rain or flooding:
 CeyPall delivers pallets on a scheduled basis aligned with your container stuffing schedule, minimising storage time at your facility. For clients with limited covered storage, we can arrange just-in-time delivery within 3-5 working days of your loading date.
 
 All pallets are delivered at below 15% MC and are stored in our covered facility until dispatch. Contact us to set up a recurring delivery schedule that matches your export cycle.
+
+## Frequently asked questions
+
+### How should wooden export pallets be stored?
+
+Under cover, on a dry, level surface, raised off the ground, with air circulation between stacks, and away from untreated timber. Use oldest stock first.
+
+### How quickly can stored pallets absorb moisture in Sri Lanka?
+
+With humidity regularly above 80%, an uncovered pallet can absorb enough moisture in 1–2 weeks to exceed safe export levels.
+
+### What should I do if pallets get wet?
+
+Move them to a dry covered area, separate them from dry stock, air-dry them for 3–5 days, and re-check moisture before use. If moisture content is still above 15%, do not use them for export.
+
+### How high can wooden pallets be stacked in storage?
+
+The recommended maximum stack height is 15 pallets for standard construction.
     `,
+    faqs: [
+      {
+        question: "How should wooden export pallets be stored?",
+        answer:
+          "Under cover, on a dry, level surface, raised off the ground, with air circulation between stacks, and away from untreated timber. Use oldest stock first.",
+      },
+      {
+        question: "How quickly can stored pallets absorb moisture in Sri Lanka?",
+        answer:
+          "With humidity regularly above 80%, an uncovered pallet can absorb enough moisture in 1–2 weeks to exceed safe export levels.",
+      },
+      {
+        question: "What should I do if pallets get wet?",
+        answer:
+          "Move them to a dry covered area, separate them from dry stock, air-dry them for 3–5 days, and re-check moisture before use. If moisture content is still above 15%, do not use them for export.",
+      },
+      {
+        question: "How high can wooden pallets be stacked in storage?",
+        answer:
+          "The recommended maximum stack height is 15 pallets for standard construction.",
+      },
+    ],
   },
   {
     slug: "how-to-store-heat-treated-export-pallets",
