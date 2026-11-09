@@ -7,9 +7,9 @@ import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'Wholesale Wooden Pallets Sri Lanka | Bulk Supply — CeyPall',
+  title: 'Wholesale Wooden Pallets Sri Lanka | Bulk Supply',
   description:
-    'Wholesale ISPM 15 wooden pallets from CeyPall — bulk supply for exporters, freight forwarders, and manufacturers. Recurring delivery schedules, container-load quantities, island-wide.',
+    'Wholesale ISPM 15 wooden pallets for exporters, freight forwarders and manufacturers. Container-load quantities, recurring delivery, island-wide.',
   alternates: {
     canonical: 'https://www.ceypall.com/wholesale-pallets-sri-lanka',
   },

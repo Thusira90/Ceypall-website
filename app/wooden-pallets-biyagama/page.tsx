@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'Wooden Pallets Biyagama | ISPM 15 Export Pallets — CeyPall',
+  title: 'Wooden Pallets Biyagama | ISPM 15 Export Pallets',
   description:
     'ISPM 15 heat-treated wooden pallets delivered to the Biyagama Export Processing Zone and surrounding Gampaha industrial estates. IPPC-stamped, certificate included.',
   alternates: { canonical: 'https://www.ceypall.com/wooden-pallets-biyagama' },

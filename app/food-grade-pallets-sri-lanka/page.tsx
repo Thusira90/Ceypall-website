@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'Food Grade Pallets Sri Lanka | ISPM 15 Heat Treated — CeyPall',
+  title: 'Food Grade Pallets Sri Lanka | ISPM 15 Heat Treated',
   description:
     'Food grade wooden pallets from CeyPall — heat treated to ISPM 15, no chemical residue, low moisture. Trusted by CBL Natural Foods, Akbar Brothers, and Ceylon Tea Marketing.',
   alternates: {

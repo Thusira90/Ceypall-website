@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/Button'
 import { RelatedLinks } from '@/components/ui/RelatedLinks'
 
 export const metadata: Metadata = {
-  title: 'Pallet Terminology Glossary — 50+ Terms Defined | CeyPall',
+  title: 'Pallet Terminology Glossary — 50+ Terms Defined',
   description:
     'Plain-English definitions for 50+ pallet, ISPM 15 and export packaging terms — from block pallets and chamfered boards to IPPC marks, kiln drying, dunnage and VPI.',
   alternates: { canonical: 'https://www.ceypall.com/pallet-terminology-glossary' },

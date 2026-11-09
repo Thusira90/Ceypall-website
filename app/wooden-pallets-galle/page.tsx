@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
 
 export const metadata: Metadata = {
-  title: 'Wooden Pallets Galle | ISPM 15 Export Pallets — CeyPall',
+  title: 'Wooden Pallets Galle | ISPM 15 Export Pallets',
   description:
     'ISPM 15 heat-treated wooden pallets delivered to Galle, Koggala EPZ, Matara and the Southern Province export corridor. IPPC-stamped, certificate included.',
   alternates: { canonical: 'https://www.ceypall.com/wooden-pallets-galle' },
