@@ -7,6 +7,7 @@ import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
+import { LocalDetails } from '@/components/geo/LocalDetails'
 
 export const metadata: Metadata = {
   title: 'Wooden Pallets Ratmalana | ISPM 15 Export Pallets',
@@ -153,6 +154,36 @@ export default function WoodenPalletsRatmalanaPage() {
           </FadeUp>
         </div>
       </section>
+
+      <LocalDetails {...{
+        "city": "Ratmalana",
+        "shipping": [
+          "Ratmalana is on the Galle Road (A2) about 15 km south of Colombo Port, and forms one industrial belt with Moratuwa and Katubedda. Containers loaded in this belt are usually trucked north to the port along Galle Road and Marine Drive.",
+          "Orders for Ratmalana and Moratuwa can be combined on a single delivery run, and recurring schedules can be set to match regular container loading dates."
+        ],
+        "nearby": [
+          {
+            "href": "/wooden-pallets-colombo",
+            "name": "Colombo",
+            "note": "Colombo Port and the city warehouse district"
+          },
+          {
+            "href": "/wooden-pallets-peliyagoda",
+            "name": "Peliyagoda",
+            "note": "Peliyagoda warehousing and wholesale"
+          },
+          {
+            "href": "/wooden-pallets-galle",
+            "name": "Galle",
+            "note": "Galle, Koggala and Matara"
+          },
+          {
+            "href": "/wooden-pallets-sri-lanka",
+            "name": "across Sri Lanka",
+            "note": "Island-wide delivery and all EPZs"
+          }
+        ]
+      }} />
 
       <RelatedLinks
         links={[

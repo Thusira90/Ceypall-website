@@ -7,6 +7,7 @@ import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
+import { LocalDetails } from '@/components/geo/LocalDetails'
 
 export const metadata: Metadata = {
   title: 'Wooden Pallets Ja-Ela | ISPM 15 Export Pallets',
@@ -153,6 +154,36 @@ export default function WoodenPalletsJaElaPage() {
           </FadeUp>
         </div>
       </section>
+
+      <LocalDetails {...{
+        "city": "Ja-Ela",
+        "shipping": [
+          "Ja-Ela sits between the two main export gateways: Colombo Port is about 20 km to the south and Bandaranaike International Airport at Katunayake about 10 km to the north. That makes the Ja-Ela–Ekala belt a common base for factories that ship by both sea and air.",
+          "Because our Kochchikade facility is on the same Negombo Road corridor, pallets can be delivered to your factory ahead of container stuffing, so the container leaves with ISPM 15 pallets and the matching treatment certificate already in your export file."
+        ],
+        "nearby": [
+          {
+            "href": "/wooden-pallets-katunayake",
+            "name": "Katunayake",
+            "note": "Katunayake FTZ and Seeduwa"
+          },
+          {
+            "href": "/wooden-pallets-wattala",
+            "name": "Wattala",
+            "note": "Wattala, Hendala and Mahara"
+          },
+          {
+            "href": "/wooden-pallets-negombo",
+            "name": "Negombo",
+            "note": "Negombo town and the coastal belt"
+          },
+          {
+            "href": "/wooden-pallets-kelaniya",
+            "name": "Kelaniya",
+            "note": "Kelaniya and Kiribathgoda"
+          }
+        ]
+      }} />
 
       <RelatedLinks
         links={[

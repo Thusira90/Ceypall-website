@@ -680,7 +680,7 @@ These costs almost always exceed the price difference between a certified and un
 
 ## CeyPall Eliminates These Risks
 
-Every pallet manufactured by CeyPall is produced under our NPQS-certified heat treatment programme, carries the official IPPC stamp, and is supplied with a treatment certificate. We have been manufacturing ISPM 15-compliant export pallets since 2005 and supply exporters across every sector in Sri Lanka.
+Every pallet manufactured by CeyPall is produced under our NPQS-certified heat treatment programme, carries the official IPPC stamp, and is supplied with a treatment certificate. Pallets have been made at our Kochchikade site since 2005, and we supply exporters across every sector in Sri Lanka.
 
 ## Frequently asked questions
 
@@ -787,7 +787,7 @@ The price difference between a certified and uncertified pallet is small compare
 
 ## About CeyPall
 
-CeyPall (Pvt) Ltd has been manufacturing ISPM 15-certified wooden pallets since 2005. We are NPQS-registered, IPPC-stamped, and supply treatment certificates with every order. We manufacture all standard international sizes and custom dimensions, using locally sourced rubber wood and Lunumidella, with island-wide delivery across Sri Lanka.
+CeyPall (Pvt) Ltd builds on pallet production at our Kochchikade site that dates back to 2005. We are NPQS-registered, IPPC-stamped, and supply treatment certificates with every order. We manufacture all standard international sizes and custom dimensions, using locally sourced rubber wood and Lunumidella, with island-wide delivery across Sri Lanka.
 
 ## Frequently asked questions
 
@@ -973,7 +973,7 @@ EU customs authorities carry out random and targeted inspections of wooden packa
 
 ## CeyPall Supplies EU-Compliant Pallets
 
-CeyPall (Pvt) Ltd has been supplying EU-compliant ISPM 15 heat-treated pallets to Sri Lankan exporters for over two decades. All pallets carry the HT stamp and are supplied with treatment certificates. We manufacture Euro-size (1200 × 800 mm) and all other standard international dimensions, with island-wide delivery across Sri Lanka.
+CeyPall (Pvt) Ltd supplies EU-compliant ISPM 15 heat-treated pallets to Sri Lankan exporters from our Kochchikade site, where pallets have been produced since 2005. All pallets carry the HT stamp and are supplied with treatment certificates. We manufacture Euro-size (1200 × 800 mm) and all other standard international dimensions, with island-wide delivery across Sri Lanka.
 
 ## Frequently asked questions
 
@@ -1109,7 +1109,7 @@ Some exporters discard or do not request treatment certificates. When a customs 
 - Use heat treatment (HT) exclusively — avoid MB-treated pallets for any market
 - Keep records of your pallet supplier's NPQS registration number
 
-## CeyPall: Fully Compliant Since 2005
+## CeyPall: A Fully Compliant ISPM 15 Supplier
 
 CeyPall (Pvt) Ltd is registered with the National Plant Quarantine Service of Sri Lanka as an approved ISPM 15 heat treatment provider. Every pallet we manufacture is heat treated to 56°C core temperature for 30 minutes, IPPC-stamped with our registered producer code, supplied with an official treatment certificate, and manufactured from locally sourced rubber wood and Lunumidella.
 
