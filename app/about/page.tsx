@@ -63,6 +63,8 @@ const aboutPageJsonLd = {
       'https://www.facebook.com/profile.php?id=61587265021762',
       'https://www.instagram.com/ceypall/',
       'https://www.linkedin.com/company/ceypall-pvt-ltd/',
+
+      'https://maps.google.com/?cid=2049753436091962079',
     ],
   },
 }

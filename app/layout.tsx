@@ -122,7 +122,7 @@ export default function RootLayout({
         geo: {
           '@type': 'GeoCoordinates',
           latitude: 7.2533,
-          longitude: 79.8518,
+          longitude: 79.8544,
         },
         foundingDate: '2025-10-03',
         areaServed: { '@type': 'Country', name: 'Sri Lanka' },
@@ -130,6 +130,8 @@ export default function RootLayout({
           'https://www.facebook.com/profile.php?id=61587265021762',
           'https://www.instagram.com/ceypall/',
           'https://www.linkedin.com/company/ceypall-pvt-ltd/',
+
+          'https://maps.google.com/?cid=2049753436091962079',
         ],
       },
       {
@@ -152,7 +154,7 @@ export default function RootLayout({
         geo: {
           '@type': 'GeoCoordinates',
           latitude: 7.2533,
-          longitude: 79.8518,
+          longitude: 79.8544,
         },
         openingHoursSpecification: {
           '@type': 'OpeningHoursSpecification',
@@ -171,12 +173,14 @@ export default function RootLayout({
           { '@type': 'City', name: 'Negombo' },
           { '@type': 'City', name: 'Kochchikade' },
         ],
-        hasMap: 'https://maps.google.com/?q=1088+Colombo+Road+Kochchikade+Sri+Lanka',
+        hasMap: 'https://maps.google.com/?cid=2049753436091962079',
         foundingDate: '2025-10-03',
         sameAs: [
           'https://www.facebook.com/profile.php?id=61587265021762',
           'https://www.instagram.com/ceypall/',
           'https://www.linkedin.com/company/ceypall-pvt-ltd/',
+
+          'https://maps.google.com/?cid=2049753436091962079',
         ],
       },
       {
