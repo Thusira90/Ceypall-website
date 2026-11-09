@@ -7,6 +7,7 @@ import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
+import { LocalDetails } from '@/components/geo/LocalDetails'
 
 export const metadata: Metadata = {
   title: 'Wooden Pallets Galle | ISPM 15 Export Pallets',
@@ -153,6 +154,36 @@ export default function WoodenPalletsGallePage() {
           </FadeUp>
         </div>
       </section>
+
+      <LocalDetails {...{
+        "city": "Galle",
+        "shipping": [
+          "Most containerised exports from Galle, Koggala and Matara are trucked to Colombo Port, about 120 km north on the Southern Expressway (E01). The Southern Province ships garments from the Koggala EPZ, along with low-country tea, cinnamon, coconut and seafood products.",
+          "For moisture-sensitive cargo such as cinnamon and tea, the kiln-dried pallets and the certificate listing each pallet number help when a buyer or inspector asks how the packaging was treated."
+        ],
+        "nearby": [
+          {
+            "href": "/wooden-pallets-ratmalana",
+            "name": "Ratmalana",
+            "note": "Ratmalana and Moratuwa"
+          },
+          {
+            "href": "/wooden-pallets-colombo",
+            "name": "Colombo",
+            "note": "Colombo Port and the city warehouse district"
+          },
+          {
+            "href": "/wooden-pallets-kandy",
+            "name": "Kandy",
+            "note": "Kandy, Matale and Peradeniya"
+          },
+          {
+            "href": "/wooden-pallets-sri-lanka",
+            "name": "across Sri Lanka",
+            "note": "Island-wide delivery and all EPZs"
+          }
+        ]
+      }} />
 
       <RelatedLinks
         links={[

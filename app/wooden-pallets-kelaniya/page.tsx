@@ -7,6 +7,7 @@ import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
+import { LocalDetails } from '@/components/geo/LocalDetails'
 
 export const metadata: Metadata = {
   title: 'Wooden Pallets Kelaniya | ISPM 15 Export Pallets',
@@ -153,6 +154,36 @@ export default function WoodenPalletsKelaniyaPage() {
           </FadeUp>
         </div>
       </section>
+
+      <LocalDetails {...{
+        "city": "Kelaniya",
+        "shipping": [
+          "Kelaniya is on the north bank of the Kelani River, roughly 10 km from Colombo Port, and sits on the Colombo–Kandy Road (A1) next to the Biyagama EPZ. Most containers loaded here are trucked the short distance to the port.",
+          "With the port this close, the tight window is usually between pallet delivery and container stuffing. We schedule deliveries to your loading date so pallets do not sit in open yards picking up moisture before they are used."
+        ],
+        "nearby": [
+          {
+            "href": "/wooden-pallets-biyagama",
+            "name": "Biyagama",
+            "note": "Biyagama Export Processing Zone"
+          },
+          {
+            "href": "/wooden-pallets-peliyagoda",
+            "name": "Peliyagoda",
+            "note": "Peliyagoda warehousing and wholesale"
+          },
+          {
+            "href": "/wooden-pallets-wattala",
+            "name": "Wattala",
+            "note": "Wattala, Hendala and Mahara"
+          },
+          {
+            "href": "/wooden-pallets-colombo",
+            "name": "Colombo",
+            "note": "Colombo Port and the city warehouse district"
+          }
+        ]
+      }} />
 
       <RelatedLinks
         links={[

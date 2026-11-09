@@ -7,6 +7,7 @@ import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
+import { LocalDetails } from '@/components/geo/LocalDetails'
 
 export const metadata: Metadata = {
   title: 'Wooden Pallets Kandy | ISPM 15 Export Pallets',
@@ -153,6 +154,36 @@ export default function WoodenPalletsKandyPage() {
           </FadeUp>
         </div>
       </section>
+
+      <LocalDetails {...{
+        "city": "Kandy",
+        "shipping": [
+          "Kandy has no seaport, so tea, spice and manufactured exports from the Central Province are trucked to Colombo Port, about 115 km west along the Colombo–Kandy corridor. Many exporters also send goods to Colombo-area warehouses or consolidators for palletising and container stuffing.",
+          "If your cargo is palletised in Kandy, ISPM 15 pallets need to be at your site before loading. If it is palletised in Colombo, we can deliver to the warehouse or consolidator instead. Either way the treatment certificate goes with the pallets."
+        ],
+        "nearby": [
+          {
+            "href": "/wooden-pallets-kelaniya",
+            "name": "Kelaniya",
+            "note": "Kelaniya and Kiribathgoda"
+          },
+          {
+            "href": "/wooden-pallets-biyagama",
+            "name": "Biyagama",
+            "note": "Biyagama Export Processing Zone"
+          },
+          {
+            "href": "/wooden-pallets-colombo",
+            "name": "Colombo",
+            "note": "Colombo Port and the city warehouse district"
+          },
+          {
+            "href": "/wooden-pallets-sri-lanka",
+            "name": "across Sri Lanka",
+            "note": "Island-wide delivery and all EPZs"
+          }
+        ]
+      }} />
 
       <RelatedLinks
         links={[

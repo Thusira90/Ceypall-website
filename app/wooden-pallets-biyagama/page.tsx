@@ -7,6 +7,7 @@ import { AnswerBlock } from '@/components/ui/AnswerBlock'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
 import { SchemaScript } from '@/components/ui/SchemaScript'
+import { LocalDetails } from '@/components/geo/LocalDetails'
 
 export const metadata: Metadata = {
   title: 'Wooden Pallets Biyagama | ISPM 15 Export Pallets',
@@ -155,6 +156,36 @@ export default function WoodenPalletsBiyagamaPage() {
           </FadeUp>
         </div>
       </section>
+
+      <LocalDetails {...{
+        "city": "Biyagama",
+        "shipping": [
+          "The Biyagama Export Processing Zone is about 20 km from Colombo Port. Most BOI-registered factories in the zone load containers on site and truck them to the port, so pallets need to arrive before the stuffing date.",
+          "We schedule deliveries to your container loading dates and can set up a recurring delivery plan for factories that ship every week."
+        ],
+        "nearby": [
+          {
+            "href": "/wooden-pallets-kelaniya",
+            "name": "Kelaniya",
+            "note": "Kelaniya and Kiribathgoda"
+          },
+          {
+            "href": "/wooden-pallets-peliyagoda",
+            "name": "Peliyagoda",
+            "note": "Peliyagoda warehousing and wholesale"
+          },
+          {
+            "href": "/wooden-pallets-wattala",
+            "name": "Wattala",
+            "note": "Wattala, Hendala and Mahara"
+          },
+          {
+            "href": "/wooden-pallets-colombo",
+            "name": "Colombo",
+            "note": "Colombo Port and the city warehouse district"
+          }
+        ]
+      }} />
 
       <RelatedLinks
         links={[
