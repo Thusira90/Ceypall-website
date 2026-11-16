@@ -40,7 +40,7 @@ const items = [
         <path d="M3 6h14M3 10h14M3 14h8" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
       </svg>
     ),
-    label: '20+ years of pallet expertise',
+    label: 'No minimum order quantity',
   },
 ]
 

@@ -17,9 +17,9 @@ export const metadata: Metadata = {
     title: 'Wooden Pallets — Ratmalana | CeyPall',
     description: 'ISPM 15 heat-treated pallets for factories and exporters in Ratmalana, Moratuwa and Dehiwala.',
     url: 'https://www.ceypall.com/wooden-pallets-ratmalana',
-    images: [{ url: '/OPENGIMAGE.jpg', width: 1200, height: 630, alt: 'CeyPall pallets for Ratmalana exporters' }],
+    images: [{ url: '/opengimage.jpg', width: 1200, height: 630, alt: 'CeyPall pallets for Ratmalana exporters' }],
   },
-  twitter: { description: 'ISPM 15 pallets for Ratmalana — heat-treated, IPPC-stamped, delivered on schedule.', images: ['/OPENGIMAGE.jpg'] },
+  twitter: { description: 'ISPM 15 pallets for Ratmalana — heat-treated, IPPC-stamped, delivered on schedule.', images: ['/opengimage.jpg'] },
 }
 
 const localBusinessJsonLd = {
@@ -29,7 +29,7 @@ const localBusinessJsonLd = {
   name: 'CeyPall (Pvt) Ltd',
   description: 'ISPM 15 wooden pallet manufacturer serving factories and exporters in Ratmalana, Moratuwa and the southern Colombo industrial belt.',
   url: 'https://www.ceypall.com/wooden-pallets-ratmalana',
-  telephone: ['+94714711417', '+94769494944', '+94312277752'],
+  telephone: '+94714711417',
   email: 'office@ceypall.com',
   address: { '@type': 'PostalAddress', streetAddress: '1088, Colombo Road, Daluwakotuwa', addressLocality: 'Kochchikade', postalCode: '11540', addressCountry: 'LK' },
   areaServed: [
@@ -105,7 +105,7 @@ export default function WoodenPalletsRatmalanaPage() {
             </FadeUp>
             <FadeUp delay={0.12}>
               <div className="aspect-[4/3] relative overflow-hidden">
-                <Image src="/Storage.png" alt="ISPM 15 pallets loaded for Ratmalana exporters" fill className="object-cover" priority />
+                <Image src="/storage.png" alt="ISPM 15 pallets loaded for Ratmalana exporters" fill className="object-cover" priority />
               </div>
             </FadeUp>
           </div>

@@ -7,18 +7,18 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'Contact — Get a Quote',
   description:
-    'Request a quote from CeyPall for ISPM 15 heat-treated export pallets or VPI storage pallets. Call +94 312 277 752 or email office@ceypall.com.',
+    'Request a quote from CeyPall for ISPM 15 heat-treated export or VPI storage pallets. No minimum order. Call or WhatsApp 0714 711 417 or email office@ceypall.com.',
   alternates: {
     canonical: 'https://www.ceypall.com/contact',
   },
   openGraph: {
     title: 'Contact CeyPall — Get a Quote for Export Pallets',
     description:
-      'Request a quote from CeyPall (Pvt) Ltd for ISPM 15 heat-treated export pallets or vacuum pressure impregnated storage pallets. Call +94 312 277 752 or email office@ceypall.com.',
+      'Request a quote from CeyPall (Pvt) Ltd for ISPM 15 heat-treated export pallets or vacuum pressure impregnated storage pallets. No minimum order. Call or WhatsApp +94 714 711 417 or email office@ceypall.com.',
     url: 'https://www.ceypall.com/contact',
     images: [
       {
-        url: '/OPENGIMAGE.jpg',
+        url: '/opengimage.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Contact CeyPall — Get a Quote for Export Pallets',
     description:
-      'Request a quote for ISPM 15 heat-treated export pallets. Call +94 312 277 752 or email office@ceypall.com.',
-    images: ['/OPENGIMAGE.jpg'],
+      'Request a quote for ISPM 15 heat-treated export pallets. No minimum order. Call or WhatsApp +94 714 711 417.',
+    images: ['/opengimage.jpg'],
   },
 }
 
@@ -48,9 +48,8 @@ const contactDetails = [
       </svg>
     ),
     lines: [
-      <a key="p2" href="tel:+94714711417" className="hover:text-primary transition-colors">+94 714 711 417</a>,
-      <a key="p3" href="tel:+94769494944" className="hover:text-primary transition-colors">+94 769 494 944</a>,
-      <a key="p1" href="tel:+94312277752" className="hover:text-primary transition-colors">+94 312 277 752</a>,
+      <a key="p1" href="tel:+94714711417" className="hover:text-primary transition-colors">+94 714 711 417</a>,
+      <a key="w1" href="https://wa.me/94714711417" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">WhatsApp: +94 714 711 417</a>,
     ],
   },
   {
@@ -80,6 +79,19 @@ const contactDetails = [
     lines: [
       <span key="a1">1088, Colombo Road, Daluwakotuwa,</span>,
       <span key="a2">Kochchikade, Sri Lanka 11540</span>,
+    ],
+  },
+  {
+    label: 'Hours',
+    icon: (
+      <svg className="w-4 h-4" viewBox="0 0 16 16" fill="none">
+        <circle cx="8" cy="8" r="6.5" stroke="currentColor" strokeWidth="1.2" />
+        <path d="M8 4.5V8l2.5 1.5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
+      </svg>
+    ),
+    lines: [
+      <span key="h1">Monday – Saturday, 8:30am – 5:30pm</span>,
+      <span key="h2">Closed Sundays and public holidays</span>,
     ],
   },
 ]
@@ -159,24 +171,16 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                {/* Sister company */}
+                {/* Ordering note */}
                 <div className="bg-warm-gray/60 border border-warm-gray p-6">
                   <p className="font-body text-xs font-semibold tracking-[0.12em] uppercase text-charcoal/50 mb-3">
-                    Related services
+                    Good to know
                   </p>
-                  <p className="font-body text-sm text-charcoal/70 leading-relaxed">
-                    Need timber treatment or kiln drying services? Visit our sister company{' '}
-                    <strong className="text-primary font-semibold">St. Xavier Timber</strong> at{' '}
-                    <a
-                      href="https://stxaviertimber.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-accent underline underline-offset-2 hover:text-accent-hover transition-colors"
-                    >
-                      stxaviertimber.com
-                    </a>{' '}
-                    for chemical impregnation and kiln drying services.
-                  </p>
+                  <ul className="font-body text-sm text-charcoal/70 leading-relaxed space-y-1.5">
+                    <li><strong className="text-primary font-semibold">No minimum order</strong> — from a single pallet to a full container.</li>
+                    <li>Open Monday to Saturday, 8:30am–5:30pm.</li>
+                    <li>Quotes are usually sent within one business day.</li>
+                  </ul>
                 </div>
               </div>
             </FadeUp>

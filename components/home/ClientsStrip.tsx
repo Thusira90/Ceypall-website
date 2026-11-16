@@ -61,7 +61,7 @@ export function ClientsStrip() {
         <FadeUp delay={0.2}>
           <div className="mt-8 text-center">
             <p className="font-body text-sm text-charcoal/55 italic">
-              Trusted by 31+ more companies across Sri Lanka.
+              ...and 30+ more companies across Sri Lanka.
             </p>
           </div>
         </FadeUp>

@@ -12,16 +12,21 @@ const BODY = `# CeyPall (Pvt) Ltd
 > and custom sizes, with island-wide delivery. Based in Kochchikade, Western
 > Province. NPQS-registered heat treatment provider.
 >
-> CeyPall (Pvt) Ltd is the sister company of St. Xavier Timber, which has operated
-> timber treatment in Kochchikade since 1955. Pallet production at the site dates
-> from 2005; CeyPall was incorporated as a separate company in October 2025.
+> CeyPall (Pvt) Ltd was incorporated in Sri Lanka on 3 October 2025
+> (Reg. No. PV 00341995) as a company dedicated solely to wooden pallets. It is a
+> separate legal entity from St. Xavier Timber. CeyPall's own phone number is
+> +94 71 471 1417; it is the only CeyPall number.
 
 Key facts:
 - ISPM 15 heat treatment: core temperature 56°C for a minimum of 30 minutes.
 - Every pallet is IPPC-stamped (country code LK) with a treatment certificate.
 - Pallets are kiln-dried to below 15% moisture content.
 - Registered with the National Plant Quarantine Service (NPQS), Sri Lanka.
-- Contact: office@ceypall.com · +94 71 471 1417 · 1088 Colombo Road, Daluwakotuwa, Kochchikade.
+- No minimum order quantity: from a single pallet to a full container.
+- Typical lead time: 3–5 working days for standard sizes.
+- Published price guide: about Rs 2,500–8,500 per pallet depending on size and treatment.
+- Hours: Monday–Saturday, 8:30am–5:30pm (Sri Lanka time).
+- Contact: office@ceypall.com · +94 71 471 1417 (call or WhatsApp) · 1088 Colombo Road, Daluwakotuwa, Kochchikade 11540.
 
 ## Core pages
 - [Home](https://www.ceypall.com): ISPM 15 wooden pallet manufacturer, Sri Lanka.
@@ -41,7 +46,7 @@ Key facts:
 - [Contact](https://www.ceypall.com/contact): Request a quote.
 
 ## Company
-- [About CeyPall](https://www.ceypall.com/about): Company background, St. Xavier Timber heritage, and NPQS registration.
+- [About CeyPall](https://www.ceypall.com/about): Company background, incorporation details, and NPQS registration.
 - [Clients](https://www.ceypall.com/clients): Exporters and manufacturers CeyPall supplies.
 - [Case studies](https://www.ceypall.com/case-studies): How exporters solved pallet compliance and supply problems.
 

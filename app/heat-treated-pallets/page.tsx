@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   twitter: {
     description:
       'ISPM 15 certified heat treated wooden pallets from CeyPall, Sri Lanka. IPPC-stamped, export-ready pallets with island-wide delivery. Custom sizes for tea, apparel, rubber and coconut exporters.',
-    images: ['/OPENGIMAGE.jpg'],
+    images: ['/opengimage.jpg'],
   },
   alternates: {
     canonical: 'https://www.ceypall.com/heat-treated-pallets',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/heat-treated-pallets',
     images: [
       {
-        url: '/OPENGIMAGE.jpg',
+        url: '/opengimage.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -53,7 +53,7 @@ const productJsonLd = {
   name: 'Heat Treated Pallets',
   description:
     'ISPM 15 certified heat treated wooden pallets manufactured by CeyPall (Pvt) Ltd in Sri Lanka. IPPC-stamped, export-ready with island-wide delivery.',
-  image: 'https://www.ceypall.com/HT%20PALLET%2012.PNG',
+  image: 'https://www.ceypall.com/ht-pallet-12.png',
   brand: {
     '@type': 'Brand',
     name: 'CeyPall',
@@ -442,7 +442,7 @@ export default function HeatTreatedPalletsPage() {
               {/* Hero image */}
               <div className="aspect-[4/3] relative overflow-hidden">
                 <Image
-                  src="/HT PALLET 12.PNG"
+                  src="/ht-pallet-12.png"
                   alt="ISPM 15 certified heat treated wooden pallets manufactured by CeyPall in Sri Lanka"
                   fill
                   className="object-cover"
@@ -580,7 +580,7 @@ export default function HeatTreatedPalletsPage() {
               <div className="flex flex-col gap-3">
                 <div className="aspect-[4/3] relative overflow-hidden border border-warm-gray">
                   <Image
-                    src="/HT PALLET CHAMBER.JPG"
+                    src="/ht-pallet-chamber.jpg"
                     alt="Heat treatment kiln chamber at CeyPall manufacturing facility, Kochchikade Sri Lanka"
                     fill
                     sizes="(max-width: 1024px) 100vw, 50vw"
@@ -590,7 +590,7 @@ export default function HeatTreatedPalletsPage() {
                 <div className="grid grid-cols-2 gap-3">
                   <div className="aspect-[3/4] relative overflow-hidden border border-warm-gray">
                     <Image
-                      src="/HT Pallet 04.jpg"
+                      src="/ht-pallet-04.jpg"
                       alt="CeyPall ISPM 15 heat treated pallet — close up detail"
                       fill
                       sizes="(max-width: 1024px) 50vw, 25vw"
@@ -599,7 +599,7 @@ export default function HeatTreatedPalletsPage() {
                   </div>
                   <div className="aspect-[3/4] relative overflow-hidden border border-warm-gray">
                     <Image
-                      src="/HT Pallet 02.jpg"
+                      src="/ht-pallet-02.jpg"
                       alt="Heat treated wooden pallets ready for export — CeyPall Sri Lanka"
                       fill
                       sizes="(max-width: 1024px) 50vw, 25vw"
@@ -667,7 +667,7 @@ export default function HeatTreatedPalletsPage() {
             <FadeUp delay={0.12}>
               <div className="aspect-[3/2] border border-warm-gray bg-cream relative overflow-hidden">
                 <Image
-                  src="/HT logo.png"
+                  src="/ht-logo.png"
                   alt="IPPC stamp on CeyPall heat treated export pallet showing LK country code and HT treatment mark"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -692,7 +692,7 @@ export default function HeatTreatedPalletsPage() {
                   light
                 />
                 <p className="font-body text-sm text-cream/75 leading-relaxed mb-5">
-                  CeyPall operates under IPPC registration <span className="font-semibold text-cream">LK&#8209;0175</span>, issued by the National Plant Quarantine Service (NPQS), Department of Agriculture — the authority that governs ISPM 15 heat treatment in Sri Lanka. Our authorisation to heat&#8209;treat wooden pallets and apply the IPPC mark has been in place since 2007 and is renewed annually.
+                  CeyPall operates under IPPC registration <span className="font-semibold text-cream">LK&#8209;0175</span>, issued by the National Plant Quarantine Service (NPQS), Department of Agriculture — the authority that governs ISPM 15 heat treatment in Sri Lanka. The current certificate is issued in the name of CeyPall&nbsp;(Pvt)&nbsp;Ltd and is renewed annually.
                 </p>
                 <p className="font-body text-sm text-cream/75 leading-relaxed">
                   The current registration is valid to <span className="font-semibold text-cream">23 June 2027</span>. It authorises CeyPall to apply the IPPC / ISPM 15 mark (LK&#8209;0175, HT) to wooden pallets and wood packaging materials — the compliance proof that customs authorities worldwide are trained to inspect at the border.
@@ -703,7 +703,7 @@ export default function HeatTreatedPalletsPage() {
                     ['Registration No.', 'LK-0175'],
                     ['Issuing authority', 'NPQS — Dept. of Agriculture'],
                     ['Standard', 'IPPC / ISPM 15 (HT)'],
-                    ['Registered since', '2007'],
+                    ['Registration holder', 'CeyPall (Pvt) Ltd'],
                   ].map(([label, value]) => (
                     <div key={label} className="bg-primary p-5">
                       <dt className="font-body text-xs font-semibold tracking-[0.12em] uppercase text-accent-light mb-1.5">{label}</dt>
@@ -744,10 +744,10 @@ export default function HeatTreatedPalletsPage() {
           <FadeUp delay={0.1}>
             <div className="mt-16 pt-14 border-t border-white/10">
               <p className="font-body text-xs font-semibold tracking-[0.15em] uppercase text-accent-light mb-3">
-                Registered under LK&#8209;0175 since 2007
+                Registration history of LK&#8209;0175
               </p>
               <p className="max-w-3xl font-body text-sm text-cream/70 leading-relaxed mb-10">
-                The same NPQS registration — <span className="font-semibold text-cream">LK&#8209;0175</span> — has been held continuously since 2007. It was first issued to the founding family timber operation (St.&nbsp;Xavier) at our Kochchikade premises and is today renewed under CeyPall&nbsp;(Pvt)&nbsp;Ltd. The registration number, treatment facility and location remain unchanged.
+                Registration <span className="font-semibold text-cream">LK&#8209;0175</span> was first issued in 2007 to a different business operating the Kochchikade treatment facility, before CeyPall existed. Since CeyPall&nbsp;(Pvt)&nbsp;Ltd was incorporated in October 2025, the registration has been renewed in CeyPall&apos;s own name. The earlier certificates below are shown only as the facility&apos;s treatment history; they were not issued to CeyPall.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -878,7 +878,7 @@ export default function HeatTreatedPalletsPage() {
             <FadeUp className="order-2 lg:order-1">
               <div className="aspect-[4/3] relative overflow-hidden border border-warm-gray">
                 <Image
-                  src="/HT PALLET TRANSPORT.jpg"
+                  src="/ht-pallet-transport.jpg"
                   alt="Stack of ISPM 15 certified heat treated wooden pallets ready for delivery — CeyPall Sri Lanka"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"

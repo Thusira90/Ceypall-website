@@ -49,7 +49,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.08, ease: [0.22, 1, 0.36, 1] }}
               className="font-display text-display-xl text-cream leading-[1.08] tracking-tight text-balance mb-6"
             >
-              Export-Ready Pallets, Built For Global Standards.
+              Wooden Pallet Manufacturer in Sri Lanka — ISPM&nbsp;15 Export-Ready.
             </motion.h1>
 
             <motion.p
@@ -59,7 +59,8 @@ export function Hero() {
               className="font-body text-base text-cream/75 leading-relaxed max-w-lg mb-10"
             >
               Heat-treated, IPPC-stamped wooden pallets for Sri Lankan exporters, freight forwarders,
-              and manufacturers. Custom sizes. Island-wide delivery. ISPM&nbsp;15 compliant.
+              and manufacturers. No minimum order — one pallet to a full container. Custom sizes.
+              Island-wide delivery in 3–5 days.
             </motion.p>
 
             <motion.div

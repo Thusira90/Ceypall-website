@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     title: 'Pallets for Seafood Export Sri Lanka | CeyPall',
     description: 'ISPM 15 pallets for seafood exporters. Kiln-dried, low-moisture, IPPC-stamped for global reefer shipments.',
     url: 'https://www.ceypall.com/pallets-for-seafood-export',
-    images: [{ url: '/OPENGIMAGE.jpg', width: 1200, height: 630, alt: 'CeyPall pallets for seafood exporters' }],
+    images: [{ url: '/opengimage.jpg', width: 1200, height: 630, alt: 'CeyPall pallets for seafood exporters' }],
   },
-  twitter: { description: 'ISPM 15 pallets for Sri Lankan seafood exporters — reefer-ready, IPPC-stamped, low-moisture.', images: ['/OPENGIMAGE.jpg'] },
+  twitter: { description: 'ISPM 15 pallets for Sri Lankan seafood exporters — reefer-ready, IPPC-stamped, low-moisture.', images: ['/opengimage.jpg'] },
 }
 
 const breadcrumbJsonLd = {

@@ -29,6 +29,67 @@ const nextConfig = {
         destination: 'https://www.ceypall.com/:path*',
         permanent: true,
       },
+      // Old image filenames (spaces/capitals) → lowercase-hyphenated.
+      {
+        source: '/Euro%20Pallet.jpg',
+        destination: '/euro-pallet.jpg',
+        permanent: true,
+      },
+      {
+        source: '/Euro%20Pallet2.jpg',
+        destination: '/euro-pallet2.jpg',
+        permanent: true,
+      },
+      {
+        source: '/HT%20logo.png',
+        destination: '/ht-logo.png',
+        permanent: true,
+      },
+      {
+        source: '/HT%20Pallet%2002.jpg',
+        destination: '/ht-pallet-02.jpg',
+        permanent: true,
+      },
+      {
+        source: '/HT%20Pallet%2004.jpg',
+        destination: '/ht-pallet-04.jpg',
+        permanent: true,
+      },
+      {
+        source: '/HT%20Pallet%2007.png',
+        destination: '/ht-pallet-07.png',
+        permanent: true,
+      },
+      {
+        source: '/HT%20PALLET%2012.PNG',
+        destination: '/ht-pallet-12.png',
+        permanent: true,
+      },
+      {
+        source: '/HT%20PALLET%20CHAMBER.JPG',
+        destination: '/ht-pallet-chamber.jpg',
+        permanent: true,
+      },
+      {
+        source: '/HT%20PALLET%20TRANSPORT.jpg',
+        destination: '/ht-pallet-transport.jpg',
+        permanent: true,
+      },
+      {
+        source: '/IMG_4627.png',
+        destination: '/img-4627.png',
+        permanent: true,
+      },
+      {
+        source: '/OPENGIMAGE.jpg',
+        destination: '/opengimage.jpg',
+        permanent: true,
+      },
+      {
+        source: '/Storage.png',
+        destination: '/storage.png',
+        permanent: true,
+      },
       {
         source: '/ispm15-pallets-sri-lanka',
         destination: '/heat-treated-pallets',

@@ -51,7 +51,7 @@ const bodySchema = z.object({
   phone: z.string().trim().min(6).max(40).regex(/^[\d+\s\-()]+$/),
   palletUse: z.enum(['export', 'storage', 'unsure']),
   quantity: z.enum(QUANTITY_VALUES),
-  industry: z.enum(INDUSTRY_VALUES),
+  industry: z.enum(INDUSTRY_VALUES).optional().or(z.literal('')),
   company: z.string().trim().max(160).optional().or(z.literal('')),
   email: z
     .union([z.string().trim().email().max(200), z.literal('')])
@@ -122,7 +122,7 @@ export async function POST(req: NextRequest) {
     phone: escapeHtml(phone),
     palletUseLabel: escapeHtml(palletUseLabel),
     quantityLabel: escapeHtml(quantityLabel),
-    industry: escapeHtml(industry),
+    industry: escapeHtml(industry || 'Not specified'),
     company: escapeHtml(company),
     email: escapeHtml(email),
     location: escapeHtml(location),

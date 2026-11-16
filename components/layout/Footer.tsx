@@ -421,17 +421,18 @@ export function Footer() {
                   </a>
                 </p>
                 <p>
-                  <a href="tel:+94769494944" className="hover:text-cream transition-colors duration-150">
-                    +94 769 494 944
-                  </a>
-                </p>
-                <p>
-                  <a href="tel:+94312277752" className="hover:text-cream transition-colors duration-150">
-                    +94 312 277 752
+                  <a
+                    href="https://wa.me/94714711417"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-cream transition-colors duration-150"
+                  >
+                    WhatsApp us
                   </a>
                 </p>
               </div>
-              <p className="pt-1">
+              <p className="pt-1">Mon–Sat, 8:30am–5:30pm</p>
+              <p>
                 <a
                   href="mailto:office@ceypall.com"
                   className="hover:text-cream transition-colors duration-150"
@@ -448,15 +449,7 @@ export function Footer() {
             © {new Date().getFullYear()} CeyPall (Pvt) Ltd. All rights reserved.
           </p>
           <p className="font-body text-xs text-cream/40">
-            Need kiln drying or timber treatment?{' '}
-            <a
-              href="https://stxaviertimber.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-accent/80 hover:text-accent transition-colors duration-150 underline underline-offset-2"
-            >
-              Visit stxaviertimber.com
-            </a>
+            Reg. No. PV 00341995 · NPQS ISPM 15 provider LK-0175
           </p>
         </div>
       </div>

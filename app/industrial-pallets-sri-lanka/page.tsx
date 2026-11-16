@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   twitter: {
     description:
       'Heavy-duty industrial wooden pallets manufactured in Sri Lanka. Load-rated for machinery, drums and heavy cargo. ISPM 15 heat treated or VPI-treated. Island-wide delivery.',
-    images: ['/OPENGIMAGE.jpg'],
+    images: ['/opengimage.jpg'],
   },
   alternates: {
     canonical: 'https://www.ceypall.com/industrial-pallets-sri-lanka',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/industrial-pallets-sri-lanka',
     images: [
       {
-        url: '/OPENGIMAGE.jpg',
+        url: '/opengimage.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -55,7 +55,7 @@ const productJsonLd = {
   name: 'Heavy-Duty Industrial Wooden Pallet',
   description:
     'Load-rated industrial wooden pallet manufactured in Sri Lanka for heavy cargo, manufacturing and warehousing. Reinforced deck boards and stringers. ISPM 15 heat treated for export or vacuum pressure impregnated for long-term storage.',
-  image: 'https://www.ceypall.com/Storage.png',
+  image: 'https://www.ceypall.com/storage.png',
   brand: { '@type': 'Brand', name: 'CeyPall' },
   category: 'Wooden Pallets',
   offers: {
@@ -249,7 +249,7 @@ export default function IndustrialPalletsSriLankaPage() {
             <FadeUp delay={0.12}>
               <div className="aspect-[4/3] relative overflow-hidden">
                 <Image
-                  src="/Storage.png"
+                  src="/storage.png"
                   alt="Heavy-duty industrial wooden pallets in warehouse storage, manufactured by CeyPall in Sri Lanka"
                   fill
                   className="object-cover"
