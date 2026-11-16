@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/pallets-for-tea-export',
     images: [
       {
-        url: '/OPENGIMAGE.jpg',
+        url: '/opengimage.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: 'Pallets for Tea Export Sri Lanka | CeyPall',
     description:
       'ISPM 15 certified pallets for tea exporters. Low moisture content, bark-free, with treatment certificates for every shipment.',
-    images: ['/OPENGIMAGE.jpg'],
+    images: ['/opengimage.jpg'],
   },
 }
 

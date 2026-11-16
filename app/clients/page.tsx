@@ -7,18 +7,18 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'Clients — Companies We Supply',
   description:
-    'CeyPall supplies ISPM 15-certified pallets to leading Sri Lankan exporters — Akbar Brothers, CBL, Hela Clothing — across tea, food, and textiles.',
+    'CeyPall supplies ISPM 15-certified pallets to leading Sri Lankan exporters and manufacturers — Akbar Brothers, CBL, Hemas and 30+ more companies.',
   alternates: {
     canonical: 'https://www.ceypall.com/clients',
   },
   openGraph: {
     title: 'Clients — Companies We Supply | CeyPall',
     description:
-      'CeyPall supplies ISPM 15-certified wooden pallets to leading Sri Lankan exporters and manufacturers — including Akbar Brothers, CBL, and Hela Clothing.',
+      'CeyPall supplies ISPM 15-certified wooden pallets to leading Sri Lankan exporters and manufacturers — including Akbar Brothers, CBL and Hemas.',
     url: 'https://www.ceypall.com/clients',
     images: [
       {
-        url: '/OPENGIMAGE.jpg',
+        url: '/opengimage.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: 'Clients — Companies We Supply | CeyPall',
     description:
       'CeyPall supplies ISPM 15-certified wooden pallets to leading Sri Lankan exporters and manufacturers.',
-    images: ['/OPENGIMAGE.jpg'],
+    images: ['/opengimage.jpg'],
   },
 }
 
@@ -118,7 +118,7 @@ export default function ClientsPage() {
             <div className="mt-8 bg-primary/5 border border-warm-gray px-8 py-6 flex items-center gap-4">
               <div className="w-1 self-stretch bg-accent flex-shrink-0" />
               <p className="font-body text-sm text-charcoal/70 italic">
-                ..and 30+ companies across tea, food, textiles, logistics, and manufacturing.
+                ...and 30+ more companies across tea, food, textiles, logistics, and manufacturing.
               </p>
             </div>
           </FadeUp>

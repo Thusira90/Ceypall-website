@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   twitter: {
     description:
       "CeyPall is Sri Lanka's dedicated export pallet manufacturer. ISPM 15 certified, IPPC-stamped heat treated wooden pallets for tea, apparel, coconut, rubber and general export. Custom sizes, island-wide delivery.",
-    images: ['/OPENGIMAGE.jpg'],
+    images: ['/opengimage.jpg'],
   },
   alternates: {
     canonical: 'https://www.ceypall.com/export-pallet-manufacturer-sri-lanka',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/export-pallet-manufacturer-sri-lanka',
     images: [
       {
-        url: '/OPENGIMAGE.jpg',
+        url: '/opengimage.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -503,7 +503,7 @@ export default function ExportPalletManufacturerPage() {
               {/* Hero image — replace with export-pallets-ceypall-sri-lanka.webp when available */}
               <div className="aspect-[4/3] relative overflow-hidden">
                 <Image
-                  src="/HT PALLET TRANSPORT.jpg"
+                  src="/ht-pallet-transport.jpg"
                   alt="Export wooden pallets manufactured by CeyPall in Sri Lanka, ISPM 15 certified and IPPC stamped"
                   fill
                   className="object-cover"
@@ -568,7 +568,7 @@ export default function ExportPalletManufacturerPage() {
                     { label: 'Registration', value: 'NPQS-registered provider' },
                     { label: 'Countries compliant', value: 'All major trading nations' },
                     { label: 'Delivery', value: 'Island-wide across Sri Lanka' },
-                    { label: 'Founded', value: '2005' },
+                    { label: 'Incorporated', value: '2025' },
                   ].map(({ label, value }) => (
                     <li key={label} className="flex flex-col gap-1 border-b border-cream/10 pb-5 last:border-0 last:pb-0">
                       <span className="font-body text-xs text-cream/50 uppercase tracking-wider">{label}</span>
@@ -665,7 +665,7 @@ export default function ExportPalletManufacturerPage() {
             <FadeUp delay={0.12}>
               <div className="aspect-[4/3] relative overflow-hidden border border-warm-gray">
                 <Image
-                  src="/HT Pallet 04.jpg"
+                  src="/ht-pallet-04.jpg"
                   alt="Wooden export pallets for Sri Lankan tea industry, ISPM 15 compliant"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -754,7 +754,7 @@ export default function ExportPalletManufacturerPage() {
             <FadeUp delay={0.12}>
               <div className="aspect-[4/3] relative overflow-hidden border border-warm-gray">
                 <Image
-                  src="/HT PALLET CHAMBER.JPG"
+                  src="/ht-pallet-chamber.jpg"
                   alt="Pallet manufacturing and assembly at CeyPall facility in Kochchikade, Sri Lanka"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"

@@ -8,8 +8,8 @@ import { staggerContainer, staggerItem } from '@/components/ui/FadeUp'
 const features = [
   {
     number: '01',
-    title: 'Experience',
-    body: 'With over 20 years of focused pallet manufacturing experience — built on a timber legacy dating back to 1955 — we bring deep expertise to every order.',
+    title: 'Any quantity',
+    body: 'No minimum order — from a single pallet to a full container. Our Kochchikade production team has been making pallets since 2005, and every pallet is numbered and traceable to its treatment batch.',
     icon: (
       <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
         <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z" fill="currentColor" />

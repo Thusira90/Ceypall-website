@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     title: 'Pharmaceutical Pallets Sri Lanka | CeyPall',
     description: 'ISPM 15 heat-treated pallets for pharma exporters — no chemical treatments, low moisture, IPPC-stamped for global shipment.',
     url: 'https://www.ceypall.com/pallets-for-pharmaceutical-export',
-    images: [{ url: '/OPENGIMAGE.jpg', width: 1200, height: 630, alt: 'CeyPall ISPM 15 pallets for pharmaceutical exporters' }],
+    images: [{ url: '/opengimage.jpg', width: 1200, height: 630, alt: 'CeyPall ISPM 15 pallets for pharmaceutical exporters' }],
   },
-  twitter: { description: 'ISPM 15 pallets for pharma and healthcare exporters — chemical-free heat treatment, low moisture, IPPC-stamped.', images: ['/OPENGIMAGE.jpg'] },
+  twitter: { description: 'ISPM 15 pallets for pharma and healthcare exporters — chemical-free heat treatment, low moisture, IPPC-stamped.', images: ['/opengimage.jpg'] },
 }
 
 const breadcrumbJsonLd = {

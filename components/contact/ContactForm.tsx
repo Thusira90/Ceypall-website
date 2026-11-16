@@ -49,9 +49,10 @@ const schema = z.object({
   quantity: z.enum(QUANTITY_VALUES, {
     errorMap: () => ({ message: 'Please select a quantity band' }),
   }),
-  industry: z.enum([...INDUSTRIES] as unknown as [string, ...string[]], {
-    errorMap: () => ({ message: 'Please select an industry' }),
-  }),
+  industry: z
+    .enum([...INDUSTRIES] as unknown as [string, ...string[]])
+    .optional()
+    .or(z.literal('')),
   company: z.string().optional(),
   email: z
     .string()
@@ -65,7 +66,14 @@ const schema = z.object({
 
 type FormValues = z.infer<typeof schema>
 
-export function ContactForm() {
+type ContactFormProps = {
+  /** Analytics label for where the form sits (e.g. 'contact', 'quote-landing'). */
+  formLocation?: string
+  /** Compact mode shows only the four qualifying fields — for ad landing pages. */
+  compact?: boolean
+}
+
+export function ContactForm({ formLocation = 'contact', compact = false }: ContactFormProps = {}) {
   const [submitted, setSubmitted] = useState(false)
   const [submitError, setSubmitError] = useState<string | null>(null)
 
@@ -92,10 +100,10 @@ export function ContactForm() {
       }
       setSubmitted(true)
       trackConversion(CONVERSION_EVENTS.formSubmit, {
-        form_location: 'contact',
+        form_location: formLocation,
         pallet_use: data.palletUse,
         quantity_band: data.quantity,
-        industry: data.industry,
+        industry: data.industry || 'not_specified',
       })
       trackMetaEvent('Lead', { content_name: 'Quote Request' })
     } catch (err) {
@@ -279,10 +287,13 @@ export function ContactForm() {
         </div>
       </div>
 
-      {/* Industry (required) */}
+      {!compact && (
+      <>
+      {/* Industry (optional) */}
       <div>
         <label htmlFor="industry" className="form-label">
-          Industry <span className="text-accent">*</span>
+          Industry{' '}
+          <span className="text-charcoal/40 font-normal">(optional)</span>
         </label>
         <div className="relative">
           <select
@@ -294,7 +305,7 @@ export function ContactForm() {
             defaultValue=""
             {...register('industry')}
           >
-            <option value="" disabled>
+            <option value="">
               Select your industry
             </option>
             {INDUSTRIES.map((industry) => (
@@ -388,6 +399,8 @@ export function ContactForm() {
           {...register('message')}
         />
       </div>
+      </>
+      )}
 
       <Button type="submit" variant="primary" size="lg" disabled={isSubmitting} className="w-full sm:w-auto justify-center">
         {isSubmitting ? 'Sending…' : 'Send enquiry →'}

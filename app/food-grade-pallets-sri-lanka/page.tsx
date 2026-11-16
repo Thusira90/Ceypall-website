@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/food-grade-pallets-sri-lanka',
     images: [
       {
-        url: '/OPENGIMAGE.jpg',
+        url: '/opengimage.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — food grade wooden pallets, Sri Lanka',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: 'Food Grade Pallets Sri Lanka | CeyPall',
     description:
       'Heat-treated food grade pallets — chemical-free, low moisture, ISPM 15 certified for food and beverage export.',
-    images: ['/OPENGIMAGE.jpg'],
+    images: ['/opengimage.jpg'],
   },
 }
 

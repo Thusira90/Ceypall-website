@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/knowledge-centre',
     images: [
       {
-        url: '/OPENGIMAGE.jpg',
+        url: '/opengimage.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: 'Knowledge Centre — Export Pallet Guides, Tools & Resources | CeyPall',
     description:
       'Free guides, calculators, and resources for Sri Lankan exporters. ISPM 15 compliance, pallet sizes, container loading, and more.',
-    images: ['/OPENGIMAGE.jpg'],
+    images: ['/opengimage.jpg'],
   },
 }
 
@@ -395,7 +395,7 @@ export default function KnowledgeCentrePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
             {[
-              { title: 'Eliminating Shipment Rejections', industry: 'Apparel & Garments', location: 'Katunayake FTZ', result: '0 rejections in 18 months' },
+              { title: 'Eliminating Shipment Rejections', industry: 'Apparel & Garments', location: 'Katunayake FTZ', result: '0 rejections since switching' },
               { title: 'Reliable Pallet Supply', industry: 'Tea Export', location: 'Nuwara Eliya', result: '98% on-time delivery' },
               { title: 'Scaling Pallet Supply', industry: 'Food Manufacturing', location: 'Biyagama EPZ', result: '600+ pallets/month' },
             ].map((study) => (

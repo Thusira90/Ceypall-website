@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/case-studies',
     images: [
       {
-        url: '/OPENGIMAGE.jpg',
+        url: '/opengimage.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: 'Case Studies — Export Pallet Success Stories | CeyPall',
     description:
       'Real results from Sri Lankan exporters who switched to CeyPall for ISPM 15 certified pallets.',
-    images: ['/OPENGIMAGE.jpg'],
+    images: ['/opengimage.jpg'],
   },
 }
 
@@ -76,7 +76,7 @@ const caseStudies: CaseStudy[] = [
       'Provided batch-level treatment certificates with every delivery for the customer\'s export documentation files',
     ],
     results: [
-      { metric: 'Shipment rejections', value: '0 in 18 months' },
+      { metric: 'Shipment rejections', value: '0 since switching' },
       { metric: 'Compliance warnings', value: 'Zero since switching' },
       { metric: 'Delivery lead time', value: '3 working days' },
       { metric: 'Documentation', value: 'Certificate with every order' },
@@ -102,7 +102,7 @@ const caseStudies: CaseStudy[] = [
       'Provided a dedicated account contact for order scheduling and delivery coordination',
     ],
     results: [
-      { metric: 'Delivery reliability', value: '98% on-time over 12 months' },
+      { metric: 'Delivery reliability', value: '98% on-time to date' },
       { metric: 'Bark-related rejections', value: '0 since switching' },
       { metric: 'Storage holding time', value: 'Reduced by 4 days average' },
       { metric: 'Container utilisation', value: 'Improved with matched sizes' },

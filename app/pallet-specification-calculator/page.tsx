@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     title: 'Pallet Specification Calculator | CeyPall',
     description: 'Get an indicative pallet specification — board thickness, stringer, deck configuration and treatment — from your load and application.',
     url: 'https://www.ceypall.com/pallet-specification-calculator',
-    images: [{ url: '/OPENGIMAGE.jpg', width: 1200, height: 630, alt: 'CeyPall pallet specification calculator' }],
+    images: [{ url: '/opengimage.jpg', width: 1200, height: 630, alt: 'CeyPall pallet specification calculator' }],
   },
-  twitter: { description: 'Enter your load and application — get an indicative pallet specification from CeyPall.', images: ['/OPENGIMAGE.jpg'] },
+  twitter: { description: 'Enter your load and application — get an indicative pallet specification from CeyPall.', images: ['/opengimage.jpg'] },
 }
 
 const breadcrumbJsonLd = {

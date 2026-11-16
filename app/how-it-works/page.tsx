@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/how-it-works',
     images: [
       {
-        url: '/OPENGIMAGE.jpg',
+        url: '/opengimage.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: 'How It Works — Our Pallet Manufacturing Process | CeyPall',
     description:
       'From timber sourcing to IPPC stamping — how CeyPall manufactures ISPM 15-certified pallets.',
-    images: ['/OPENGIMAGE.jpg'],
+    images: ['/opengimage.jpg'],
   },
 }
 

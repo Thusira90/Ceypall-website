@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   twitter: {
     description:
       'Custom wooden pallets built to your exact dimensions in Sri Lanka. Any size, load rating and entry type. ISPM 15 heat treated. Island-wide delivery.',
-    images: ['/OPENGIMAGE.jpg'],
+    images: ['/opengimage.jpg'],
   },
   alternates: {
     canonical: 'https://www.ceypall.com/custom-wooden-pallets-sri-lanka',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/custom-wooden-pallets-sri-lanka',
     images: [
       {
-        url: '/OPENGIMAGE.jpg',
+        url: '/opengimage.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -55,7 +55,7 @@ const productJsonLd = {
   name: 'Custom Wooden Pallets — Built to Specification',
   description:
     'Bespoke wooden pallets manufactured in Sri Lanka to any dimension, load rating, entry type and deck configuration. ISPM 15 heat treated to 56°C core temperature and IPPC stamped for export.',
-  image: 'https://www.ceypall.com/HT%20Pallet%2007.png',
+  image: 'https://www.ceypall.com/ht-pallet-07.png',
   brand: { '@type': 'Brand', name: 'CeyPall' },
   category: 'Wooden Pallets',
   offers: {
@@ -110,7 +110,7 @@ const faqJsonLd = {
       name: 'What is the minimum order for custom pallets?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Minimum order quantity depends on the size and complexity of the custom design. CeyPall handles both one-off special orders and large recurring contracts. Contact us with your specification and quantity for a quotation and lead time.',
+        text: 'There is no minimum order — CeyPall builds custom pallets from a single unit upward, as well as large recurring contracts. Per-pallet price depends on the size and complexity of the design, so send us your specification and quantity for a quotation and lead time.',
       },
     },
   ],
@@ -220,7 +220,7 @@ const faqs = [
   },
   {
     q: 'What is the minimum order for custom pallets?',
-    a: 'Minimum order depends on the size and complexity of the design. We handle both one-off special orders and large recurring contracts. Contact us with your specification and quantity for a quotation and lead time.',
+    a: 'There is no minimum order — we build custom pallets from a single unit upward, as well as large recurring contracts. Per-pallet price depends on the size and complexity of the design, so send us your specification and quantity for a quotation and lead time.',
   },
 ]
 
@@ -283,7 +283,7 @@ export default function CustomWoodenPalletsSriLankaPage() {
             <FadeUp delay={0.12}>
               <div className="aspect-[4/3] relative overflow-hidden">
                 <Image
-                  src="/HT Pallet 07.png"
+                  src="/ht-pallet-07.png"
                   alt="Custom wooden pallets built to specification by CeyPall in Sri Lanka, ISPM 15 heat treated"
                   fill
                   className="object-cover"

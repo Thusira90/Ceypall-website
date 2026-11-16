@@ -8,11 +8,11 @@ import { SchemaScript } from '@/components/ui/SchemaScript'
 export const metadata: Metadata = {
   title: 'About — Our Story & Certifications',
   description:
-    'CeyPall is Sri Lanka\'s dedicated ISPM 15-certified wooden pallet manufacturer — IPPC registered, with timber expertise since 1955 and pallets since 2005.',
+    "CeyPall (Pvt) Ltd is Sri Lanka's dedicated ISPM 15-certified wooden pallet manufacturer in Kochchikade. Incorporated 2025, NPQS-registered (LK-0175).",
   twitter: {
     description:
-      "Learn about CeyPall — Sri Lanka's dedicated ISPM 15-certified wooden pallet manufacturer, with timber expertise dating to 1955 and pallet manufacturing since 2005. IPPC registered. Supplying island-wide.",
-    images: ['/OPENGIMAGE.jpg'],
+      "Learn about CeyPall (Pvt) Ltd — Sri Lanka's dedicated ISPM 15-certified wooden pallet manufacturer in Kochchikade. Incorporated October 2025, NPQS-registered heat treatment provider LK-0175. Supplying island-wide.",
+    images: ['/opengimage.jpg'],
   },
   alternates: {
     canonical: 'https://www.ceypall.com/about',
@@ -20,11 +20,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'About CeyPall — Our Story & Certifications | CeyPall (Pvt) Ltd',
     description:
-      "Learn about CeyPall — Sri Lanka's dedicated ISPM 15-certified wooden pallet manufacturer, with timber expertise dating to 1955 and pallet manufacturing since 2005. IPPC registered. Supplying island-wide.",
+      "Learn about CeyPall (Pvt) Ltd — Sri Lanka's dedicated ISPM 15-certified wooden pallet manufacturer in Kochchikade. Incorporated October 2025, NPQS-registered heat treatment provider LK-0175. Supplying island-wide.",
     url: 'https://www.ceypall.com/about',
     images: [
       {
-        url: '/OPENGIMAGE.jpg',
+        url: '/opengimage.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -40,7 +40,7 @@ const aboutPageJsonLd = {
   name: 'About CeyPall — Our Story & Certifications',
   url: 'https://www.ceypall.com/about',
   description:
-    "Learn about CeyPall — Sri Lanka's dedicated ISPM 15-certified wooden pallet manufacturer, with timber expertise dating to 1955 and pallet manufacturing since 2005.",
+    "Learn about CeyPall (Pvt) Ltd — Sri Lanka's dedicated ISPM 15-certified wooden pallet manufacturer in Kochchikade. Incorporated October 2025, NPQS-registered heat treatment provider LK-0175. Supplying island-wide.",
   publisher: {
     '@type': 'Organization',
     '@id': 'https://www.ceypall.com/#organization',
@@ -70,14 +70,14 @@ const aboutPageJsonLd = {
 }
 
 const whyItems = [
-  { label: 'Timber expertise since 1955' },
-  { label: 'Pallet manufacturing since 2005' },
+  { label: 'Incorporated October 2025 — Reg. PV 00341995' },
   { label: 'IPPC registered — NPQS Reg. No. LK-0175' },
+  { label: 'No minimum order — one pallet to a full container' },
   { label: 'ISPM 15 certified — export compliant' },
   { label: 'Locally sourced rubber wood and Lunumidella' },
   { label: 'Treatment certificates with every order' },
   { label: 'Island-wide delivery' },
-  { label: 'Trusted by 40+ companies' },
+  { label: 'Trusted by 38+ client companies' },
 ]
 
 const breadcrumbJsonLd = {
@@ -115,7 +115,7 @@ export default function AboutPage() {
       <section className="section-padding cream-texture">
         <div className="container-content">
           <AnswerBlock question="In short: who is CeyPall?">
-            CeyPall (Pvt) Ltd is <strong>Sri Lanka&apos;s dedicated ISPM 15-certified wooden pallet manufacturer</strong>, based in Kochchikade and <strong>NPQS-registered under LK-0175</strong>. Incorporated in 2025, it builds on a family timber legacy dating to 1955 and on-site pallet manufacturing since 2005 (sister company St. Xavier Timber). It supplies heat-treated export and VPI storage pallets island-wide.
+            CeyPall (Pvt) Ltd is <strong>Sri Lanka&apos;s dedicated ISPM 15-certified wooden pallet manufacturer</strong>, based in Kochchikade and <strong>NPQS-registered under LK-0175</strong>. It was incorporated in October 2025 (Reg. PV 00341995) as a company dedicated solely to pallets, and supplies heat-treated export and VPI storage pallets island-wide, with no minimum order.
           </AnswerBlock>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
@@ -123,25 +123,28 @@ export default function AboutPage() {
               <div>
                 <SectionHeader
                   eyebrow="Our story"
-                  title="Built on decades of timber expertise."
+                  title="A dedicated pallet company, built for export."
                 />
                 <p className="font-body text-sm text-charcoal/70 leading-relaxed mb-5">
-                  CeyPall (Pvt) Ltd is a Sri Lankan manufacturer of high-quality wooden pallets, built
-                  specifically for international export markets. We are the sister company of St. Xavier
-                  Timber, the Kochchikade timber-treatment business whose legacy stretches back to 1955 —
-                  so CeyPall is grounded in over seven decades of hands-on experience working with wood.
+                  CeyPall (Pvt) Ltd is a Sri Lankan manufacturer of wooden pallets, built specifically
+                  for international export markets. The company was incorporated in October 2025
+                  (Reg. PV 00341995) to do one thing: make ISPM 15-compliant pallets for exporters,
+                  freight companies and manufacturers across Sri Lanka.
                 </p>
                 <p className="font-body text-sm text-charcoal/70 leading-relaxed mb-5">
-                  Pallet manufacturing at the Kochchikade site dates from 2005, and CeyPall was
-                  incorporated as a dedicated company in October 2025 to focus solely on ISPM 15-compliant
-                  export pallets for exporters, freight companies, and manufacturers across Sri Lanka.
-                  Every pallet we produce undergoes certified heat treatment and is manufactured under
-                  strict quality controls.
+                  Our Kochchikade production team has been making pallets since 2005, so while the
+                  company is new, the people building your pallets are not. Every pallet we produce
+                  is kiln heat treated, IPPC-stamped and individually numbered, so each one can be
+                  traced back to its manufacturing and treatment batch.
                 </p>
                 <p className="font-body text-sm text-charcoal/70 leading-relaxed">
                   We are recognised by the National Plant Quarantine Service of Sri Lanka as a certified
                   heat treatment provider, and every pallet we ship carries the IPPC stamp as proof of
                   compliance.
+                </p>
+                <p className="font-body text-xs text-charcoal/50 leading-relaxed mt-5">
+                  CeyPall (Pvt) Ltd is a separate legal entity from St. Xavier Timber, a timber
+                  treatment business also based in Kochchikade.
                 </p>
               </div>
             </FadeUp>
@@ -153,11 +156,9 @@ export default function AboutPage() {
                   Our timeline
                 </p>
                 {[
-                  { year: '1955', label: 'Timber legacy begins', sub: 'St. Xavier Timber — our sister company in Kochchikade' },
-                  { year: '2005', label: 'Pallet manufacturing launched', sub: 'Focused on export-grade ISPM 15 pallets' },
-                  { year: '2007', label: 'IPPC registration secured', sub: 'National Plant Quarantine Service — Reg. No. LK-0175' },
-                  { year: '2025', label: 'CeyPall (Pvt) Ltd incorporated', sub: 'A dedicated company for export pallet production' },
-                  { year: 'Today', label: '40+ active clients', sub: 'Island-wide delivery network' },
+                  { year: 'Oct 2025', label: 'CeyPall (Pvt) Ltd incorporated', sub: 'Reg. PV 00341995 — a dedicated export pallet company' },
+                  { year: '2026', label: "NPQS registration renewed in CeyPall's name", sub: 'National Plant Quarantine Service — Reg. No. LK-0175, valid to June 2027' },
+                  { year: 'Today', label: '38+ client companies', sub: 'Island-wide delivery, no minimum order' },
                 ].map(({ year, label, sub }, i, arr) => (
                   <div key={year} className="flex gap-6">
                     <div className="flex flex-col items-center">

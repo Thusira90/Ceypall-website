@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   twitter: {
     description:
       'How much weight can a wooden pallet hold? Static vs dynamic vs racking load, and the six factors that set the rating.',
-    images: ['/OPENGIMAGE.jpg'],
+    images: ['/opengimage.jpg'],
   },
   alternates: {
     canonical: 'https://www.ceypall.com/pallet-load-capacity',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
       'Static, dynamic and racking loads explained — plus the timber, thickness and stringer choices that determine what a wooden pallet can safely hold.',
     url: 'https://www.ceypall.com/pallet-load-capacity',
     images: [
-      { url: '/OPENGIMAGE.jpg', width: 1200, height: 630, alt: 'CeyPall pallet load capacity guide' },
+      { url: '/opengimage.jpg', width: 1200, height: 630, alt: 'CeyPall pallet load capacity guide' },
     ],
   },
 }
@@ -48,7 +48,7 @@ const articleJsonLd = {
   author: { '@id': 'https://www.ceypall.com/#organization' },
   publisher: { '@id': 'https://www.ceypall.com/#organization' },
   mainEntityOfPage: 'https://www.ceypall.com/pallet-load-capacity',
-  image: 'https://www.ceypall.com/OPENGIMAGE.jpg',
+  image: 'https://www.ceypall.com/opengimage.jpg',
   inLanguage: 'en',
 }
 
@@ -208,7 +208,7 @@ export default function PalletLoadCapacityPage() {
             <FadeUp delay={0.12}>
               <div className="aspect-[4/3] relative overflow-hidden">
                 <Image
-                  src="/Storage.png"
+                  src="/storage.png"
                   alt="Load-rated wooden pallets bearing stacked industrial cargo"
                   fill
                   className="object-cover"

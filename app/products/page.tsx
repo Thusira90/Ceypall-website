@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/products',
     images: [
       {
-        url: '/OPENGIMAGE.jpg',
+        url: '/opengimage.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: 'Products — Wooden Pallets for Export & Storage | CeyPall',
     description:
       'Heat-treated ISPM 15 pallets for export and VPI pallets for long-term storage. Standard and custom sizes available.',
-    images: ['/OPENGIMAGE.jpg'],
+    images: ['/opengimage.jpg'],
   },
 }
 
@@ -75,7 +75,7 @@ const productListJsonLd = {
       item: {
         '@type': 'Product',
         name: 'ISPM 15 Heat Treated Export Pallets',
-        image: 'https://www.ceypall.com/HT%20PALLET%2012.PNG',
+        image: 'https://www.ceypall.com/ht-pallet-12.png',
         description:
           'ISPM 15 certified, IPPC-stamped wooden pallets for international export. Core heated to 56°C for 30 minutes minimum. Kiln-dried below 15% moisture content. Available in Euro, North American, Asia-Pacific, and custom sizes.',
         brand: { '@type': 'Brand', name: 'CeyPall' },
@@ -99,7 +99,7 @@ const productListJsonLd = {
       item: {
         '@type': 'Product',
         name: 'VPI Storage Pallets',
-        image: 'https://www.ceypall.com/Storage.png',
+        image: 'https://www.ceypall.com/storage.png',
         description:
           'Vacuum pressure impregnated wooden pallets for long-term storage. Boron Borax treatment under up to 10 bar pressure. Protection guaranteed for up to 6 years. Ideal for warehousing and racking systems.',
         brand: { '@type': 'Brand', name: 'CeyPall' },
@@ -144,7 +144,7 @@ export default function ProductsPage() {
               as="h1"
               eyebrow="Our products"
               title="Our Products — Wooden Pallets for Export & Storage"
-              subtitle="CeyPall is a wholesale wooden pallet supplier and manufacturer for Sri Lankan exporters and industry. We build pallets for export and storage — all boron pre-treated as standard, with additional vacuum pressure impregnation available for long-term storage applications."
+              subtitle="CeyPall is a wholesale wooden pallet supplier and manufacturer for Sri Lankan exporters and industry. We build pallets for export and storage — all boron pre-treated as standard, with additional vacuum pressure impregnation available for long-term storage applications. No minimum order — from a single pallet to a full container."
               light
             />
           </FadeUp>
@@ -238,7 +238,7 @@ export default function ProductsPage() {
                 {/* Visual placeholder */}
                 <div className="aspect-[4/3] border border-warm-gray relative overflow-hidden mb-6 bg-cream">
                   <Image
-                    src="/Storage.png"
+                    src="/storage.png"
                     alt="VPI storage pallets — vacuum pressure impregnated"
                     fill
                     className="object-cover"

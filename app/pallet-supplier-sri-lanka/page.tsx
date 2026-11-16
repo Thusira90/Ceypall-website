@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   twitter: {
     description:
       'Buy wooden pallets from CeyPall — Sri Lanka pallet supplier and manufacturer. Standard, custom and ISPM 15 export pallets. One-off orders and recurring supply.',
-    images: ['/OPENGIMAGE.jpg'],
+    images: ['/opengimage.jpg'],
   },
   alternates: {
     canonical: 'https://www.ceypall.com/pallet-supplier-sri-lanka',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
       'Manufacturer + supplier of wooden pallets in Sri Lanka. Standard, custom, export and ISPM 15 pallets. Recurring supply and island-wide delivery.',
     url: 'https://www.ceypall.com/pallet-supplier-sri-lanka',
     images: [
-      { url: '/OPENGIMAGE.jpg', width: 1200, height: 630, alt: 'CeyPall — Sri Lanka pallet supplier' },
+      { url: '/opengimage.jpg', width: 1200, height: 630, alt: 'CeyPall — Sri Lanka pallet supplier' },
     ],
   },
 }
@@ -203,7 +203,7 @@ export default function PalletSupplierSriLankaPage() {
             <FadeUp delay={0.12}>
               <div className="aspect-[4/3] relative overflow-hidden">
                 <Image
-                  src="/Storage.png"
+                  src="/storage.png"
                   alt="Wooden pallets stacked at CeyPall factory — Sri Lanka pallet supplier"
                   fill
                   className="object-cover"

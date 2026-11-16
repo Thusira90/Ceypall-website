@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     title: 'Pallet Terminology Glossary | CeyPall',
     description: 'Plain-English definitions for 50+ pallet, ISPM 15 and export packaging terms used by Sri Lankan exporters and freight forwarders.',
     url: 'https://www.ceypall.com/pallet-terminology-glossary',
-    images: [{ url: '/OPENGIMAGE.jpg', width: 1200, height: 630, alt: 'CeyPall pallet terminology glossary' }],
+    images: [{ url: '/opengimage.jpg', width: 1200, height: 630, alt: 'CeyPall pallet terminology glossary' }],
   },
-  twitter: { description: 'Plain-English definitions for 50+ pallet, ISPM 15 and export packaging terms.', images: ['/OPENGIMAGE.jpg'] },
+  twitter: { description: 'Plain-English definitions for 50+ pallet, ISPM 15 and export packaging terms.', images: ['/opengimage.jpg'] },
 }
 
 type Term = { term: string; definition: string; related?: string[] }

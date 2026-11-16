@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/ispm-15-certification-sri-lanka',
     images: [
       {
-        url: '/OPENGIMAGE.jpg',
+        url: '/opengimage.jpg',
         width: 1200,
         height: 630,
         alt: 'ISPM 15 certification in Sri Lanka — CeyPall exporter guide',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: 'ISPM 15 Certification Sri Lanka | CeyPall',
     description:
       'Complete Sri Lankan exporter guide to ISPM 15 certification, NPQS registration, and the IPPC stamp.',
-    images: ['/OPENGIMAGE.jpg'],
+    images: ['/opengimage.jpg'],
   },
 }
 

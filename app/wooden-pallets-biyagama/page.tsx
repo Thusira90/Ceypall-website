@@ -17,9 +17,9 @@ export const metadata: Metadata = {
     title: 'Wooden Pallets — Biyagama EPZ | CeyPall',
     description: 'ISPM 15 heat-treated pallets for exporters in the Biyagama Export Processing Zone. IPPC-stamped and delivered on schedule.',
     url: 'https://www.ceypall.com/wooden-pallets-biyagama',
-    images: [{ url: '/OPENGIMAGE.jpg', width: 1200, height: 630, alt: 'CeyPall pallets for Biyagama EPZ' }],
+    images: [{ url: '/opengimage.jpg', width: 1200, height: 630, alt: 'CeyPall pallets for Biyagama EPZ' }],
   },
-  twitter: { description: 'ISPM 15 pallets for the Biyagama EPZ — heat-treated, IPPC-stamped, delivered on your loading date.', images: ['/OPENGIMAGE.jpg'] },
+  twitter: { description: 'ISPM 15 pallets for the Biyagama EPZ — heat-treated, IPPC-stamped, delivered on your loading date.', images: ['/opengimage.jpg'] },
 }
 
 const localBusinessJsonLd = {
@@ -29,7 +29,7 @@ const localBusinessJsonLd = {
   name: 'CeyPall (Pvt) Ltd',
   description: 'ISPM 15 wooden pallet manufacturer serving the Biyagama Export Processing Zone and Gampaha industrial estates.',
   url: 'https://www.ceypall.com/wooden-pallets-biyagama',
-  telephone: ['+94714711417', '+94769494944', '+94312277752'],
+  telephone: '+94714711417',
   email: 'office@ceypall.com',
   address: { '@type': 'PostalAddress', streetAddress: '1088, Colombo Road, Daluwakotuwa', addressLocality: 'Kochchikade', postalCode: '11540', addressCountry: 'LK' },
   areaServed: [
@@ -105,7 +105,7 @@ export default function WoodenPalletsBiyagamaPage() {
             </FadeUp>
             <FadeUp delay={0.12}>
               <div className="aspect-[4/3] relative overflow-hidden">
-                <Image src="/Storage.png" alt="ISPM 15 pallets prepared for Biyagama EPZ exporters" fill className="object-cover" priority />
+                <Image src="/storage.png" alt="ISPM 15 pallets prepared for Biyagama EPZ exporters" fill className="object-cover" priority />
               </div>
             </FadeUp>
           </div>

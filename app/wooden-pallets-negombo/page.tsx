@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   twitter: {
     description:
       'CeyPall delivers heat-treated, ISPM 15-certified wooden pallets to Negombo and the Wattala region. Export pallets and storage pallets manufactured in Kochchikade, just 20 km away.',
-    images: ['/OPENGIMAGE.jpg'],
+    images: ['/opengimage.jpg'],
   },
   openGraph: {
     title: 'ISPM 15 Wooden Pallets — Negombo & Wattala | CeyPall (Pvt) Ltd',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/wooden-pallets-negombo',
     images: [
       {
-        url: '/OPENGIMAGE.jpg',
+        url: '/opengimage.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -43,7 +43,7 @@ const jsonLd = {
   description:
     'ISPM 15 certified wooden pallet manufacturer supplying heat-treated export and storage pallets to Negombo and the Wattala region.',
   url: 'https://www.ceypall.com/wooden-pallets-negombo',
-  telephone: ['+94714711417', '+94769494944', '+94312277752'],
+  telephone: '+94714711417',
   email: 'office@ceypall.com',
   address: {
     '@type': 'PostalAddress',
@@ -139,7 +139,7 @@ const faqs = [
   {
     question: 'What is the minimum order quantity?',
     answer:
-      "We don't apply a rigid minimum. We work with orders from small batches upward — we'd rather help you find the right quantity for your needs than turn away smaller businesses. Contact us and we'll work out what makes sense for your operation.",
+      'There is no minimum order — CeyPall supplies anything from a single pallet to a full container load, plus recurring contracts.',
   },
   {
     question: 'Do you supply food and seafood exporters?',
@@ -201,7 +201,7 @@ export default function NegomboPage() {
       <section className="section-padding cream-texture">
         <div className="container-content">
           <AnswerBlock question="In short: do you deliver pallets to Negombo?">
-            Yes. Negombo and Wattala are within CeyPall&apos;s standard delivery area — our Kochchikade facility is about <strong>20 km from central Negombo</strong>, so orders are typically delivered within <strong>1–2 business days</strong>. We supply both ISPM 15 export pallets and storage pallets, with no rigid minimum order quantity.
+            Yes. Negombo and Wattala are within CeyPall&apos;s standard delivery area — our Kochchikade facility is about <strong>20 km from central Negombo</strong>, so orders are typically delivered within <strong>1–2 business days</strong>. We supply both ISPM 15 export pallets and storage pallets, with no minimum order — from a single pallet to a full container.
           </AnswerBlock>
 
           <FadeUp>

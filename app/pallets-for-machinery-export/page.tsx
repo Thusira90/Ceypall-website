@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     title: 'Machinery Export Pallets Sri Lanka | CeyPall',
     description: 'Heavy-duty, load-rated ISPM 15 pallets for machinery and engineering exports. Custom bases built to your cargo weight and footprint.',
     url: 'https://www.ceypall.com/pallets-for-machinery-export',
-    images: [{ url: '/OPENGIMAGE.jpg', width: 1200, height: 630, alt: 'CeyPall heavy-duty pallets for machinery export' }],
+    images: [{ url: '/opengimage.jpg', width: 1200, height: 630, alt: 'CeyPall heavy-duty pallets for machinery export' }],
   },
-  twitter: { description: 'Heavy-duty ISPM 15 pallets and custom bases for machinery exports from Sri Lanka.', images: ['/OPENGIMAGE.jpg'] },
+  twitter: { description: 'Heavy-duty ISPM 15 pallets and custom bases for machinery exports from Sri Lanka.', images: ['/opengimage.jpg'] },
 }
 
 const breadcrumbJsonLd = {

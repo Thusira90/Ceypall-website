@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: 'https://www.ceypall.com/wholesale-pallets-sri-lanka',
     images: [
       {
-        url: '/OPENGIMAGE.jpg',
+        url: '/opengimage.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — wholesale wooden pallets, Sri Lanka',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: 'Wholesale Pallets Sri Lanka | CeyPall',
     description:
       'Wholesale, bulk ISPM 15 pallet supply for exporters and freight forwarders. Recurring schedules, island-wide delivery.',
-    images: ['/OPENGIMAGE.jpg'],
+    images: ['/opengimage.jpg'],
   },
 }
 
@@ -49,7 +49,7 @@ const faqs = [
   {
     question: 'What is the minimum order for wholesale wooden pallets from CeyPall?',
     answer:
-      'CeyPall supplies orders at every scale — from single-batch trial orders through to full container-load and recurring monthly volumes. There is no fixed minimum: contact us with your target quantity, size, and delivery cadence and we will confirm pricing and lead time.',
+      'CeyPall supplies orders at every scale — from single-batch trial orders through to full container-load and recurring monthly volumes. There is no minimum order — from a single pallet to a full container. Contact us with your target quantity, size, and delivery cadence and we will confirm pricing and lead time.',
   },
   {
     question: 'Do you offer recurring or scheduled delivery for regular exporters?',

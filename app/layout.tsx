@@ -3,6 +3,7 @@ import { Playfair_Display, DM_Sans, Nunito } from 'next/font/google'
 import './globals.css'
 import { Nav } from '@/components/layout/Nav'
 import { Footer } from '@/components/layout/Footer'
+import { HideOnLanding } from '@/components/layout/HideOnLanding'
 import { ConversionTracker } from '@/components/analytics/ConversionTracker'
 import { Analytics } from '@/components/analytics/Analytics'
 import { MetaPixel } from '@/components/analytics/MetaPixel'
@@ -76,7 +77,7 @@ export const metadata: Metadata = {
       'CeyPall manufactures heat-treated, IPPC-stamped wooden pallets for export and storage. ISPM 15 certified. Custom sizes. Island-wide delivery across Sri Lanka.',
     images: [
       {
-        url: '/OPENGIMAGE.jpg',
+        url: '/opengimage.jpg',
         width: 1200,
         height: 630,
         alt: 'CeyPall — ISPM 15 certified wooden pallets, Sri Lanka',
@@ -88,7 +89,7 @@ export const metadata: Metadata = {
     title: 'CeyPall (Pvt) Ltd — ISPM 15 Certified Wooden Pallets, Sri Lanka',
     description:
       'Heat-treated, IPPC-stamped wooden pallets for Sri Lankan exporters. Custom sizes, island-wide delivery, ISPM 15 compliant.',
-    images: ['/OPENGIMAGE.jpg'],
+    images: ['/opengimage.jpg'],
   },
 }
 
@@ -141,7 +142,7 @@ export default function RootLayout({
         description:
           "Sri Lanka's dedicated export pallet manufacturer. ISPM 15 certified, IPPC-stamped heat treated wooden pallets for exporters island-wide.",
         url: 'https://www.ceypall.com',
-        telephone: ['+94312277752', '+94714711417', '+94769494944'],
+        telephone: '+94714711417',
         email: 'office@ceypall.com',
         address: {
           '@type': 'PostalAddress',
@@ -219,9 +220,13 @@ export default function RootLayout({
         <MetaPixel />
         <ConversionTracker />
         <ConsentBanner />
-        <Nav />
+        <HideOnLanding>
+          <Nav />
+        </HideOnLanding>
         <main className="flex-1 pt-[72px]">{children}</main>
-        <Footer />
+        <HideOnLanding>
+          <Footer />
+        </HideOnLanding>
 
         <a
           href="https://wa.me/94714711417?text=Hi%20CeyPall%2C%20I%20need%20a%20pallet%20quote.%20What%20information%20do%20you%20need%20from%20me%3F"
